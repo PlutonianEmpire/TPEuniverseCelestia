@@ -1,0 +1,424 @@
+#### Landmarks on Belle Hades (WIP) ####
+
+#Belle Hades
+##Cities
+### Capital City of the Belle Hadean Sovereignty, contains arcologic skyscrapers reaching as high as 30,000 feet.
+Location "Belle Hades City" "Hadeus/Belle Hades" {
+	LongLat [ -1.11821 -34.42336 0 ]
+	Importance 1000.000
+	Type "City"
+}
+
+### Cities with at least one arcologic skyscraper reaching as high as 30,000 feet.
+Location "Plutovale" "Hadeus/Belle Hades" {
+	LongLat [ 22.61363 -23.78106 0 ]
+	Importance 900.000
+	Type "City"
+}
+
+Location "Luciferium" "Hadeus/Belle Hades" {
+ LongLat [ -35.81911 11.47966 0 ]
+ Importance 900.000
+ Type "City"
+}
+
+Location "Eridanus City" "Hadeus/Belle Hades" {
+	LongLat [ -153.34189 32.46085 0 ]
+	Importance 900.000
+	Type "City"
+}
+
+Location "City of Lilith" "Hadeus/Belle Hades" {
+	LongLat [ 161.675 12.39508 0 ]
+	Importance 900.000
+	Type "City"
+}
+
+Location "Lady of the Sea" "Hadeus/Belle Hades" {
+	LongLat [ 144.97935 27.35846 0 ]
+	Importance 900.000
+	Type "City"
+}
+
+Location "Hades City" "Hadeus/Belle Hades" {
+	LongLat [ -124.63025 51.61187 0 ]
+	Importance 900.000
+	Type "City"
+}
+
+Location "Magma Hills" "Hadeus/Belle Hades" {
+	LongLat [ -169.93234 -41.94658 0 ]
+	Importance 900.000
+	Type "City"
+}
+
+Location "Demonis" "Hadeus/Belle Hades" {
+	LongLat [ -124.78857 -30.10774 0 ]
+	Importance 900.000
+	Type "City"
+}
+
+Location "Nuke Factories" "Hadeus/Belle Hades" {
+	LongLat [ -48.40845 -24.38462 0 ]
+	Importance 900.000
+	Type "City"
+}
+
+Location "Plutopolis" "Hadeus/Belle Hades" {
+	LongLat [ -55.79496 28.49344 0 ]
+	Importance 700.000
+	Type "City"
+}
+
+Location "Plutonia" "Hadeus/Belle Hades" {
+	LongLat [ -67.34857 -7.05243 0 ]
+	Importance 600.000
+	Type "City"
+}
+
+Location "Hadeopolis" "Hadeus/Belle Hades" {
+	LongLat [ -90.21742 -10.38562 0 ]
+	Importance 600.000
+	Type "City"
+}
+
+Location "Plutoid" "Hadeus/Belle Hades" {
+	LongLat [ -85.53709 -9.91283 0 ]
+	Importance 800.000
+	Type "City"
+}
+
+Location "Lithos" "Hadeus/Belle Hades" {
+	LongLat [ -145.92938 -30.49665 0 ]
+	Importance 600.000
+	Type "City"
+}
+
+Location "Nuclania" "Hadeus/Belle Hades" {
+	LongLat [ 154.71848 -33.18420 0 ]
+	Importance 600.000
+	Type "City"
+}
+
+Location "Tartarus City" "Hadeus/Belle Hades" {
+	LongLat [ 67.32294 28.16939 0 ]
+	Importance 700.000
+	Type "City"
+}
+
+Location "New Princeton" "Hadeus/Belle Hades" {
+	LongLat [ -88.087088 45.515224 0 ]
+	Importance 100.000
+	Type "City"
+}
+
+Location "Lilith City" "Hadeus/Belle Hades" {
+	LongLat [ 99.01519 -54.64809 0 ]
+	Importance 500.000
+	Type "City"
+}
+
+Location "Elysian Fields" "Hadeus/Belle Hades" {
+	LongLat [ 29.29503 9.52597 0 ]
+	Importance 700.000
+	Type "City"
+}
+
+Location "Imperial Scythe" "Hadeus/Belle Hades" {
+	LongLat [ 94.61247 41.87518 0 ]
+	Importance 600.000
+	Type "City"
+}
+
+Location "Elysian City" "Hadeus/Belle Hades" {
+	LongLat [ 47.16348 -5.97137 0 ]
+	Importance 800.000
+	Type "City"
+}
+
+Location "Asphodel" "Hadeus/Belle Hades" {
+	LongLat [ 55.66742 -47.32967 0 ]
+	Importance 500.000
+	Type "City"
+}
+
+Location "Marish" "Hadeus/Belle Hades" {
+	LongLat [ -142.24554 -75.01933 0 ]
+	Importance 300.000
+	Type "City"
+}
+
+Location "Infernal" "Hadeus/Belle Hades" {
+	LongLat [ -136.56262 -10.66562 0 ]
+	Importance 700.000
+	Type "City"
+}
+
+Location "Nucleck" "Hadeus/Belle Hades" {
+	LongLat [ -145.56453 23.67552 0 ]
+	Importance 500.000
+	Type "City"
+}
+
+Location "Necropolis" "Hadeus/Belle Hades" {
+	LongLat [ -82.22699 13.94282 0 ]
+	Importance 500.000
+	Type "City"
+}
+
+Location "Nuclid" "Hadeus/Belle Hades" {
+	LongLat [ -12.35121 21.86898 0 ]
+	Importance 600.000
+	Type "City"
+}
+
+Location "Acheronia" "Hadeus/Belle Hades" {
+	LongLat [ -12.29624 -19.80968 0 ]
+	Importance 500.000
+	Type "City"
+}
+
+Location "Deathian" "Hadeus/Belle Hades" {
+	LongLat [ -68.23146 -33.87609 0 ]
+	Importance 500.000
+	Type "City"
+}
+
+Location "Lightning City" "Hadeus/Belle Hades" {
+	LongLat [ 109.70659 33.19139 0 ]
+	Importance 400.000
+	Type "City"
+}
+
+Location "Incubaria" "Hadeus/Belle Hades" {
+	LongLat [ -149.25037 0.41825 0 ]
+	Importance 400.000
+	Type "City"
+}
+
+Location "Nucleina" "Hadeus/Belle Hades" {
+	LongLat [ 12.07573 16.40372 0 ]
+	Importance 400.000
+	Type "City"
+}
+
+Location "Nucleoid" "Hadeus/Belle Hades" {
+	LongLat [ 55.08556 25.06284 0 ]
+	Importance 400.000
+	Type "City"
+}
+
+Location "City of Hades" "Hadeus/Belle Hades" {
+	LongLat [ 179.31570 4.16615 0 ]
+	Importance 400.000
+	Type "City"
+}
+
+Location "Hadeus City" "Hadeus/Belle Hades" {
+	LongLat [ 174.62944 -5.49506 0 ]
+	Importance 400.000
+	Type "City"
+}
+
+Location "Lethe City" "Hadeus/Belle Hades" {
+	LongLat [ 178.64711 -14.78946 0 ]
+	Importance 400.000
+	Type "City"
+}
+
+Location "Tartarus City" "Hadeus/Belle Hades" {
+	LongLat [ 179.09323 -17.95337 0 ]
+	Importance 400.000
+	Type "City"
+}
+
+Location "Kakariko" "Hadeus/Belle Hades" {
+ LongLat [ -157.8 -21.32 0 ]
+ Importance 34.200
+ Type "City"
+}
+
+Location "Subterrainius" "Hadeus/Belle Hades" {
+ LongLat [ -172.36359 61.95078 0 ]
+ Importance 400.000
+ Type "City"
+}
+
+Location "Tyrranus" "Hadeus/Belle Hades" {
+ LongLat [ -58.67014 60.07410 0 ]
+ Importance 400.000
+ Type "City"
+}
+
+Location "Depthsenia" "Hadeus/Belle Hades" {
+ LongLat [ -75.28899 -28.79733 0 ]
+ Importance 400.000
+ Type "City"
+}
+
+Location "Styx City" "Hadeus/Belle Hades" {
+ LongLat [ 147.02713 -45.10675 0 ]
+ Importance 400.000
+ Type "City"
+}
+
+Location "Damnatia City" "Hadeus/Belle Hades" {
+ LongLat [ 137.38741 -59.22765 0 ]
+ Importance 400.000
+ Type "City"
+}
+
+Location "Diabolus" "Hadeus/Belle Hades" {
+ LongLat [ 118.73138 -45.99480 0 ]
+ Importance 400.000
+ Type "City"
+}
+
+Location "Baalzeville" "Hadeus/Belle Hades" {
+ LongLat [ 48.75378 48.60065 0 ]
+ Importance 400.000
+ Type "City"
+}
+
+Location "Asmodeum City" "Hadeus/Belle Hades" {
+ LongLat [ 151.63687 -68.34968 0 ]
+ Importance 400.000
+ Type "City"
+}
+
+Location "Dispateria" "Hadeus/Belle Hades" {
+ LongLat [ 166.00723 -36.51678 0 ]
+ Importance 400.000
+ Type "City"
+}
+
+Location "Lilithian" "Hadeus/Belle Hades" {
+ LongLat [ -23.51439 18.11805 0 ]
+ Importance 400.000
+ Type "City"
+}
+
+Location "Mephistopolis" "Hadeus/Belle Hades" {
+ LongLat [ -16.83325 12.50958 0 ]
+ Importance 400.000
+ Type "City"
+}
+
+Location "Persephonopolis" "Hadeus/Belle Hades" {
+ LongLat [ -12.02746 -4.60796 0 ]
+ Importance 400.000
+ Type "City"
+}
+
+Location "Pomegraniteum" "Hadeus/Belle Hades" {
+ LongLat [ -44.47805 -8.03674 0 ]
+ Importance 400.000
+ Type "City"
+}
+
+Location "Elysium Fields" "Hadeus/Belle Hades" {
+ LongLat [ -111.64597 -53.63962 0 ]
+ Importance 400.000
+ Type "City"
+}
+
+Location "Orpheum" "Hadeus/Belle Hades" {
+ LongLat [ -101.39217 -4.16770 0 ]
+ Importance 400.000
+ Type "City"
+}
+
+Location "Mantlevale" "Hadeus/Belle Hades" {
+ LongLat [ -118.74727 -9.38073 0 ]
+ Importance 400.000
+ Type "City"
+}
+
+Location "Coreville" "Hadeus/Belle Hades" {
+ LongLat [ -29.85959 -12.61924 0 ]
+ Importance 400.000
+ Type "City"
+}
+
+Location "Eridani City" "Hadeus/Belle Hades" {
+ LongLat [ 35.21643 25.77295 0 ]
+ Importance 400.000
+ Type "City"
+}
+
+Location "Nuclene" "Hadeus/Belle Hades" {
+ LongLat [ -52.63239 -41.41632 0 ]
+ Importance 400.000
+ Type "City"
+}
+
+Location "Nuclear City" "Hadeus/Belle Hades" {
+ LongLat [ 2.58585 50.16108 0 ]
+ Importance 400.000
+ Type "City"
+}
+
+Location "Nuke Factories" "Hadeus/Belle Hades" {
+ LongLat [ 21.21138 50.55173 0 ]
+ Importance 400.000
+ Type "City"
+}
+
+Location "Thortropolis" "Hadeus/Belle Hades" {
+ LongLat [ -169.86864 -72.28697 0 ]
+ Importance 400.000
+ Type "City"
+}
+
+Location "Neuve Pluton" "Hadeus/Belle Hades" {
+ LongLat [ -136.31013 -50.32749 0 ]
+ Importance 400.000
+ Type "City"
+}
+
+##Continents
+
+Location "PLUTONICA" "Hadeus/Belle Hades" {
+    LongLat [ -35 -20 0 ]
+    Size 8000
+    Type "TA"
+}
+
+Location "NUCLEA" "Hadeus/Belle Hades" {
+    LongLat [ -149 48 0 ]
+    Size 3400
+    Type "TA"
+}
+
+
+##Oceans
+
+Location "ACHERON OCEAN" "Hadeus/Belle Hades" {
+    LongLat [ 9 -65 0 ]
+    Size 3700
+    Type "ME"
+}
+
+Location "OCEANUS" "Hadeus/Belle Hades" {
+    LongLat [ 100 -2 0 ]
+    Size 12000
+    Type "ME"
+}
+
+Location "NUCLECK OCEAN" "Hadeus/Belle Hades" {
+    LongLat [ -130 15 0 ]
+    Size 5000
+    Type "ME"
+}
+
+Location "STYX OCEAN" "Hadeus/Belle Hades" {
+    LongLat [ -45 42 0 ]
+    Size 2600
+    Type "ME"
+}
+
+Location "PHLEGETHON OCEAN" "Hadeus/Belle Hades" {
+    LongLat [ 0 90 0 ]
+    Size 4000
+    Type "ME"
+}

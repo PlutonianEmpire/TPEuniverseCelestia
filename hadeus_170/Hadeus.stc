@@ -1,0 +1,59 @@
+Barycenter "Hadeus" {
+	RA 34.26965162484768
+	Dec 33.22313618253068
+	Distance 35.587818795639621308600926086349
+	Obliquity 56.714
+	EquatorAscendingNode 122.736
+}
+
+"Persephone" {
+	OrbitBarycenter "Hadeus"
+	AbsMag 4.70107
+	SpectralType "G1.4V"
+	Temperature 5828.207912241629
+	# BoloCorrection -0.1690184063243167
+	# Texture "persephone.*"
+	Radius 721350.092265902976
+	EllipticalOrbit {
+		Epoch             2448919.2
+		Period<d>         10.0201
+		SemiMajorAxis     0.04363640629877483793406980425851
+		Eccentricity      0.0107427
+		Inclination       0.56714
+		AscendingNode     122.736
+		ArgOfPericenter   28.474
+		MeanAnomaly       7.270
+     }
+	UniformRotation {
+		Period            240.4824
+		Inclination       0.56714
+		AscendingNode     122.736
+		MeridianAngle     307.5584
+	}
+}
+
+"Hades" {
+	OrbitBarycenter "Hadeus"
+	AbsMag 7.70107
+	SpectralType "K6.1V"
+	Temperature 4276.01487213025
+	# BoloCorrection -0.9371786082632292
+	# Texture "hades.*"
+	Radius 462151.71591722918442
+	EllipticalOrbit {
+		Epoch             2448919.2
+		Period<d>         10.0201
+		SemiMajorAxis     0.06497079776228011206593019574149
+		Eccentricity      0.0107427
+		Inclination       0.56714
+		AscendingNode     122.736
+		ArgOfPericenter   208.474
+		MeanAnomaly       7.270
+     }
+	UniformRotation {
+		Period            240.4824
+		Inclination       0.56714
+		AscendingNode     122.736
+		MeridianAngle     141.5944
+	}
+}

@@ -1,0 +1,379 @@
+### Comets
+
+# Generated with Asteroid Maker Version 1.6 on 2011-02-12 23:00:10.
+# Reference plane: Inc = 56.7140, Asc Node = 122.7360
+
+##############################################
+# Comet 97 - Mass: 8.1358E+14 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Main Belt. Inc: 49.909545
+"Comet 97" "Hadeus" {
+    Class                "comet"
+    Texture              "asteroid.jpg"     
+    Color                [ 0.720 0.670 0.620 ]
+    Albedo               0.423
+    Mesh                 "proteus.cmod"
+    Radius               5.01
+    EllipticalOrbit {
+        Period           0.8787313636412858
+        SemiMajorAxis    1.095405282855
+        Eccentricity     0.533304612150
+        Inclination      074.3476
+        AscendingNode    070.7679
+        MeanLongitude    335.5005
+        LongOfPericenter 333.9404
+    }
+    Obliquity            046.9171
+    EquatorAscendingNode 233.0859
+    RotationOffset       167.2559
+    RotationPeriod       0011.146384174896
+}
+
+##############################################
+# Comet 175 - Mass: 9.8938E+12 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Main Belt. Inc: 51.636961
+"Comet 175" "Hadeus" {
+    Class                "comet"
+    Texture              "asteroid.jpg"  
+    Color                [ 0.520 0.470 0.420 ]
+    Albedo               0.160
+    Mesh                 "golevka.cmod"
+    Radius               1.38
+    EllipticalOrbit {
+        Period           5.811153886781828
+        SemiMajorAxis    3.859333686603
+        Eccentricity     0.852101473043
+        Inclination      083.7587
+        AscendingNode    170.2762
+        MeanLongitude    050.7458
+        LongOfPericenter 334.7314
+    }
+    Obliquity            113.2581
+    EquatorAscendingNode 097.3608
+    RotationOffset       312.0667
+    RotationPeriod       0008.865719763710
+}
+
+##############################################
+# Comet 78 - Mass: 6.1022E+14 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Main Belt. Inc: 128.396218
+"Comet 78" "Hadeus" {
+    Class                "comet"
+    Texture              "asteroid.jpg"
+    Color                [ 0.520 0.470 0.420 ]
+    Albedo               0.326
+    Mesh                 "ida.cmod"
+    Radius               4.59
+    EllipticalOrbit {
+        Period           7.097437414286136
+        SemiMajorAxis    4.409660223207
+        Eccentricity     0.8872631605748
+        Inclination      115.3356
+        AscendingNode    243.4811
+        MeanLongitude    173.2874
+        LongOfPericenter 153.0835
+    }
+    Obliquity            086.9843
+    EquatorAscendingNode 265.9021
+    RotationOffset       174.4189
+    RotationPeriod       0010.902364649924
+}
+
+##############################################
+# Comet 165 - Mass: 2.4374E+13 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Main Belt. Inc: 14.351042
+"Comet 165" "Hadeus" {
+    Class                "comet"
+    Texture              "asteroid.jpg"
+    Color                [ 0.300 0.300 0.300 ]
+    Albedo               0.150
+    Mesh                 "roughsphere.cms"
+    Radius               1.58
+    EllipticalOrbit {
+        Period           3.4450285314177305
+        SemiMajorAxis    2.723532914085
+        Eccentricity     0.772832323564
+        Inclination      053.6205
+        AscendingNode    105.6374
+        MeanLongitude    238.4802
+        LongOfPericenter 327.1838
+    }
+    Obliquity            144.7174
+    EquatorAscendingNode 229.9988
+    RotationOffset       225.3955
+    RotationPeriod       0006.377725131837
+}
+
+##############################################
+# Comet 18 - Mass: 2.5522E+15 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Main Belt. Inc: 101.582248
+"Comet 18" "Hadeus" {
+    Class                "comet"
+    Texture              "asteroid.jpg"
+    Color                [ 0.520 0.470 0.420 ]
+    Albedo               0.326
+    Mesh                 "castalia.cmod"
+    Radius               6.89
+    EllipticalOrbit {
+        Period           97.49817335708639
+        SemiMajorAxis    25.293080848062
+        Eccentricity     0.9824004233776
+        Inclination      045.4009
+        AscendingNode    292.7054
+        MeanLongitude    233.4045
+        LongOfPericenter 057.9089
+    }
+    Obliquity            132.4237
+    EquatorAscendingNode 128.9685
+    RotationOffset       257.0801
+    RotationPeriod       0019.807024866653
+}
+
+##############################################
+# Comet 42 - Mass: 6.1607E+13 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Main Belt. Inc: 20.849699
+"Comet 42" "Hadeus" {
+    Class                "comet"
+    Texture              "asteroid.jpg"      
+    Color                [ 0.500 0.460 0.420 ]
+    Albedo               0.238
+    Mesh                 "epimetheus.cmod"
+    Radius               2.15
+    EllipticalOrbit {
+        Period           5.231739871562118
+        SemiMajorAxis    3.598334291207
+        Eccentricity     0.8665255221298
+        Inclination      069.7443
+        AscendingNode    141.0525
+        MeanLongitude    082.0898
+        LongOfPericenter 116.0596
+    }
+    Obliquity            040.2374
+    EquatorAscendingNode 055.1294
+    RotationOffset       191.0742
+    RotationPeriod       0059.617999932374
+}
+
+##############################################
+# Comet 33 - Mass: 1.3653E+15 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Main Belt. Inc: 16.681140
+"Comet 33" "Hadeus" {
+    Class                "comet"
+    Texture              "asteroid.jpg"      
+    Color                [ 0.500 0.460 0.420 ]
+    Albedo               0.238
+    Mesh                 "roughsphere.cms"
+    Radius               5.99
+    EllipticalOrbit {
+        Period           8.528920876981333
+        SemiMajorAxis    4.984253659468
+        Eccentricity     0.8435131073543
+        Inclination      045.4002
+        AscendingNode    138.5932
+        MeanLongitude    147.3047
+        LongOfPericenter 094.7241
+    }
+    Obliquity            054.4757
+    EquatorAscendingNode 291.3464
+    RotationOffset       286.1499
+    RotationPeriod       0008.831191058319
+}
+
+##############################################
+# Comet 100 - Mass: 5.4779E+13 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Main Belt. Inc: 64.061687
+"Comet 100" "Hadeus" {
+    Class                "comet"
+    Texture              "asteroid.jpg"   
+    Color                [ 0.300 0.300 0.300 ]
+    Albedo               0.150
+    Mesh                 "larissa.cmod"
+    Radius               2.06
+    EllipticalOrbit {
+        Period           428.2766106673131
+        SemiMajorAxis    67.840178838914
+        Eccentricity     0.9846163114917
+        Inclination      045.7252
+        AscendingNode    207.5335
+        MeanLongitude    086.6382
+        LongOfPericenter 138.8672
+    }
+    Obliquity            039.5782
+    EquatorAscendingNode 002.0105
+    RotationOffset       237.1179
+    RotationPeriod       0019.898665223218
+}
+
+##############################################
+# Comet 90 - Mass: 2.9105E+14 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Main Belt. Inc: 28.524862
+"Comet 90" "Hadeus" {
+    Class                "comet"
+    Texture              "asteroid.jpg"  
+    Color                [ 0.520 0.470 0.420 ]
+    Albedo               0.160
+    Mesh                 "proteus.cmod"
+    Radius               3.33
+    EllipticalOrbit {
+        Period           16.072790627363492
+        SemiMajorAxis    7.604399728818
+        Eccentricity     0.912630400278
+        Inclination      045.1041
+        AscendingNode    156.6825
+        MeanLongitude    263.6060
+        LongOfPericenter 171.0132
+    }
+    Obliquity            095.3284
+    EquatorAscendingNode 079.9036
+    RotationOffset       340.8728
+    RotationPeriod       0005.767802335348
+}
+
+##############################################
+# Comet 24 - Mass: 2.4133E+15 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Main Belt. Inc: 45.044443
+"Comet 24" "Hadeus" {
+    Class                "comet"
+    Texture              "asteroid.jpg"  
+    Color                [ 0.520 0.470 0.420 ]
+    Albedo               0.160
+    Mesh                 "roughsphere.cms"
+    Radius               6.79
+    EllipticalOrbit {
+        Period           3010.575665623703
+        SemiMajorAxis    248.945211729855
+        Eccentricity     0.99617246844651
+        Inclination      042.8600
+        AscendingNode    180.3855
+        MeanLongitude    219.0234
+        LongOfPericenter 178.0884
+    }
+    Obliquity            119.9323
+    EquatorAscendingNode 139.0869
+    RotationOffset       310.9460
+    RotationPeriod       0013.892980350746
+}
+
+##############################################
+# Comet 50 - Mass: 3.6630E+15 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Main Belt. Inc: 53.219760
+"Comet 50" "Hadeus" {
+    Class                "comet"
+    Texture              "asteroid.jpg"  
+    Color                [ 0.520 0.470 0.420 ]
+    Albedo               0.160
+    Mesh                 "larissa.cmod"
+    Radius               7.27
+    EllipticalOrbit {
+        Period           29.614211077614648
+        SemiMajorAxis    11.428893640570
+        Eccentricity     0.9013024823315
+        Inclination      078.6692
+        AscendingNode    069.5300
+        MeanLongitude    272.7026
+        LongOfPericenter 197.3584
+    }
+    Obliquity            039.3530
+    EquatorAscendingNode 349.3982
+    RotationOffset       341.0486
+    RotationPeriod       0008.437761129795
+}
+
+##############################################
+# Comet 109 - Mass: 2.2091E+13 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Main Belt. Inc: 22.727410
+"Comet 109" "Hadeus" {
+    Class                "comet"
+    Texture              "asteroid.jpg"    
+    Color                [ 0.400 0.400 0.400 ]
+    Albedo               0.159
+    Mesh                 "vesta.cmod"
+    Radius               1.69
+    EllipticalOrbit {
+        Period           3.397816217965284
+        SemiMajorAxis    2.698592667872
+        Eccentricity     0.653880819654
+        Inclination      050.7118
+        AscendingNode    150.0554
+        MeanLongitude    088.9783
+        LongOfPericenter 027.8503
+    }
+    Obliquity            038.9191
+    EquatorAscendingNode 060.2380
+    RotationOffset       230.1086
+    RotationPeriod       0020.224955805483
+}
+
+##############################################
+# Comet 96 - Mass: 7.6811E+13 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Main Belt. Inc: 33.948377
+"Comet 96" "Hadeus" {
+    Class                "comet"
+    Texture              "asteroid.jpg"      
+    Color                [ 0.500 0.460 0.420 ]
+    Albedo               0.238
+    Mesh                 "larissa.cmod"
+    Radius               2.37
+    EllipticalOrbit {
+        Period           99.68343006401341
+        SemiMajorAxis    25.669617364859
+        Eccentricity     0.9540623783235
+        Inclination      063.9498
+        AscendingNode    161.1415
+        MeanLongitude    286.1938
+        LongOfPericenter 226.7468
+    }
+    Obliquity            116.3342
+    EquatorAscendingNode 298.4766
+    RotationOffset       026.2354
+    RotationPeriod       0023.702691071888
+}
+
+##############################################
+# Comet 53 - Mass: 2.1989E+15 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Main Belt. Inc: 07.498045
+"Comet 53" "Hadeus" {
+    Class                "comet"
+    Texture              "asteroid.jpg" 
+    Color                [ 0.300 0.300 0.300 ]
+    Albedo               0.160
+    Mesh                 "castalia.cmod"
+    Radius               6.69
+    EllipticalOrbit {
+        Period           10.757652941083775
+        SemiMajorAxis    5.818563328919
+        Eccentricity     0.8156546038746
+        Inclination      063.7098
+        AscendingNode    119.6231
+        MeanLongitude    080.9802
+        LongOfPericenter 220.8691
+    }
+    Obliquity            045.7306
+    EquatorAscendingNode 049.2407
+    RotationOffset       296.0815
+    RotationPeriod       0012.260882171159
+}
+
+##############################################
+# Comet 168 - Mass: 3.5265E+14 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Main Belt. Inc: 18.791597
+"Comet 168" "Hadeus" {
+    Class                "comet"
+    Texture              "asteroid.jpg"       
+    Color                [ 0.500 0.460 0.420 ]
+    Albedo               0.240
+    Mesh                 "ida.cmod"
+    Radius               4.15
+    EllipticalOrbit {
+        Period           3.706577562679426
+        SemiMajorAxis    2.900938061678
+        Eccentricity     3.787054587580901
+        Inclination      062.2304
+        AscendingNode    101.8348
+        MeanLongitude    266.5173
+        LongOfPericenter 185.0208
+    }
+    Obliquity            050.6525
+    EquatorAscendingNode 044.4727
+    RotationOffset       312.2314
+    RotationPeriod       0002.718762894093
+}

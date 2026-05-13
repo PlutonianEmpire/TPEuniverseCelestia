@@ -1,0 +1,1554 @@
+# SSC Generator V1.3 © 2011 PlutonianEmpire
+# Statistics for Hadeus System, Stellar Class: G0V
+# Habitable Zone: Venusian: 0.857206 AU Terrain: 1.142145 AU Martian: 1.553113 AU
+# 	(Based on "App Mag" and "Distance" combined.)
+# 	(Bolometric Luminosities may be taken into account.)
+
+"Keres" "Hadeus" {
+	OrbitFrame {
+		MeanEquator {
+			Center "Hadeus"
+		}
+	}
+	BodyFrame {
+		MeanEquator {
+			Center "Hadeus"
+		}
+	}
+	Texture "keres_diff.png"
+	NormalMap "keres_normal.png"
+	# BumpMap "keres_bump.png"
+	# BumpHeight 1.93
+	# SpecularTexture "hadeia-spec.png"
+	# SpecularColor [ 1.00 1.00 0.75 ]
+	# SpecularPower 68.16
+	Color [ 0.48 0.84 0.52 ]
+	# BlendTexture true
+	Radius 75683.6401
+	Mass 534.655293
+	# Density 0.32
+	Oblateness 0.052
+	HazeColor [ 0.20 0.52 0.56 ]
+	HazeDensity 0.98
+	Atmosphere {
+		Height 756.84
+		Lower [ 0.20 0.52 0.56 ]
+		Upper [ 0.04 0.99 0.69 ]
+		Sky [ 0.79 0.46 0.61 ]
+		Sunset [ 0.96 0.33 0.86 ]
+		CloudHeight 75.68
+		CloudSpeed  84.51
+		CloudMap    "keres-clouds_diff.png"
+		CloudNormalMap "keres-clouds0_normal.png"
+		# CloudShadowDepth 1.0
+		Mie 0.000053
+		MieAsymmetry -0.182
+		Rayleigh [ 0.000786 0.000463 0.000606 ]
+		Absorption [ 0.000045 0.000674 0.000137 ]
+		MieScaleHeight 175.3006
+	}
+	EllipticalOrbit {
+		Period<d>         62.02129616542107
+		SemiMajorAxis     0.3661321128509258
+		Eccentricity      0.0044
+		Inclination       0.1464
+		AscendingNode     139.0123
+		ArgOfPericenter   63.4593
+		MeanAnomaly       75.5441
+	}
+	# RotationPeriod 1263.4439
+	Obliquity 0.15
+	EquatorAscendingNode 316.9731
+	RotationOffset 199.3845
+	BondAlbedo   0.86
+	GeomAlbedo   0.7167
+}
+
+"Lilith" "Hadeus" {
+	OrbitFrame {
+		MeanEquator {
+			Center "Hadeus"
+		}
+	}
+	BodyFrame {
+		MeanEquator {
+			Center "Hadeus"
+		}
+	}
+	Texture "lilith_diff.png"
+	NormalMap "lilith_normal.png"
+	# BumpMap "lilith_bump.png"
+	# BumpHeight 1.17
+	# SpecularTexture "lilith_bump.png"
+	# SpecularColor [ 1.00 1.00 0.75 ]
+	# SpecularPower 61.21
+	Color [ 0.57 0.31 0.63 ]
+	# BlendTexture true
+	Radius 86022.7468
+	Mass 535.564165
+	# Density 0.2183
+	Oblateness 0.03935517  # Calculated by SpaceEngine
+	HazeColor [ 0.04 0.87 0.55 ]
+	HazeDensity 0.98
+	Atmosphere {
+		Height 860.23
+		Lower [ 0.04 0.87 0.55 ]
+		Upper [ 0.28 0.99 0.61 ]
+		Sky [ 0.48 0.36 0.71 ]
+		Sunset [ 0.97 0.78 0.84 ]
+		CloudHeight 86.02
+		CloudSpeed  132.91
+		CloudMap    "lilith-clouds1_diff.png"
+		CloudNormalMap "lilith-clouds1_normal.png"
+		Mie 0.000081
+		MieAsymmetry 0.096
+		Rayleigh [ 0.000478 0.000363 0.000711 ]
+		Absorption [ 0.000034 0.000219 0.000162 ]
+		MieScaleHeight 277.8755
+	}
+	EllipticalOrbit {
+		Period<d>         137.45155145183134
+		SemiMajorAxis     0.6223628971657454
+		Eccentricity      0.0131
+		Inclination       0.8985
+		AscendingNode     203.3260
+		ArgOfPericenter   48.3661
+		MeanAnomaly       55.7877
+	}
+	RotationPeriod 11.8505
+	Obliquity 16.41
+	EquatorAscendingNode 75.6881
+	RotationOffset 108.9874
+	BondAlbedo      0.47
+	GeomAlbedo      0.564
+}
+
+"Egestes" "Hadeus/Lilith" {
+	Texture "asteroid.jpg"
+	Mesh "asteroid.cms"
+	Class "minormoon"
+	Color [ 0.78 0.88 0.26 ]
+	# BlendTexture true
+	Radius 17.45
+	EllipticalOrbit {
+		Period            0.19131077863923446
+		SemiMajorAxis     113894.0000
+		Eccentricity      0.0091
+		Inclination       0.6949
+		AscendingNode     298.5133
+		ArgOfPericenter   235.1712
+		MeanAnomaly       56.0095
+	}
+	# RotationPeriod 2.9659
+	Obliquity 0.6949
+	EquatorAscendingNode 298.5133
+	RotationOffset 92.8871
+	BondAlbedo 0.29
+	GeomAlbedo 0.348
+}
+
+"Libitina" "Hadeus/Lilith" {
+	Texture "asteroid.jpg"
+	Mesh "asteroid.cms"
+	Class "minormoon"
+	Color [ 0.06 0.27 0.80 ]
+	# BlendTexture true
+	Radius 38.7
+	EllipticalOrbit {
+		Period            0.21293923118572833
+		SemiMajorAxis     122324.0000
+		Eccentricity      0.0009
+		Inclination       1.1576
+		AscendingNode     73.3229
+		ArgOfPericenter   61.5034
+		MeanAnomaly       21.1588
+	}
+	# RotationPeriod 4.5110
+	Obliquity 1.1576
+	EquatorAscendingNode 73.3229
+	RotationOffset 295.8734
+	BondAlbedo 0.35
+	GeomAlbedo 0.42
+}
+
+"Fames" "Hadeus/Lilith" {
+	Texture "asteroid.jpg"
+	Mesh "asteroid.cms"
+	Class "minormoon"
+	Color [ 0.43 0.75 0.86 ]
+	# BlendTexture true
+	Radius 68.82
+	EllipticalOrbit {
+		Period            0.24185970937244772
+		SemiMajorAxis     133163.0000
+		Eccentricity      0.0009
+		Inclination       1.1576
+		AscendingNode     6.1218
+		ArgOfPericenter   326.4423
+		MeanAnomaly       195.1041
+	}
+	# RotationPeriod 5.1237
+	Obliquity 1.1576
+	EquatorAscendingNode 6.1218
+	RotationOffset 54.2946
+	BondAlbedo 0.33
+	GeomAlbedo 0.396
+}
+
+"Viduus" "Hadeus/Lilith" {
+	Texture "asteroid.jpg"
+	Mesh "asteroid.cms"
+	Class "minormoon"
+	Color [ 0.29 0.35 0.99 ]
+	# BlendTexture true
+	Radius 12.903
+	EllipticalOrbit {
+		Period            0.3361779620557386
+		SemiMajorAxis     165852.0000
+		Eccentricity      0.0009
+		Inclination       1.1576
+		AscendingNode     351.4755
+		ArgOfPericenter   146.9477
+		MeanAnomaly       217.5681
+	}
+	# RotationPeriod 7.1217
+	Obliquity 1.1576
+	EquatorAscendingNode 351.4755
+	RotationOffset 339.0142
+	BondAlbedo 0.05
+	GeomAlbedo 0.06
+}
+
+"Larenta" "Hadeus/Lilith" {
+	Texture "asteroid.jpg"
+	Mesh "asteroid.cms"
+	Class "minormoon"
+	Color [ 0.04 0.48 0.98 ]
+	# BlendTexture true
+	Radius 16.1
+	EllipticalOrbit {
+		Period            0.411448776905927
+		SemiMajorAxis     189766.0000
+		Eccentricity      0.0187
+		Inclination       0.3219
+		AscendingNode     208.6403
+		ArgOfPericenter   189.8002
+		MeanAnomaly       165.3738
+	}
+	# RotationPeriod 8.7163
+	Obliquity 0.3219
+	EquatorAscendingNode 208.6403
+	RotationOffset 294.9626
+	BondAlbedo 0.55
+	GeomAlbedo 0.66
+}
+
+"Dea Tacita" "Hadeus/Lilith" {
+	Texture "asteroid.jpg"
+	Mesh "asteroid.cms"
+	Class "minormoon"
+	Color [ 0.35 0.46 0.39 ]
+	# BlendTexture true
+	Radius 19.66
+	EllipticalOrbit {
+		Period            0.6649508149261621
+		SemiMajorAxis     261337.0000
+		Eccentricity      0.0103
+		Inclination       0.8081
+		AscendingNode     63.6017
+		ArgOfPericenter   219.2513
+		MeanAnomaly       18.8755
+	}
+	# RotationPeriod 14.0866
+	Obliquity 0.8081
+	EquatorAscendingNode 63.6017
+	RotationOffset 52.9734
+	BondAlbedo 0.8167
+	GeomAlbedo 0.98
+}
+
+"Plouton" "Hadeus/Lilith" {
+	Texture "asteroid.jpg"
+	Mesh "asteroid.cms"
+	Class "minormoon"
+	Color [ 0.15 0.66 0.96 ]
+	# BlendTexture true
+	Radius 10.1
+	EllipticalOrbit {
+		Period            0.875683915337361
+		SemiMajorAxis     313983.0000
+		Eccentricity      0.0015
+		Inclination       1.3667
+		AscendingNode     179.0697
+		ArgOfPericenter   279.9051
+		MeanAnomaly       217.3465
+	}
+	# RotationPeriod 18.5508
+	Obliquity 1.3667
+	EquatorAscendingNode 179.0697
+	RotationOffset 314.5722
+	BondAlbedo 0.78
+	GeomAlbedo 0.936
+}
+
+"Thanatos" "Hadeus/Lilith" {
+	Texture "thanatos_diff.png"
+	NormalMap "thanatos_normal.png"
+	# BumpMap "thanatos_bump.png"
+	# BumpHeight 0.86
+	Color [ 0.43 0.01 0.23 ]
+	# BlendTexture true
+	Radius 2130
+	EllipticalOrbit {
+		Period            1.6109403049470283
+		SemiMajorAxis     471405.0000
+		Eccentricity      0.0146
+		Inclination       1.5663
+		AscendingNode     107.3655
+		ArgOfPericenter   35.0228
+		MeanAnomaly       136.8693
+	}
+	# RotationPeriod 34.1269
+	Obliquity 1.5663
+	EquatorAscendingNode 107.3655
+	RotationOffset 285.3714
+	BondAlbedo 0.72
+	GeomAlbedo 0.864
+}
+
+"Plutus" "Hadeus/Lilith" {
+	Texture "plutus_diff.png"
+	NormalMap "plutus_normal.png"
+	# BumpMap "plutus_bump.png"
+	# BumpHeight 0.86
+	Color [ 0.63 0.75 0.83 ]
+	# BlendTexture true
+	Radius 1358
+	EllipticalOrbit {
+		Period            3.1504995022210776
+		SemiMajorAxis     737215.0000
+		Eccentricity      0.0193
+		Inclination       1.0055
+		AscendingNode     298.2402
+		ArgOfPericenter   44.1003
+		MeanAnomaly       85.8187
+	}
+	# RotationPeriod 66.7416
+	Obliquity 1.0055
+	EquatorAscendingNode 298.2402
+	RotationOffset 102.8622
+	BondAlbedo 0.38
+	GeomAlbedo 0.456
+}
+
+"Cerberus" "Hadeus/Lilith" {
+	Texture "cerberus_diff.png"
+	NormalMap "cerberus_normal.png"
+	# BumpMap "cerberus_bump.png"
+	# BumpHeight 0.85
+	Color [ 1.00 0.23 0.11 ]
+	# BlendTexture true
+	Radius 1693
+	EllipticalOrbit {
+		Period            6.434843806021164
+		SemiMajorAxis     1186770.0000
+		Eccentricity      0.0197
+		Inclination       1.2964
+		AscendingNode     42.5308
+		ArgOfPericenter   55.1903
+		MeanAnomaly       284.6594
+	}
+	# RotationPeriod 136.3187
+	Obliquity 1.2964
+	EquatorAscendingNode 42.5308
+	RotationOffset 316.4900
+	BondAlbedo 0.33
+	GeomAlbedo 0.396
+}
+
+"Elysium" "Hadeus/Lilith" {
+	Texture "elysium_diff.png"
+	NormalMap "elysium_normal.png"
+	# BumpMap "elysium_bump.png"
+	# BumpHeight 1.98
+	Color [ 0.83 0.98 1.00 ]
+	# BlendTexture true
+	Radius 2036
+	EllipticalOrbit {
+		Period            13.509746094292408
+		SemiMajorAxis     1945835.0000
+		Eccentricity      0.0179
+		Inclination       0.7139
+		AscendingNode     335.4250
+		ArgOfPericenter   328.3622
+		MeanAnomaly       174.6921
+	}
+	# RotationPeriod 286.1967
+	Obliquity 0.7139
+	EquatorAscendingNode 335.4250
+	RotationOffset 118.9844
+	BondAlbedo 0.70
+	GeomAlbedo 0.84
+}
+
+"Rhadamanthus" "Hadeus/Lilith" {
+	Texture "rhadamanthus_diff.png"
+	NormalMap "rhadamanthus_normal.png"
+	# BumpMap "rhadamanthus_bump.png"
+	# BumpHeight 1.01
+	Color [ 0.18 0.25 0.93 ]
+	# BlendTexture true
+	Radius 2592
+	EllipticalOrbit {
+		Period            28.883482092842563
+		SemiMajorAxis     3229294.0000
+		Eccentricity      0.0238
+		Inclination       1.9426
+		AscendingNode     2.4836
+		ArgOfPericenter   300.5906
+		MeanAnomaly       94.1328
+	}
+	# RotationPeriod 611.8811
+	Obliquity 1.9426
+	EquatorAscendingNode 2.4836
+	RotationOffset 238.6581
+	LunarLambert 1.0
+	BondAlbedo 0.30
+	GeomAlbedo 0.367
+}
+
+### Belle Hades ###
+
+"Morrigan" "Hadeus" {
+	OrbitFrame {
+		MeanEquator {
+			Center "Hadeus"
+		}
+	}
+	BodyFrame {
+		MeanEquator {
+			Center "Hadeus"
+		}
+	}
+	Texture "morrigan_diff.png"
+	NormalMap "morrigan_normal.png"
+	# BumpMap "gc_deser_01-bump.jpg"
+	# BumpHeight 1.16
+	Color [ 0.78 0.76 0.40 ]
+	# BlendTexture true
+	Radius 14050.1632
+	Mass 7.696521
+	# Density 0.72
+	HazeColor [ 0.54 0.38 0.58 ]
+	HazeDensity 0.75
+	Atmosphere {
+		Height 140.50
+		Lower [ 0.54 0.38 0.58 ]
+		Upper [ 0.23 0.54 0.54 ]
+		Sky [ 0.80 0.21 0.86 ]
+		CloudHeight 14.05
+		CloudSpeed  13.72
+		CloudMap    "morrigan-clouds_diff.png"
+		CloudNormalMap "morrigan-clouds_normal.png"
+		CloudShadowDepth 1.0
+		Mie 0.00136
+		MieAsymmetry -0.152
+		Rayleigh [ 0.00803 0.00207 0.00863 ]
+		MieScaleHeight 31.9069
+	}
+	EllipticalOrbit {
+		Period<d>         960.9183917233786
+		SemiMajorAxis     2.275455081959292
+		Eccentricity      0.0357
+		Inclination       2.1247
+		AscendingNode     269.9456
+		ArgOfPericenter   237.5669
+		MeanAnomaly       248.5813
+	}
+	RotationPeriod 304.5457
+	Obliquity 12.46
+	EquatorAscendingNode 263.5354
+	RotationOffset 273.9478
+	BondAlbedo 0.725
+	GeomAlbedo 0.87
+}
+
+"Raven" "Hadeus/Morrigan" {
+	Texture "raven_diff.png"
+	NormalMap "raven_normal.png"
+	# BumpMap "raven_bump.png"
+	# BumpHeight 0.44
+	Color [ 0.33 0.23 0.49 ]
+	# BlendTexture true
+	Radius 719
+	EllipticalOrbit {
+		Period            34.37897886010718
+		SemiMajorAxis     881788.0000
+		Eccentricity      0.0267
+		Inclination       15.5370
+		AscendingNode     165.3076
+		ArgOfPericenter   345.2623
+		MeanAnomaly       299.4217
+	}
+	# RotationPeriod 670.3325
+	Obliquity 15.5370
+	EquatorAscendingNode 165.3076
+	RotationOffset 205.4882
+	BondAlbedo 0.71
+	GeomAlbedo 0.852
+}
+
+"Nox" "Hadeus/Morrigan" {
+	Texture "nox_diff.png"
+	NormalMap "nox_normal.png"
+	# BumpMap "nox_bump.png"
+	# BumpHeight 0.27
+	Color [ 0.85 0.07 0.59 ]
+	# BlendTexture true
+	Radius 594
+	EllipticalOrbit {
+		Period            74.80075025739096
+		SemiMajorAxis     1480606.0000
+		Eccentricity      0.1567
+		Inclination       10.7990
+		AscendingNode     39.7941
+		ArgOfPericenter   175.1230
+		MeanAnomaly       345.5044
+	}
+	RotationPeriod 321.7908
+	Obliquity 41.2076
+	EquatorAscendingNode 39.7941
+	RotationOffset 309.1735
+	BondAlbedo 0.48
+	GeomAlbedo 0.576
+}
+
+"Hadea" "Hadeus" {
+	OrbitFrame {
+		MeanEquator {
+			Center "Hadeus"
+		}
+	}
+	BodyFrame {
+		MeanEquator {
+			Center "Hadeus"
+		}
+	}
+	Texture "hadea_diff.png"
+	NormalMap "hadea_normal.png"
+	# NightTexture "hadea-night.png"
+	# BumpMap "hadea-bump.png"
+	# BumpHeight 0.39
+	Color [ 0.85 0.43 0.13 ]
+	# BlendTexture true
+	Radius 5982.5199
+	Mass 0.792212
+	# Density 0.96
+	HazeColor [ 0.69 0.22 0.59 ]
+	HazeDensity 0.49
+	Atmosphere {
+		Height 59.83
+		Lower [ 0.69 0.22 0.59 ]
+		Upper [ 0.41 0.00 0.87 ]
+		Sky [ 0.47 0.91 0.94 ]
+		CloudHeight 5.98
+		CloudSpeed  75.30
+		CloudMap    "hadea-clouds_diff.png"
+		CloudNormalMap "hadea-clouds_normal.png"
+		CloudShadowDepth 1.0
+		Mie 0.00091
+		MieAsymmetry 0.215
+		Rayleigh [ 0.00469 0.00911 0.00937 ]
+		MieScaleHeight 17.1854
+	}
+	EllipticalOrbit {
+		Period<d>         2954.2643995084227
+		SemiMajorAxis     4.811090248899973
+		Eccentricity      0.0324
+		Inclination       3.0376
+		AscendingNode     129.7425
+		ArgOfPericenter   64.8252
+		MeanAnomaly       10.8123
+	}
+	RotationPeriod 170.7690
+	Obliquity 33.26
+	EquatorAscendingNode 109.5553
+	RotationOffset 177.7709
+	BondAlbedo 0.22
+	GeomAlbedo 0.264
+}
+
+"Acheron" "Hadeus" {
+	OrbitFrame {
+		MeanEquator {
+			Center "Hadeus"
+		}
+	}
+	BodyFrame {
+		MeanEquator {
+			Center "Hadeus"
+		}
+	}
+	Texture "acheron_diff.png"
+	NormalMap "acheron_normal.png"
+	# BumpMap "acheron_bump.png"
+	# BumpHeight 1.63
+	SpecularTexture "acheron_spec.jpg"
+	SpecularColor [ 1.00 1.00 0.75 ]
+	SpecularPower 12.91
+	Color [ 0.04 0.36 0.12 ]
+	# BlendTexture true
+	Radius 3920.7337
+	Mass 0.177461
+	# Density 0.76398
+	HazeColor [ 0.09 0.81 0.38 ]
+	HazeDensity 0.04
+	Atmosphere {
+		Height 39.21
+		Lower [ 0.09 0.81 0.38 ]
+		Upper [ 0.80 0.44 0.66 ]
+		Sky [ 0.51 0.55 0.48 ]
+		CloudHeight 3.92
+		CloudSpeed  47.93
+		CloudMap    "acheron-clouds_diff.png"
+		CloudNormalMap "acheron-clouds_normal.png"
+		# CloudShadowDepth 1.0  # Disabled due to cloud shadow bug
+		Mie 0.00090
+		MieAsymmetry 0.152
+		Rayleigh [ 0.00508 0.00553 0.00485 ]
+		MieScaleHeight 8.1369
+	}
+	EllipticalOrbit {
+		Period<d>         5663.652688942574
+		SemiMajorAxis     7.424633238080652
+		Eccentricity      0.0342
+		Inclination       3.3752
+		AscendingNode     205.3398
+		ArgOfPericenter   175.9085
+		MeanAnomaly       151.7646
+	}
+	Rings {
+		Inner   6655.88
+		Outer   13347.16
+		Texture "gc_rings_04.png"
+		Color   [ 0.72 0.14 0.65 ]
+	}
+	RotationPeriod 392.2937
+	Obliquity 30.49
+	EquatorAscendingNode 315.2937
+	RotationOffset 247.4370
+	BondAlbedo 0.73
+	GeomAlbedo 0.876
+}
+
+"Charonia" "Hadeus/Acheron" {
+	Texture "charonia_diff.png"
+	# NormalMap "charonia_normal.png"
+	BumpMap "charonia_bump.png"
+	BumpHeight 1.64
+	Mesh "roughsphere.cms"
+	Color [ 0.95 0.84 0.49 ]
+	# BlendTexture true
+	Radius 107
+	EllipticalOrbit {
+		Period            6.163543614664398
+		SemiMajorAxis     79798.0000
+		Eccentricity      0.0115
+		Inclination       2.0092
+		AscendingNode     160.2337
+		ArgOfPericenter   321.9480
+		MeanAnomaly       100.9730
+	}
+	# RotationPeriod 158.9832
+	Obliquity 2.0092
+	EquatorAscendingNode 160.2337
+	RotationOffset 337.1799
+	BondAlbedo 0.57
+	GeomAlbedo 0.684
+}
+
+"Styx" "Hadeus" {
+	OrbitFrame {
+		MeanEquator {
+			Center "Hadeus"
+		}
+	}
+	BodyFrame {
+		MeanEquator {
+			Center "Hadeus"
+		}
+	}
+	Texture "styx_diff.png"
+	NormalMap "styx_normal.png"
+	# BumpMap "styx_bump.png"
+	# BumpHeight 0.33
+	SpecularTexture "styx_spec.png"
+	SpecularColor [ 1.00 1.00 0.75 ]
+	SpecularPower 46.29
+	Color [ 0.86 0.32 0.00 ]
+	# BlendTexture true
+	Radius 5455.0393
+	Mass 0.631877
+	# Density 1.01
+	HazeColor [ 0.32 0.79 0.83 ]
+	HazeDensity 0.96
+	Atmosphere {
+		Height 54.55
+		Lower [ 0.32 0.79 0.83 ]
+		Upper [ 0.49 0.92 0.30 ]
+		Sky [ 0.40 0.60 0.75 ]
+		CloudHeight 5.46
+		CloudSpeed  68.49
+		CloudMap    "styx-clouds0_diff.png"
+		CloudNormalMap "styx-clouds0_normal.png"
+		CloudShadowDepth 1.0
+		Mie 0.00088
+		MieAsymmetry -0.111
+		Rayleigh [ 0.00395 0.00605 0.00749 ]
+		MieScaleHeight 14.0683
+	}
+	EllipticalOrbit {
+		Period<d>         11436.496000518946
+		SemiMajorAxis     11.861490116292314
+		Eccentricity      0.0484
+		Inclination       1.7445
+		AscendingNode     92.3887
+		ArgOfPericenter   285.9208
+		MeanAnomaly       25.3189
+	}
+	RotationPeriod 392.2937
+	Obliquity 1.14
+	EquatorAscendingNode 106.2668
+	RotationOffset 35.8708
+	BondAlbedo 0.825
+	GeomAlbedo 0.99
+}
+
+"Phlegethon" "Hadeus/Styx" {
+	Texture "phlegathon_diff.png"
+	NormalMap "phlegathon_normal.png"
+	# BumpMap "phlegathon_bump.png"
+	# BumpHeight 0.08
+	# Mesh "roughsphere.cms"
+	Color [ 0.99 0.22 0.21 ]
+	# BlendTexture true
+	Radius 271
+	EllipticalOrbit {
+		Period            2.991621605009456
+		SemiMajorAxis     75258.0000
+		Eccentricity      0.0190
+		Inclination       1.4632
+		AscendingNode     107.7467
+		ArgOfPericenter   359.4213
+		MeanAnomaly       29.9985
+	}
+	# RotationPeriod 176.4005
+	Obliquity 1.4632
+	EquatorAscendingNode 107.7467
+	RotationOffset 41.4163
+	BondAlbedo 0.19
+	GeomAlbedo 0.228
+}
+
+"Lucifer" "Hadeus" {
+	OrbitFrame {
+		MeanEquator {
+			Center "Hadeus"
+		}
+	}
+	BodyFrame {
+		MeanEquator {
+			Center "Hadeus"
+		}
+	}
+	Texture "lucifer_diff.png"
+	NormalMap "lucifer_normal.png"
+	# BumpMap "lucifer_bump.png"
+	# BumpHeight 0.28
+	# SpecularTexture "lucifer_spec.png"
+	# SpecularColor [ 1.00 1.00 0.75 ]
+	# SpecularPower 1.77
+	Color [ 0.11 0.39 0.60 ]
+	# BlendTexture true
+	Radius 52102.6239
+	Mass 81.768852
+	# Density 0.15
+	Oblateness 0.04432111  # Calculated by SpaceEngine
+	HazeColor [ 0.50 0.24 0.97 ]
+	HazeDensity 0.14
+	Atmosphere {
+		Height 521.03
+		Lower [ 0.50 0.24 0.97 ]
+		Upper [ 0.43 0.66 0.86 ]
+		Sky [ 0.43 0.77 0.55 ]
+		Sunset [ 0.24 0.85 0.05 ]
+		CloudHeight 52.10
+		CloudSpeed  46.24
+		CloudMap    "lucifer-clouds1_diff.png"
+		CloudNormalMap "lucifer-clouds1_normal.png"
+		Mie 0.000088
+		MieAsymmetry -0.256
+		Rayleigh [ 0.000426 0.000769 0.000554 ]
+		Absorption [ 0.000761 0.000151 0.000955 ]
+		MieScaleHeight 120.8183
+	}
+	EllipticalOrbit {
+		Period<d>         22569.346888205087
+		SemiMajorAxis     18.66193149125514
+		Eccentricity      0.0289
+		Inclination       3.1892
+		AscendingNode     3.9450
+		ArgOfPericenter   268.7334
+		MeanAnomaly       202.3787
+	}
+	Rings {
+		Inner   63816.35
+		Outer   138628.80
+		Texture "gc_rings_01.png"
+		Color   [ 0.30 0.68 1.00 ]
+	}
+	RotationPeriod 13.8928
+	Obliquity 24.02
+	EquatorAscendingNode 182.0214
+	RotationOffset 331.0633
+	BondAlbedo 0.82
+	GeomAlbedo 0.6833
+}
+
+"Damnatia" "Hadeus/Lucifer" {
+	Texture "asteroid.jpg"
+	Mesh "asteroid.cms"
+	Class "minormoon"
+	Color [ 0.75 0.95 0.86 ]
+	# BlendTexture true
+	Radius 47.4
+	EllipticalOrbit {
+		Period            0.2917742214023292
+		SemiMajorAxis     80655.0000
+		Eccentricity      0.0065
+		Inclination       0.6714
+		AscendingNode     104.4307
+		ArgOfPericenter   205.1083
+		MeanAnomaly       279.8480
+	}
+	# RotationPeriod 5.3398
+	Obliquity 0.6714
+	EquatorAscendingNode 104.4307
+	RotationOffset 71.2344
+	BondAlbedo 0.80
+	GeomAlbedo 0.96
+}
+
+"Asmodeum" "Hadeus/Lucifer" {
+	Texture "asteroid.jpg"
+	Mesh "asteroid.cms"
+	Class "minormoon"
+	Color [ 0.08 0.36 0.61 ]
+	# BlendTexture true
+	Radius 15.9
+	EllipticalOrbit {
+		Period            0.4055559968347397
+		SemiMajorAxis     100454.0000
+		Eccentricity      0.0141
+		Inclination       0.3405
+		AscendingNode     283.0401
+		ArgOfPericenter   169.6252
+		MeanAnomaly       261.9262
+	}
+	# RotationPeriod 7.4221
+	Obliquity 0.3405
+	EquatorAscendingNode 283.0401
+	RotationOffset 356.0693
+	BondAlbedo 0.55
+	GeomAlbedo 0.66
+}
+
+"Tyrranus" "Hadeus/Lucifer" {
+	Texture "tyrranus_diff.png"
+	NormalMap "tyrranus_normal.png"
+	# BumpMap "tyrranus_bump.png"
+	# BumpHeight 0.69
+	# NightTexture "tyrranus_glow.png"
+	Color [ 0.44 0.88 0.43 ]
+	# BlendTexture true
+	Radius 1879
+	EllipticalOrbit {
+		Period            1.943387214198192
+		SemiMajorAxis     285522.0000
+		Eccentricity      0.0119
+		Inclination       0.5777
+		AscendingNode     195.7840
+		ArgOfPericenter   284.5083
+		MeanAnomaly       194.2144
+	}
+	# RotationPeriod 35.5662
+	Obliquity 0.5777
+	EquatorAscendingNode 195.7840
+	RotationOffset 106.2460
+	BondAlbedo 0.16
+	GeomAlbedo 0.192
+}
+
+"Infernal" "Hadeus/Lucifer" {
+	Texture "infernal_diff.png"
+	NormalMap "infernal_normal.png"
+	# BumpMap "infernal_bump.png"
+	# BumpHeight 1.27
+	NightTexture "infernal_glow_rgb.png"
+	SpecularTexture "infernal_spec.png"
+	SpecularColor [ 1.00 1.00 0.75 ]
+	SpecularPower 97.35
+	Color [ 0.75 0.93 0.17 ]
+	# BlendTexture true
+	Radius 2261
+	HazeColor [ 0.94 0.41 0.44 ]
+	HazeDensity 0.43
+	Atmosphere {
+		Height 22.61
+		Lower [ 0.77 0.48 0.05 ]
+		Upper [ 0.95 0.00 0.92 ]
+		Sky [ 0.86 0.05 0.02 ]
+		CloudHeight 2.26
+		CloudSpeed  69.80
+		CloudMap    "infernal-clouds_diff.png"
+		CloudNormalMap "infernal-clouds_normal.png"
+		CloudShadowDepth 1.0
+		Mie 0.0065
+		MieAsymmetry -0.349
+		Rayleigh [ 0.0861 0.0049 0.0018 ]
+		MieScaleHeight 3.3177
+	}
+	EllipticalOrbit {
+		Period            2.7005196116947814
+		SemiMajorAxis     355548.0000
+		Eccentricity      0.0163
+		Inclination       0.1387
+		AscendingNode     249.2240
+		ArgOfPericenter   282.9908
+		MeanAnomaly       149.4460
+	}
+	# RotationPeriod 49.4225
+	Obliquity 0.1387
+	EquatorAscendingNode 249.2240
+	RotationOffset 212.8175
+	BondAlbedo 0.04
+	GeomAlbedo 0.048
+}
+
+"Orpheus" "Hadeus/Lucifer" {
+	Texture "orpheus_diff.png"
+	NormalMap "orpheus_normal.png"
+	# BumpMap "orpheus_bump.png"
+	# BumpHeight 0.19
+	SpecularTexture "orpheus_spec.png"
+	SpecularColor [ 1.00 1.00 0.75 ]
+	SpecularPower 2.19
+	Color [ 0.37 0.38 0.04 ]
+	# BlendTexture true
+	Radius 2106
+	EllipticalOrbit {
+		Period            3.800667618331901
+		SemiMajorAxis     446519.0000
+		Eccentricity      0.0172
+		Inclination       0.7086
+		AscendingNode     116.9255
+		ArgOfPericenter   157.2853
+		MeanAnomaly       202.2885
+	}
+	# RotationPeriod 69.5565
+	Obliquity 0.7086
+	EquatorAscendingNode 116.9255
+	RotationOffset 355.8693
+	BondAlbedo 0.83
+	GeomAlbedo 0.996
+}
+
+"Eurydice" "Hadeus/Lucifer" {
+	Texture "eurydice_diff.png"
+	NormalMap "eurydice_normal.png"
+	# BumpMap "eurydice_bump.png"
+	# BumpHeight 0.34
+	SpecularTexture "eurydice_spec.png"
+	SpecularColor [ 1.00 1.00 0.75 ]
+	SpecularPower 65.90
+	Color [ 0.01 0.96 0.36 ]
+	# BlendTexture true
+	Radius 3940
+	HazeColor [ 0.83 0.41 0.77 ]
+	HazeDensity 0.26
+	Atmosphere {
+		Height 39.40
+		Lower [ 0.64 0.28 0.44 ]
+		Upper [ 0.53 0.13 0.92 ]
+		Sky [ 0.89 0.01 0.37 ]
+		CloudHeight 3.94
+		CloudSpeed  46.00
+		CloudMap    "eurydice-clouds_diff.png"
+		CloudNormalMap "eurydice-clouds_normal.png"
+		CloudShadowDepth 1.0
+		Mie 0.00114
+		MieAsymmetry 0.145
+		Rayleigh [ 0.00889 0.00013 0.00373 ]
+		MieScaleHeight 7.3414
+	}
+	EllipticalOrbit {
+		Period            5.408214124020284
+		SemiMajorAxis     564897.0000
+		Eccentricity      0.0153
+		Inclination       1.3632
+		AscendingNode     223.4574
+		ArgOfPericenter   12.0175
+		MeanAnomaly       95.2865
+	}
+	# RotationPeriod 98.9764
+	Obliquity 1.3632
+	EquatorAscendingNode 223.4574
+	RotationOffset 230.7679
+	BondAlbedo 0.19
+	GeomAlbedo 0.228
+}
+
+"Lilitha" "Hadeus/Lucifer" {
+	Texture "lilitha_diff.png"
+	NormalMap "lilitha_normal.png"
+	# BumpMap "lilitha_bump.png"
+	# BumpHeight 1.76
+	Color [ 0.89 0.18 0.22 ]
+	# BlendTexture true
+	Radius 3064
+	EllipticalOrbit {
+		Period            11.218010878381126
+		SemiMajorAxis     918778.0000
+		Eccentricity      0.0167
+		Inclination       1.0225
+		AscendingNode     102.5638
+		ArgOfPericenter   210.5924
+		MeanAnomaly       271.9584
+	}
+	# RotationPeriod 205.3021
+	Obliquity 1.0225
+	EquatorAscendingNode 102.5638
+	RotationOffset 243.4295
+	BondAlbedo 0.39
+	GeomAlbedo 0.468
+}
+
+"Cocytus" "Hadeus/Lucifer" {
+	Texture "cocytus_diff.png"
+	NormalMap "cocytus_normal.png"
+	# BumpMap "cocytus_bump.png"
+	# BumpHeight 0.83
+	Color [ 0.33 0.07 0.99 ]
+	# BlendTexture true
+	Radius 1834
+	EllipticalOrbit {
+		Period            23.780922565913908
+		SemiMajorAxis     1516186.0000
+		Eccentricity      0.0130
+		Inclination       1.6826
+		AscendingNode     169.8757
+		ArgOfPericenter   58.0223
+		MeanAnomaly       13.8930
+	}
+	# RotationPeriod 435.2174
+	Obliquity 1.6826
+	EquatorAscendingNode 169.8757
+	RotationOffset 49.7025
+	BondAlbedo 0.59
+	GeomAlbedo 0.708
+}
+
+"Mephistopholes" "Hadeus/Lucifer" {
+	Texture "asteroid.jpg"
+	Mesh "asteroid.cms"
+	Class "minormoon"
+	Color [ 0.84 0.40 0.91 ]
+	# BlendTexture true
+	Radius 1.094
+	EllipticalOrbit {
+		Period            51.16840848844884
+		SemiMajorAxis     2526977.0000
+		Eccentricity      0.2405
+		Inclination       10.8915
+		AscendingNode     340.7893
+		ArgOfPericenter   25.9590
+		MeanAnomaly       150.4031
+	}
+	RotationPeriod 33
+	Obliquity 16.8424
+	EquatorAscendingNode 340.7893
+	RotationOffset 168.5404
+	BondAlbedo 0.75
+	GeomAlbedo 0.9
+}
+
+"Sisyphus" "Hadeus/Lucifer" {
+	Texture "asteroid.jpg"
+	Mesh "asteroid.cms"
+	Class "minormoon"
+	Color [ 0.26 0.82 0.72 ]
+	# BlendTexture true
+	Radius 1.802
+	EllipticalOrbit {
+		Period            111.01070706615671
+		SemiMajorAxis     4234901.0000
+		Eccentricity      0.1727
+		Inclination       3.7162
+		AscendingNode     244.2503
+		ArgOfPericenter   220.0845
+		MeanAnomaly       12.5861
+	}
+	RotationPeriod 12.4009
+	Obliquity 12.4009
+	EquatorAscendingNode 244.2503
+	RotationOffset 318.2374
+	BondAlbedo 0.73
+	GeomAlbedo 0.876
+}
+
+"Erebus" "Hadeus/Lucifer" {
+	Texture "asteroid.jpg"
+	Mesh "asteroid.cms"
+	Class "minormoon"
+	Color [ 0.46 0.46 0.72 ]
+	# BlendTexture true
+	Radius 0.785
+	EllipticalOrbit {
+		Period            242.12641318435493
+		SemiMajorAxis     7122429.0000
+		Eccentricity      0.3098
+		Inclination       3.1480
+		AscendingNode     23.5710
+		ArgOfPericenter   345.1294
+		MeanAnomaly       89.0975
+	}
+	RotationPeriod 11.0000
+	Obliquity 47.5359
+	EquatorAscendingNode 23.5710
+	RotationOffset 119.8964
+	BondAlbedo 0.05
+	GeomAlbedo 0.06
+}
+
+"Reaper" "Hadeus" {
+	OrbitFrame {
+		MeanEquator {
+			Center "Hadeus"
+		}
+	}
+	BodyFrame {
+		MeanEquator {
+			Center "Hadeus"
+		}
+	}
+	Texture "reaper_diff.png"
+	NormalMap "reaper_normal.png"
+	# BumpMap "reaper_bump.png"
+	# BumpHeight 1.13
+	SpecularTexture "reaper_spec.png"
+	SpecularColor [ 1.00 1.00 0.75 ]
+	SpecularPower 46.57
+	Color [ 0.54 0.07 0.94 ]
+	# BlendTexture true
+	Radius 2177.9563
+	Mass 0.027576
+	# Density	0.69258
+	EllipticalOrbit {
+		Period<d>         43320.90157022191
+		SemiMajorAxis     28.823203892791636
+		Eccentricity      0.0018
+		Inclination       2.1724
+		AscendingNode     3.3947
+		ArgOfPericenter   86.0352
+		MeanAnomaly       255.9685
+	}
+	RotationPeriod 76.5923
+	Obliquity 32.27
+	EquatorAscendingNode 229.4341
+	RotationOffset 358.4861
+	BondAlbedo 0.36
+	GeomAlbedo 0.432
+}
+
+"Scythe" "Hadeus/Reaper" {
+	Texture "scythe_diff.png"
+	NormalMap "scythe_normal.png"
+	# BumpMap "scythe_bump.png"
+	# BumpHeight 0.09
+	Color [ 0.99 0.98 0.64 ]
+	# BlendTexture true
+	Radius 442
+	EllipticalOrbit {
+		Period            32.79373152493323
+		SemiMajorAxis     130750.0000
+		Eccentricity      0.3595
+		Inclination       3.4875
+		AscendingNode     48.2152
+		ArgOfPericenter   61.3717
+		MeanAnomaly       86.5426
+	}
+	# RotationPeriod 1807.9752
+	Obliquity 3.4875
+	EquatorAscendingNode 48.2152
+	RotationOffset 17.5997
+	BondAlbedo 0.68
+	GeomAlbedo 0.816
+}
+
+"Pomegranate" "Hadeus" {
+	OrbitFrame {
+		MeanEquator {
+			Center "Hadeus"
+		}
+	}
+	BodyFrame {
+		MeanEquator {
+			Center "Hadeus"
+		}
+	}
+	Texture "pomegranate_diff.png"
+	NormalMap "pomegranate_normal.png"
+	# BumpMap "pomegranate_bump.png"
+	# BumpHeight 0.29
+	SpecularTexture "pomegranate_spec.png"
+	SpecularColor [ 1.00 1.00 0.75 ]
+	SpecularPower 14.01
+	Color [ 0.22 0.83 0.01 ]
+	# BlendTexture true
+	Radius 4917.2805
+	Mass 0.522393
+	# Density 1.14
+	HazeColor [ 0.85 0.56 0.60 ]
+	HazeDensity 0.61
+	Atmosphere {
+		Height 49.17
+		Lower [ 0.85 0.56 0.60 ]
+		Upper [ 0.72 0.99 0.10 ]
+		Sky [ 0.68 0.22 0.16 ]
+		CloudHeight 4.92
+		CloudSpeed  36.92
+		CloudMap    "pomegranate-clouds_diff.png"
+		CloudNormalMap "pomegranate-clouds_normal.png"
+		CloudShadowDepth 1.0
+		Mie 0.00116
+		MieAsymmetry 0.294
+		Rayleigh [ 0.00676 0.00216 0.00157 ]
+		MieScaleHeight 13.6769
+	}
+	EllipticalOrbit {
+		Period<d>         86472.78949640841
+		SemiMajorAxis     45.694462766582724
+		Eccentricity      0.0431
+		Inclination       3.0347
+		AscendingNode     197.2390
+		ArgOfPericenter   141.6836
+		MeanAnomaly       2.6378
+	}
+	RotationPeriod 173.6806
+	Obliquity 36.51
+	EquatorAscendingNode 309.2174
+	RotationOffset 216.9520
+	BondAlbedo 0.24
+	GeomAlbedo 0.288
+}
+
+"Belladonna" "Hadeus/Pomegranate" {
+	Texture "belladonna_diff.png"
+	NormalMap "belladonna_normal.png"
+	# BumpMap "belladonna_bump.png"
+	# BumpHeight 1.14
+	SpecularTexture "belladonna_spec.png"
+	SpecularColor [ 1.00 1.00 0.75 ]
+	SpecularPower 47.66
+	Color [ 0.41 0.78 0.57 ]
+	# BlendTexture true
+	Radius 1281
+	EllipticalOrbit {
+		Period            8.626265777561066
+		SemiMajorAxis     143093.0000
+		Eccentricity      0.0135
+		Inclination       1.5533
+		AscendingNode     193.0282
+		ArgOfPericenter   160.2213
+		MeanAnomaly       88.5396
+	}
+	# RotationPeriod 626.9936
+	Obliquity 1.5533
+	EquatorAscendingNode 193.0282
+	RotationOffset 84.7595
+	BondAlbedo 0.69
+	GeomAlbedo 0.828
+}
+
+"Belle Noctis" "Hadeus" {
+	OrbitFrame {
+		MeanEquator {
+			Center "Hadeus"
+		}
+	}
+	BodyFrame {
+		MeanEquator {
+			Center "Hadeus"
+		}
+	}
+	Texture "belle_noctis_diff.png"
+	NormalMap "belle_noctis_normal.png"
+	# BumpMap "belle_noctis_bump.png"
+	# BumpHeight 0.77
+	Color [ 0.05 0.64 0.65 ]
+	# BlendTexture true
+	Radius 34797.7300
+	Mass 27.607019
+	# Density 0.17
+	Oblateness 0.02751626  # Calculated by SpaceEngine
+	HazeColor [ 0.30 0.62 0.96 ]
+	HazeDensity 0.81
+	Atmosphere {
+		Height 347.98
+		Lower [ 0.30 0.62 0.96 ]
+		Upper [ 0.64 0.33 0.94 ]
+		Sky [ 0.22 0.21 0.86 ]
+		Sunset [ 0.54 0.23 0.88 ]
+		CloudHeight 34.80
+		CloudSpeed  47.63
+		CloudMap    "belle_noctis-clouds1_diff.png"
+		CloudNormalMap "belle_noctis-clouds1_normal.png"
+		Mie 0.000107
+		MieAsymmetry -0.120
+		Rayleigh [ 0.000223 0.000210 0.000859 ]
+		Absorption [ 0.000458 0.000774 0.000120 ]
+		MieScaleHeight 56.0838
+	}
+	EllipticalOrbit {
+		Period<d>        170904.52678056466
+		SemiMajorAxis     71.96361538307517
+		Eccentricity      0.0450
+		Inclination       1.7288
+		AscendingNode     310.2934
+		ArgOfPericenter   184.0005
+		MeanAnomaly       289.4872
+	}
+	Rings {
+		Inner   63356.18
+		Outer   113267.83
+		Texture "gc_rings_02.png"
+		Color   [ 0.38 0.52 0.17 ]
+	}
+	RotationPeriod 17.4652
+	Obliquity 5.14
+	EquatorAscendingNode 206.7634
+	RotationOffset 340.9497
+	BondAlbedo 0.70
+	GeomAlbedo 0.84
+}
+
+"Eden" "Hadeus/Belle Noctis" {
+	Texture "eden_diff.png"
+	NormalMap "eden_normal.png"
+	NightTexture "eden_glow.png"
+	# BumpMap "eden_bump.png"
+	# BumpHeight 1.17
+	SpecularTexture "eden_spec.png"
+	SpecularColor [ 1.00 1.00 0.75 ]
+	SpecularPower 26.62
+	Color [ 0.98 0.22 0.43 ]
+	# BlendTexture true
+	Radius 2654
+	HazeColor [ 0.78 0.14 0.01 ]
+	HazeDensity 0.73
+	Atmosphere {
+		Height 26.54
+		Lower [ 0.94 0.43 0.92 ]
+		Upper [ 0.15 0.70 0.71 ]
+		Sky [ 0.86 0.22 0.81 ]
+		CloudHeight 2.65
+		CloudSpeed  51.38
+		CloudMap    "eden-clouds_diff.png"
+		CloudNormalMap "eden-clouds_normal.png"
+		# CloudShadowDepth 1.0
+		Mie 0.00133
+		MieAsymmetry -0.138
+		Rayleigh [ 0.00861 0.00221 0.00808 ]
+		MieScaleHeight 6.1528
+	}
+	EllipticalOrbit {
+		Period            1.8255043797470598
+		SemiMajorAxis     190692.0000
+		Eccentricity      0.0172
+		Inclination       1.4138
+		AscendingNode     311.2726
+		ArgOfPericenter   169.7514
+		MeanAnomaly       133.9126
+	}
+	# RotationPeriod 42.1972
+	Obliquity 1.4138
+	EquatorAscendingNode 311.2726
+	RotationOffset 319.2871
+	BondAlbedo 0.73
+	GeomAlbedo 0.876
+}
+
+"Lilitu" "Hadeus/Belle Noctis" {
+	Texture "asteroid.jpg"
+	Mesh "asteroid.cms"
+	Class "minormoon"
+	Color [ 0.96 0.56 0.17 ]
+	# BlendTexture true
+	Radius 4.326
+	EllipticalOrbit {
+		Period            104.27638534423421
+		SemiMajorAxis     2828359.0000
+		Eccentricity      0.1330
+		Inclination       6.6867
+		AscendingNode     324.9680
+		ArgOfPericenter   260.7150
+		MeanAnomaly       136.2018
+	}
+	RotationPeriod 17.1187
+	Obliquity 26.7125
+	EquatorAscendingNode 324.9680
+	RotationOffset 346.8960
+	BondAlbedo 0.06
+	GeomAlbedo 0.072
+}
+
+"Blessed" "Hadeus/Belle Noctis" {
+	Texture "asteroid.jpg"
+	Mesh "asteroid.cms"
+	Class "minormoon"
+	Color [ 0.70 0.64 0.94 ]
+	# BlendTexture true
+	Radius 1.401
+	EllipticalOrbit {
+		Period            153.93871921982455
+		SemiMajorAxis     3666985.0000
+		Eccentricity      0.1290
+		Inclination       21.1673
+		AscendingNode     287.2209
+		ArgOfPericenter   176.8741
+		MeanAnomaly       117.3776
+	}
+	RotationPeriod 13.0000
+	Obliquity 46.9129
+	EquatorAscendingNode 287.2209
+	RotationOffset 330.0646
+	BondAlbedo 0.37
+	GeomAlbedo 0.444
+}
+
+"Nyx" "Hadeus/Belle Noctis" {
+	Texture "nyxx_diff.png"
+	NormalMap "nyxx_normal.png"
+	# BumpMap "nyxx_bump.png"
+	# BumpHeight 1.04
+	SpecularTexture "nyxx_spec.png"
+	SpecularColor [ 1.00 1.00 0.75 ]
+	SpecularPower 87.04
+	Color [ 0.89 0.16 0.83 ]
+	# BlendTexture true
+	Radius 519
+	EllipticalOrbit {
+		Period            336.23346109414535
+		SemiMajorAxis     6173117.0000
+		Eccentricity      0.1605
+		Inclination       7.8346
+		AscendingNode     268.4597
+		ArgOfPericenter   311.5023
+		MeanAnomaly       180.1501
+	}
+	RotationPeriod 40.9231
+	Obliquity 7.8346
+	EquatorAscendingNode 268.4597
+	RotationOffset 167.7806
+	BondAlbedo 0.38
+	GeomAlbedo 0.456
+}
+
+"Asphodel" "Hadeus" {
+	OrbitFrame {
+		MeanEquator {
+			Center "Hadeus"
+		}
+	}
+	BodyFrame {
+		MeanEquator {
+			Center "Hadeus"
+		}
+	}
+	Texture "asphodel_diff.png"
+	NormalMap "asphodel_normal.png"
+	# BumpMap "asphodel_bump.png"
+	# BumpHeight 0.04
+	SpecularTexture "asphodel_spec.png"
+	SpecularColor [ 1.00 1.00 0.75 ]
+	SpecularPower 36.36
+	Color [ 0.64 0.58 0.36 ]
+	# BlendTexture true
+	Radius 3834.4023
+	Mass 0.141173
+	# Density 0.64974
+	HazeColor [ 0.08 0.28 0.59 ]
+	HazeDensity 0.37
+	Atmosphere {
+		Height 38.34
+		Lower [ 0.08 0.28 0.59 ]
+		Upper [ 0.61 0.65 0.07 ]
+		Sky [ 0.63 0.87 0.71 ]
+		CloudHeight 3.83
+		CloudSpeed  10.12
+		CloudMap    "asphodel-clouds_diff.png"
+		CloudNormalMap "asphodel-clouds_normal.png"
+		# CloudShadowDepth 1.0  # Disabled due to cloud shadow bug
+		Mie 0.00130
+		MieAsymmetry -0.254
+		Rayleigh [ 0.00631 0.00870 0.00706 ]
+		MieScaleHeight 10.2159
+	}
+	EllipticalOrbit {
+		Period<d>         316676.3165934522
+		SemiMajorAxis     108.56445409413793
+		Eccentricity      0.0221
+		Inclination       1.7390
+		AscendingNode     116.9383
+		ArgOfPericenter   330.9475
+		MeanAnomaly       235.0587
+	}
+	Rings {
+		Inner   5439.61
+		Outer   12410.51
+		Texture "gc_rings_03.png"
+		Color   [ 0.41 0.35 0.79 ]
+	}
+	RotationPeriod 307.4719
+	Obliquity 2.33
+	EquatorAscendingNode 68.7462
+	RotationOffset 62.1348
+	BondAlbedo 0.733
+	GeomAlbedo 0.88
+}
+
+"Kerberos" "Hadeus/Asphodel" {
+	Texture "kerberos_diff.png"
+	NormalMap "kerberos_normal.png"
+	# BumpMap "kerberos_bump.png"
+	# BumpHeight 1.54
+	# Mesh "roughsphere.cms"
+	Color [ 0.35 0.32 0.81 ]
+	# BlendTexture true
+	Radius 338
+	EllipticalOrbit {
+		Period            7.830728510543011
+		SemiMajorAxis     86734.0000
+		Eccentricity      0.0181
+		Inclination       5.3553
+		AscendingNode     274.3789
+		ArgOfPericenter   59.4257
+		MeanAnomaly       355.6506
+	}
+	# RotationPeriod 495.2301
+	Obliquity 5.3553
+	EquatorAscendingNode 274.3789
+	RotationOffset 334.8227
+	BondAlbedo 0.11
+	GeomAlbedo 0.132
+}

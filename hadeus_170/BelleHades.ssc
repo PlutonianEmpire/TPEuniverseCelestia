@@ -70,9 +70,9 @@ ReferencePoint "BH-Tartarus" "Hadeus" {
 		CloudMap "bh_canon-clouds.png"
 		CloudNormalMap "bh_canon-clouds-normal.png"
 		CloudShadowDepth 1.0
-		Mie 0.0002
-		MieAsymmetry -0.7
-		Rayleigh [ 0.00135 0.002025 0.004175 ]
+		Mie 0.00112
+		MieAsymmetry -0.26
+		Rayleigh [ 0.00103 0.0025 0.0061 ]
 		Absorption [ 0.0029296875 0.005078125 0.00140625 ]
 		MieScaleHeight 10.919565999006196462674047381841
 	}

@@ -1,0 +1,31 @@
+"bh_aurora" "Hadeus/Belle Hades" {
+	Radius 5069.6462
+	# Mesh "none.cmod"
+	Emissive true
+	Class "diffuse"
+	Color [ 1.00 1.00 1.00 ]
+
+	Atmosphere {
+		CloudMap "bh_aurora.*"
+		CloudSpeed 290
+		CloudHeight 431
+	}
+
+	OrbitFrame {
+		BodyFixed {
+			Center "Hadeus/Belle Hades"
+		}
+	}
+	FixedPosition [ 0 0 0 ]
+
+	BodyFrame {
+		BodyFixed {
+			Center "Hadeus/Belle Hades"
+		}
+	}
+
+	RotationPeriod 0
+	Obliquity 6.9
+	EquatorAscendingNode 231.4468
+	Albedo 0.29
+}

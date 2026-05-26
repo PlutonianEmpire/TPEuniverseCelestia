@@ -1,0 +1,428 @@
+# Generated with Asteroid Maker Version 1.6 on 2014-03-08 15:35:00.
+# Reference plane: Inc = 0.0000, Asc Node = 0.0000
+# Asteroids generated: 17
+
+##############################################
+# p5-1 - Mass: 8.7235E+15 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Main Belt. Inc: 00.406813
+"p5-1" "SCO Cen/p5" {
+    Class                "minormoon"
+    Texture              "deimos.*"
+    Color                [ 0.900 0.700 0.400 ]
+    Albedo               0.080
+    Mesh                 "phobos.cmod"
+    Radius               9.93
+    EllipticalOrbit {
+        Period           000.645788734343
+        SemiMajorAxis    182574.750485998000
+        Eccentricity     0.002981223450
+        Inclination      000.4068
+        AscendingNode    089.2101
+        MeanLongitude    249.3833
+        LongOfPericenter 292.7748
+    }
+    # Obliquity            179.2976
+    EquatorAscendingNode 118.8193
+    RotationOffset       307.8491
+    # RotationPeriod       0009.692847226542
+}
+
+##############################################
+# p5-2 - Mass: 6.7872E+13 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Main Belt. Inc: 00.228203
+"p5-2" "SCO Cen/p5" {
+    Class                "minormoon"
+    Texture              "tethys.*"
+    Color                [ 0.900 0.700 0.400 ]
+    Albedo               0.900
+    Mesh                 "pandora.cmod"
+    Radius               2.21
+    EllipticalOrbit {
+        Period           000.286360274697
+        SemiMajorAxis    106166.847002302000
+        Eccentricity     0.001895992726
+        Inclination      000.2282
+        AscendingNode    222.7936
+        MeanLongitude    266.4289
+        LongOfPericenter 040.2410
+    }
+    # Obliquity            108.5367
+    EquatorAscendingNode 287.5923
+    RotationOffset       185.3949
+    # RotationPeriod       0006.318262689920
+}
+
+##############################################
+# p5-3 - Mass: 8.8240E+18 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Main Belt. Inc: 00.397867
+"p5-3" "SCO Cen/p5" {
+    Class                "minormoon"
+    Texture              "asteroid.*"
+    Color                [ 0.900 0.700 0.400 ]
+    Albedo               0.150
+    Mesh                 "janus.cmod"
+    Radius               83.00
+    EllipticalOrbit {
+        Period           000.314728079623
+        SemiMajorAxis    113067.398698826000
+        Eccentricity     0.019445491897
+        Inclination      000.3979
+        AscendingNode    342.1230
+        MeanLongitude    252.1212
+        LongOfPericenter 298.4848
+    }
+    # Obliquity            003.0488
+    EquatorAscendingNode 340.6558
+    RotationOffset       351.6815
+    # RotationPeriod       0051.170837183436
+}
+
+##############################################
+# p5-4 - Mass: 2.6996E+14 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Main Belt. Inc: 01.373010
+"p5-4" "SCO Cen/p5" {
+    Class                "minormoon"
+    Texture              "proteus.*"
+    Color                [ 0.900 0.700 0.400 ]
+    Albedo               0.061
+    Mesh                 "bacchus.cmod"
+    Radius               3.26
+    EllipticalOrbit {
+        Period           000.604929238874
+        SemiMajorAxis    174790.083696237000
+        Eccentricity     0.010781177633
+        Inclination      001.3730
+        AscendingNode    115.3214
+        MeanLongitude    020.5965
+        LongOfPericenter 124.9110
+    }
+    # Obliquity            156.6742
+    EquatorAscendingNode 317.3328
+    RotationOffset       075.7167
+    # RotationPeriod       0008.895874782293
+}
+
+##############################################
+# p5-5 - Mass: 4.1667E+16 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Main Belt. Inc: 00.411905
+"p5-5" "SCO Cen/p5" {
+    Class                "minormoon"
+    Texture              "amalthea.*"
+    Color                [ 0.630 0.450 0.350 ]
+    Albedo               0.060
+    Mesh                 "halley.cmod"
+    Radius               15.81
+    EllipticalOrbit {
+        Period           000.707155036651
+        SemiMajorAxis    193965.057143193000
+        Eccentricity     0.021902945364
+        Inclination      000.4119
+        AscendingNode    313.9923
+        MeanLongitude    094.9308
+        LongOfPericenter 350.0930
+    }
+    # Obliquity            048.5737
+    EquatorAscendingNode 200.7462
+    RotationOffset       265.8643
+    # RotationPeriod       0019.636927744798
+}
+
+##############################################
+# p5-6 - Mass: 1.4054E+18 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Main Belt. Inc: 00.976831
+"p5-6" "SCO Cen/p5" {
+    Class                "minormoon"
+    Texture              "deimos.*"
+    Color                [ 0.900 0.700 0.400 ]
+    Albedo               0.080
+    Mesh                 "proteus.cmod"
+    Radius               52.07
+    EllipticalOrbit {
+        Period           000.589313001434
+        SemiMajorAxis    171768.855186244000
+        Eccentricity     0.006858580858
+        Inclination      000.9768
+        AscendingNode    258.5757
+        MeanLongitude    169.3540
+        LongOfPericenter 277.9240
+    }
+    # Obliquity            064.1559
+    EquatorAscendingNode 185.9122
+    RotationOffset       270.2441
+    # RotationPeriod       0024.572618025414
+}
+
+##############################################
+# p5-7 - Mass: 2.6353E+13 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Main Belt. Inc: 00.840346
+"p5-7" "SCO Cen/p5" {
+    Class                "minormoon"
+    Texture              "dione.*"
+    Color                [ 0.900 0.700 0.400 ]
+    Albedo               0.700
+    Mesh                 "phoebe.cmod"
+    Radius               1.71
+    EllipticalOrbit {
+        Period           000.537894867903
+        SemiMajorAxis    161626.290875383000
+        Eccentricity     0.006717013534
+        Inclination      000.8403
+        AscendingNode    167.7351
+        MeanLongitude    086.0198
+        LongOfPericenter 211.1882
+    }
+    # Obliquity            007.5211
+    EquatorAscendingNode 256.2790
+    RotationOffset       133.1356
+    # RotationPeriod       0031.121797138874
+}
+
+##############################################
+# p5-8 - Mass: 6.1447E+16 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Main Belt. Inc: 01.700108
+"p5-8" "SCO Cen/p5" {
+    Class                "minormoon"
+    Texture              "proteus.*"
+    Color                [ 0.900 0.700 0.400 ]
+    Albedo               0.061
+    Mesh                 "castalia.cmod"
+    Radius               20.13
+    EllipticalOrbit {
+        Period           000.331973314834
+        SemiMajorAxis    117160.852409864000
+        Eccentricity     0.011564750809
+        Inclination      001.7001
+        AscendingNode    079.0329
+        MeanLongitude    050.7765
+        LongOfPericenter 175.2046
+    }
+    # Obliquity            080.1186
+    EquatorAscendingNode 096.8830
+    RotationOffset       197.4082
+    # RotationPeriod       0021.775243532874
+}
+
+##############################################
+# p5-9 - Mass: 2.6491E+13 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Main Belt. Inc: 00.980840
+"p5-9" "SCO Cen/p5" {
+    Class                "minormoon"
+    Texture              "amalthea.*"
+    Color                [ 0.630 0.450 0.350 ]
+    Albedo               0.060
+    Mesh                 "pandora.cmod"
+    Radius               1.71
+    EllipticalOrbit {
+        Period           000.352821495105
+        SemiMajorAxis    122016.087978380000
+        Eccentricity     0.007206139821
+        Inclination      000.9808
+        AscendingNode    290.4637
+        MeanLongitude    305.2629
+        LongOfPericenter 133.8567
+    }
+    # Obliquity            175.8164
+    EquatorAscendingNode 087.2343
+    RotationOffset       124.8022
+    # RotationPeriod       0012.074112290068
+}
+
+##############################################
+# p5-10 - Mass: 2.6428E+13 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Main Belt. Inc: 00.300743
+"p5-10" "SCO Cen/p5" {
+    Class                "minormoon"
+    Texture              "golevka.*"   
+    Color                [ 1.000 0.856 0.747 ]
+    Albedo               0.150
+    Mesh                 "larissa.cmod"
+    Radius               1.76
+    EllipticalOrbit {
+        Period           000.350154167163
+        SemiMajorAxis    121400.350020852000
+        Eccentricity     0.011886808935
+        Inclination      000.3007
+        AscendingNode    247.3771
+        MeanLongitude    001.1637
+        LongOfPericenter 163.6618
+    }
+    # Obliquity            116.7807
+    EquatorAscendingNode 197.2506
+    RotationOffset       060.1780
+    # RotationPeriod       0002.457702572653
+}
+
+##############################################
+# p5-11 - Mass: 2.4880E+13 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Main Belt. Inc: 01.087586
+"p5-11" "SCO Cen/p5" {
+    Class                "minormoon"
+    Texture              "idamosaic.*"
+    Color                [ 1.000 0.901 0.815 ]
+    Albedo               0.240
+    Mesh                 "proteus.cmod"
+    Radius               1.68
+    EllipticalOrbit {
+        Period           000.661454080894
+        SemiMajorAxis    185515.502148462000
+        Eccentricity     0.024338543435
+        Inclination      001.0876
+        AscendingNode    121.9021
+        MeanLongitude    159.8253
+        LongOfPericenter 198.5819
+    }
+    # Obliquity            069.5333
+    EquatorAscendingNode 027.6504
+    RotationOffset       332.4081
+    # RotationPeriod       0004.816903109352
+}
+
+##############################################
+# p5-12 - Mass: 3.8017E+17 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Main Belt. Inc: 01.547195
+"p5-12" "SCO Cen/p5" {
+    Class                "minormoon"
+    Texture              "amalthea.*"
+    Color                [ 0.630 0.450 0.350 ]
+    Albedo               0.060
+    Mesh                 "proteus.cmod"
+    Radius               36.38
+    EllipticalOrbit {
+        Period           000.524538632301
+        SemiMajorAxis    158939.579282730000
+        Eccentricity     0.003467400706
+        Inclination      001.5472
+        AscendingNode    268.2792
+        MeanLongitude    359.1739
+        LongOfPericenter 030.4990
+    }
+    # Obliquity            098.5856
+    EquatorAscendingNode 291.1438
+    RotationOffset       084.3498
+    # RotationPeriod       0048.146146588513
+}
+
+##############################################
+# p5-13 - Mass: 1.2342E+14 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Main Belt. Inc: 00.465726
+"p5-13" "SCO Cen/p5" {
+    Class                "minormoon"
+    Texture              "phobos.*"
+    Color                [ 0.900 0.700 0.400 ]
+    Albedo               0.070
+    Mesh                 "hyperion.cmod"
+    Radius               2.56
+    EllipticalOrbit {
+        Period           000.299926923895
+        SemiMajorAxis    109494.097503927000
+        Eccentricity     0.010704724633
+        Inclination      000.4657
+        AscendingNode    278.7322
+        MeanLongitude    320.1223
+        LongOfPericenter 338.0899
+    }
+    # Obliquity            157.7356
+    EquatorAscendingNode 058.0980
+    RotationOffset       169.4050
+    # RotationPeriod       0002.358104787855
+}
+
+##############################################
+# p5-14 - Mass: 3.1300E+13 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Outer planet Trojan. Inc: 00.512905
+"p5-14" "SCO Cen/p5" {
+    Class                "minormoon"
+    Texture              "bacchus.*"   
+    Color                [ 1.000 0.899 0.777 ]
+    Albedo               0.150
+    Mesh                 "halley.cmod"
+    Radius               1.79
+	EllipticalOrbit {
+		Period            1.3581961136809266
+		SemiMajorAxis     299701.370120337490578
+		Eccentricity      0.0252
+		Inclination       1.7068
+		AscendingNode     76.2657
+		ArgOfPericenter   311.1223
+		MeanAnomaly       355.1791
+	}
+    # Obliquity            068.0106
+    EquatorAscendingNode 226.4634
+    RotationOffset       095.5872
+    # RotationPeriod       0011.798821468392
+}
+
+##############################################
+# p5-15 - Mass: 3.1278E+15 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Main Belt. Inc: 00.473025
+"p5-15" "SCO Cen/p5" {
+    Class                "minormoon"
+    Texture              "kleopatra.*" 
+    Color                [ 1.000 0.932 0.888 ]
+    Albedo               0.160
+    Mesh                 "phoebe.cmod"
+    Radius               7.18
+    EllipticalOrbit {
+        Period           000.351674529990
+        SemiMajorAxis    121751.508235033000
+        Eccentricity     0.017434103548
+        Inclination      000.4730
+        AscendingNode    008.6424
+        MeanLongitude    068.5315
+        LongOfPericenter 344.5302
+    }
+    # Obliquity            110.5935
+    EquatorAscendingNode 336.9554
+    RotationOffset       208.3223
+    # RotationPeriod       0012.345065817957
+}
+
+##############################################
+# p5-16 - Mass: 8.4897E+18 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Main Belt. Inc: 00.982122
+"p5-16" "SCO Cen/p5" {
+    Class                "minormoon"
+    Texture              "deimos.*"
+    Color                [ 0.900 0.700 0.400 ]
+    Albedo               0.080
+    Mesh                 "phoebe.cmod"
+    Radius               87.70
+    EllipticalOrbit {
+        Period           000.353713179721
+        SemiMajorAxis    122221.582056338000
+        Eccentricity     0.017004600216
+        Inclination      000.9821
+        AscendingNode    107.7595
+        MeanLongitude    006.7034
+        LongOfPericenter 176.1617
+    }
+    # Obliquity            110.5767
+    EquatorAscendingNode 105.6732
+    RotationOffset       241.6672
+    # RotationPeriod       0022.493879329895
+}
+
+##############################################
+# p5-17 - Mass: 1.3961E+16 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Main Belt. Inc: 01.203432
+"p5-17" "SCO Cen/p5" {
+    Class                "minormoon"
+    Texture              "dione.*"
+    Color                [ 0.900 0.700 0.400 ]
+    Albedo               0.700
+    Mesh                 "janus.cmod"
+    Radius               11.73
+    EllipticalOrbit {
+        Period           000.432161304039
+        SemiMajorAxis    139683.247785891000
+        Eccentricity     0.003813155419
+        Inclination      001.2034
+        AscendingNode    147.4749
+        MeanLongitude    057.4373
+        LongOfPericenter 340.0545
+    }
+    # Obliquity            031.4068
+    EquatorAscendingNode 345.4950
+    RotationOffset       069.9202
+    # RotationPeriod       0014.912735300737
+}

@@ -1,0 +1,43 @@
+Barycenter "Scorpi Centauri:SCO.C.:Scorpi Centau:SCO Cen" {
+	RA 255.500
+	Dec -40.400
+	Distance 8.000
+}
+
+Star "Scorpius:Scorpi Centauri A:SCO.C. A:Scorpi Centau A:SCO Cen A" {
+	SpectralType "G6V"
+	AbsMag 5.21
+	OrbitBarycenter "SCO Cen"
+	EllipticalOrbit {
+		Period            0.04406114533424595026237736710016
+		SemiMajorAxis     0.065049726753311191821487886318274
+		Eccentricity      0.1443
+		Inclination       0.7412
+		AscendingNode     255.1676
+		ArgOfPericenter   178.1168
+		MeanAnomaly       248.9655
+	}
+	RotationPeriod 82
+	Obliquity 0.0883
+	EquatorAscendingNode 44.4039
+	RotationOffset 160.7907
+}
+
+Star "Pluton:Scorpi Centauri B:SCO.C. B:Scorpi Centau B:SCO Cen B" {
+	SpectralType "K3V"
+	AbsMag 6.4816
+	OrbitBarycenter "SCO Cen"
+	EllipticalOrbit {
+		Period            0.04406114533424595026237736710016
+		SemiMajorAxis     0.081650273246688808178512113681726
+		Eccentricity      0.1443
+		Inclination       0.7412
+		AscendingNode     255.1676
+		ArgOfPericenter   358.1168
+		MeanAnomaly       248.9655
+	}
+	RotationPeriod 31.2
+	Obliquity 0.0883
+	EquatorAscendingNode 44.4039
+	RotationOffset 330.3619
+}

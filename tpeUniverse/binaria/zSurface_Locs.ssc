@@ -1,0 +1,17 @@
+Location "Ancient Ice Cave" "Binaria/Swamp Planet of Evil/Ancient Desert Moon" {
+	LongLat [ 35.4520 55.4500 0 ]
+	Importance 800.000
+	Type "City"
+}
+
+Location "Haunted Wasteland" "Binaria/Swamp Planet of Evil/Ancient Desert Moon" {
+	LongLat [ -87.4500 41.5000 0 ]
+	Importance 800.000
+	Type "City"
+}
+
+Location "Ancient Swamp Temple" "Binaria/Swamp Planet of Evil" {
+	LongLat [ -18.0000 28.0000 0 ]
+	Importance 800.000
+	Type "City"
+}

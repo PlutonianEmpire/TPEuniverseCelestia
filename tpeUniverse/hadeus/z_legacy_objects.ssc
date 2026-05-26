@@ -1,0 +1,70 @@
+##############################################
+# Hadeia - Mass: 5.1759E+19 kg.  Class: Binary.  Moons: 1.
+# Orbit family: Main Belt. Inc: 05.018472
+"Haydees" "Hadeus" {
+    Class                "asteroid"
+    Texture              "asteroid.*"     
+    Color                [ 0.720 0.670 0.620 ]
+    Albedo               0.423
+    Mesh                 "vesta.cmod"
+    Radius               156.48
+    EllipticalOrbit {
+        Period           1.0011514167199789
+        SemiMajorAxis    1.194915671299
+        Eccentricity     0.152204932202
+        Inclination      054.7530
+        AscendingNode    117.1450
+        MeanLongitude    267.7148
+        LongOfPericenter 164.1797
+    }
+    Obliquity            121.8658
+    EquatorAscendingNode 293.0054
+    RotationOffset       316.9885
+    RotationPeriod       0012.965361184743
+}
+
+# Moon I: Mass 4.7768E+19 kg
+"Haydees I" "Hadeus/Haydees" {
+    Class                "moon"
+    Texture              "asteroid.*"     
+    Color                [ 0.720 0.670 0.620 ]
+    Albedo               0.423
+    Mesh                 "roughsphere.cms"
+    Radius               148.93
+    EllipticalOrbit { 
+        Period           000.540223382698
+        SemiMajorAxis    715.673619567498
+        Eccentricity     0.045297055716
+        Inclination      000.0000
+        AscendingNode    018.0835
+        MeanLongitude    323.6353
+        LongOfPericenter 014.8425
+    }
+    Obliquity            000.0000
+    EquatorAscendingNode 100.6018
+    RotationOffset       339.7852 # Tidally locked
+}
+
+##############################################
+# Orbit family: Main Belt. Inc: 21.770519
+"Hadesia" "Hadeus" {
+    Class                "asteroid"
+    Texture              "asteroid.*"    
+    Color                [ 0.400 0.400 0.400 ]
+    Albedo               0.159
+    Mesh                 "vesta.cmod"
+    Radius               26.96
+    EllipticalOrbit {
+        Period           2.341217534651394
+        SemiMajorAxis    2.105225352833
+        Eccentricity     0.327172217262
+        Inclination      047.0394
+        AscendingNode    147.6881
+        MeanLongitude    055.1382
+        LongOfPericenter 055.1971
+    }
+    Obliquity            065.4616
+    EquatorAscendingNode 020.3362
+    RotationOffset       051.4324
+    RotationPeriod       0010.558384791641
+}

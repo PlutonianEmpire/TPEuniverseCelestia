@@ -1,0 +1,49 @@
+Barycenter "Binaria" {
+	RA -8.930
+	Dec -8.930
+	Distance 10.1000
+	Obliquity 0.4071
+	EquatorAscendingNode 322.2625
+}
+
+Star "Mayhem:Binaria A" {
+	OrbitBarycenter "Binaria"
+	SpectralType "G0V"
+	AbsMag 4.5496
+	EllipticalOrbit {
+		Period             0.042242375840983655030800821355236
+		SemiMajorAxis      0.066377739301124599957882380822195
+		Eccentricity       0.0080
+		Inclination        0.4071
+		AscendingNode      322.2625
+		ArgOfPericenter    266.0506
+		MeanAnomaly        158.5970
+	}
+	UniformRotation {
+		Period             370.29666662206272
+		Inclination        0.4071
+		AscendingNode      322.2625
+		MeridianAngle      356.7399
+	}
+}
+
+Star "Chaos:Binaria B" {
+	OrbitBarycenter "Binaria"
+	SpectralType "G7V"
+	AbsMag 5.42
+	EllipticalOrbit {
+		Period             0.042242375840983655030800821355236
+		SemiMajorAxis      0.085574083828875400042117619177805
+		Eccentricity       0.0080
+		Inclination        0.4071
+		AscendingNode      322.2625
+		ArgOfPericenter    86.0506
+		MeanAnomaly        158.5970
+	}
+	UniformRotation {
+		Period             370.29666662206272
+		Inclination        0.4071
+		AscendingNode      322.2625
+		MeridianAngle      134.0832
+	}
+}

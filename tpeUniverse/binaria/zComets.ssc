@@ -1,0 +1,23 @@
+"Binar Comet" "Binaria" { 
+	Class "comet"
+	Mesh "halley.cmod"
+	Texture "asteroid.*"
+	Radius 7.5
+	#MeshCenter [ -0.338 1.303 0.230 ]
+
+	EllipticalOrbit { 
+		Period             3.500
+		SemiMajorAxis      3.000
+		Eccentricity       0.800
+		Inclination       80.000
+		AscendingNode      8.000
+		ArgOfPericenter   11.000
+		MeanAnomaly        1.100
+	}
+
+	RotationPeriod            11.000
+	Obliquity                111.000
+	PrecessionRate             8.000
+
+	Albedo 0.047
+}

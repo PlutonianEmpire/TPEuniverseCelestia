@@ -1,0 +1,1508 @@
+# Generated with Asteroid Maker Version 1.6 on 2012-10-28 20:21:41.
+# Reference plane: Inc = 0.0000, Asc Node = 173.5246
+# Asteroids generated: 10
+
+##############################################
+# 2250 P 1 - Mass: 4.1083E+18 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Main Belt. Inc: 00.948850
+"2250 P 1" "PSC Cen/Plutonia" {
+    Class                "minormoon"
+    Texture              "asteroid.*"
+    Color                [ 1.000 0.923 0.851 ]
+    Albedo               0.423
+    Mesh                 "amalthea.cmod"
+    Radius               72.27
+    EllipticalOrbit {
+        Period           000.293751215149
+        SemiMajorAxis    151767.076291049000
+        Eccentricity     0.006413585619
+        Inclination      000.9489
+        AscendingNode    235.4106
+        MeanLongitude    035.0684
+        LongOfPericenter 063.2483
+    }
+    Obliquity            138.3398
+    EquatorAscendingNode 147.5134
+    RotationOffset       080.9912
+    RotationPeriod       0013.922863693819
+}
+
+##############################################
+# 2250 P 2 - Mass: 2.6570E+16 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Main Belt. Inc: 00.925034
+"2250 P 2" "PSC Cen/Plutonia" {
+    Class                "minormoon"
+    Texture              "asteroid.*"
+    Color                [ 1.000 0.901 0.815 ]
+    Albedo               0.240
+    Mesh                 "roughsphere.cms"
+    Radius               14.90
+    EllipticalOrbit {
+        Period           000.265234500573
+        SemiMajorAxis    141778.745612311000
+        Eccentricity     0.008951819921
+        Inclination      000.9250
+        AscendingNode    062.8264
+        MeanLongitude    201.7529
+        LongOfPericenter 058.3594
+    }
+    Obliquity            095.8228
+    EquatorAscendingNode 265.6384
+    RotationOffset       227.1643
+    RotationPeriod       0050.781205943743
+}
+
+##############################################
+# 2250 P 3 - Mass: 6.4830E+17 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Main Belt. Inc: 00.981581
+"2250 P 3" "PSC Cen/Plutonia" {
+    Class                "minormoon"
+    Texture              "asteroid.*"
+    Color                [ 1.000 0.899 0.777 ]
+    Albedo               0.150
+    Mesh                 "larissa.cmod"
+    Radius               36.07
+    EllipticalOrbit {
+        Period           000.392491489719
+        SemiMajorAxis    184110.242298389000
+        Eccentricity     0.004850980463
+        Inclination      000.9816
+        AscendingNode    311.3371
+        MeanLongitude    260.9253
+        LongOfPericenter 141.8335
+    }
+    Obliquity            093.0652
+    EquatorAscendingNode 079.5959
+    RotationOffset       195.7544
+    RotationPeriod       0017.317183403203
+}
+
+##############################################
+# 2250 P 4 - Mass: 1.1278E+17 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Main Belt. Inc: 01.231375
+"2250 P 4" "PSC Cen/Plutonia" {
+    Class                "minormoon"
+    Texture              "asteroid.*"
+    Color                [ 1.000 0.912 0.833 ]
+    Albedo               0.238
+    Mesh                 "gaspra.cmod"
+    Radius               23.87
+    EllipticalOrbit {
+        Period           000.253155619679
+        SemiMajorAxis    137440.956288974000
+        Eccentricity     0.013604529072
+        Inclination      001.2314
+        AscendingNode    348.2292
+        MeanLongitude    161.6968
+        LongOfPericenter 147.5244
+    }
+    Obliquity            118.8940
+    EquatorAscendingNode 357.2314
+    RotationOffset       180.8130
+    RotationPeriod       0023.950292981205
+}
+
+##############################################
+# 2250 P 5 - Mass: 4.4937E+16 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Main Belt. Inc: 00.362852
+"2250 P 5" "PSC Cen/Plutonia" {
+    Class                "minormoon"
+    Texture              "asteroid.*"
+    Color                [ 1.000 0.901 0.802 ]
+    Albedo               0.326
+    Mesh                 "epimetheus.cmod"
+    Radius               18.82
+    EllipticalOrbit {
+        Period           000.417780387179
+        SemiMajorAxis    191936.020112714000
+        Eccentricity     0.014149845612
+        Inclination      000.3629
+        AscendingNode    279.7734
+        MeanLongitude    062.2595
+        LongOfPericenter 265.4407
+    }
+    Obliquity            058.4473
+    EquatorAscendingNode 091.8347
+    RotationOffset       343.6963
+    RotationPeriod       0015.244897293236
+}
+
+##############################################
+# 2250 P 6 - Mass: 8.9422E+15 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Main Belt. Inc: 00.331528
+"2250 P 6" "PSC Cen/Plutonia" {
+    Class                "minormoon"
+    Texture              "eros.*"
+    Color                [ 1.000 0.880 0.764 ]
+    Albedo               0.160
+    Mesh                 "vesta.cmod"
+    Radius               10.81
+    EllipticalOrbit {
+        Period           000.491149016165
+        SemiMajorAxis    213796.195255321000
+        Eccentricity     0.016038422202
+        Inclination      000.3315
+        AscendingNode    345.7133
+        MeanLongitude    307.2217
+        LongOfPericenter 035.3210
+    }
+    Obliquity            123.9093
+    EquatorAscendingNode 255.8496
+    RotationOffset       316.7468
+    RotationPeriod       0019.349532798508
+}
+
+##############################################
+# 2250 P 7 - Mass: 5.1178E+16 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Outer planet Trojan. Inc: 00.918803
+"2250 P 7" "PSC Cen/Plutonia" {
+    Class                "minormoon"
+    Texture              "asteroid.*"
+    Color                [ 1.000 0.901 0.802 ]
+    Albedo               0.326
+    Mesh                 "vesta.cmod"
+    Radius               17.59
+    EllipticalOrbit {
+        Period           001.351837143148
+        SemiMajorAxis    419895.000000000000
+        Eccentricity     0.001707097361
+        Inclination      000.9188
+        AscendingNode    095.2031
+        MeanLongitude    000.1751
+        LongOfPericenter 347.1130
+    }
+    Obliquity            046.9061
+    EquatorAscendingNode 177.1875
+    RotationOffset       076.7285
+    RotationPeriod       0005.425624061073
+}
+
+##############################################
+# 2250 P 8 - Mass: 2.9598E+17 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Main Belt. Inc: 00.464087
+"2250 P 8" "PSC Cen/Plutonia" {
+    Class                "minormoon"
+    Texture              "asteroid.*"
+    Color                [ 0.970 0.790 0.820 ]
+    Albedo               0.150
+    Mesh                 "proteus.cmod"
+    Radius               29.75
+    EllipticalOrbit {
+        Period           000.586337446508
+        SemiMajorAxis    240596.630460619000
+        Eccentricity     0.009006928595
+        Inclination      000.4641
+        AscendingNode    214.5146
+        MeanLongitude    343.4656
+        LongOfPericenter 241.9409
+    }
+    Obliquity            108.2867
+    EquatorAscendingNode 104.7876
+    RotationOffset       095.6140
+    RotationPeriod       0004.508146193806
+}
+
+##############################################
+# 2250 P 9 - Mass: 2.5007E+16 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Main Belt. Inc: 01.206910
+"2250 P 9" "PSC Cen/Plutonia" {
+    Class                "minormoon"
+    Texture              "asteroid.*"
+    Color                [ 1.000 0.856 0.747 ]
+    Albedo               0.150
+    Mesh                 "roughsphere.cms"
+    Radius               15.11
+    EllipticalOrbit {
+        Period           000.817188971745
+        SemiMajorAxis    300196.841075713000
+        Eccentricity     0.018711734565
+        Inclination      001.2069
+        AscendingNode    116.2639
+        MeanLongitude    154.9841
+        LongOfPericenter 098.3716
+    }
+    Obliquity            100.1514
+    EquatorAscendingNode 084.0015
+    RotationOffset       084.3970
+    RotationPeriod       0019.654034210686
+}
+
+##############################################
+# 2250 P 10 - Mass: 4.4237E+16 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Main Belt. Inc: 00.286278
+"2250 P 10" "PSC Cen/Plutonia" {
+    Class                "minormoon"
+    Texture              "asteroid.*"
+    Color                [ 1.000 0.960 0.800 ]
+    Albedo               0.530
+    Mesh                 "proteus.cmod"
+    Radius               15.83
+    EllipticalOrbit {
+        Period           000.620720215786
+        SemiMajorAxis    249912.730630184000
+        Eccentricity     0.012874220743
+        Inclination      000.2863
+        AscendingNode    044.5891
+        MeanLongitude    210.3662
+        LongOfPericenter 156.7859
+    }
+    Obliquity            037.2546
+    EquatorAscendingNode 140.2734
+    RotationOffset       147.4365
+    RotationPeriod       0005.346736401540
+}
+
+
+# Generated with Asteroid Maker Version 1.6 on 2012-10-28 21:00:34.
+# Reference plane: Inc = 0.0000, Asc Node = 173.5246
+# Asteroids generated: 50
+
+##############################################
+# 2250 P 11 - Mass: 2.3418E+18 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Main Belt. Inc: 06.215705
+"2250 P 11" "PSC Cen/Plutonia" {
+    Class                "minormoon"
+    Texture              "asteroid.*"
+    Color                [ 1.000 0.952 0.903 ]
+    Albedo               0.159
+    Mesh                 "vesta.cmod"
+    Radius               55.75
+    EllipticalOrbit {
+        Period           072.661224221790
+        SemiMajorAxis    5980345.298310590000
+        Eccentricity     0.332534809428
+        Inclination      006.2157
+        AscendingNode    024.9785
+        MeanLongitude    352.3535
+        LongOfPericenter 269.1101
+    }
+    Obliquity            107.5122
+    EquatorAscendingNode 081.4746
+    RotationOffset       334.9402
+    RotationPeriod       0008.363144025023
+}
+
+##############################################
+# 2250 P 12 - Mass: 4.5765E+18 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Main Belt. Inc: 12.035712
+"2250 P 12" "PSC Cen/Plutonia" {
+    Class                "minormoon"
+    Texture              "eros.*"
+    Color                [ 1.000 0.880 0.764 ]
+    Albedo               0.160
+    Mesh                 "epimetheus.cmod"
+    Radius               66.83
+    EllipticalOrbit {
+        Period           104.495147431829
+        SemiMajorAxis    7619419.211337800000
+        Eccentricity     0.404770815250
+        Inclination      012.0357
+        AscendingNode    202.7043
+        MeanLongitude    310.0122
+        LongOfPericenter 206.0046
+    }
+    Obliquity            123.4314
+    EquatorAscendingNode 078.4753
+    RotationOffset       309.0015
+    RotationPeriod       0013.317074362295
+}
+
+##############################################
+# 2250 P 13 - Mass: 1.3850E+16 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Main Belt. Inc: 25.518515
+"2250 P 13" "PSC Cen/Plutonia" {
+    Class                "minormoon"
+    Texture              "asteroid.*"
+    Color                [ 1.000 0.960 0.919 ]
+    Albedo               0.048
+    Mesh                 "larissa.cmod"
+    Radius               12.11
+    EllipticalOrbit {
+        Period           112.597701986089
+        SemiMajorAxis    8008370.145120020000
+        Eccentricity     0.015377734718
+        Inclination      025.5185
+        AscendingNode    132.5895
+        MeanLongitude    122.1350
+        LongOfPericenter 066.6541
+    }
+    Obliquity            158.6481
+    EquatorAscendingNode 090.3406
+    RotationOffset       236.6125
+    RotationPeriod       0018.741011940510
+}
+
+##############################################
+# 2250 P 14 - Mass: 3.7980E+16 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Main Belt. Inc: 12.150955
+"2250 P 14" "PSC Cen/Plutonia" {
+    Class                "minormoon"
+    Texture              "asteroid.*"
+    Color                [ 1.000 0.923 0.851 ]
+    Albedo               0.423
+    Mesh                 "pandora.cmod"
+    Radius               16.27
+    EllipticalOrbit {
+        Period           053.868285616480
+        SemiMajorAxis    4898689.234248100000
+        Eccentricity     0.163659174204
+        Inclination      012.1510
+        AscendingNode    314.2155
+        MeanLongitude    225.4724
+        LongOfPericenter 198.6987
+    }
+    Obliquity            088.2202
+    EquatorAscendingNode 291.1377
+    RotationOffset       298.6304
+    RotationPeriod       0013.436670958350
+}
+
+##############################################
+# 2250 P 15 - Mass: 3.4769E+17 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Main Belt. Inc: 13.262624
+"2250 P 15" "PSC Cen/Plutonia" {
+    Class                "minormoon"
+    Texture              "asteroid.*"
+    Color                [ 1.000 0.899 0.777 ]
+    Albedo               0.150
+    Mesh                 "phobos.cmod"
+    Radius               33.83
+    EllipticalOrbit {
+        Period           157.380988590997
+        SemiMajorAxis    10011349.719913800000
+        Eccentricity     0.143551290190
+        Inclination      013.2626
+        AscendingNode    076.2736
+        MeanLongitude    257.9810
+        LongOfPericenter 059.8425
+    }
+    Obliquity            127.0569
+    EquatorAscendingNode 323.7671
+    RotationOffset       047.3071
+    RotationPeriod       0014.457453820423
+}
+
+##############################################
+# 2250 P 16 - Mass: 2.3913E+17 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Main Belt. Inc: 46.512178
+"2250 P 16" "PSC Cen/Plutonia" {
+    Class                "minormoon"
+    Texture              "asteroid.*"
+    Color                [ 1.000 0.901 0.802 ]
+    Albedo               0.326
+    Mesh                 "pandora.cmod"
+    Radius               28.21
+    EllipticalOrbit {
+        Period           076.827617826999
+        SemiMajorAxis    6206823.057221760000
+        Eccentricity     0.136032056435
+        Inclination      046.5122
+        AscendingNode    337.6054
+        MeanLongitude    171.1011
+        LongOfPericenter 056.0852
+    }
+    Obliquity            157.3407
+    EquatorAscendingNode 158.3899
+    RotationOffset       033.9368
+    RotationPeriod       0004.779857913030
+}
+
+##############################################
+# 2250 P 17 - Mass: 1.1485E+17 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Main Belt. Inc: 26.429555
+"2250 P 17" "PSC Cen/Plutonia" {
+    Class                "minormoon"
+    Texture              "asteroid.*"
+    Color                [ 1.000 0.923 0.851 ]
+    Albedo               0.423
+    Mesh                 "halley.cmod"
+    Radius               24.86
+    EllipticalOrbit {
+        Period           064.838439780515
+        SemiMajorAxis    5543016.317728820000
+        Eccentricity     0.216597859723
+        Inclination      026.4296
+        AscendingNode    005.2690
+        MeanLongitude    157.2803
+        LongOfPericenter 165.6628
+    }
+    Obliquity            005.5261
+    EquatorAscendingNode 317.1973
+    RotationOffset       111.5002
+    RotationPeriod       0078.557691296048
+}
+
+##############################################
+# 2250 P 18 - Mass: 4.5657E+17 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Main Belt. Inc: 15.811525
+"2250 P 18" "PSC Cen/Plutonia" {
+    Class                "minormoon"
+    Texture              "asteroid.*"
+    Color                [ 0.650 0.450 0.350 ]
+    Albedo               0.090
+    Mesh                 "proteus.cmod"
+    Radius               35.64
+    EllipticalOrbit {
+        Period           054.735665353711
+        SemiMajorAxis    4951134.461973270000
+        Eccentricity     0.121026741152
+        Inclination      015.8115
+        AscendingNode    094.6867
+        MeanLongitude    126.7932
+        LongOfPericenter 217.4194
+    }
+    Obliquity            099.3164
+    EquatorAscendingNode 315.3406
+    RotationOffset       119.4214
+    RotationPeriod       0012.258286239030
+}
+
+##############################################
+# 2250 P 19 - Mass: 3.8371E+17 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Main Belt. Inc: 31.448358
+"2250 P 19" "PSC Cen/Plutonia" {
+    Class                "minormoon"
+    Texture              "asteroid.*"
+    Color                [ 1.000 0.856 0.747 ]
+    Albedo               0.150
+    Mesh                 "larissa.cmod"
+    Radius               34.35
+    EllipticalOrbit {
+        Period           056.283457976980
+        SemiMajorAxis    5044037.436800730000
+        Eccentricity     0.142975123668
+        Inclination      031.4484
+        AscendingNode    033.0314
+        MeanLongitude    358.4399
+        LongOfPericenter 269.2749
+    }
+    Obliquity            031.6736
+    EquatorAscendingNode 103.7219
+    RotationOffset       092.8125
+    RotationPeriod       0021.113279583780
+}
+
+##############################################
+# 2250 P 20 - Mass: 1.0440E+17 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Main Belt. Inc: 16.603983
+"2250 P 20" "PSC Cen/Plutonia" {
+    Class                "minormoon"
+    Texture              "asteroid.*"
+    Color                [ 0.970 0.790 0.820 ]
+    Albedo               0.150
+    Mesh                 "roughsphere.cms"
+    Radius               23.70
+    EllipticalOrbit {
+        Period           069.197690419256
+        SemiMajorAxis    5788759.670498220000
+        Eccentricity     0.366075886665
+        Inclination      016.6040
+        AscendingNode    017.1892
+        MeanLongitude    184.1309
+        LongOfPericenter 229.4385
+    }
+    Obliquity            170.3430
+    EquatorAscendingNode 076.7395
+    RotationOffset       333.9075
+    RotationPeriod       0061.931493613260
+}
+
+##############################################
+# 2250 P 21 - Mass: 4.6195E+17 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Main Belt. Inc: 02.463549
+"2250 P 21" "PSC Cen/Plutonia" {
+    Class                "minormoon"
+    Texture              "asteroid.*"
+    Color                [ 1.000 0.952 0.903 ]
+    Albedo               0.159
+    Mesh                 "gaspra.cmod"
+    Radius               34.86
+    EllipticalOrbit {
+        Period           067.200004707763
+        SemiMajorAxis    5676805.163966510000
+        Eccentricity     0.329837438805
+        Inclination      002.4635
+        AscendingNode    123.6027
+        MeanLongitude    302.3547
+        LongOfPericenter 176.7371
+    }
+    Obliquity            107.4133
+    EquatorAscendingNode 300.9924
+    RotationOffset       201.3904
+    RotationPeriod       0060.306441523944
+}
+
+##############################################
+# 2250 P 22 - Mass: 6.6754E+17 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Main Belt. Inc: 35.000270
+"2250 P 22" "PSC Cen/Plutonia" {
+    Class                "minormoon"
+    Texture              "asteroid.*"
+    Color                [ 1.000 0.901 0.802 ]
+    Albedo               0.326
+    Mesh                 "golevka.cmod"
+    Radius               39.12
+    EllipticalOrbit {
+        Period           082.580618192929
+        SemiMajorAxis    6512931.937413590000
+        Eccentricity     0.058377246580
+        Inclination      035.0003
+        AscendingNode    042.0512
+        MeanLongitude    289.4019
+        LongOfPericenter 282.4475
+    }
+    Obliquity            053.2562
+    EquatorAscendingNode 073.9050
+    RotationOffset       309.9683
+    RotationPeriod       0011.329600507073
+}
+
+##############################################
+# 2250 P 23 - Mass: 7.3205E+16 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Main Belt. Inc: 21.106577
+"2250 P 23" "PSC Cen/Plutonia" {
+    Class                "minormoon"
+    Texture              "asteroid.*"
+    Color                [ 1.000 0.901 0.815 ]
+    Albedo               0.200
+    Mesh                 "amalthea.cmod"
+    Radius               20.08
+    EllipticalOrbit {
+        Period           078.699161396493
+        SemiMajorAxis    6307218.207438520000
+        Eccentricity     0.100284682069
+        Inclination      021.1066
+        AscendingNode    140.4228
+        MeanLongitude    121.0583
+        LongOfPericenter 236.9531
+    }
+    Obliquity            132.5500
+    EquatorAscendingNode 334.4128
+    RotationOffset       141.7236
+    RotationPeriod       0014.405890856214
+}
+
+##############################################
+# 2250 P 24 - Mass: 1.2468E+18 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Main Belt. Inc: 09.866626
+"2250 P 24" "PSC Cen/Plutonia" {
+    Class                "minormoon"
+    Texture              "asteroid.*"
+    Color                [ 0.600 0.450 0.350 ]
+    Albedo               0.120
+    Mesh                 "larissa.cmod"
+    Radius               46.16
+    EllipticalOrbit {
+        Period           136.654493542163
+        SemiMajorAxis    9111860.548888510000
+        Eccentricity     0.124311919635
+        Inclination      009.8666
+        AscendingNode    286.6179
+        MeanLongitude    063.2373
+        LongOfPericenter 026.4441
+    }
+    Obliquity            063.2977
+    EquatorAscendingNode 263.7048
+    RotationOffset       146.5576
+    RotationPeriod       0023.392526469579
+}
+
+##############################################
+# 2250 P 25 - Mass: 5.9998E+16 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Main Belt. Inc: 01.106801
+"2250 P 25" "PSC Cen/Plutonia" {
+    Class                "minormoon"
+    Texture              "asteroid.*"
+    Color                [ 0.650 0.450 0.350 ]
+    Albedo               0.090
+    Mesh                 "vesta.cmod"
+    Radius               20.17
+    EllipticalOrbit {
+        Period           099.506819286699
+        SemiMajorAxis    7374960.231492290000
+        Eccentricity     0.081256347156
+        Inclination      001.1068
+        AscendingNode    066.9902
+        MeanLongitude    183.0103
+        LongOfPericenter 208.1030
+    }
+    Obliquity            092.5433
+    EquatorAscendingNode 279.4153
+    RotationOffset       292.0496
+    RotationPeriod       0050.526319893579
+}
+
+##############################################
+# 2250 P 26 - Mass: 1.0248E+18 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Outer planet Hilda. Inc: 29.350303
+"2250 P 26" "PSC Cen/Plutonia" {
+    Class                "minormoon"
+    Texture              "asteroid.*"
+    Color                [ 1.000 0.960 0.800 ]
+    Albedo               0.530
+    Mesh                 "roughsphere.cms"
+    Radius               42.45
+    EllipticalOrbit {
+        Period           193.282972873353
+        SemiMajorAxis    11481188.600556300000
+        Eccentricity     0.388161229340
+        Inclination      029.3503
+        AscendingNode    067.5725
+        MeanLongitude    228.7463
+        LongOfPericenter 158.2910
+    }
+    Obliquity            053.4430
+    EquatorAscendingNode 190.9534
+    RotationOffset       171.1780
+    RotationPeriod       0003.167857695890
+}
+
+##############################################
+# 2250 P 27 - Mass: 3.8118E+16 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Main Belt. Inc: 23.629935
+"2250 P 27" "PSC Cen/Plutonia" {
+    Class                "minormoon"
+    Texture              "asteroid.*"
+    Color                [ 1.000 0.904 0.803 ]
+    Albedo               0.160
+    Mesh                 "vesta.cmod"
+    Radius               16.05
+    EllipticalOrbit {
+        Period           037.076132235986
+        SemiMajorAxis    3818745.667417450000
+        Eccentricity     0.243163750340
+        Inclination      023.6299
+        AscendingNode    021.4518
+        MeanLongitude    098.5583
+        LongOfPericenter 268.6816
+    }
+    Obliquity            108.6932
+    EquatorAscendingNode 296.7957
+    RotationOffset       116.7078
+    RotationPeriod       0032.825078044914
+}
+
+##############################################
+# 2250 P 28 - Mass: 4.4925E+16 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Main Belt. Inc: 30.006771
+"2250 P 28" "PSC Cen/Plutonia" {
+    Class                "minormoon"
+    Texture              "asteroid.*"
+    Color                [ 1.000 0.932 0.888 ]
+    Albedo               0.160
+    Mesh                 "vesta.cmod"
+    Radius               18.27
+    EllipticalOrbit {
+        Period           090.880811688731
+        SemiMajorAxis    6942340.618298090000
+        Eccentricity     0.083540588151
+        Inclination      030.0068
+        AscendingNode    015.5192
+        MeanLongitude    242.4023
+        LongOfPericenter 121.5088
+    }
+    Obliquity            135.3955
+    EquatorAscendingNode 253.1909
+    RotationOffset       306.0791
+    RotationPeriod       0016.751227965086
+}
+
+##############################################
+# 2250 P 29 - Mass: 1.7776E+18 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Main Belt. Inc: 22.957205
+"2250 P 29" "PSC Cen/Plutonia" {
+    Class                "minormoon"
+    Texture              "asteroid.*"
+    Color                [ 1.000 0.901 0.802 ]
+    Albedo               0.326
+    Mesh                 "halley.cmod"
+    Radius               49.90
+    EllipticalOrbit {
+        Period           078.631060995999
+        SemiMajorAxis    6303579.150820850000
+        Eccentricity     0.076294496658
+        Inclination      022.9572
+        AscendingNode    176.8095
+        MeanLongitude    186.9324
+        LongOfPericenter 107.0618
+    }
+    Obliquity            175.0562
+    EquatorAscendingNode 191.4587
+    RotationOffset       039.3420
+    RotationPeriod       0159.853438370367
+}
+
+##############################################
+# 2250 P 30 - Mass: 8.4681E+16 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Outer planet Hilda. Inc: 12.350299
+"2250 P 30" "PSC Cen/Plutonia" {
+    Class                "minormoon"
+    Texture              "asteroid.*"
+    Color                [ 1.000 0.932 0.888 ]
+    Albedo               0.160
+    Mesh                 "toutatis.cmod"
+    Radius               22.88
+    EllipticalOrbit {
+        Period           193.282972873353
+        SemiMajorAxis    11481188.600556300000
+        Eccentricity     0.099647576145
+        Inclination      012.3503
+        AscendingNode    092.5334
+        MeanLongitude    059.2712
+        LongOfPericenter 213.1458
+    }
+    Obliquity            074.4489
+    EquatorAscendingNode 323.8110
+    RotationOffset       104.9744
+    RotationPeriod       0021.903319414423
+}
+
+##############################################
+# 2250 P 31 - Mass: 7.3280E+17 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Main Belt. Inc: 05.407350
+"2250 P 31" "PSC Cen/Plutonia" {
+    Class                "minormoon"
+    Texture              "asteroid.*"
+    Color                [ 0.650 0.450 0.350 ]
+    Albedo               0.090
+    Mesh                 "deimos.cmod"
+    Radius               43.03
+    EllipticalOrbit {
+        Period           109.184112337376
+        SemiMajorAxis    7845682.908094990000
+        Eccentricity     0.409640589239
+        Inclination      005.4074
+        AscendingNode    116.5934
+        MeanLongitude    220.0891
+        LongOfPericenter 257.3328
+    }
+    Obliquity            077.5140
+    EquatorAscendingNode 206.9824
+    RotationOffset       247.9065
+    RotationPeriod       0008.381662400982
+}
+
+##############################################
+# 2250 P 32 - Mass: 1.2916E+16 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Main Belt. Inc: 12.667986
+"2250 P 32" "PSC Cen/Plutonia" {
+    Class                "minormoon"
+    Texture              "asteroid.*"
+    Color                [ 1.000 0.883 0.769 ]
+    Albedo               0.100
+    Mesh                 "vesta.cmod"
+    Radius               10.74
+    EllipticalOrbit {
+        Period           111.975265994455
+        SemiMajorAxis    7978829.567870740000
+        Eccentricity     0.113198080773
+        Inclination      012.6680
+        AscendingNode    187.9826
+        MeanLongitude    323.8770
+        LongOfPericenter 171.6504
+    }
+    Obliquity            043.1818
+    EquatorAscendingNode 021.9727
+    RotationOffset       299.6411
+    RotationPeriod       0018.864829871265
+}
+
+##############################################
+# 2250 P 33 - Mass: 1.9062E+17 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Main Belt. Inc: 34.868001
+"2250 P 33" "PSC Cen/Plutonia" {
+    Class                "minormoon"
+    Texture              "asteroid.*"
+    Color                [ 0.600 0.450 0.350 ]
+    Albedo               0.120
+    Mesh                 "gaspra.cmod"
+    Radius               25.22
+    EllipticalOrbit {
+        Period           055.804033770034
+        SemiMajorAxis    5015353.108167360000
+        Eccentricity     0.341851742145
+        Inclination      034.8680
+        AscendingNode    158.3635
+        MeanLongitude    191.2170
+        LongOfPericenter 192.0081
+    }
+    Obliquity            143.5529
+    EquatorAscendingNode 327.6892
+    RotationOffset       111.1597
+    RotationPeriod       0020.118319094231
+}
+
+##############################################
+# 2250 P 34 - Mass: 4.5500E+17 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Main Belt. Inc: 10.112663
+"2250 P 34" "PSC Cen/Plutonia" {
+    Class                "minormoon"
+    Texture              "asteroid.*"
+    Color                [ 1.000 0.912 0.833 ]
+    Albedo               0.238
+    Mesh                 "pandora.cmod"
+    Radius               36.41
+    EllipticalOrbit {
+        Period           117.710005697391
+        SemiMajorAxis    8248976.006193890000
+        Eccentricity     0.355394874233
+        Inclination      010.1127
+        AscendingNode    049.9614
+        MeanLongitude    236.6675
+        LongOfPericenter 125.2441
+    }
+    Obliquity            017.8473
+    EquatorAscendingNode 187.9761
+    RotationOffset       097.0972
+    RotationPeriod       0017.817756513472
+}
+
+##############################################
+# 2250 P 35 - Mass: 3.5765E+17 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Main Belt. Inc: 05.554849
+"2250 P 35" "PSC Cen/Plutonia" {
+    Class                "minormoon"
+    Texture              "eros.*"
+    Color                [ 1.000 0.880 0.764 ]
+    Albedo               0.160
+    Mesh                 "ida.cmod"
+    Radius               34.87
+    EllipticalOrbit {
+        Period           082.190082187319
+        SemiMajorAxis    6492381.970631480000
+        Eccentricity     0.015274458396
+        Inclination      005.5548
+        AscendingNode    052.2575
+        MeanLongitude    091.5930
+        LongOfPericenter 341.7297
+    }
+    Obliquity            121.3660
+    EquatorAscendingNode 172.6392
+    RotationOffset       005.4053
+    RotationPeriod       0011.494191516867
+}
+
+##############################################
+# 2250 P 36 - Mass: 4.7577E+16 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Main Belt. Inc: 14.668210
+"2250 P 36" "PSC Cen/Plutonia" {
+    Class                "minormoon"
+    Texture              "asteroid.*"
+    Color                [ 0.600 0.450 0.350 ]
+    Albedo               0.120
+    Mesh                 "larissa.cmod"
+    Radius               17.71
+    EllipticalOrbit {
+        Period           148.660440295168
+        SemiMajorAxis    9638025.323372100000
+        Eccentricity     0.380011369640
+        Inclination      014.6682
+        AscendingNode    315.5119
+        MeanLongitude    024.9280
+        LongOfPericenter 038.7048
+    }
+    Obliquity            134.8462
+    EquatorAscendingNode 202.9285
+    RotationOffset       096.4929
+    RotationPeriod       0013.112321711808
+}
+
+##############################################
+# 2250 P 37 - Mass: 1.3618E+16 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Main Belt. Inc: 33.923184
+"2250 P 37" "PSC Cen/Plutonia" {
+    Class                "minormoon"
+    Texture              "asteroid.*"
+    Color                [ 1.000 0.883 0.769 ]
+    Albedo               0.100
+    Mesh                 "larissa.cmod"
+    Radius               11.38
+    EllipticalOrbit {
+        Period           163.676289217491
+        SemiMajorAxis    10276572.728695400000
+        Eccentricity     0.335676910265
+        Inclination      033.9232
+        AscendingNode    011.0148
+        MeanLongitude    349.0796
+        LongOfPericenter 005.9436
+    }
+    Obliquity            081.7548
+    EquatorAscendingNode 031.3770
+    RotationOffset       213.2666
+    RotationPeriod       0003.467598720666
+}
+
+##############################################
+# 2250 P 38 - Mass: 1.3158E+16 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Main Belt. Inc: 33.841196
+"2250 P 38" "PSC Cen/Plutonia" {
+    Class                "minormoon"
+    Texture              "asteroid.*"
+    Color                [ 1.000 0.960 0.800 ]
+    Albedo               0.530
+    Mesh                 "vesta.cmod"
+    Radius               11.01
+    EllipticalOrbit {
+        Period           045.861106418521
+        SemiMajorAxis    4400352.539781940000
+        Eccentricity     0.066918135794
+        Inclination      033.8412
+        AscendingNode    287.2441
+        MeanLongitude    306.6064
+        LongOfPericenter 194.7766
+    }
+    Obliquity            002.9718
+    EquatorAscendingNode 222.3853
+    RotationOffset       011.0742
+    RotationPeriod       0003.447865035645
+}
+
+##############################################
+# 2250 P 39 - Mass: 2.5766E+17 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Main Belt. Inc: 18.000944
+"2250 P 39" "PSC Cen/Plutonia" {
+    Class                "minormoon"
+    Texture              "asteroid.*"
+    Color                [ 0.600 0.450 0.350 ]
+    Albedo               0.120
+    Mesh                 "vesta.cmod"
+    Radius               28.10
+    EllipticalOrbit {
+        Period           053.121472860021
+        SemiMajorAxis    4853308.057604270000
+        Eccentricity     0.122093136639
+        Inclination      018.0009
+        AscendingNode    039.3705
+        MeanLongitude    160.0928
+        LongOfPericenter 012.4695
+    }
+    Obliquity            170.1123
+    EquatorAscendingNode 170.2991
+    RotationOffset       031.5857
+    RotationPeriod       0005.956034192774
+}
+
+##############################################
+# 2250 P 40 - Mass: 2.9722E+16 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Main Belt. Inc: 37.906256
+"2250 P 40" "PSC Cen/Plutonia" {
+    Class                "minormoon"
+    Texture              "asteroid.*"
+    Color                [ 0.750 0.450 0.350 ]
+    Albedo               0.050
+    Mesh                 "ida.cmod"
+    Radius               13.94
+    EllipticalOrbit {
+        Period           038.194625155786
+        SemiMajorAxis    3895165.856388420000
+        Eccentricity     0.210838060003
+        Inclination      037.9063
+        AscendingNode    106.4531
+        MeanLongitude    048.7573
+        LongOfPericenter 153.0396
+    }
+    Obliquity            041.1987
+    EquatorAscendingNode 265.0671
+    RotationOffset       294.1479
+    RotationPeriod       0013.726501387675
+}
+
+##############################################
+# 2250 P 41 - Mass: 3.6005E+16 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Main Belt. Inc: 21.091096
+"2250 P 41" "PSC Cen/Plutonia" {
+    Class                "minormoon"
+    Texture              "asteroid.*"
+    Color                [ 1.000 0.856 0.747 ]
+    Albedo               0.150
+    Mesh                 "larissa.cmod"
+    Radius               15.19
+    EllipticalOrbit {
+        Period           054.013117004199
+        SemiMajorAxis    4907465.782561290000
+        Eccentricity     0.436139927852
+        Inclination      021.0911
+        AscendingNode    078.4269
+        MeanLongitude    217.1777
+        LongOfPericenter 006.2402
+    }
+    Obliquity            060.6500
+    EquatorAscendingNode 080.5847
+    RotationOffset       332.2375
+    RotationPeriod       0006.746399043876
+}
+
+##############################################
+# 2250 P 42 - Mass: 7.7013E+16 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Main Belt. Inc: 29.292204
+"2250 P 42" "PSC Cen/Plutonia" {
+    Class                "minormoon"
+    Texture              "asteroid.*"
+    Color                [ 1.000 0.932 0.888 ]
+    Albedo               0.160
+    Mesh                 "vesta.cmod"
+    Radius               18.95
+    EllipticalOrbit {
+        Period           147.127761516528
+        SemiMajorAxis    9571666.055638210000
+        Eccentricity     0.225723426703
+        Inclination      029.2922
+        AscendingNode    318.6210
+        MeanLongitude    185.1636
+        LongOfPericenter 203.3020
+    }
+    Obliquity            148.9417
+    EquatorAscendingNode 318.5706
+    RotationOffset       129.8145
+    RotationPeriod       0011.168446167500
+}
+
+##############################################
+# 2250 P 43 - Mass: 8.6508E+15 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Main Belt. Inc: 31.634469
+"2250 P 43" "PSC Cen/Plutonia" {
+    Class                "minormoon"
+    Texture              "asteroid.*"
+    Color                [ 1.000 0.945 0.881 ]
+    Albedo               0.113
+    Mesh                 "deimos.cmod"
+    Radius               10.93
+    EllipticalOrbit {
+        Period           076.557512428387
+        SemiMajorAxis    6192266.830751090000
+        Eccentricity     0.308380762342
+        Inclination      031.6345
+        AscendingNode    056.0258
+        MeanLongitude    302.5745
+        LongOfPericenter 333.9185
+    }
+    Obliquity            157.0386
+    EquatorAscendingNode 063.9624
+    RotationOffset       191.0193
+    RotationPeriod       0056.042924452379
+}
+
+##############################################
+# 2250 P 44 - Mass: 1.4840E+16 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Main Belt. Inc: 25.177359
+"2250 P 44" "PSC Cen/Plutonia" {
+    Class                "minormoon"
+    Texture              "asteroid.*"
+    Color                [ 1.000 0.960 0.919 ]
+    Albedo               0.048
+    Mesh                 "roughsphere.cms"
+    Radius               13.24
+    EllipticalOrbit {
+        Period           052.441120687399
+        SemiMajorAxis    4811779.999732090000
+        Eccentricity     0.228358291853
+        Inclination      025.1774
+        AscendingNode    334.0678
+        MeanLongitude    283.2275
+        LongOfPericenter 247.5000
+    }
+    Obliquity            022.2968
+    EquatorAscendingNode 176.2207
+    RotationOffset       158.1152
+    RotationPeriod       0007.155863457542
+}
+
+##############################################
+# 2250 P 45 - Mass: 1.3345E+16 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Main Belt. Inc: 35.946734
+"2250 P 45" "PSC Cen/Plutonia" {
+    Class                "minormoon"
+    Texture              "asteroid.*"
+    Color                [ 1.000 0.932 0.888 ]
+    Albedo               0.160
+    Mesh                 "vesta.cmod"
+    Radius               10.71
+    EllipticalOrbit {
+        Period           049.104100700533
+        SemiMajorAxis    4605424.083295080000
+        Eccentricity     0.255553394435
+        Inclination      035.9467
+        AscendingNode    244.4413
+        MeanLongitude    078.6621
+        LongOfPericenter 198.1384
+    }
+    Obliquity            070.2466
+    EquatorAscendingNode 221.5723
+    RotationOffset       173.4851
+    RotationPeriod       0009.439498626311
+}
+
+##############################################
+# 2250 P 46 - Mass: 4.9259E+16 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Main Belt. Inc: 38.308029
+"2250 P 46" "PSC Cen/Plutonia" {
+    Class                "minormoon"
+    Texture              "asteroid.*"
+    Color                [ 0.600 0.450 0.350 ]
+    Albedo               0.120
+    Mesh                 "gaspra.cmod"
+    Radius               18.58
+    EllipticalOrbit {
+        Period           160.902118882847
+        SemiMajorAxis    10160122.916930100000
+        Eccentricity     0.333800297694
+        Inclination      038.3080
+        AscendingNode    119.3510
+        MeanLongitude    199.3799
+        LongOfPericenter 157.4670
+    }
+    Obliquity            141.4215
+    EquatorAscendingNode 026.5649
+    RotationOffset       276.6248
+    RotationPeriod       0004.836316730392
+}
+
+##############################################
+# 2250 P 47 - Mass: 1.9927E+17 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Main Belt. Inc: 12.466219
+"2250 P 47" "PSC Cen/Plutonia" {
+    Class                "minormoon"
+    Texture              "asteroid.*"
+    Color                [ 1.000 0.883 0.769 ]
+    Albedo               0.100
+    Mesh                 "phobos.cmod"
+    Radius               28.67
+    EllipticalOrbit {
+        Period           041.612599780927
+        SemiMajorAxis    4124212.361147350000
+        Eccentricity     0.225462858796
+        Inclination      012.4662
+        AscendingNode    289.3864
+        MeanLongitude    018.1494
+        LongOfPericenter 165.0037
+    }
+    Obliquity            106.1005
+    EquatorAscendingNode 126.2329
+    RotationOffset       040.4956
+    RotationPeriod       0054.532843764304
+}
+
+##############################################
+# 2250 P 48 - Mass: 1.9064E+17 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Main Belt. Inc: 05.648143
+"2250 P 48" "PSC Cen/Plutonia" {
+    Class                "minormoon"
+    Texture              "asteroid.*"
+    Color                [ 0.650 0.450 0.350 ]
+    Albedo               0.090
+    Mesh                 "golevka.cmod"
+    Radius               26.62
+    EllipticalOrbit {
+        Period           040.589826925801
+        SemiMajorAxis    4056354.658335590000
+        Eccentricity     0.145303625729
+        Inclination      005.6481
+        AscendingNode    250.4179
+        MeanLongitude    249.7961
+        LongOfPericenter 112.4890
+    }
+    Obliquity            179.4836
+    EquatorAscendingNode 100.6897
+    RotationOffset       358.1982
+    RotationPeriod       0030.280462482834
+}
+
+##############################################
+# 2250 P 49 - Mass: 8.2448E+17 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Main Belt. Inc: 23.951215
+"2250 P 49" "PSC Cen/Plutonia" {
+    Class                "minormoon"
+    Texture              "asteroid.*"
+    Color                [ 0.970 0.790 0.820 ]
+    Albedo               0.150
+    Mesh                 "proteus.cmod"
+    Radius               45.23
+    EllipticalOrbit {
+        Period           090.263617274325
+        SemiMajorAxis    6910873.481662990000
+        Eccentricity     0.052004387939
+        Inclination      023.9512
+        AscendingNode    004.0056
+        MeanLongitude    320.7568
+        LongOfPericenter 330.6665
+    }
+    Obliquity            105.2380
+    EquatorAscendingNode 106.8970
+    RotationOffset       135.3845
+    RotationPeriod       0038.273018957472
+}
+
+##############################################
+# 2250 P 50 - Mass: 2.4935E+16 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Main Belt. Inc: 39.271938
+"2250 P 50" "PSC Cen/Plutonia" {
+    Class                "minormoon"
+    Texture              "asteroid.*"
+    Color                [ 1.000 0.901 0.815 ]
+    Albedo               0.200
+    Mesh                 "bacchus.cmod"
+    Radius               15.24
+    EllipticalOrbit {
+        Period           036.889240301327
+        SemiMajorAxis    3805901.938178630000
+        Eccentricity     0.461988691742
+        Inclination      039.2719
+        AscendingNode    290.4411
+        MeanLongitude    239.2932
+        LongOfPericenter 176.3855
+    }
+    Obliquity            092.9993
+    EquatorAscendingNode 032.1790
+    RotationOffset       027.7075
+    RotationPeriod       0020.627949824181
+}
+
+##############################################
+# 2250 P 51 - Mass: 2.0975E+17 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Main Belt. Inc: 05.699103
+"2250 P 51" "PSC Cen/Plutonia" {
+    Class                "minormoon"
+    Texture              "asteroid.*"
+    Color                [ 1.000 0.923 0.851 ]
+    Albedo               0.423
+    Mesh                 "vesta.cmod"
+    Radius               26.64
+    EllipticalOrbit {
+        Period           039.070077917856
+        SemiMajorAxis    3954461.073040960000
+        Eccentricity     0.270330009392
+        Inclination      005.6991
+        AscendingNode    347.5920
+        MeanLongitude    095.1965
+        LongOfPericenter 133.2202
+    }
+    Obliquity            157.2693
+    EquatorAscendingNode 045.7800
+    RotationOffset       071.2244
+    RotationPeriod       0006.530427970241
+}
+
+##############################################
+# 2250 P 52 - Mass: 3.6564E+16 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Main Belt. Inc: 09.955477
+"2250 P 52" "PSC Cen/Plutonia" {
+    Class                "minormoon"
+    Texture              "asteroid.*"
+    Color                [ 1.000 0.856 0.747 ]
+    Albedo               0.150
+    Mesh                 "deimos.cmod"
+    Radius               17.64
+    EllipticalOrbit {
+        Period           169.980849090735
+        SemiMajorAxis    10538798.867321200000
+        Eccentricity     0.108135231626
+        Inclination      009.9555
+        AscendingNode    097.9277
+        MeanLongitude    059.5789
+        LongOfPericenter 173.3203
+    }
+    Obliquity            159.6313
+    EquatorAscendingNode 050.6799
+    RotationOffset       214.0356
+    RotationPeriod       0006.411433830193
+}
+
+##############################################
+# 2250 P 53 - Mass: 4.7335E+17 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Main Belt. Inc: 43.517603
+"2250 P 53" "PSC Cen/Plutonia" {
+    Class                "minormoon"
+    Texture              "asteroid.*"
+    Color                [ 1.000 0.923 0.851 ]
+    Albedo               0.423
+    Mesh                 "proteus.cmod"
+    Radius               35.91
+    EllipticalOrbit {
+        Period           171.142247925182
+        SemiMajorAxis    10586748.789812800000
+        Eccentricity     0.243152826973
+        Inclination      043.5176
+        AscendingNode    069.8027
+        MeanLongitude    197.3914
+        LongOfPericenter 088.0444
+    }
+    Obliquity            064.3744
+    EquatorAscendingNode 041.5503
+    RotationOffset       196.6992
+    RotationPeriod       0010.431225133874
+}
+
+##############################################
+# 2250 P 54 - Mass: 7.3484E+17 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Outer planet Hilda. Inc: 06.501291
+"2250 P 54" "PSC Cen/Plutonia" {
+    Class                "minormoon"
+    Texture              "asteroid.*"
+    Color                [ 1.000 0.932 0.888 ]
+    Albedo               0.160
+    Mesh                 "phobos.cmod"
+    Radius               43.65
+    EllipticalOrbit {
+        Period           193.282972873353
+        SemiMajorAxis    11481188.600556300000
+        Eccentricity     0.167916018244
+        Inclination      006.5013
+        AscendingNode    046.0392
+        MeanLongitude    218.9465
+        LongOfPericenter 141.3940
+    }
+    Obliquity            001.2085
+    EquatorAscendingNode 132.5720
+    RotationOffset       146.6235
+    RotationPeriod       0004.563041481848
+}
+
+##############################################
+# 2250 P 55 - Mass: 1.0929E+18 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Main Belt. Inc: 15.562643
+"2250 P 55" "PSC Cen/Plutonia" {
+    Class                "minormoon"
+    Texture              "asteroid.*"
+    Color                [ 1.000 0.901 0.815 ]
+    Albedo               0.240
+    Mesh                 "roughsphere.cms"
+    Radius               48.83
+    EllipticalOrbit {
+        Period           078.154908832437
+        SemiMajorAxis    6278105.754497200000
+        Eccentricity     0.182521103642
+        Inclination      015.5626
+        AscendingNode    302.3723
+        MeanLongitude    170.3760
+        LongOfPericenter 280.1624
+    }
+    Obliquity            100.0854
+    EquatorAscendingNode 269.0222
+    RotationOffset       330.5457
+    RotationPeriod       0008.006042498710
+}
+
+##############################################
+# 2250 P 56 - Mass: 8.6417E+16 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Main Belt. Inc: 11.835376
+"2250 P 56" "PSC Cen/Plutonia" {
+    Class                "minormoon"
+    Texture              "asteroid.*"
+    Color                [ 1.000 0.960 0.919 ]
+    Albedo               0.048
+    Mesh                 "vesta.cmod"
+    Radius               19.21
+    EllipticalOrbit {
+        Period           068.504124604917
+        SemiMajorAxis    5750014.420627780000
+        Eccentricity     0.366612154224
+        Inclination      011.8354
+        AscendingNode    275.0053
+        MeanLongitude    199.9841
+        LongOfPericenter 200.1050
+    }
+    Obliquity            089.1266
+    EquatorAscendingNode 242.5671
+    RotationOffset       170.6177
+    RotationPeriod       0036.734833182778
+}
+
+##############################################
+# 2250 P 57 - Mass: 5.1746E+16 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Main Belt. Inc: 31.336021
+"2250 P 57" "PSC Cen/Plutonia" {
+    Class                "minormoon"
+    Texture              "asteroid.*"
+    Color                [ 1.000 0.856 0.747 ]
+    Albedo               0.150
+    Mesh                 "geographos.cmod"
+    Radius               19.69
+    EllipticalOrbit {
+        Period           052.032220575989
+        SemiMajorAxis    4786734.727716400000
+        Eccentricity     0.108884216899
+        Inclination      031.3360
+        AscendingNode    064.4743
+        MeanLongitude    299.1028
+        LongOfPericenter 025.2686
+    }
+    Obliquity            012.7991
+    EquatorAscendingNode 293.4998
+    RotationOffset       077.7612
+    RotationPeriod       0015.814037131552
+}
+
+##############################################
+# 2250 P 58 - Mass: 4.7339E+16 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Main Belt. Inc: 03.471116
+"2250 P 58" "PSC Cen/Plutonia" {
+    Class                "minormoon"
+    Texture              "asteroid.*"
+    Color                [ 1.000 0.883 0.769 ]
+    Albedo               0.100
+    Mesh                 "deimos.cmod"
+    Radius               18.54
+    EllipticalOrbit {
+        Period           072.345449354394
+        SemiMajorAxis    5963006.263838190000
+        Eccentricity     0.103779666970
+        Inclination      003.4711
+        AscendingNode    267.9631
+        MeanLongitude    158.5876
+        LongOfPericenter 188.3167
+    }
+    Obliquity            172.4469
+    EquatorAscendingNode 226.3293
+    RotationOffset       263.7817
+    RotationPeriod       0164.656912151831
+}
+
+##############################################
+# 2250 P 59 - Mass: 1.6665E+17 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Main Belt. Inc: 22.200701
+"2250 P 59" "PSC Cen/Plutonia" {
+    Class                "minormoon"
+    Texture              "asteroid.*"
+    Color                [ 1.000 0.945 0.881 ]
+    Albedo               0.113
+    Mesh                 "proteus.cmod"
+    Radius               24.19
+    EllipticalOrbit {
+        Period           035.580623805190
+        SemiMajorAxis    3715353.647044960000
+        Eccentricity     0.269298875688
+        Inclination      022.2007
+        AscendingNode    168.9982
+        MeanLongitude    098.2947
+        LongOfPericenter 239.8425
+    }
+    Obliquity            008.6462
+    EquatorAscendingNode 297.4988
+    RotationOffset       254.6301
+    RotationPeriod       0015.514464639066
+}
+
+##############################################
+# 2250 P 60 - Mass: 9.3857E+17 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Main Belt. Inc: 10.238766
+"2250 P 60" "PSC Cen/Plutonia" {
+    Class                "minormoon"
+    Texture              "asteroid.*"
+    Color                [ 1.000 0.960 0.800 ]
+    Albedo               0.530
+    Mesh                 "vesta.cmod"
+    Radius               41.35
+    EllipticalOrbit {
+        Period           050.953982787008
+        SemiMajorAxis    4720375.459982500000
+        Eccentricity     0.084202786598
+        Inclination      010.2388
+        AscendingNode    067.9350
+        MeanLongitude    128.4192
+        LongOfPericenter 280.4370
+    }
+    Obliquity            085.3912
+    EquatorAscendingNode 106.8420
+    RotationOffset       131.8799
+    RotationPeriod       0028.231572302821
+}

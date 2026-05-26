@@ -1,0 +1,4292 @@
+# Stargen - $Revision: 2.0 $; seed=1780480765
+#
+# SCO Cen, SCO Cen
+#
+# Stellar mass: 0.902936021247178999987 solar masses
+# Stellar luminosity: 0.704693000000000000004
+# Stellar temperature: 5410.67166154323422234 Kelvin
+# Age: 0.603771931772945416963  billion years	(12.2094108477804061839 billion left on main sequence)
+# Habitable ecosphere: 0.740671355562769024856 AU to 1.8067560575978588546 AU
+
+"p1" "SCO Cen" {
+	Class "planet"
+	Radius 3715.53975296560157382
+	Mass 0.309656260773389186883
+
+	Texture "gc_rocky_04.*"
+	BumpMap "gc_rocky_04-bump.*"
+	BumpHeight 3.5
+	Color [ 0.524262553039077616485 0.4747065689806481557 0.425150584922218749938 ]
+	BlendTexture true
+
+#   HZD:			-1.55653254084950088787
+#   HZC:			-0.860737722595643861513
+#   HZA:			-1.04952939273298789346
+#   SPH:			0
+#   ESI:			0.676634835410167873049
+#   Density:			8.61373103587826204064	grams/cc
+#   Escape Velocity:		8.15276430103836623805	Km/sec
+#   Surface acceleration:	894.453702120045065493	cm/sec2
+#   Surface gravity:		0.912088941809940294248	Earth gees
+#   Surface temperature:	127.162175786209251133	degrees Celcius
+#   Estimated temperature:	155.123679306669645522	degrees Celcius
+#   Estimated terrestrial temperature:	155.123679306669645522	degrees Celcius
+#   Boiling point of water:	-273.149999999999977263	degrees Celcius
+#   Surface pressure:		0	Earth atmospheres
+#   Molecular weight retained:	55.8461699808974800542 and above
+
+	OrbitFrame { MeanEquator { Center "SCO Cen" } }
+	EllipticalOrbit {
+		Period            0.232291326868178357195 # Years
+		SemiMajorAxis     0.44401594157058321837 # AU
+		Eccentricity      0.055408119535185446019
+		Inclination       2.01989160055116411321
+		AscendingNode     335.616518787861111944
+		LongOfPericenter  200.174826793454041132
+		MeanLongitude     144.734964531257266421
+	}
+
+	BodyFrame { MeanEquator { Center "SCO Cen" } }
+	UniformRotation {
+# Planet is tidally locked with one face to star.
+		Inclination	2.01989160055116411321
+		AscendingNode	0
+		MeridianAngle	144.734964531257266421
+	}
+
+	Albedo            0.0700000000000000066613
+}
+
+"p1-1" "SCO Cen/p1" {
+	Class "moon"
+	Radius 1837.12945139086657254
+	Mass 0.0268991590274736313469
+
+	Texture "gc_moons_01.*"
+	BumpMap "gc_moons_01-bump.*"
+	BumpHeight 3.5
+	Color [ 0.524262553039077616485 0.4747065689806481557 0.425150584922218749938 ]
+	BlendTexture true
+
+#   HZD:			-1.55653254084950088787
+#   HZC:			-0.654098546499018946481
+#   HZA:			-1.44448137156976021069
+#   SPH:			0
+#   ESI:			0.597906465750608972793
+#   Density:			6.19008485241441399824	grams/cc
+#   Escape Velocity:		3.41723921815037645806	Km/sec
+#   Surface acceleration:	317.81984294095596455	cm/sec2
+#   Surface gravity:		0.324086046652991568306	Earth gees
+#   Surface temperature:	127.162175786209251133	degrees Celcius
+#   Estimated temperature:	155.123679306669645522	degrees Celcius
+#   Estimated terrestrial temperature:	155.123679306669645522	degrees Celcius
+#   Boiling point of water:	-273.149999999999977263	degrees Celcius
+#   Surface pressure:		0	Earth atmospheres
+#   Molecular weight retained:	316.15738289981229181 and above
+
+	# OrbitFrame { MeanEquator { Center "SCO Cen" } }
+	EllipticalOrbit {
+		Period            0.892994025168536533659 # Days
+		SemiMajorAxis     27251.7604099494122725 # Km
+		Eccentricity      0.00256490813687672291487
+		Inclination       0.0124893385999470098035
+		AscendingNode     200.600843057316189186
+		LongOfPericenter  181.090435563163103333
+		MeanLongitude     47.434695124362919072
+	}
+
+	# BodyFrame { MeanEquator { Center "SCO Cen" } }
+	UniformRotation {
+# Moon is tidally locked with one face to planet.
+		Inclination	0.0124893385999470098035
+		AscendingNode	0
+		MeridianAngle	47.434695124362919072
+	}
+
+	Albedo            0.0700000000000000066613
+}
+
+"p2" "SCO Cen" {
+	Class "planet"
+	Radius 4903.22551525236374204
+	Mass 0.61925564294272346502
+
+	Texture "gc_rocky_04.*"
+	BumpMap "gc_rocky_04-bump.*"
+	BumpHeight 3.5
+	Color [ 0.525365935304768032145 0.47592488689901465645 0.426483838493261335615 ]
+	BlendTexture true
+
+#   HZD:			-1.34091055048291948979
+#   HZC:			-0.679636697243349620855
+#   HZA:			-0.842860646299536582309
+#   SPH:			0
+#   ESI:			0.791719459523445032298
+#   Density:			7.49551618173296178111	grams/cc
+#   Escape Velocity:		10.0362151450195868805	Km/sec
+#   Surface acceleration:	1027.13626085314055048	cm/sec2
+#   Surface gravity:		1.04738749812947396769	Earth gees
+#   Surface temperature:	83.6386099239181786125	degrees Celcius
+#   Estimated temperature:	108.560025199020319164	degrees Celcius
+#   Estimated terrestrial temperature:	108.560025199020319164	degrees Celcius
+#   Boiling point of water:	-273.149999999999977263	degrees Celcius
+#   Surface pressure:		0	Earth atmospheres
+#   Molecular weight retained:	23.2547657899255969007 and above
+
+	OrbitFrame { MeanEquator { Center "SCO Cen" } }
+	EllipticalOrbit {
+		Period            0.328092516458108386082 # Years
+		SemiMajorAxis     0.558951594246668188111 # AU
+		Eccentricity      0.0174194895488202217138
+		Inclination       1.6888420499745078248
+		AscendingNode     68.4238730130828325671
+		LongOfPericenter  308.448310842946316512
+		MeanLongitude     111.001461609733040256
+	}
+
+	BodyFrame { MeanEquator { Center "SCO Cen" } }
+	UniformRotation {
+# Planet is tidally locked with one face to star.
+		Inclination	1.6888420499745078248
+		AscendingNode	0
+		MeridianAngle	111.001461609733040256
+	}
+
+	Albedo            0.0700000000000000066613
+}
+
+"p2-1" "SCO Cen/p2" {
+	Class "moon"
+	Radius 3275.75421652422855701
+	Mass 0.151795404320372729731
+
+	Texture "gc_moons_02.*"
+	BumpMap "gc_moons_02-bump.*"
+	BumpHeight 3.5
+	Color [ 0.525365935304768032145 0.47592488689901465645 0.426483838493261335615 ]
+	BlendTexture true
+
+#   HZD:			-1.34091055048291948979
+#   HZC:			-0.584438105633638612941
+#   HZA:			-1.19242968168810564548
+#   SPH:			0
+#   ESI:			0.747133982861892519578
+#   Density:			6.16171880998492188693	grams/cc
+#   Escape Velocity:		6.0792439004806534909	Km/sec
+#   Surface acceleration:	564.1022488058496549	cm/sec2
+#   Surface gravity:		0.575224208884634075664	Earth gees
+#   Surface temperature:	83.6386099239181786125	degrees Celcius
+#   Estimated temperature:	108.560025199020319164	degrees Celcius
+#   Estimated terrestrial temperature:	108.560025199020319164	degrees Celcius
+#   Boiling point of water:	-273.149999999999977263	degrees Celcius
+#   Surface pressure:		0	Earth atmospheres
+#   Molecular weight retained:	63.0971298329803482532 and above
+
+	# OrbitFrame { MeanEquator { Center "SCO Cen/p2" Object "SCO Cen" } }
+	EllipticalOrbit {
+		Period            7.65785672103247783441 # Days
+		SemiMajorAxis     150513.642208313011508 # Km
+		Eccentricity      0.0019849702585418570541
+		Inclination       0.0774256690895296187618
+		AscendingNode     215.490855674953598373
+		LongOfPericenter  140.053069284210479489
+		MeanLongitude     359.553626943171781932
+	}
+
+	# BodyFrame { MeanEquator { Center "SCO Cen" } }
+	UniformRotation {
+# Moon is tidally locked with one face to planet.
+		Inclination	0.0774256690895296187618
+		AscendingNode	0
+		MeridianAngle	359.553626943171781932
+	}
+
+	Albedo            0.0700000000000000066613
+}
+
+"p3" "SCO Cen" {
+	Class "planet"
+	Radius 4027.96299082025558658
+	Mass 0.482389061570722005556
+
+	Texture "gc_rocky_04.*"
+	BumpMap "gc_rocky_04-bump.*"
+	BumpHeight 3.5
+	Color [ 0.525879131483728937374 0.47649154101328398931 0.427103950542839096079 ]
+	BlendTexture true
+
+#   HZD:			-1.24062220527661509458
+#   HZC:			-1.00784469460636433411
+#   HZA:			-0.846164056231800696891
+#   SPH:			0
+#   ESI:			0.760558914251057858287
+#   Density:			10.5321785965230181967	grams/cc
+#   Escape Velocity:		9.7730900483105507719	Km/sec
+#   Surface acceleration:	1185.62768960466998858	cm/sec2
+#   Surface gravity:		1.209003777645444706	Earth gees
+#   Surface temperature:	67.7108409622032346997	degrees Celcius
+#   Estimated temperature:	91.519713589754421057	degrees Celcius
+#   Estimated terrestrial temperature:	91.519713589754421057	degrees Celcius
+#   Boiling point of water:	-273.149999999999977263	degrees Celcius
+#   Surface pressure:		0	Earth atmospheres
+#   Molecular weight retained:	20.4900602922016477018 and above
+
+	OrbitFrame { MeanEquator { Center "SCO Cen" } }
+	EllipticalOrbit {
+		Period            0.376268611583397981021 # Years
+		SemiMajorAxis     0.612409529555095813393 # AU
+		Eccentricity      0.0363437335595458987925
+		Inclination       1.07975211100154377031
+		AscendingNode     235.042828859315639775
+		LongOfPericenter  335.360816761553667847
+		MeanLongitude     281.627072450531214687
+	}
+
+	BodyFrame { MeanEquator { Center "SCO Cen" } }
+	UniformRotation {
+		Period		108.838507694014392624 # Hours
+		Inclination	4.60567103471600540129
+		AscendingNode	0
+		MeridianAngle	281.627072450531214687
+	}
+
+	Albedo            0.0700000000000000066613
+}
+
+"p4" "SCO Cen" {
+	Class "planet"
+	Radius 7578.1447672701570939
+	Mass 2.03670211493493157865
+	Color [ 0.64 0.57 0.04 ]
+	BlendTexture true
+	Texture "gc_vulca_04.*"
+	NightTexture "gc_vulca_04-night.*"
+	BumpMap "gc_vulca_04-bump.*"
+	BumpHeight 3.5
+
+#   HZD:			-0.952326822674586815796
+#   HZC:			-0.424921662136412625014
+#   HZA:			-0.330047590615323691287
+#   SPH:			0
+#   ESI:			0.14577362073456725932
+#   Density:			6.67753234348669505406	grams/cc
+#   Escape Velocity:		14.6405778711382524504	Km/sec
+#   Surface acceleration:	1414.24139405874810782	cm/sec2
+#   Surface gravity:		1.44212487858621258056	Earth gees
+#   Surface temperature:	1619.89549561519896981	degrees Celcius
+#   Estimated temperature:	52.8988726590020660601	degrees Celcius
+#   Estimated terrestrial temperature:	52.8988726590020660601	degrees Celcius
+#   Boiling point of water:	442.109744154967527929	degrees Celcius
+#   Surface pressure:		642.894259916679697509	Earth atmospheres	GREENHOUSE EFFECT
+#   Molecular weight retained:	5.81744121799639231103 and above
+
+	HazeColor [ 0.11 0.04 0.95 ]
+	HazeDensity 0.3028
+	Atmosphere {
+		Height 75.78
+		Lower [ 0.11 0.04 0.95 ]
+		Upper [ 0.49 0.29 0.07 ]
+		Sky [ 0.07 0.93 0.28 ]
+		Sunset [ 0.17 0.94 0.24 ]
+		CloudHeight 7.5781
+		CloudSpeed  220.2006
+		CloudMap    "gc_gener_06-clouds.*"
+		Mie 0.00103
+		MieAsymmetry -0.164
+		Rayleigh [ 0.00066 0.00926 0.00275 ]
+		Absorption [ 0.00828 0.00056 0.00765 ]
+		MieScaleHeight 18.6195
+	}
+
+	OrbitFrame { MeanEquator { Center "SCO Cen" } }
+	EllipticalOrbit {
+		Period            0.526439350621615278537 # Years
+		SemiMajorAxis     0.766083178084783582447 # AU
+		Eccentricity      0.041360702853184050376
+		Inclination       2.07139032286234119149
+		AscendingNode     24.7671640034612100586
+		LongOfPericenter  5.96235215941553570304
+		MeanLongitude     280.881669633501055483
+	}
+
+	BodyFrame { MeanEquator { Center "SCO Cen" } }
+	UniformRotation {
+		Period		14.8947309382276185221 # Hours
+		Inclination	2.98834272566558953777
+		AscendingNode	0
+		MeridianAngle	280.881669633501055483
+	}
+
+	Albedo            0.520000000000000017764
+}
+
+"p4-1" "SCO Cen/p4" {
+	Class "moon"
+	Radius 1766.43389213149830563
+	Mass 0.01578527212156780894
+
+	Texture "gc_rocky_02.*"
+	BumpMap "gc_rocky_02-bump.*"
+	BumpHeight 3.5
+	Color [ 0.527354398509613939898 0.478120481687698679744 0.428886564865783474261 ]
+	BlendTexture true
+
+#   HZD:			-0.952326822674586815796
+#   HZC:			-0.237813901778560883636
+#   HZA:			-1.47430451023185506685
+#   SPH:			0
+#   ESI:			0.689952021692365581021
+#   Density:			4.08636433206506417435	grams/cc
+#   Escape Velocity:		2.66964339132047159277	Km/sec
+#   Surface acceleration:	201.734009649836219594	cm/sec2
+#   Surface gravity:		0.205711440348983829414	Earth gees
+#   Surface temperature:	31.6115109993829109525	degrees Celcius
+#   Estimated temperature:	52.8988726590020660601	degrees Celcius
+#   Estimated terrestrial temperature:	52.8988726590020660601	degrees Celcius
+#   Boiling point of water:	-273.149999999999977263	degrees Celcius
+#   Surface pressure:		0	Earth atmospheres
+#   Molecular weight retained:	172.943493018934122699 and above
+
+	# OrbitFrame { MeanEquator { Center "SCO Cen/p4" Object "SCO Cen" } }
+	EllipticalOrbit {
+		Period            3.64439168692259697277 # Days
+		SemiMajorAxis     127151.121265389658049 # Km
+		Eccentricity      0.00735316012397089994182
+		Inclination       0.178242915026705472191
+		AscendingNode     171.235503093914828779
+		LongOfPericenter  339.562504226138118762
+		MeanLongitude     332.067682841824219964
+	}
+
+	# BodyFrame { MeanEquator { Center "SCO Cen" } }
+	UniformRotation {
+# Moon is tidally locked with one face to planet.
+		Inclination	0.178242915026705472191
+		AscendingNode	0
+		MeridianAngle	332.067682841824219964
+	}
+
+	Albedo            0.0700000000000000066613
+}
+
+"p4-2" "SCO Cen/p4" {
+	Class "moon"
+	Radius 884.790752354994982865
+	Mass 0.0014903267140538206709
+
+	Texture "gc_moons_01.*"
+	BumpMap "gc_moons_01-bump.*"
+	BumpHeight 3.5
+	Color [ 0.527354398509613939898 0.478120481687698679744 0.428886564865783474261 ]
+	BlendTexture true
+
+#   HZD:			-0.952326822674586815796
+#   HZC:			0.0513662728006533993745
+#   HZA:			-1.61869797186122812082
+#   SPH:			0
+#   ESI:			0.534882993659761322449
+#   Density:			3.06998985278061055229	grams/cc
+#   Escape Velocity:		1.15903450720851994174	Km/sec
+#   Surface acceleration:	75.9140500352514153992	cm/sec2
+#   Surface gravity:		0.0774107876137635361895	Earth gees
+#   Surface temperature:	31.6115109993829109525	degrees Celcius
+#   Estimated temperature:	52.8988726590020660601	degrees Celcius
+#   Estimated terrestrial temperature:	52.8988726590020660601	degrees Celcius
+#   Boiling point of water:	-273.149999999999977263	degrees Celcius
+#   Surface pressure:		0	Earth atmospheres
+#   Molecular weight retained:	913.553972991497792389 and above
+
+	# OrbitFrame { MeanEquator { Center "SCO Cen/p4" Object "SCO Cen" } }
+	EllipticalOrbit {
+		Period            7.48701028425742651619 # Days
+		SemiMajorAxis     205004.791823811723333 # Km
+		Eccentricity      0.00976776815474395108917
+		Inclination       0.9603788825467027882
+		AscendingNode     318.702128361306213034
+		LongOfPericenter  158.952882792313062957
+		MeanLongitude     76.2611144204908583399
+	}
+
+	# BodyFrame { MeanEquator { Center "SCO Cen" } }
+	UniformRotation {
+# Moon is tidally locked with one face to planet.
+		Inclination	0.9603788825467027882
+		AscendingNode	0
+		MeridianAngle	76.2611144204908583399
+	}
+
+	Albedo            0.0700000000000000066613
+}
+
+"p4-3" "SCO Cen/p4" {
+	Class "moon"
+	Radius 2544.7412561872129193
+	Mass 0.0838035367529213407313
+
+	Texture "gc_rocky_02.*"
+	BumpMap "gc_rocky_02-bump.*"
+	BumpHeight 3.5
+	Color [ 0.527354398509613939898 0.478120481687698679744 0.428886564865783474261 ]
+	BlendTexture true
+
+#   HZD:			-0.952326822674586815796
+#   HZC:			-0.768542047814973212753
+#   HZA:			-1.23961584358923834271
+#   SPH:			0
+#   ESI:			0.784545379080515278229
+#   Density:			7.25618978949332894563	grams/cc
+#   Escape Velocity:		5.12489850349936487206	Km/sec
+#   Surface acceleration:	516.056094255379616875	cm/sec2
+#   Surface gravity:		0.526230766118276512369	Earth gees
+#   Surface temperature:	31.6115109993829109525	degrees Celcius
+#   Estimated temperature:	52.8988726590020660601	degrees Celcius
+#   Estimated terrestrial temperature:	52.8988726590020660601	degrees Celcius
+#   Boiling point of water:	-273.149999999999977263	degrees Celcius
+#   Surface pressure:		0	Earth atmospheres
+#   Molecular weight retained:	47.3351146677540923907 and above
+
+	# OrbitFrame { MeanEquator { Center "SCO Cen/p4" Object "SCO Cen" } }
+	EllipticalOrbit {
+		Period            19.2042326359382311309 # Days
+		SemiMajorAxis     389243.271503842449334 # Km
+		Eccentricity      0.00857294819716967110497
+		Inclination       1.22033470940202373018
+		AscendingNode     120.856380500298170609
+		LongOfPericenter  210.769470432200222473
+		MeanLongitude     51.2626824766689364217
+	}
+
+	# BodyFrame { MeanEquator { Center "SCO Cen" } }
+	UniformRotation {
+# Moon is tidally locked with one face to planet.
+		Inclination	1.22033470940202373018
+		AscendingNode	0
+		MeridianAngle	51.2626824766689364217
+	}
+
+	Albedo            0.0700000000000000066613
+}
+
+"King Scorpio:p5" "SCO Cen" {
+	Class "planet"
+	Radius 80995.2760904916437426
+	Mass 193.610572771977785644
+	Texture "gc_gasgt_01.*"
+	BumpMap "gc_gasgt_01-bump.*"
+	BumpHeight 1.84
+	SpecularTexture "gc_gasgt_01-spec.*"
+	SpecularColor [ 1.00 1.00 0.75 ]
+	SpecularPower 47.99
+	Color [ 0.80 0.37 0.67 ]
+	BlendTexture true
+
+#   HZD:			-0.387255255780188549074
+#   HZC:			7.80608073852550064971
+#   HZA:			3.07353861906777730498
+#   SPH:			0
+#   ESI:			0.428762124953085995219
+#   Density:			0.734462166634656967563	grams/cc
+#   Escape Velocity:		55.8334994000960228057	Km/sec
+#   Surface acceleration:	3146.79540441883287327	cm/sec2
+#   Surface gravity:		3.20883829281032053769	Earth gees
+#   Surface temperature:	10.544672448460812697	degrees Celcius
+#   Estimated temperature:	-65.9762174202787323035	degrees Celcius
+#   Estimated terrestrial temperature:	3.08543859727901570444	degrees Celcius
+#   Boiling point of water:	inf	degrees Celcius
+#   Surface pressure:		10	Earth atmospheres
+#   Molecular weight retained:	0.471308271689949682113 and above
+#           Helium: 58.786035621288203791% 5956.4950593270272492 mb (ipp: 5919.65883988118905368)
+#           Hydrogen: 40.7860672632708116496% 4132.6482654509149901 mb (ipp: 4107.09109854615275204)
+#           Carbon: 0.269288614677278976433% 27.2856688821752922866 mb (ipp: 27.1169285614565766587)
+#           Nitrogen: 0.084187831936035620187% 8.53033207091880921538 mb (ipp: 8.47757870153286394697)
+
+	Oblateness 0.122054841398053094647
+	# Oblateness 0.09122054841398053094647
+	HazeColor [ 0.70 0.38 0.30 ]
+	HazeDensity 0.07
+	Atmosphere {
+		Height 165.67849318468636166133449985505
+		Lower [ 0.70 0.38 0.30 ]
+		Upper [ 0.69 0.34 0.37 ]
+		Sky [ 0.53 0.79 0.57 ]
+		Sunset [ 0.07 0.79 0.33 ]
+		CloudHeight 16.567849318468636166133449985505
+		CloudSpeed 318.8393
+		CloudMap    "gc_gasgt_03-clouds.*"
+		Mie 0.000065
+		MieAsymmetry -0.239
+		Rayleigh [ 0.000531 0.000791 0.000572 ]
+		Absorption [ 0.000935 0.000209 0.000670 ]
+		MieScaleHeight 33.135698636937272332266899971011
+	}
+	OrbitFrame { MeanEquator { Center "SCO Cen" } }
+	EllipticalOrbit {
+		Period            0.865528213179698854363 # Years
+		SemiMajorAxis     1.06729025459534153581 # AU
+		Eccentricity      0.0742121091073505434466
+		Inclination       0.733934401753799986663
+		AscendingNode     315.907897891433861987
+		LongOfPericenter  41.3239410339500480504
+		MeanLongitude     150.081894728393244895
+	}
+	Rings {
+		Inner   102720.054816066663045
+		Outer   192574.215483142138762
+		Texture "gc_rings_02.*"
+		Color   [ 0.13 0.15 0.82 ]
+	}
+	BodyFrame { MeanEquator { Center "SCO Cen" } }
+	UniformRotation {
+		Period		9.40727337587003391902 # Hours
+		Inclination	6.38891595094639166801
+		AscendingNode	0
+		MeridianAngle	150.081894728393244895
+	}
+
+	Albedo            0.779166520938083439574
+}
+
+"Scorpia:p5-18" "SCO Cen/King Scorpio" {
+	Texture "earthlike.*"
+	BumpMap "earthlike-bump.*"
+	BumpHeight 1.96
+	SpecularTexture "earthlike-spec.*"
+	SpecularColor [ 1.00 1.00 0.75 ]
+	SpecularPower 41.50
+	Color [ 0.19 0.79 0.98 ]
+	BlendTexture true
+	Radius 6179.9446
+	HazeColor [ 0.38 0.04 0.47 ]
+	HazeDensity 0.39
+	Atmosphere {
+		Height 61.80
+		Lower [ 0.67 0.40 0.88 ]
+		Upper [ 0.23 0.36 0.89 ]
+		Sky [ 0.15 0.37 0.68 ]
+		CloudHeight 6.18
+		CloudSpeed  45.09
+		CloudMap    "earth-clouds.*"
+		Mie 0.00102
+		MieAsymmetry -0.322
+		Rayleigh [ 0.00148 0.00365 0.00684 ]
+		MieScaleHeight 12.4990
+	}
+	EllipticalOrbit {
+		Period            1.3581961136809266
+		SemiMajorAxis     299701.370120337490578
+		Eccentricity      0.0252
+		Inclination       1.7068
+		AscendingNode     16.2657
+		ArgOfPericenter   311.1223
+		MeanAnomaly       355.1791
+	}
+	# RotationPeriod 16.4455
+	Obliquity 1.7068
+	EquatorAscendingNode 16.2657
+	RotationOffset 164.0921
+	Albedo 0.38
+}
+
+"p5-19" "SCO Cen/King Scorpio" {
+	Texture "gc_deser_01.*"
+	BumpMap "gc_deser_01-bump.*"
+	BumpHeight 0.65
+	Color [ 0.62 0.37 0.60 ]
+	BlendTexture true
+	Radius 3154
+	HazeColor [ 0.57 0.29 0.87 ]
+	HazeDensity 0.23
+	Atmosphere {
+		Height 31.54
+		Lower [ 0.57 0.29 0.87 ]
+		Upper [ 0.17 0.33 0.79 ]
+		Sky [ 0.31 0.35 0.65 ]
+		Sunset [ 0.67 0.01 0.06 ]
+		CloudHeight 3.15
+		CloudSpeed  40.84
+		CloudMap    "gc_gener_03-clouds.*"
+		Mie 0.00143
+		MieAsymmetry -0.022
+		Rayleigh [ 0.00313 0.00355 0.00649 ]
+		Absorption [ 0.00326 0.00991 0.00936 ]
+		MieScaleHeight 4.8881
+	}
+	EllipticalOrbit {
+		Period            2.674233915810926
+		SemiMajorAxis     470811.072168622255424
+		Eccentricity      0.0110
+		Inclination       2.1842
+		AscendingNode     91.6565
+		ArgOfPericenter   278.0426
+		MeanAnomaly       167.4150
+	}
+	# RotationPeriod 709.0577
+	Obliquity 2.1842
+	EquatorAscendingNode 91.6565
+	RotationOffset 10.0818
+	Albedo 0.53
+	LunarLambert 0.85
+}
+
+"p5-20" "SCO Cen/King Scorpio" {
+	Texture "gc_moons_04.*"
+	BumpMap "gc_moons_04-bump.*"
+	BumpHeight 1.53
+	Color [ 0.48 0.98 0.86 ]
+	BlendTexture true
+	Radius 2253
+	EllipticalOrbit {
+		Period            5.15823421003352
+		SemiMajorAxis     729537.763901733917936
+		Eccentricity      0.0183
+		Inclination       2.6658
+		AscendingNode     216.9711
+		ArgOfPericenter   352.5521
+		MeanAnomaly       3.4233
+	}
+	# RotationPeriod 482.8479
+	Obliquity 2.6658
+	EquatorAscendingNode 216.9711
+	RotationOffset 124.2494
+	Albedo 0.84
+	LunarLambert 0.5
+}
+
+"p5-21" "SCO Cen/King Scorpio" {
+	Texture "gc_deser_04.*"
+	BumpMap "gc_deser_04-bump.*"
+	BumpHeight 0.15
+	Color [ 0.97 0.93 0.23 ]
+	BlendTexture true
+	Radius 3305
+	HazeColor [ 0.59 0.30 0.39 ]
+	HazeDensity 0.55
+	Atmosphere {
+		Height 33.05
+		Lower [ 0.59 0.30 0.39 ]
+		Upper [ 0.26 0.66 0.01 ]
+		Sky [ 0.24 0.69 0.45 ]
+		Sunset [ 0.81 0.97 0.39 ]
+		CloudHeight 3.31
+		CloudSpeed  17.07
+		CloudMap    "gc_deser_03-clouds.*"
+		Mie 0.00144
+		MieAsymmetry -0.284
+		Rayleigh [ 0.00244 0.00691 0.00450 ]
+		Absorption [ 0.00188 0.00032 0.00608 ]
+		MieScaleHeight 5.9742
+	}
+	EllipticalOrbit {
+		Period            10.336614766252753
+		SemiMajorAxis     1159576.20097559730534
+		Eccentricity      0.0114
+		Inclination       1.5217
+		AscendingNode     239.8134
+		ArgOfPericenter   82.1410
+		MeanAnomaly       234.4415
+	}
+	# RotationPeriod 155.4516
+	Obliquity 1.5217
+	EquatorAscendingNode 239.8134
+	RotationOffset 88.4480
+	Albedo 0.64
+	LunarLambert 0.75
+}
+
+"p5-22" "SCO Cen/p5" {
+	Class "moon"
+	Radius 5096.11723191961138379
+	Mass 0.666927604192194443348
+
+# Hydrosphere percentage: 65.9200104920289143492
+# Ice cover percentage:   8.05055063056111032925
+
+	Texture "gc_earth_03.*"
+	SpecularTexture "gc_earth_03-spec.*"
+	SpecularColor [ 0.8 0.8 0.85 ]
+	SpecularPower 25.0
+	BumpMap "gc_earth_03-bump.*"
+	BumpHeight 3.5
+	Color [ 0.38 0.79 0.84 ]
+	BlendTexture true
+
+#   HZD:			-0.387255255780188549074
+#   HZC:			-0.632595434594174054334
+#   HZA:			-0.668541167807928789603
+#   SPH:			0.119090029077469419496
+#   ESI:			0.915894566059112648945
+#   Density:			7.19014488085121610027	grams/cc
+#   Escape Velocity:		10.2163450396178024518	Km/sec
+#   Surface acceleration:	1024.05126509626691056	cm/sec2
+#   Surface gravity:		1.04424167793922180209	Earth gees
+#   Surface temperature:	3.96369303643727402542	degrees Celcius
+#   Estimated temperature:	3.08543859727901570444	degrees Celcius
+#   Estimated terrestrial temperature:	3.08543859727901570444	degrees Celcius
+#   Boiling point of water:	81.6314362230270088305	degrees Celcius
+#   Surface pressure:		0.492395267633860588371	Earth atmospheres
+#   Molecular weight retained:	6.1552273915176771062 and above
+#           Oxygen: 77.2204806736842981271% 385.268039881719165068 mb (ipp: 336.880518223788915061)
+#           Nitrogen: 22.7445623732714995082% 113.477057991223325858 mb (ipp: 99.2249710469902294063)
+#           Fluorine: 0.0018392216768574729951% 0.00917623568474271861415 mb (ipp: 0.00802375155169582092659) poisonous
+
+	HazeColor [ 1 1 1 ]
+	HazeDensity 0.3
+
+	Atmosphere {
+		Height 51.542203263741921727227471579705
+		Lower [ 0.5 0.5 0.65 ]
+		Upper [ 0.3 0.3 0.6 ]
+		Sky [ 0.3 0.6 0.9 ]
+		Sunset [ 1.0 0.6 0.2 ]
+# Cloud cover percentage: 24.0646%
+		CloudHeight 5.1542203263741921727227471579705
+		CloudSpeed  117.07
+		CloudMap "gc_deser_02-clouds.*"
+		Mie 0.00052
+		MieAsymmetry -0.2041
+		Rayleigh [ 0.001967 0.002858 0.00688 ]
+		Absorption [ 0.001351 0.002260 0.00603 ]
+		MieScaleHeight 10.308440652748384345445494315941
+	}
+
+	# OrbitFrame { MeanEquator { Center "SCO Cen" } }
+	EllipticalOrbit {
+		Period            19.51509922504160271 # Days
+		SemiMajorAxis     1773636.73565943071196 # Km
+		Eccentricity      0.00306471210581469919658
+		Inclination       0.543498027578824501006
+		AscendingNode     87.3293463174856017875
+		LongOfPericenter  174.041979524326501191
+		MeanLongitude     280.159584432914659569
+	}
+
+	# BodyFrame { MeanEquator { Center "SCO Cen" } }
+	UniformRotation {
+# Moon is tidally locked with one face to planet.
+		Inclination	0.543498027578824501006
+		AscendingNode	0
+		MeridianAngle	280.159584432914659569
+	}
+
+	Albedo            0.189724795887560523117
+}
+
+"p6" "SCO Cen" {
+	Class "planet"
+	Radius 81915.330669581937336
+	Mass 999.006181922247140204
+
+	Texture "exo-class2.*"
+
+#   HZD:			0.45699325016839016398
+#   HZC:			8.68514500843423373818
+#   HZA:			9.75738195335731788894
+#   SPH:			0
+#   ESI:			0.461159670868242683528
+#   Density:			3.04525965413787886335	grams/cc
+#   Escape Velocity:		98.3833339442282751239	Km/sec
+#   Surface acceleration:	5879.44253434420304938	cm/sec2
+#   Surface gravity:		5.99536287554282376492	Earth gees
+#   Surface temperature:	-34.9071839967191979159	degrees Celcius
+#   Estimated temperature:	-99.4571415981519335037	degrees Celcius
+#   Estimated terrestrial temperature:	-41.4727232420259705054	degrees Celcius
+#   Boiling point of water:	inf	degrees Celcius
+#   Surface pressure:		10	Earth atmospheres
+#   Molecular weight retained:	0.457564442980831692897 and above
+#           Helium: 59.4695112056169511751% 6025.74822290913757783 mb (ipp: 5988.48372732009422625)
+#           Hydrogen: 40.128898924946529797% 4066.06068357020713155 mb (ipp: 4040.9153082902334817)
+#           Carbon: 0.252988115860647745653% 25.6340208395801328264 mb (ipp: 25.4754946580722030549)
+#           Nitrogen: 0.0790227753751931907749% 8.00698271489145005538 mb (ipp: 7.95746584810198977081)
+
+	Oblateness 0.0550138968881015795107
+	HazeColor [ 0.4 0.45 0.5 ]
+	HazeDensity 0.3
+	OrbitFrame { MeanEquator { Center "SCO Cen" } }
+	EllipticalOrbit {
+		Period            1.46603890631596563967 # Years
+		SemiMajorAxis     1.5173104630492216863 # AU
+		Eccentricity      0.0625488489108451117815
+		Inclination       0.351694958712544201253
+		AscendingNode     100.49920163140595035
+		LongOfPericenter  233.816239421170316379
+		MeanLongitude     282.641804759689515808
+	}
+
+	BodyFrame { MeanEquator { Center "SCO Cen" } }
+	UniformRotation {
+		Period		6.88141288045330178514 # Hours
+		Inclination	18.7383170923441472952
+		AscendingNode	0
+		MeridianAngle	282.641804759689515808
+	}
+
+	Albedo            0.778015185558679128036
+}
+
+"p6-1" "SCO Cen/p6" {
+	Class "moon"
+	Radius 2004.36433611533219656
+	Mass 0.0229988427026593691233
+
+	Texture "gc_rocky_01.*"
+	BumpMap "gc_rocky_01-bump.*"
+	BumpHeight 3.5
+	Color [ 0.534566180445272545404 0.486083490908321724051 0.437600801371370956501 ]
+	BlendTexture true
+
+#   HZD:			0.45699325016839016398
+#   HZC:			-0.224767191195873710692
+#   HZA:			-1.38645291583291748307
+#   SPH:			0
+#   ESI:			0.601260337899200859835
+#   Density:			4.07523972554846160721	grams/cc
+#   Escape Velocity:		3.02510580210095448108	Km/sec
+#   Surface acceleration:	228.283474940513272169	cm/sec2
+#   Surface gravity:		0.23278436055178198532	Earth gees
+#   Surface temperature:	-56.5986702770294894255	degrees Celcius
+#   Estimated temperature:	-41.4727232420259705054	degrees Celcius
+#   Estimated terrestrial temperature:	-41.4727232420259705054	degrees Celcius
+#   Boiling point of water:	-273.149999999999977263	degrees Celcius
+#   Surface pressure:		0	Earth atmospheres
+#   Molecular weight retained:	34.3734104068236371657 and above
+
+	# OrbitFrame { MeanEquator { Center "SCO Cen" } }
+	EllipticalOrbit {
+		Period            1.12578611654005346148 # Days
+		SemiMajorAxis     457060.103923254603473 # Km
+		Eccentricity      0.00733126652768406404886
+		Inclination       0.0169244227348317558565
+		AscendingNode     30.3729608982675526752
+		LongOfPericenter  108.603616537807330739
+		MeanLongitude     145.049944215011756971
+	}
+
+	# BodyFrame { MeanEquator { Center "SCO Cen" } }
+	UniformRotation {
+# Moon is tidally locked with one face to planet.
+		Inclination	0.0169244227348317558565
+		AscendingNode	0
+		MeridianAngle	145.049944215011756971
+	}
+
+	Albedo            0.0700000000000000066613
+}
+
+"p6-2" "SCO Cen/p6" {
+	Class "moon"
+	Radius 50.334838925123535306
+	Mass 4.17623557100793258312e-07
+
+	Texture "tasteroid.*"
+	Mesh "asteroid.cms"
+	Color   [ 0.52 0.46 0.43 ]
+	BlendTexture true
+
+#   HZD:			0.45699325016839016398
+#   HZC:			-0.441818559780080320678
+#   HZA:			-1.72026154167250343644
+#   SPH:			0
+#   ESI:			0.208527464340572278898
+#   Density:			4.67257323410509368272	grams/cc
+#   Escape Velocity:		0.0813455992669254675974	Km/sec
+#   Surface acceleration:	6.57308800564417918541	cm/sec2
+#   Surface gravity:		0.00670268440868612566886	Earth gees
+#   Surface temperature:	-56.5986702770294894255	degrees Celcius
+#   Estimated temperature:	-41.4727232420259705054	degrees Celcius
+#   Estimated terrestrial temperature:	-41.4727232420259705054	degrees Celcius
+#   Boiling point of water:	-273.149999999999977263	degrees Celcius
+#   Surface pressure:		0	Earth atmospheres
+#   Molecular weight retained:	47572.1880642101115164 and above
+
+	# OrbitFrame { MeanEquator { Center "SCO Cen" } }
+	EllipticalOrbit {
+		Period            2.43055945817881791917 # Days
+		SemiMajorAxis     763490.355619738152427 # Km
+		Eccentricity      0.00355675339864415747934
+		Inclination       0.341209532263110474335
+		AscendingNode     227.845776596966095556
+		LongOfPericenter  69.5861268181289205417
+		MeanLongitude     234.963852723577922552
+	}
+
+	# BodyFrame { MeanEquator { Center "SCO Cen" } }
+	UniformRotation {
+# Moon is tidally locked with one face to planet.
+		Inclination	0.341209532263110474335
+		AscendingNode	0
+		MeridianAngle	234.963852723577922552
+	}
+
+	Albedo            0.0700000000000000066613
+}
+
+"p6-3" "SCO Cen/p6" {
+	Class "moon"
+	Radius 1.68130611859860314725
+	Mass 1.15924322000347945728e-11
+
+	Texture "tasteroid.*"
+	Mesh "asteroid.cms"
+	Color   [ 0.37 0.37 0.37 ]
+	BlendTexture true
+
+#   HZD:			0.45699325016839016398
+#   HZC:			-0.123291638083355582976
+#   HZA:			-1.72921984165757512577
+#   SPH:			0
+#   ESI:			0.0661466174802880590397
+#   Density:			3.48025737478286420197	grams/cc
+#   Escape Velocity:		0.00234498352557094657415	Km/sec
+#   Surface acceleration:	0.163532020563352598264	cm/sec2
+#   Surface gravity:		0.000166756252709490605187	Earth gees
+#   Surface temperature:	-56.5986702770294894255	degrees Celcius
+#   Estimated temperature:	-41.4727232420259705054	degrees Celcius
+#   Estimated terrestrial temperature:	-41.4727232420259705054	degrees Celcius
+#   Boiling point of water:	-273.149999999999977263	degrees Celcius
+#   Surface pressure:		0	Earth atmospheres
+#   Molecular weight retained:	56994503.6401590534006 and above
+
+	# OrbitFrame { MeanEquator { Center "SCO Cen" } }
+	EllipticalOrbit {
+		Period            4.64826744951974709557 # Days
+		SemiMajorAxis     1176323.5576977232613 # Km
+		Eccentricity      0.00436168109735552281688
+		Inclination       33.4701155412331930808
+		AscendingNode     300.252920435859319032
+		LongOfPericenter  307.206880742314681759
+		MeanLongitude     335.954368326791733668
+	}
+
+	# BodyFrame { MeanEquator { Center "SCO Cen" } }
+	UniformRotation {
+# Moon is tidally locked with one face to planet.
+		Inclination	33.4701155412331930808
+		AscendingNode	0
+		MeridianAngle	335.954368326791733668
+	}
+
+	Albedo            0.0700000000000000066613
+}
+
+"p6-4" "SCO Cen/p6" {
+	Class "moon"
+	Radius 49.4505118833817787528
+	Mass 6.12769078108046390696e-07
+
+	Texture "tasteroid.*"
+	Mesh "asteroid.cms"
+	Color   [ 0.7 0.7 0.7 ]
+	BlendTexture true
+
+#   HZD:			0.45699325016839016398
+#   HZC:			-0.861308654312532992253
+#   HZA:			-1.71821289318039797174
+#   SPH:			0
+#   ESI:			0.212046228271082839702
+#   Density:			7.2303887001689788141	grams/cc
+#   Escape Velocity:		0.0994120284536718857169	Km/sec
+#   Surface acceleration:	9.99256734144631020202	cm/sec2
+#   Surface gravity:		0.0101895829273465562374	Earth gees
+#   Surface temperature:	-56.5986702770294894255	degrees Celcius
+#   Estimated temperature:	-41.4727232420259705054	degrees Celcius
+#   Estimated terrestrial temperature:	-41.4727232420259705054	degrees Celcius
+#   Boiling point of water:	-273.149999999999977263	degrees Celcius
+#   Surface pressure:		0	Earth atmospheres
+#   Molecular weight retained:	32059.4617028233598255 and above
+
+	# OrbitFrame { MeanEquator { Center "SCO Cen" } }
+	EllipticalOrbit {
+		Period            4.70729544510891471107 # Days
+		SemiMajorAxis     1186261.29429945918014 # Km
+		Eccentricity      0.000582240964557156428029
+		Inclination       0.950793348999550914447
+		AscendingNode     65.6436207078600398798
+		LongOfPericenter  154.495649875372485199
+		MeanLongitude     284.688524196245020342
+	}
+
+	# BodyFrame { MeanEquator { Center "SCO Cen" } }
+	UniformRotation {
+# Moon is tidally locked with one face to planet.
+		Inclination	0.950793348999550914447
+		AscendingNode	0
+		MeridianAngle	284.688524196245020342
+	}
+
+	Albedo            0.0700000000000000066613
+}
+
+"p6-5" "SCO Cen/p6" {
+	Class "moon"
+	Radius 211.476863006507497064
+	Mass 2.55398578267866627554e-05
+
+	Texture "tasteroid.*"
+	Mesh "asteroid.cms"
+	Color   [ 0.52 0.46 0.43 ]
+	BlendTexture true
+
+#   HZD:			0.45699325016839016398
+#   HZC:			-0.23177464722493338703
+#   HZA:			-1.69429335518768887892
+#   SPH:			0
+#   ESI:			0.311918464966777323957
+#   Density:			3.8530715600847306975	grams/cc
+#   Escape Velocity:		0.310351406775642576336	Km/sec
+#   Surface acceleration:	22.7727029610460267907	cm/sec2
+#   Surface gravity:		0.023221694422709108244	Earth gees
+#   Surface temperature:	-56.5986702770294894255	degrees Celcius
+#   Estimated temperature:	-41.4727232420259705054	degrees Celcius
+#   Estimated terrestrial temperature:	-41.4727232420259705054	degrees Celcius
+#   Boiling point of water:	-273.149999999999977263	degrees Celcius
+#   Surface pressure:		0	Earth atmospheres
+#   Molecular weight retained:	3258.86777340211263176 and above
+
+	# OrbitFrame { MeanEquator { Center "SCO Cen" } }
+	EllipticalOrbit {
+		Period            15.1135204413052373412 # Days
+		SemiMajorAxis     2581724.03463627724 # Km
+		Eccentricity      0.00565668340104477650172
+		Inclination       1.89316230980645051809
+		AscendingNode     157.892289067568392061
+		LongOfPericenter  97.2031890308499285161
+		MeanLongitude     101.852071816964108407
+	}
+
+	# BodyFrame { MeanEquator { Center "SCO Cen" } }
+	UniformRotation {
+# Moon is tidally locked with one face to planet.
+		Inclination	1.89316230980645051809
+		AscendingNode	0
+		MeridianAngle	101.852071816964108407
+	}
+
+	Albedo            0.0700000000000000066613
+}
+
+"p6-6" "SCO Cen/p6" {
+	Class "moon"
+	Radius 222.215114416746993678
+	Mass 3.55038161731925385163e-05
+
+	Texture "tasteroid.*"
+	Mesh "asteroid.cms"
+	Color   [ 0.7 0.7 0.7 ]
+	BlendTexture true
+
+#   HZD:			0.45699325016839016398
+#   HZC:			-0.424703906725247213938
+#   HZA:			-1.68900749920679501767
+#   SPH:			0
+#   ESI:			0.330548366577409906603
+#   Density:			4.61669760860105460104	grams/cc
+#   Escape Velocity:		0.356965817758374893249	Km/sec
+#   Surface acceleration:	28.671450945710762177	cm/sec2
+#   Surface gravity:		0.029236743378942618775	Earth gees
+#   Surface temperature:	-56.5986702770294894255	degrees Celcius
+#   Estimated temperature:	-41.4727232420259705054	degrees Celcius
+#   Estimated terrestrial temperature:	-41.4727232420259705054	degrees Celcius
+#   Boiling point of water:	-273.149999999999977263	degrees Celcius
+#   Surface pressure:		0	Earth atmospheres
+#   Molecular weight retained:	2469.99078121621735349 and above
+
+	# OrbitFrame { MeanEquator { Center "SCO Cen" } }
+	EllipticalOrbit {
+		Period            19.6906578270112681897 # Days
+		SemiMajorAxis     3079684.38496837578305 # Km
+		Eccentricity      0.00103757746565974201632
+		Inclination       1.0296237759286788494
+		AscendingNode     107.466609025125675377
+		LongOfPericenter  228.670015739589005593
+		MeanLongitude     328.631891444619694487
+	}
+
+	# BodyFrame { MeanEquator { Center "SCO Cen" } }
+	UniformRotation {
+# Moon is tidally locked with one face to planet.
+		Inclination	1.0296237759286788494
+		AscendingNode	0
+		MeridianAngle	328.631891444619694487
+	}
+
+	Albedo            0.0700000000000000066613
+}
+
+"p6-7" "SCO Cen/p6" {
+	Class "moon"
+	Radius 2.37039842264002159709
+	Mass 4.79160575714103641417e-11
+
+	Texture "tasteroid.*"
+	Mesh "asteroid.cms"
+	Color   [ 0.7 0.7 0.7 ]
+	BlendTexture true
+
+#   HZD:			0.45699325016839016398
+#   HZC:			-0.538369018090444312699
+#   HZA:			-1.72903044840453144553
+#   SPH:			0
+#   ESI:			0.0809416251475579170938
+#   Density:			5.13327118180188209312	grams/cc
+#   Escape Velocity:		0.00401518698299503657712	Km/sec
+#   Surface acceleration:	0.340063644036205458979	cm/sec2
+#   Surface gravity:		0.000346768411268073676134	Earth gees
+#   Surface temperature:	-56.5986702770294894255	degrees Celcius
+#   Estimated temperature:	-41.4727232420259705054	degrees Celcius
+#   Estimated terrestrial temperature:	-41.4727232420259705054	degrees Celcius
+#   Boiling point of water:	-273.149999999999977263	degrees Celcius
+#   Surface pressure:		0	Earth atmospheres
+#   Molecular weight retained:	19553164.5680675002386 and above
+
+	# OrbitFrame { MeanEquator { Center "SCO Cen" } }
+	EllipticalOrbit {
+		Period            23.6725284303942461496 # Days
+		SemiMajorAxis     3482003.10077212779152 # Km
+		Eccentricity      0.00896686383474937837411
+		Inclination       3.61066774094093283329
+		AscendingNode     34.3316432434747196949
+		LongOfPericenter  4.07336471792001496902
+		MeanLongitude     319.963106736523614615
+	}
+
+	# BodyFrame { MeanEquator { Center "SCO Cen" } }
+	UniformRotation {
+# Moon is tidally locked with one face to planet.
+		Inclination	3.61066774094093283329
+		AscendingNode	0
+		MeridianAngle	319.963106736523614615
+	}
+
+	Albedo            0.0700000000000000066613
+}
+
+"p6-8" "SCO Cen/p6" {
+	Class "moon"
+	Radius 1.41406187849817888494
+	Mass 9.99999999999999939576e-12
+
+	Texture "tasteroid.*"
+	Mesh "asteroid.cms"
+	Color   [ 0.37 0.37 0.37 ]
+	BlendTexture true
+
+#   HZD:			0.45699325016839016398
+#   HZC:			-0.521236683966223741113
+#   HZA:			-1.72921645151677651675
+#   SPH:			0
+#   ESI:			0.0684350013199495027885
+#   Density:			5.04628686645931731191	grams/cc
+#   Escape Velocity:		0.00237488018129651022376	Km/sec
+#   Surface acceleration:	0.199427477724844446288	cm/sec2
+#   Surface gravity:		0.000203359432349318527408	Earth gees
+#   Surface temperature:	-56.5986702770294894255	degrees Celcius
+#   Estimated temperature:	-41.4727232420259705054	degrees Celcius
+#   Estimated terrestrial temperature:	-41.4727232420259705054	degrees Celcius
+#   Boiling point of water:	-273.149999999999977263	degrees Celcius
+#   Surface pressure:		0	Earth atmospheres
+#   Molecular weight retained:	55877229.7142728839754 and above
+
+	# OrbitFrame { MeanEquator { Center "SCO Cen" } }
+	EllipticalOrbit {
+		Period            30.8418969531650067201 # Days
+		SemiMajorAxis     4153620.14253188638008 # Km
+		Eccentricity      0.00279068084563626021616
+		Inclination       41.937106128210276404
+		AscendingNode     261.086507430806060992
+		LongOfPericenter  354.492274054555350005
+		MeanLongitude     0.537421480071461517389
+	}
+
+	# BodyFrame { MeanEquator { Center "SCO Cen" } }
+	UniformRotation {
+# Moon is tidally locked with one face to planet.
+		Inclination	41.937106128210276404
+		AscendingNode	0
+		MeridianAngle	0.537421480071461517389
+	}
+
+	Albedo            0.0700000000000000066613
+}
+
+"p6-9" "SCO Cen/p6" {
+	Class "moon"
+	Radius 158.135752629405008624
+	Mass 9.05253387136202738478e-06
+
+	Texture "tasteroid.*"
+	Mesh "asteroid.cms"
+	Color   [ 0.52 0.46 0.43 ]
+	BlendTexture true
+
+#   HZD:			0.45699325016839016398
+#   HZC:			-0.0463081897012688406099
+#   HZA:			-1.70525643994544619686
+#   SPH:			0
+#   ESI:			0.273621442515739288415
+#   Density:			3.26630794322482732482	grams/cc
+#   Escape Velocity:		0.213671183102539533698	Km/sec
+#   Surface acceleration:	14.4355004258377481096	cm/sec2
+#   Surface gravity:		0.0147201138266765395371	Earth gees
+#   Surface temperature:	-56.5986702770294894255	degrees Celcius
+#   Estimated temperature:	-41.4727232420259705054	degrees Celcius
+#   Estimated terrestrial temperature:	-41.4727232420259705054	degrees Celcius
+#   Boiling point of water:	-273.149999999999977263	degrees Celcius
+#   Surface pressure:		0	Earth atmospheres
+#   Molecular weight retained:	6858.23428326702646718 and above
+
+	# OrbitFrame { MeanEquator { Center "SCO Cen" } }
+	EllipticalOrbit {
+		Period            32.000157794806449181 # Days
+		SemiMajorAxis     4256972.09705814811878 # Km
+		Eccentricity      0.00456206803888178814357
+		Inclination       2.90713699226006703265
+		AscendingNode     129.172154315361824961
+		LongOfPericenter  162.579683010736332743
+		MeanLongitude     228.145704729550380607
+	}
+
+	# BodyFrame { MeanEquator { Center "SCO Cen" } }
+	UniformRotation {
+# Moon is tidally locked with one face to planet.
+		Inclination	2.90713699226006703265
+		AscendingNode	0
+		MeridianAngle	228.145704729550380607
+	}
+
+	Albedo            0.0700000000000000066613
+}
+
+"p6-10" "SCO Cen/p6" {
+	Class "moon"
+	Radius 81.1129740181116832831
+	Mass 1.8523836805675232866e-06
+
+	Texture "tasteroid.*"
+	Mesh "asteroid.cms"
+	Color   [ 0.7 0.7 0.7 ]
+	BlendTexture true
+
+#   HZD:			0.45699325016839016398
+#   HZC:			-0.500590014196435260018
+#   HZA:			-1.71418223143203500526
+#   SPH:			0
+#   ESI:			0.245540911528099734586
+#   Density:			4.95264442580995294888	grams/cc
+#   Escape Velocity:		0.134957250258749748687	Km/sec
+#   Surface acceleration:	11.2272171116151733639	cm/sec2
+#   Surface gravity:		0.0114485753153372189078	Earth gees
+#   Surface temperature:	-56.5986702770294894255	degrees Celcius
+#   Estimated temperature:	-41.4727232420259705054	degrees Celcius
+#   Estimated terrestrial temperature:	-41.4727232420259705054	degrees Celcius
+#   Boiling point of water:	-273.149999999999977263	degrees Celcius
+#   Surface pressure:		0	Earth atmospheres
+#   Molecular weight retained:	17298.399786243025396 and above
+
+	# OrbitFrame { MeanEquator { Center "SCO Cen" } }
+	EllipticalOrbit {
+		Period            42.5740007410903421418 # Days
+		SemiMajorAxis     5149468.013796395187 # Km
+		Eccentricity      0.00938141914055748822138
+		Inclination       5.88165625349507391719
+		AscendingNode     243.59836651179863444
+		LongOfPericenter  350.931831184277232355
+		MeanLongitude     357.946264742848586637
+	}
+
+	# BodyFrame { MeanEquator { Center "SCO Cen" } }
+	UniformRotation {
+# Moon is tidally locked with one face to planet.
+		Inclination	5.88165625349507391719
+		AscendingNode	0
+		MeridianAngle	357.946264742848586637
+	}
+
+	Albedo            0.0700000000000000066613
+}
+
+"p6-11" "SCO Cen/p6" {
+	Class "moon"
+	Radius 11.4435522691615658014
+	Mass 6.98694592716484806063e-09
+
+	Texture "tasteroid.*"
+	Mesh "asteroid.cms"
+	Color   [ 0.52 0.46 0.43 ]
+	BlendTexture true
+
+#   HZD:			0.45699325016839016398
+#   HZC:			-0.786676805381653503492
+#   HZA:			-1.72698348106910281425
+#   SPH:			0
+#   ESI:			0.134195945081602394932
+#   Density:			6.65245564518739791434	grams/cc
+#   Escape Velocity:		0.0220667905429094837216	Km/sec
+#   Surface acceleration:	2.12758780408103241382	cm/sec2
+#   Surface gravity:		0.00216953577835553679682	Earth gees
+#   Surface temperature:	-56.5986702770294894255	degrees Celcius
+#   Estimated temperature:	-41.4727232420259705054	degrees Celcius
+#   Estimated terrestrial temperature:	-41.4727232420259705054	degrees Celcius
+#   Boiling point of water:	-273.149999999999977263	degrees Celcius
+#   Surface pressure:		0	Earth atmospheres
+#   Molecular weight retained:	649860.559348414624083 and above
+
+	# OrbitFrame { MeanEquator { Center "SCO Cen" } }
+	EllipticalOrbit {
+		Period            43.6390103650390443757 # Days
+		SemiMajorAxis     5234991.54342305287037 # Km
+		Eccentricity      0.00732448859947011290444
+		Inclination       9.34625009333319773687
+		AscendingNode     286.284138656353642521
+		LongOfPericenter  15.1869832795052711293
+		MeanLongitude     0.506414305654547319585
+	}
+
+	# BodyFrame { MeanEquator { Center "SCO Cen" } }
+	UniformRotation {
+# Moon is tidally locked with one face to planet.
+		Inclination	9.34625009333319773687
+		AscendingNode	0
+		MeridianAngle	0.506414305654547319585
+	}
+
+	Albedo            0.0700000000000000066613
+}
+
+"p6-12" "SCO Cen/p6" {
+	Class "moon"
+	Radius 3.13353755943750607663
+	Mass 1.46730227212619548546e-10
+
+	Texture "tasteroid.*"
+	Mesh "asteroid.cms"
+	Color   [ 0.37 0.37 0.37 ]
+	BlendTexture true
+
+#   HZD:			0.45699325016839016398
+#   HZC:			-0.807457878631264381686
+#   HZA:			-1.72879278349506952629
+#   SPH:			0
+#   ESI:			0.0888674054674519455624
+#   Density:			6.80443475874248582345	grams/cc
+#   Escape Velocity:		0.00611108399681385313705	Km/sec
+#   Surface acceleration:	0.595897558394324031801	cm/sec2
+#   Surface gravity:		0.00060764640156865397857	Earth gees
+#   Surface temperature:	-56.5986702770294894255	degrees Celcius
+#   Estimated temperature:	-41.4727232420259705054	degrees Celcius
+#   Estimated terrestrial temperature:	-41.4727232420259705054	degrees Celcius
+#   Boiling point of water:	-273.149999999999977263	degrees Celcius
+#   Surface pressure:		0	Earth atmospheres
+#   Molecular weight retained:	8476317.06624279632524 and above
+
+	# OrbitFrame { MeanEquator { Center "SCO Cen" } }
+	EllipticalOrbit {
+		Period            45.7924764096050130636 # Days
+		SemiMajorAxis     5405826.99361214529154 # Km
+		Eccentricity      0.00158846095278321813044
+		Inclination       124.020797387039641478
+		AscendingNode     220.24330643016998954
+		LongOfPericenter  226.066332750984622518
+		MeanLongitude     292.726926753635949802
+	}
+
+	# BodyFrame { MeanEquator { Center "SCO Cen" } }
+	UniformRotation {
+# Moon is tidally locked with one face to planet.
+		Inclination	124.020797387039641478
+		AscendingNode	0
+		MeridianAngle	292.726926753635949802
+	}
+
+	Albedo            0.0700000000000000066613
+}
+
+"p6-13" "SCO Cen/p6" {
+	Class "moon"
+	Radius 887.429092458105257091
+	Mass 0.00159847705168404770227
+
+	Texture "gc_rocky_04.*"
+	BumpMap "gc_rocky_04-bump.*"
+	BumpHeight 3.5
+	Color [ 0.534566180445272545404 0.486083490908321724051 0.437600801371370956501 ]
+	BlendTexture true
+
+#   HZD:			0.45699325016839016398
+#   HZC:			-0.0204539657788721160399
+#   HZA:			-1.59357387567445066962
+#   SPH:			0
+#   ESI:			0.459251390485912904725
+#   Density:			3.26349234212567385028	grams/cc
+#   Escape Velocity:		1.19856690658633405699	Km/sec
+#   Surface acceleration:	80.9395726246011526367	cm/sec2
+#   Surface gravity:		0.0825353944768102824496	Earth gees
+#   Surface temperature:	-56.5986702770294894255	degrees Celcius
+#   Estimated temperature:	-41.4727232420259705054	degrees Celcius
+#   Estimated terrestrial temperature:	-41.4727232420259705054	degrees Celcius
+#   Boiling point of water:	-273.149999999999977263	degrees Celcius
+#   Surface pressure:		0	Earth atmospheres
+#   Molecular weight retained:	217.979443794846261706 and above
+
+	# OrbitFrame { MeanEquator { Center "SCO Cen" } }
+	EllipticalOrbit {
+		Period            46.5586778758451390672 # Days
+		SemiMajorAxis     5465963.32539177653689 # Km
+		Eccentricity      0.00236801173648238733526
+		Inclination       1.67804738135132052183
+		AscendingNode     314.701075663185247971
+		LongOfPericenter  87.3624829982232688902
+		MeanLongitude     202.459698227448248412
+	}
+
+	# BodyFrame { MeanEquator { Center "SCO Cen" } }
+	UniformRotation {
+# Moon is tidally locked with one face to planet.
+		Inclination	1.67804738135132052183
+		AscendingNode	0
+		MeridianAngle	202.459698227448248412
+	}
+
+	Albedo            0.0700000000000000066613
+}
+
+"p6-14" "SCO Cen/p6" {
+	Class "moon"
+	Radius 444.937214025706175874
+	Mass 0.00026377352556618782483
+
+	Texture "gc_moons_01.*"
+	BumpMap "gc_moons_01-bump.*"
+	BumpHeight 3.5
+	Color [ 0.534566180445272545404 0.486083490908321724051 0.437600801371370956501 ]
+	BlendTexture true
+
+#   HZD:			0.45699325016839016398
+#   HZC:			-0.336330087340561944626
+#   HZA:			-1.65151400351518824674
+#   SPH:			0
+#   ESI:			0.400724505933715018763
+#   Density:			4.27279630044006174553	grams/cc
+#   Escape Velocity:		0.687609941182318715473	Km/sec
+#   Surface acceleration:	53.1319269672771662301	cm/sec2
+#   Surface gravity:		0.0541794873552917338763	Earth gees
+#   Surface temperature:	-56.5986702770294894255	degrees Celcius
+#   Estimated temperature:	-41.4727232420259705054	degrees Celcius
+#   Estimated terrestrial temperature:	-41.4727232420259705054	degrees Celcius
+#   Boiling point of water:	-273.149999999999977263	degrees Celcius
+#   Surface pressure:		0	Earth atmospheres
+#   Molecular weight retained:	664.927806081369276447 and above
+
+	# OrbitFrame { MeanEquator { Center "SCO Cen" } }
+	EllipticalOrbit {
+		Period            52.5142289569551019603 # Days
+		SemiMajorAxis     5922668.46592174211673 # Km
+		Eccentricity      0.00725302070717002313188
+		Inclination       2.66685620875916604014
+		AscendingNode     172.608093047797723232
+		LongOfPericenter  43.4768424199320573445
+		MeanLongitude     152.006378691646446791
+	}
+
+	# BodyFrame { MeanEquator { Center "SCO Cen" } }
+	UniformRotation {
+# Moon is tidally locked with one face to planet.
+		Inclination	2.66685620875916604014
+		AscendingNode	0
+		MeridianAngle	152.006378691646446791
+	}
+
+	Albedo            0.0700000000000000066613
+}
+
+"p6-15" "SCO Cen/p6" {
+	Class "moon"
+	Radius 3.57541705544410687301
+	Mass 1.89470855810942152301e-10
+
+	Texture "tasteroid.*"
+	Mesh "asteroid.cms"
+	Color   [ 0.52 0.46 0.43 ]
+	BlendTexture true
+
+#   HZD:			0.45699325016839016398
+#   HZC:			-0.676821853633609320743
+#   HZA:			-1.72874856273657586693
+#   SPH:			0
+#   ESI:			0.093391832324058122543
+#   Density:			5.9147919424744544413	grams/cc
+#   Escape Velocity:		0.00650105387451055919468	Km/sec
+#   Surface acceleration:	0.591031770894194720737	cm/sec2
+#   Surface gravity:		0.00060268467916586677678	Earth gees
+#   Surface temperature:	-56.5986702770294894255	degrees Celcius
+#   Estimated temperature:	-41.4727232420259705054	degrees Celcius
+#   Estimated terrestrial temperature:	-41.4727232420259705054	degrees Celcius
+#   Boiling point of water:	-273.149999999999977263	degrees Celcius
+#   Surface pressure:		0	Earth atmospheres
+#   Molecular weight retained:	7474372.62815849270009 and above
+
+	# OrbitFrame { MeanEquator { Center "SCO Cen" } }
+	EllipticalOrbit {
+		Period            67.1312728611975387122 # Days
+		SemiMajorAxis     6976152.67806441296443 # Km
+		Eccentricity      0.00229396386644521912989
+		Inclination       108.024118401161435037
+		AscendingNode     62.2335669501840914389
+		LongOfPericenter  162.191426047213108311
+		MeanLongitude     123.138129675359525569
+	}
+
+	# BodyFrame { MeanEquator { Center "SCO Cen" } }
+	UniformRotation {
+# Moon is tidally locked with one face to planet.
+		Inclination	108.024118401161435037
+		AscendingNode	0
+		MeridianAngle	123.138129675359525569
+	}
+
+	Albedo            0.0700000000000000066613
+}
+
+"p6-16" "SCO Cen/p6" {
+	Class "moon"
+	Radius 3078.37356268225136313
+	Mass 0.124910616642622067928
+
+# Ice cover percentage:   63.2465771686651269529
+
+	Texture "gc_deser_02.*"
+	BumpMap "gc_deser_02-bump.*"
+	BumpHeight 3.5
+	Color [ 0.534566180445272545404 0.486083490908321724051 0.437600801371370956501 ]
+	BlendTexture true
+
+#   HZD:			0.45699325016839016398
+#   HZC:			-0.585845507548801220168
+#   HZA:			-1.08441098875964585236
+#   SPH:			0
+#   ESI:			0.632993732223137982188
+#   Density:			6.10959706190185763714	grams/cc
+#   Escape Velocity:		5.6887248211399561882	Km/sec
+#   Surface acceleration:	525.628053770974034253	cm/sec2
+#   Surface gravity:		0.535991448426296496525	Earth gees
+#   Surface temperature:	-82.1340841767583188099	degrees Celcius
+#   Estimated temperature:	-41.4727232420259705054	degrees Celcius
+#   Estimated terrestrial temperature:	-41.4727232420259705054	degrees Celcius
+#   Boiling point of water:	14.0437164485078078702	degrees Celcius
+#   Surface pressure:		0.0172724994856777841406	Earth atmospheres
+#   Molecular weight retained:	9.82248865157736411949 and above
+#           Neon: 100% 17.5013601038630147808 mb (ipp: 0)
+
+	HazeColor [ 1 1 1 ]
+	HazeDensity 0.45
+
+	Atmosphere {
+		Height 30
+		Lower [ 0.8 0.6 0.6 ]
+		Upper [ 0.7 0.3 0.3 ]
+		Sky [ 0.83 0.75 0.65 ]
+		Sunset [ 0.7 0.7 0.8 ]
+# Cloud cover percentage: 0.0886428%
+	}
+
+	# OrbitFrame { MeanEquator { Center "SCO Cen" } }
+	EllipticalOrbit {
+		Period            73.5337198838559268702 # Days
+		SemiMajorAxis     7413247.72134972548656 # Km
+		Eccentricity      0.00728974299844808100015
+		Inclination       0.737426228055334775891
+		AscendingNode     202.236953509150516939
+		LongOfPericenter  195.705021524664490265
+		MeanLongitude     1.57000707535539151883
+	}
+
+	# BodyFrame { MeanEquator { Center "SCO Cen" } }
+	UniformRotation {
+# Moon is tidally locked with one face to planet.
+		Inclination	0.737426228055334775891
+		AscendingNode	0
+		MeridianAngle	1.57000707535539151883
+	}
+
+	Albedo            0.497940385076665636223
+}
+
+"p6-17" "SCO Cen/p6" {
+	Class "moon"
+	Radius 120.432190839413678377
+	Mass 5.85207743417358661344e-06
+
+	Texture "tasteroid.*"
+	Mesh "asteroid.cms"
+	Color   [ 0.37 0.37 0.37 ]
+	BlendTexture true
+
+#   HZD:			0.45699325016839016398
+#   HZC:			-0.463497357706566703872
+#   HZA:			-1.70716263795893205232
+#   SPH:			0
+#   ESI:			0.275614765455301949495
+#   Density:			4.78034764887502515223	grams/cc
+#   Escape Velocity:		0.196860982836721544351	Km/sec
+#   Surface acceleration:	16.089654391123525589	cm/sec2
+#   Surface gravity:		0.0164068814438401759893	Earth gees
+#   Surface temperature:	-56.5986702770294894255	degrees Celcius
+#   Estimated temperature:	-41.4727232420259705054	degrees Celcius
+#   Estimated terrestrial temperature:	-41.4727232420259705054	degrees Celcius
+#   Boiling point of water:	-273.149999999999977263	degrees Celcius
+#   Surface pressure:		0	Earth atmospheres
+#   Molecular weight retained:	8125.56570170446107459 and above
+
+	# OrbitFrame { MeanEquator { Center "SCO Cen" } }
+	EllipticalOrbit {
+		Period            78.2520939338930180615 # Days
+		SemiMajorAxis     7726747.16654811085891 # Km
+		Eccentricity      7.25189084524842499267e-05
+		Inclination       2.26255963934016816517
+		AscendingNode     49.0284077306410333748
+		LongOfPericenter  237.411599958972819133
+		MeanLongitude     58.6811200802592188505
+	}
+
+	# BodyFrame { MeanEquator { Center "SCO Cen" } }
+	UniformRotation {
+# Moon is tidally locked with one face to planet.
+		Inclination	2.26255963934016816517
+		AscendingNode	0
+		MeridianAngle	58.6811200802592188505
+	}
+
+	Albedo            0.0700000000000000066613
+}
+
+"p6-18" "SCO Cen/p6" {
+	Class "moon"
+	Radius 45.3511779654835282573
+	Mass 3.78918490722469145601e-07
+
+	Texture "tasteroid.*"
+	Mesh "asteroid.cms"
+	Color   [ 0.37 0.37 0.37 ]
+	BlendTexture true
+
+#   HZD:			0.45699325016839016398
+#   HZC:			-0.656633239531374227776
+#   HZA:			-1.7202291912034501771
+#   SPH:			0
+#   ESI:			0.208989087695561679588
+#   Density:			5.79638549417447648685	grams/cc
+#   Escape Velocity:		0.0816308885493772728	Km/sec
+#   Surface acceleration:	7.34666911015241488186	cm/sec2
+#   Surface gravity:		0.0074915176030065467357	Earth gees
+#   Surface temperature:	-56.5986702770294894255	degrees Celcius
+#   Estimated temperature:	-41.4727232420259705054	degrees Celcius
+#   Estimated terrestrial temperature:	-41.4727232420259705054	degrees Celcius
+#   Boiling point of water:	-273.149999999999977263	degrees Celcius
+#   Surface pressure:		0	Earth atmospheres
+#   Molecular weight retained:	47391.7905607927405427 and above
+
+	# OrbitFrame { MeanEquator { Center "SCO Cen" } }
+	EllipticalOrbit {
+		Period            79.818947953935832966 # Days
+		SemiMajorAxis     7829548.55826262757046 # Km
+		Eccentricity      0.00838063152431539813879
+		Inclination       11.4215611700628734042
+		AscendingNode     247.686715558025387848
+		LongOfPericenter  254.152471411112915456
+		MeanLongitude     56.4931060636849636525
+	}
+
+	# BodyFrame { MeanEquator { Center "SCO Cen" } }
+	UniformRotation {
+# Moon is tidally locked with one face to planet.
+		Inclination	11.4215611700628734042
+		AscendingNode	0
+		MeridianAngle	56.4931060636849636525
+	}
+
+	Albedo            0.0700000000000000066613
+}
+
+"p7" "SCO Cen" {
+	Class "planet"
+	Radius 5946.55475901832958341
+	Mass 1.40558127812651869205
+
+# Hydrosphere percentage: 0
+# Ice cover percentage:   100
+
+	Texture "gc_froze_01.*"
+	SpecularColor [ 0.1 0.1 0.13 ]
+	SpecularPower 25.0
+	BumpMap "gc_froze_01-bump.*"
+	BumpHeight 3.5
+	Color [ 1.0 0.9 0.75 ]
+
+#   HZD:			1.51038898179272172001
+#   HZC:			-0.823451837035344212982
+#   HZA:			-0.0450608480686120381557
+#   SPH:			0
+#   ESI:			0.586980156825434440566
+#   Density:			9.53755103327952974933	grams/cc
+#   Escape Velocity:		13.7300203566877492894	Km/sec
+#   Surface acceleration:	1585.06451747684073394	cm/sec2
+#   Surface gravity:		1.61631598708717124887	Earth gees
+#   Surface temperature:	-105.580476691375950829	degrees Celcius
+#   Estimated temperature:	-75.2194894104613848707	degrees Celcius
+#   Estimated terrestrial temperature:	-75.2194894104613848707	degrees Celcius
+#   Boiling point of water:	123.139355264393583228	degrees Celcius
+#   Surface pressure:		2.18709884631388051498	Earth atmospheres
+#   Molecular weight retained:	0.941086695029452505526 and above
+#           Hydrogen: 99.1844985513139000069% 2198.00575859987225824 mb (ipp: 2135.85525098954878254)
+#           Nitrogen: 0.314460887421217973666% 6.96869824923974541227 mb (ipp: 6.77165229889186635155)
+#           Oxygen: 0.282358363189041408706% 6.25728130245334356052 mb (ipp: 6.08035127955122616482)
+#           Helium: 0.218422170962877487761% 4.84040547257402769318 mb (ipp: 4.70353883517636487538)
+
+	HazeColor [ 0.2 0.5 1 ]
+	HazeDensity 1
+
+	Atmosphere {
+		Height 60
+		Lower [ 0.8 0.4 0.1 ]
+		Upper [ 0.0 0.0 0.9 ]
+		Sky [ 0.8 0.4 0.1 ]
+		Sunset [ 0.8 0.5 0.2 ]
+# Cloud cover percentage: 0.180764%
+	}
+
+	OrbitFrame { MeanEquator { Center "SCO Cen" } }
+	EllipticalOrbit {
+		Period            2.35319800996120204401 # Years
+		SemiMajorAxis     2.07881500038610216616 # AU
+		Eccentricity      0.0599726549559719268601
+		Inclination       0.307217649573891117174
+		AscendingNode     130.871621394004496466
+		LongOfPericenter  13.4665550726775802076
+		MeanLongitude     327.014439779806155628
+	}
+
+	BodyFrame { MeanEquator { Center "SCO Cen" } }
+	UniformRotation {
+		Period		13.2561461817267188098 # Hours
+		Inclination	18.0939659777230097172
+		AscendingNode	0
+		MeridianAngle	327.014439779806155628
+	}
+
+	Albedo            0.699674624184625720087
+}
+
+"p7-1" "SCO Cen/p7" {
+	Class "moon"
+	Radius 3745.84013998095743281
+	Mass 0.204445971402956902405
+
+# Ice cover percentage:   69.9133954358401822696
+
+	Texture "gc_deser_02.*"
+	BumpMap "gc_deser_02-bump.*"
+	BumpHeight 3.5
+	Color [ 0.539956624003706597793 0.492035439004092657427 0.44411425400447877024 ]
+	BlendTexture true
+
+#   HZD:			1.51038898179272172001
+#   HZC:			-0.461557653947224651143
+#   HZA:			-0.920071136502822019461
+#   SPH:			0
+#   ESI:			0.577029888473335971898
+#   Density:			5.55019213828515622748	grams/cc
+#   Escape Velocity:		6.59766969752911302486	Km/sec
+#   Surface acceleration:	581.034478394948075808	cm/sec2
+#   Surface gravity:		0.59249027791850234013	Earth gees
+#   Surface temperature:	-110.832020582045900362	degrees Celcius
+#   Estimated temperature:	-75.2194894104613848707	degrees Celcius
+#   Estimated terrestrial temperature:	-75.2194894104613848707	degrees Celcius
+#   Boiling point of water:	31.0918469377679818622	degrees Celcius
+#   Surface pressure:		0.0462715021095257338047	Earth atmospheres
+#   Molecular weight retained:	3.89033921334511116966 and above
+#           Helium: 99.9613962831779847285% 46.8665003144480172247 mb (ipp: 0)
+
+	HazeColor [ 1 1 1 ]
+	HazeDensity 0.45
+
+	Atmosphere {
+		Height 30
+		Lower [ 0.8 0.6 0.6 ]
+		Upper [ 0.7 0.3 0.3 ]
+		Sky [ 0.83 0.75 0.65 ]
+		Sunset [ 0.7 0.7 0.8 ]
+# Cloud cover percentage: 0.0139459%
+	}
+
+	# OrbitFrame { MeanEquator { Center "SCO Cen" } }
+	EllipticalOrbit {
+		Period            52.0995104160442480297 # Days
+		SemiMajorAxis     690732.940089746783713 # Km
+		Eccentricity      0.00560220579877598492851
+		Inclination       0.373993258911525959092
+		AscendingNode     57.6480013959333307122
+		LongOfPericenter  7.57575251514825621403
+		MeanLongitude     161.601330843568467929
+	}
+
+	# BodyFrame { MeanEquator { Center "SCO Cen" } }
+	UniformRotation {
+# Moon is tidally locked with one face to planet.
+		Inclination	0.373993258911525959092
+		AscendingNode	0
+		MeridianAngle	161.601330843568467929
+	}
+
+	Albedo            0.534536923536178439781
+}
+
+"p8" "SCO Cen" {
+	Class "planet"
+	Radius 1611.02361544085143896
+	Mass 0.0113330029710254903849
+
+	Texture "gc_rocky_02.*"
+	BumpMap "gc_rocky_02-bump.*"
+	BumpHeight 3.5
+	Color [ 0.562286071569418367312 0.516690870691232738377 0.471095669813047160103 ]
+	BlendTexture true
+
+#   HZD:			5.87398995456373968676
+#   HZC:			-0.184195681163385569621
+#   HZA:			-1.37889093001729626979
+#   SPH:			0
+#   ESI:			0.338483684029796088612
+#   Density:			3.86737656273824850469	grams/cc
+#   Escape Velocity:		2.36863127004098510402	Km/sec
+#   Surface acceleration:	174.125755812732090133	cm/sec2
+#   Surface gravity:		0.177558856299278649283	Earth gees
+#   Surface temperature:	-150.794966735123120688	degrees Celcius
+#   Estimated temperature:	-137.175455630260960588	degrees Celcius
+#   Estimated terrestrial temperature:	-137.175455630260960588	degrees Celcius
+#   Boiling point of water:	-53.6546982711482457334	degrees Celcius
+#   Surface pressure:		7.6169256555624421208e-05	Earth atmospheres
+#   Molecular weight retained:	6.6428121006341411996 and above
+
+	OrbitFrame { MeanEquator { Center "SCO Cen" } }
+	EllipticalOrbit {
+		Period            7.25812480152607664803 # Years
+		SemiMajorAxis     4.40479912181441157553 # AU
+		Eccentricity      0.0150338627484940534629
+		Inclination       1.0486649906039118489
+		AscendingNode     65.1049270225246097046
+		LongOfPericenter  252.580321418391690325
+		MeanLongitude     213.778663526186097188
+	}
+
+	BodyFrame { MeanEquator { Center "SCO Cen" } }
+	UniformRotation {
+		Period		39.9904613275507516447 # Hours
+		Inclination	9.39540925410182366229
+		AscendingNode	0
+		MeridianAngle	213.778663526186097188
+	}
+
+	Albedo            0.211733048787521042729
+}
+
+"p9" "SCO Cen" {
+	Class "planet"
+	Radius 40638.083175506550063
+	Mass 9.29114710948697256239
+
+	Texture "exo-class1.*"
+	Color [ 0.912366407182112253095 0.873418143707495428681 0.766310419152299269595 ]
+	BlendTexture true
+
+#   HZD:			13.9345939821136459418
+#   HZC:			6.93344964125824226534
+#   HZA:			0.717231695423453228253
+#   SPH:			0
+#   ESI:			0.197943546886564495187
+#   Density:			0.239408742671064338523	grams/cc
+#   Escape Velocity:		17.4512884379017307879	Km/sec
+#   Surface acceleration:	625.833539053019241749	cm/sec2
+#   Surface gravity:		0.638172606397719165009	Earth gees
+#   Surface temperature:	-152.674029723143953846	degrees Celcius
+#   Estimated temperature:	-185.369850900700304575	degrees Celcius
+#   Estimated terrestrial temperature:	-176.405777198111403781	degrees Celcius
+#   Boiling point of water:	inf	degrees Celcius
+#   Surface pressure:		10	Earth atmospheres
+#   Molecular weight retained:	0.0483608004055718827128 and above
+#           Hydrogen: 56.0657088430846839502% 5680.85794852555560119 mb (ipp: 5645.72632700177913812)
+#           Helium: 43.6028329725903897526% 4418.05705094772124175 mb (ipp: 4390.73485602738664912)
+#           Carbon: 0.209850033208074051192% 21.2630546148081032362 mb (ipp: 21.1315594086375794381)
+#           Nitrogen: 0.0652174835456984391499% 6.60816152026789434704 mb (ipp: 6.5672952582346586837)
+
+	Oblateness 0.0661812611727117570154
+	HazeColor [ 0.5 0.8 1.0 ]
+	HazeDensity 0.2
+	OrbitFrame { MeanEquator { Center "SCO Cen" } }
+	EllipticalOrbit {
+		Period            20.1520121110356313695 # Years
+		SemiMajorAxis     8.70144244328110498705 # AU
+		Eccentricity      0.159446839117073135839
+		Inclination       0.93602999435522535245
+		AscendingNode     218.209973060623730085
+		LongOfPericenter  188.896818155840420239
+		MeanLongitude     90.6017856535510093252
+	}
+
+	BodyFrame { MeanEquator { Center "SCO Cen" } }
+	UniformRotation {
+		Period		21.0918435467848226928 # Hours
+		Inclination	6.20831473538673267454
+		AscendingNode	0
+		MeridianAngle	90.6017856535510093252
+	}
+
+	Albedo            0.522603379535648117219
+}
+
+"p9-1" "SCO Cen/p9" {
+	Class "moon"
+	Radius 213.096903314796144377
+	Mass 1.0328975326689089803e-05
+
+	Texture "tasteroid.*"
+	Mesh "asteroid.cms"
+	Color   [ 0.37 0.37 0.37 ]
+	BlendTexture true
+
+#   HZD:			13.9345939821136459418
+#   HZC:			0.966075088242321711911
+#   HZA:			-1.69498406836886699291
+#   SPH:			0
+#   ESI:			0.107521984111270383342
+#   Density:			1.52301086744071859297	grams/cc
+#   Escape Velocity:		0.196614689196212710559	Km/sec
+#   Surface acceleration:	9.0703655018902366227	cm/sec2
+#   Surface gravity:		0.00924919875991315786658	Earth gees
+#   Surface temperature:	-182.722097946186581213	degrees Celcius
+#   Estimated temperature:	-176.405777198111403781	degrees Celcius
+#   Estimated terrestrial temperature:	-176.405777198111403781	degrees Celcius
+#   Boiling point of water:	-273.149999999999977263	degrees Celcius
+#   Surface pressure:		0	Earth atmospheres
+#   Molecular weight retained:	243.515295801208446924 and above
+
+	# OrbitFrame { MeanEquator { Center "SCO Cen" } }
+	EllipticalOrbit {
+		Period            12.9276094882889292827 # Days
+		SemiMajorAxis     489228.880403784315462 # Km
+		Eccentricity      0.0040653405962816163793
+		Inclination       0.117162081114233654523
+		AscendingNode     143.625715702597850795
+		LongOfPericenter  291.396615287008050488
+		MeanLongitude     173.552747114353229818
+	}
+
+	# BodyFrame { MeanEquator { Center "SCO Cen" } }
+	UniformRotation {
+# Moon is tidally locked with one face to planet.
+		Inclination	0.117162081114233654523
+		AscendingNode	0
+		MeridianAngle	173.552747114353229818
+	}
+
+	Albedo            0.0700000000000000066613
+}
+
+"p9-2" "SCO Cen/p9" {
+	Class "moon"
+	Radius 1267.17221734065910876
+	Mass 0.00340916055485097496712
+
+# Hydrosphere percentage: 0
+# Ice cover percentage:   5.45744934677986455419
+
+	Texture "gc_froze_01.*"
+	SpecularColor [ 0.1 0.1 0.13 ]
+	SpecularPower 25.0
+	BumpMap "gc_froze_01-bump.*"
+	BumpHeight 3.5
+	Color [ 1.0 0.9 0.75 ]
+
+#   HZD:			13.9345939821136459418
+#   HZC:			0.376140672373604807103
+#   HZA:			-1.4724425385261231613
+#   SPH:			0
+#   ESI:			0.200519320369656906292
+#   Density:			2.39065939789640841194	grams/cc
+#   Escape Velocity:		1.46481175546954956845	Km/sec
+#   Surface acceleration:	84.6638463817011413734	cm/sec2
+#   Surface gravity:		0.0863330968084933637001	Earth gees
+#   Surface temperature:	-185.412724453456702944	degrees Celcius
+#   Estimated temperature:	-176.405777198111403781	degrees Celcius
+#   Estimated terrestrial temperature:	-176.405777198111403781	degrees Celcius
+#   Boiling point of water:	-74.4061736662968655764	degrees Celcius
+#   Surface pressure:		6.8926245283337661172e-06	Earth atmospheres
+#   Molecular weight retained:	4.45095253461074525335 and above
+#           Neon: 100% 0.00698395180333418851831 mb (ipp: 0)
+
+	HazeColor [ 0.2 0.5 1 ]
+	HazeDensity 1
+
+	Atmosphere {
+		Height 60
+		Lower [ 0.8 0.4 0.1 ]
+		Upper [ 0.0 0.0 0.9 ]
+		Sky [ 0.8 0.4 0.1 ]
+		Sunset [ 0.8 0.5 0.2 ]
+# Cloud cover percentage: 1.985e-06%
+	}
+
+	# OrbitFrame { MeanEquator { Center "SCO Cen" } }
+	EllipticalOrbit {
+		Period            17.1867596991925037971 # Days
+		SemiMajorAxis     591582.820959450749228 # Km
+		Eccentricity      0.00461371603171048510751
+		Inclination       0.0526720959992488680812
+		AscendingNode     40.2947066911937234433
+		LongOfPericenter  229.660098380250902103
+		MeanLongitude     148.617634749327616181
+	}
+
+	# BodyFrame { MeanEquator { Center "SCO Cen" } }
+	UniformRotation {
+# Moon is tidally locked with one face to planet.
+		Inclination	0.0526720959992488680812
+		AscendingNode	0
+		MeridianAngle	148.617634749327616181
+	}
+
+	Albedo            0.18001597329303705889
+}
+
+"p9-3" "SCO Cen/p9" {
+	Class "moon"
+	Radius 365.139824283238926067
+	Mass 0.00010962747751881243026
+
+	Texture "tasteroid.*"
+	BumpMap "tasteroid-bump.*"
+	BumpHeight 3.5
+	Color   [ 0.52 0.46 0.43 ]
+	BlendTexture true
+
+#   HZD:			13.9345939821136459418
+#   HZC:			-0.0207154915475558747502
+#   HZA:			-1.64361795004517110446
+#   SPH:			0
+#   ESI:			0.155778571240071617599
+#   Density:			3.21306116395788631782	grams/cc
+#   Escape Velocity:		0.489334706938484212521	Km/sec
+#   Surface acceleration:	32.7885976125178947617	cm/sec2
+#   Surface gravity:		0.0334350645862938883092	Earth gees
+#   Surface temperature:	-182.722097946186581213	degrees Celcius
+#   Estimated temperature:	-176.405777198111403781	degrees Celcius
+#   Estimated terrestrial temperature:	-176.405777198111403781	degrees Celcius
+#   Boiling point of water:	-273.149999999999977263	degrees Celcius
+#   Surface pressure:		0	Earth atmospheres
+#   Molecular weight retained:	39.7644029775560597859 and above
+
+	# OrbitFrame { MeanEquator { Center "SCO Cen" } }
+	EllipticalOrbit {
+		Period            52.8267382122640371846 # Days
+		SemiMajorAxis     1250462.52615583965041 # Km
+		Eccentricity      0.00642041709573027555991
+		Inclination       0.376307358038737319939
+		AscendingNode     269.570620204122094521
+		LongOfPericenter  121.872572769351570299
+		MeanLongitude     11.7426705042564638445
+	}
+
+	# BodyFrame { MeanEquator { Center "SCO Cen" } }
+	UniformRotation {
+# Moon is tidally locked with one face to planet.
+		Inclination	0.376307358038737319939
+		AscendingNode	0
+		MeridianAngle	11.7426705042564638445
+	}
+
+	Albedo            0.0700000000000000066613
+}
+
+"p9-4" "SCO Cen/p9" {
+	Class "moon"
+	Radius 380.537800934939041742
+	Mass 7.23489189204368797827e-05
+
+# Hydrosphere percentage: 0
+# Ice cover percentage:   0
+
+	Texture "gc_froze_02.*"
+	SpecularColor [ 0.1 0.1 0.13 ]
+	SpecularPower 25.0
+	BumpMap "gc_froze_02-bump.*"
+	BumpHeight 3.5
+	Color [ 1.0 0.9 0.75 ]
+
+#   HZD:			13.9345939821136459418
+#   HZC:			0.671379355189773140491
+#   HZA:			-1.66115481790794490709
+#   SPH:			0
+#   ESI:			0.136425973105986181902
+#   Density:			1.87333657293611516748	grams/cc
+#   Escape Velocity:		0.389397385617341773443	Km/sec
+#   Surface acceleration:	19.9231618452991966883	cm/sec2
+#   Surface gravity:		0.0203159711474348502565	Earth gees
+#   Surface temperature:	-182.722097946186581213	degrees Celcius
+#   Estimated temperature:	-176.405777198111403781	degrees Celcius
+#   Estimated terrestrial temperature:	-176.405777198111403781	degrees Celcius
+#   Boiling point of water:	-273.149999999999977263	degrees Celcius
+#   Surface pressure:		0	Earth atmospheres
+#   Molecular weight retained:	62.3200543821284527676 and above
+
+	HazeColor [ 0.81 0.79 0.92 ]
+	HazeDensity 0.4322
+
+	Atmosphere {
+		Height 60
+		Lower [ 0.81 0.79 0.92 ]
+		Upper [ 0.87 0.64 0.97 ]
+		Sky [ 0.42 0.93 0.05 ]
+		Sunset [ 0.09 0.42 0.35 ]
+# Cloud cover percentage: 0%
+		Mie 0.0123
+		MieAsymmetry 0.129
+		Rayleigh [ 0.0423 0.0932 0.0046 ]
+		Absorption [ 0.0909 0.0576 0.0655 ]
+		MieScaleHeight 1.7534
+	}
+
+	# OrbitFrame { MeanEquator { Center "SCO Cen" } }
+	EllipticalOrbit {
+		Period            95.3374089994973656984 # Days
+		SemiMajorAxis     1853573.44834979938355 # Km
+		Eccentricity      0.000373062798927101686399
+		Inclination       0.106181406079524010602
+		AscendingNode     182.762636478414124103
+		LongOfPericenter  278.896285946898295521
+		MeanLongitude     28.9828018047766768402
+	}
+
+	# BodyFrame { MeanEquator { Center "SCO Cen" } }
+	UniformRotation {
+# Moon is tidally locked with one face to planet.
+		Inclination	0.106181406079524010602
+		AscendingNode	0
+		MeridianAngle	28.9828018047766768402
+	}
+
+	Albedo            0.0700000000000000066613
+}
+
+"p9-5" "SCO Cen/p9" {
+	Class "moon"
+	Radius 1043.10713389488814984
+	Mass 0.00114368406671950701504
+
+# Hydrosphere percentage: 0
+# Ice cover percentage:   2.70185341400713143855
+
+	Texture "gc_froze_04.*"
+	SpecularColor [ 0.1 0.1 0.13 ]
+	SpecularPower 25.0
+	BumpMap "gc_froze_04-bump.*"
+	BumpHeight 3.5
+	Color [ 1.0 0.9 0.75 ]
+
+#   HZD:			13.9345939821136459418
+#   HZC:			1.0830276023028017246
+#   HZA:			-1.56539322105970708787
+#   SPH:			0
+#   ESI:			0.165458180605725723309
+#   Density:			1.43779345479137145303	grams/cc
+#   Escape Velocity:		0.935113847036486790516	Km/sec
+#   Surface acceleration:	41.9150573562990031093	cm/sec2
+#   Surface gravity:		0.0427414635541178737533	Earth gees
+#   Surface temperature:	-185.082609097135751375	degrees Celcius
+#   Estimated temperature:	-176.405777198111403781	degrees Celcius
+#   Estimated terrestrial temperature:	-176.405777198111403781	degrees Celcius
+#   Boiling point of water:	-90.1378797798442033123	degrees Celcius
+#   Surface pressure:		7.7571439898741471789e-07	Earth atmospheres
+#   Molecular weight retained:	10.7900480872080484288 and above
+
+	HazeColor [ 0.01 0.79 0.38 ]
+	HazeDensity 0.1810
+
+	Atmosphere {
+		Height 60
+		Lower [ 0.01 0.79 0.38 ]
+		Upper [ 0.96 0.58 0.46 ]
+		Sky [ 0.17 0.58 0.44 ]
+		Sunset [ 0.36 0.24 0.62 ]
+# Cloud cover percentage: 9.88708e-07%
+		Mie 0.0083
+		MieAsymmetry -0.155
+		Rayleigh [ 0.0166 0.0581 0.0441 ]
+		Absorption [ 0.0644 0.0764 0.0376 ]
+		MieScaleHeight 2.4801
+	}
+
+	# OrbitFrame { MeanEquator { Center "SCO Cen" } }
+	EllipticalOrbit {
+		Period            138.710666827754583078 # Days
+		SemiMajorAxis     2380076.04995675864302 # Km
+		Eccentricity      0.00180922321593818408295
+		Inclination       0.230715109909666566361
+		AscendingNode     102.739190656104679523
+		LongOfPericenter  349.102175714961334929
+		MeanLongitude     81.5162805474904740913
+	}
+
+	# BodyFrame { MeanEquator { Center "SCO Cen" } }
+	UniformRotation {
+# Moon is tidally locked with one face to planet.
+		Inclination	0.230715109909666566361
+		AscendingNode	0
+		MeridianAngle	81.5162805474904740913
+	}
+
+	Albedo            0.16486019471631153031
+}
+
+"p9-6" "SCO Cen/p9" {
+	Class "moon"
+	Radius 3104.10194039347449646
+	Mass 0.0789039008575968527106
+
+# Ice cover percentage:   21.0494167886423139899
+
+	Texture "gc_deser_01.*"
+	BumpMap "gc_deser_01-bump.*"
+	BumpHeight 3.5
+	Color [ 0.603533847455498622574 0.56223528989877969087 0.520936732342060805027 ]
+	BlendTexture true
+
+#   HZD:			13.9345939821136459418
+#   HZC:			-0.0884745961981464576325
+#   HZA:			-0.939386801074148874123
+#   SPH:			0
+#   ESI:			0.276182558506609007412
+#   Density:			3.76415697936956756479	grams/cc
+#   Escape Velocity:		4.50253564850859134801	Km/sec
+#   Surface acceleration:	326.548993160980197098	cm/sec2
+#   Surface gravity:		0.332987302657870128152	Earth gees
+#   Surface temperature:	-186.574474292184614682	degrees Celcius
+#   Estimated temperature:	-176.405777198111403781	degrees Celcius
+#   Estimated terrestrial temperature:	-176.405777198111403781	degrees Celcius
+#   Boiling point of water:	-9.12100537699023472538	degrees Celcius
+#   Surface pressure:		0.00369221226243787729773	Earth atmospheres
+#   Molecular weight retained:	0.544873161778228297619 and above
+#           Hydrogen: 99.8198055497297596778% 3.7343927589350131241 mb (ipp: 0)
+#           Oxygen: 0.128844849784889484823% 0.00482025857907577744914 mb (ipp: 0)
+
+	HazeColor [ 1 1 1 ]
+	HazeDensity 0.45
+
+	Atmosphere {
+		Height 30
+		Lower [ 0.8 0.6 0.6 ]
+		Upper [ 0.7 0.3 0.3 ]
+		Sky [ 0.83 0.75 0.65 ]
+		Sunset [ 0.7 0.7 0.8 ]
+# Cloud cover percentage: 7.83892e-06%
+	}
+
+	# OrbitFrame { MeanEquator { Center "SCO Cen" } }
+	EllipticalOrbit {
+		Period            307.243030176838535644 # Days
+		SemiMajorAxis     4055508.7424260046721 # Km
+		Eccentricity      0.000920421369802402989446
+		Inclination       0.292235387048745158891
+		AscendingNode     1.26878142415954797727
+		LongOfPericenter  183.017659235288230352
+		MeanLongitude     45.8512813625164708867
+	}
+
+	# BodyFrame { MeanEquator { Center "SCO Cen" } }
+	UniformRotation {
+		Period		32.7534869272767901124 # Hours
+		Inclination	4.53258356018501530746
+		AscendingNode	0
+		MeridianAngle	45.8512813625164708867
+	}
+
+	Albedo            0.265771799784510354196
+}
+
+"p9-7" "SCO Cen/p9" {
+	Class "moon"
+	Radius 526.218621422477389138
+	Mass 0.000206271497050390945612
+
+# Hydrosphere percentage: 0
+# Ice cover percentage:   0
+
+	Texture "gc_froze_03.*"
+	SpecularColor [ 0.1 0.1 0.13 ]
+	SpecularPower 25.0
+	BumpMap "gc_froze_03-bump.*"
+	BumpHeight 3.5
+	Color [ 1.0 0.9 0.75 ]
+
+#   HZD:			13.9345939821136459418
+#   HZC:			0.572231875820027223879
+#   HZA:			-1.6313704510417112813
+#   SPH:			0
+#   ESI:			0.15363599751669455604
+#   Density:			2.01984368718551290283	grams/cc
+#   Escape Velocity:		0.559129510256089820174	Km/sec
+#   Surface acceleration:	29.7049359821325645835	cm/sec2
+#   Surface gravity:		0.0302906048264520154039	Earth gees
+#   Surface temperature:	-182.722097946186581213	degrees Celcius
+#   Estimated temperature:	-176.405777198111403781	degrees Celcius
+#   Estimated terrestrial temperature:	-176.405777198111403781	degrees Celcius
+#   Boiling point of water:	-273.149999999999977263	degrees Celcius
+#   Surface pressure:		0	Earth atmospheres
+#   Molecular weight retained:	30.2725901746313640524 and above
+
+	HazeColor [ 0.49 0.67 0.93 ]
+	HazeDensity 0.3982
+
+	Atmosphere {
+		Height 60
+		Lower [ 0.49 0.67 0.93 ]
+		Upper [ 0.31 0.71 0.02 ]
+		Sky [ 0.94 0.83 0.22 ]
+		Sunset [ 0.60 0.64 0.36 ]
+# Cloud cover percentage: 0%
+		Mie 0.0084
+		MieAsymmetry 0.038
+		Rayleigh [ 0.0939 0.0834 0.0224 ]
+		Absorption [ 0.0401 0.0359 0.0640 ]
+		MieScaleHeight 1.2494
+	}
+
+	# OrbitFrame { MeanEquator { Center "SCO Cen" } }
+	EllipticalOrbit {
+		Period            588.213093735309918209 # Days
+		SemiMajorAxis     6235330.07411875796788 # Km
+		Eccentricity      0.00332902240256267718578
+		Inclination       2.39547496807569744968
+		AscendingNode     1.49541249568360508219
+		LongOfPericenter  281.980581228612261463
+		MeanLongitude     315.128084009107241409
+	}
+
+	# BodyFrame { MeanEquator { Center "SCO Cen" } }
+	UniformRotation {
+		Period		1854.84032480766282458 # Hours
+		Inclination	7.13764295502472209849
+		AscendingNode	0
+		MeridianAngle	315.128084009107241409
+	}
+
+	Albedo            0.0700000000000000066613
+}
+
+"p9-8" "SCO Cen/p9" {
+	Class "moon"
+	Radius 1493.43691064942227542
+	Mass 0.00903529760973616265883
+
+	Texture "gc_rocky_02.*"
+	BumpMap "gc_rocky_02-bump.*"
+	BumpHeight 3.5
+	Color [ 0.603533847455498622574 0.56223528989877969087 0.520936732342060805027 ]
+	BlendTexture true
+
+#   HZD:			13.9345939821136459418
+#   HZC:			-0.189883148938137662063
+#   HZA:			-1.34402689756579779849
+#   SPH:			0
+#   ESI:			0.234341329342391075998
+#   Density:			3.87042804563565292922	grams/cc
+#   Escape Velocity:		2.19661376673717748326	Km/sec
+#   Surface acceleration:	161.543885979123390345	cm/sec2
+#   Surface gravity:		0.164728919640369949305	Earth gees
+#   Surface temperature:	-186.020811640740295401	degrees Celcius
+#   Estimated temperature:	-176.405777198111403781	degrees Celcius
+#   Estimated terrestrial temperature:	-176.405777198111403781	degrees Celcius
+#   Boiling point of water:	-57.8940362409746513001	degrees Celcius
+#   Surface pressure:		4.84144091193732052496e-05	Earth atmospheres
+#   Molecular weight retained:	2.00313577669526970927 and above
+#           Oxygen: 75.2275176046170042932% 0.0369035358388484614018 mb (ipp: 0)
+#           Nitrogen: 16.6350533467692453127% 0.0081604751414258808107 mb (ipp: 0)
+#           Helium: 8.12151567461951849787% 0.00398408261109092364812 mb (ipp: 0)
+
+	# OrbitFrame { MeanEquator { Center "SCO Cen" } }
+	EllipticalOrbit {
+		Period            968.794757480361673818 # Days
+		SemiMajorAxis     8698846.60583282235348 # Km
+		Eccentricity      0.00742229456893275254436
+		Inclination       2.04681237486962963297
+		AscendingNode     49.4100602573761997077
+		LongOfPericenter  67.3249510244116890351
+		MeanLongitude     274.803862960452150055
+	}
+
+	# BodyFrame { MeanEquator { Center "SCO Cen" } }
+	UniformRotation {
+		Period		41.8004912730782923237 # Hours
+		Inclination	21.2939899627754858028
+		AscendingNode	0
+		MeridianAngle	274.803862960452150055
+	}
+
+	Albedo            0.207272344349682813324
+}
+
+"p9-9" "SCO Cen/p9" {
+	Class "moon"
+	Radius 253.873387486273559166
+	Mass 2.05125977673870059162e-05
+
+	Texture "tasteroid.*"
+	BumpMap "tasteroid-bump.*"
+	BumpHeight 3.5
+	Color   [ 0.37 0.37 0.37 ]
+	BlendTexture true
+
+#   HZD:			13.9345939821136459418
+#   HZC:			0.732441862521146155375
+#   HZA:			-1.68494044254114554854
+#   SPH:			0
+#   ESI:			0.118950430369305536079
+#   Density:			1.78873625039750736292	grams/cc
+#   Escape Velocity:		0.253850283911788273707	Km/sec
+#   Surface acceleration:	12.6913591219914013769	cm/sec2
+#   Surface gravity:		0.0129415846614199567109	Earth gees
+#   Surface temperature:	-182.722097946186581213	degrees Celcius
+#   Estimated temperature:	-176.405777198111403781	degrees Celcius
+#   Estimated terrestrial temperature:	-176.405777198111403781	degrees Celcius
+#   Boiling point of water:	-273.149999999999977263	degrees Celcius
+#   Surface pressure:		0	Earth atmospheres
+#   Molecular weight retained:	146.418869478030842152 and above
+
+	# OrbitFrame { MeanEquator { Center "SCO Cen" } }
+	EllipticalOrbit {
+		Period            1084.64559285629965202 # Days
+		SemiMajorAxis     9376166.97435745585517 # Km
+		Eccentricity      0.00123386450169322293107
+		Inclination       4.44571408597991834816
+		AscendingNode     85.0127029442287529548
+		LongOfPericenter  217.020259302584575159
+		MeanLongitude     158.639165087900667034
+	}
+
+	# BodyFrame { MeanEquator { Center "SCO Cen" } }
+	UniformRotation {
+		Period		321.191868196757135179 # Hours
+		Inclination	5.36163872180540831665
+		AscendingNode	0
+		MeridianAngle	158.639165087900667034
+	}
+
+	Albedo            0.0700000000000000066613
+}
+
+"p10" "SCO Cen" {
+	Class "planet"
+	Radius 78415.0373000246470454
+	Mass 360.090557920631341854
+
+	Texture "tgasgiant.*"
+	Color [ 0.716847187558871750475 0.76464392048665729112 0.748293768942961923371 ]
+	BlendTexture true
+
+#   HZD:			27.9081307533000047352
+#   HZC:			7.6982446226510934024
+#   HZA:			11.0226715712113665264
+#   SPH:			0
+#   ESI:			0.186728946117565634019
+#   Density:			1.26352898193283110623	grams/cc
+#   Escape Velocity:		62.1118724357057524418	Km/sec
+#   Surface acceleration:	2591.22387675399101292	cm/sec2
+#   Surface gravity:		2.64231299858156568148	Earth gees
+#   Surface temperature:	-175.307695910932186095	degrees Celcius
+#   Estimated temperature:	-201.565726510727194404	degrees Celcius
+#   Estimated terrestrial temperature:	-202.137409990495180434	degrees Celcius
+#   Boiling point of water:	inf	degrees Celcius
+#   Surface pressure:		10	Earth atmospheres
+#   Molecular weight retained:	0.522823918830987029518 and above
+#           Helium: 61.6393247143588884178% 6245.60457668241436924 mb (ipp: 6206.98044311608891066)
+#           Hydrogen: 37.9378379033072219151% 3844.0514255526042604 mb (ipp: 3820.27900226300262831)
+#           Carbon: 0.266282836127222763189% 26.9811083705908464798 mb (ipp: 26.8142515161937715039)
+#           Nitrogen: 0.0832114375954456274786% 8.43139891435852820416 mb (ipp: 8.37925736844078467274)
+
+	Oblateness 0.0584364447890955813699
+	HazeColor [ 0.4 0.45 0.5 ]
+	HazeDensity 0.3
+	OrbitFrame { MeanEquator { Center "SCO Cen" } }
+	EllipticalOrbit {
+		Period            50.9385318902006888064 # Years
+		SemiMajorAxis     16.1499293358243952504 # AU
+		Eccentricity      0.0110905645776577799211
+		Inclination       0.00604246766338226968629
+		AscendingNode     234.421572421873720571
+		LongOfPericenter  266.935963065799308519
+		MeanLongitude     64.1901360006025694313
+	}
+
+	BodyFrame { MeanEquator { Center "SCO Cen" } }
+	UniformRotation {
+		Period		10.3655294040221213599 # Hours
+		Inclination	18.930862305289385317
+		AscendingNode	0
+		MeridianAngle	64.1901360006025694313
+	}
+
+	Albedo            0.284609705059768972616
+}
+
+"p10-1" "SCO Cen/p10" {
+	Class "moon"
+	Radius 683.840523470498037273
+	Mass 0.000573049109682156097548
+
+# Hydrosphere percentage: 0
+# Ice cover percentage:   0.0104996413638755655623
+
+	Texture "gc_froze_02.*"
+	SpecularColor [ 0.1 0.1 0.13 ]
+	SpecularPower 25.0
+	BumpMap "gc_froze_02-bump.*"
+	BumpHeight 3.5
+	Color [ 1.0 0.9 0.75 ]
+
+#   HZD:			27.9081307533000047352
+#   HZC:			0.268104971216689700068
+#   HZA:			-1.56204406759393578884
+#   SPH:			0
+#   ESI:			0.122851189302021137432
+#   Density:			2.55684570880193302281	grams/cc
+#   Escape Velocity:		0.817512524768997561673	Km/sec
+#   Surface acceleration:	48.865686166302012429	cm/sec2
+#   Surface gravity:		0.0498291324420694266035	Earth gees
+#   Surface temperature:	-208.248772850728032374	degrees Celcius
+#   Estimated temperature:	-202.137409990495180434	degrees Celcius
+#   Estimated terrestrial temperature:	-202.137409990495180434	degrees Celcius
+#   Boiling point of water:	-127.528558186705337676	degrees Celcius
+#   Surface pressure:		6.49160582085526625368e-10	Earth atmospheres
+#   Molecular weight retained:	4.19826850268405303308 and above
+
+	HazeColor [ 0.26 0.53 0.40 ]
+	HazeDensity 0.0197
+
+	Atmosphere {
+		Height 60
+		Lower [ 0.26 0.53 0.40 ]
+		Upper [ 0.02 0.91 0.17 ]
+		Sky [ 0.57 0.71 0.17 ]
+		Sunset [ 0.12 0.02 0.36 ]
+# Cloud cover percentage: 7.86716e-10%
+		Mie 0.0142
+		MieAsymmetry 0.147
+		Rayleigh [ 0.0565 0.0707 0.0169 ]
+		Absorption [ 0.0876 0.0984 0.0642 ]
+		MieScaleHeight 1.2885
+	}
+
+	# OrbitFrame { MeanEquator { Center "SCO Cen" } }
+	EllipticalOrbit {
+		Period            7.10461599958311865047 # Days
+		SemiMajorAxis     1110813.65993541885291 # Km
+		Eccentricity      0.00457783808679219255748
+		Inclination       0.0239498653545034225037
+		AscendingNode     31.2877083342930806496
+		LongOfPericenter  134.536098099563316485
+		MeanLongitude     179.517188044040085768
+	}
+
+	# BodyFrame { MeanEquator { Center "SCO Cen" } }
+	UniformRotation {
+# Moon is tidally locked with one face to planet.
+		Inclination	0.0239498653545034225037
+		AscendingNode	0
+		MeridianAngle	179.517188044040085768
+	}
+
+	Albedo            0.150057748028248690586
+}
+
+"p10-2" "SCO Cen/p10" {
+	Class "moon"
+	Radius 1202.66981865134902063
+	Mass 0.00190777394824329949253
+
+# Hydrosphere percentage: 0
+# Ice cover percentage:   0.011301247289672693365
+
+	Texture "gc_froze_02.*"
+	SpecularColor [ 0.1 0.1 0.13 ]
+	SpecularPower 25.0
+	BumpMap "gc_froze_02-bump.*"
+	BumpHeight 3.5
+	Color [ 1.0 0.9 0.75 ]
+
+#   HZD:			27.9081307533000047352
+#   HZC:			0.961539511855857602081
+#   HZA:			-1.49911076152534448764
+#   SPH:			0
+#   ESI:			0.126031087722911399216
+#   Density:			1.56482168239569824331	grams/cc
+#   Escape Velocity:		1.12477631142192427026	Km/sec
+#   Surface acceleration:	52.5963872675624700345	cm/sec2
+#   Surface gravity:		0.0536333888407993269719	Earth gees
+#   Surface temperature:	-208.245588545451306206	degrees Celcius
+#   Estimated temperature:	-202.137409990495180434	degrees Celcius
+#   Estimated terrestrial temperature:	-202.137409990495180434	degrees Celcius
+#   Boiling point of water:	-116.676110503556445877	degrees Celcius
+#   Surface pressure:		7.19485895538855154716e-09	Earth atmospheres
+#   Molecular weight retained:	2.16501686926589902247 and above
+
+	HazeColor [ 0.88 0.21 0.15 ]
+	HazeDensity 0.6953
+	Atmosphere {
+		Height 60
+		Lower [ 0.88 0.21 0.15 ]
+		Upper [ 0.81 0.44 0.87 ]
+		Sky [ 0.11 0.68 0.19 ]
+		Sunset [ 0.12 0.63 0.97 ]
+# Cloud cover percentage: 8.46965e-10%
+		Mie 0.0088
+		MieAsymmetry 0.134
+		Rayleigh [ 0.0112 0.0682 0.0186 ]
+		Absorption [ 0.0882 0.0369 0.0027 ]
+		MieScaleHeight 1.8226
+	}
+
+	# OrbitFrame { MeanEquator { Center "SCO Cen" } }
+	EllipticalOrbit {
+		Period            59.3768785563039613144 # Days
+		SemiMajorAxis     4574668.02861678592217 # Km
+		Eccentricity      0.00879379002321222350825
+		Inclination       0.0801324458291131043935
+		AscendingNode     272.81953405254498779
+		LongOfPericenter  89.9703812459345819638
+		MeanLongitude     347.073256590903390484
+	}
+
+	# BodyFrame { MeanEquator { Center "SCO Cen" } }
+	UniformRotation {
+# Moon is tidally locked with one face to planet.
+		Inclination	0.0801324458291131043935
+		AscendingNode	0
+		MeridianAngle	347.073256590903390484
+	}
+
+	Albedo            0.15006215686089781072
+}
+
+"p10-3" "SCO Cen/p10" {
+	Class "moon"
+	Radius 1137.11188774116264999
+	Mass 0.00152190458424743874233
+
+# Hydrosphere percentage: 0
+# Ice cover percentage:   0.0100849399005290447801
+
+	Texture "gc_froze_04.*"
+	SpecularColor [ 0.1 0.1 0.13 ]
+	SpecularPower 25.0
+	BumpMap "gc_froze_04-bump.*"
+	BumpHeight 3.5
+	Color [ 1.0 0.9 0.75 ]
+
+#   HZD:			27.9081307533000047352
+#   HZC:			1.04579715095164206388
+#   HZA:			-1.51787526230618445848
+#   SPH:			0
+#   ESI:			0.122007292211170160299
+#   Density:			1.47691330880076757126	grams/cc
+#   Escape Velocity:		1.03316104559926624665	Km/sec
+#   Surface acceleration:	46.9356515243266501566	cm/sec2
+#   Surface gravity:		0.0478610448260380985324	Earth gees
+#   Surface temperature:	-208.246335583761182447	degrees Celcius
+#   Estimated temperature:	-202.137409990495180434	degrees Celcius
+#   Estimated terrestrial temperature:	-202.137409990495180434	degrees Celcius
+#   Boiling point of water:	-118.836837754234367293	degrees Celcius
+#   Surface pressure:		4.57871178723165206104e-09	Earth atmospheres
+#   Molecular weight retained:	2.56600536939926621507 and above
+
+	HazeColor [ 0.31 0.62 0.11 ]
+	HazeDensity 0.6551
+	Atmosphere {
+		Height 60
+		Lower [ 0.31 0.62 0.11 ]
+		Upper [ 0.36 0.24 0.51 ]
+		Sky [ 0.20 0.61 0.55 ]
+		Sunset [ 0.10 0.55 0.17 ]
+# Cloud cover percentage: 7.55767e-10%
+		Mie 0.0077
+		MieAsymmetry 0.037
+		Rayleigh [ 0.0199 0.0613 0.0550 ]
+		Absorption [ 0.0905 0.0454 0.0830 ]
+		MieScaleHeight 2.6516
+	}
+
+	# OrbitFrame { MeanEquator { Center "SCO Cen" } }
+	EllipticalOrbit {
+		Period            74.446945553172515643 # Days
+		SemiMajorAxis     5319193.33995494676947 # Km
+		Eccentricity      0.00178766098422355068108
+		Inclination       0.154062134783276382332
+		AscendingNode     125.237842688913383844
+		LongOfPericenter  47.5814920885402206745
+		MeanLongitude     47.3385961015422810326
+	}
+
+	# BodyFrame { MeanEquator { Center "SCO Cen" } }
+	UniformRotation {
+# Moon is tidally locked with one face to planet.
+		Inclination	0.154062134783276382332
+		AscendingNode	0
+		MeridianAngle	47.3385961015422810326
+	}
+
+	Albedo            0.150055467170170882927
+}
+
+"p10-4" "SCO Cen/p10" {
+	Class "moon"
+	Radius 503.191311332653447658
+	Mass 0.000135711703692922560683
+
+# Hydrosphere percentage: 0
+# Ice cover percentage:   0.00459243823914292426026
+
+	Texture "gc_froze_04.*"
+	SpecularColor [ 0.1 0.1 0.13 ]
+	SpecularPower 25.0
+	BumpMap "gc_froze_04-bump.*"
+	BumpHeight 3.5
+	Color [ 1.0 0.9 0.75 ]
+
+#   HZD:			27.9081307533000047352
+#   HZC:			0.978916872386768744882
+#   HZA:			-1.63449372292269161182
+#   SPH:			0
+#   ESI:			0.0969904476599965048816
+#   Density:			1.5198302364015482107	grams/cc
+#   Escape Velocity:		0.463786384690636389861	Km/sec
+#   Surface acceleration:	21.3733629516321782041	cm/sec2
+#   Surface gravity:		0.0217947647276411200538	Earth gees
+#   Surface temperature:	-208.249636338060242907	degrees Celcius
+#   Estimated temperature:	-202.137409990495180434	degrees Celcius
+#   Estimated terrestrial temperature:	-202.137409990495180434	degrees Celcius
+#   Boiling point of water:	-138.696848314897601046	degrees Celcius
+#   Surface pressure:		3.64085230664197659222e-11	Earth atmospheres
+#   Molecular weight retained:	12.7337880570115294957 and above
+
+	HazeColor [ 0.92 0.46 0.36 ]
+	HazeDensity 0.0470
+	Atmosphere {
+		Height 60
+		Lower [ 0.92 0.46 0.36 ]
+		Upper [ 0.88 0.31 0.80 ]
+		Sky [ 0.63 0.67 0.26 ]
+		Sunset [ 0.12 0.83 0.94 ]
+# Cloud cover percentage: 3.44073e-10%
+		Mie 0.0126
+		MieAsymmetry -0.272
+		Rayleigh [ 0.0631 0.0672 0.0259 ]
+		Absorption [ 0.0883 0.0174 0.0063 ]
+		MieScaleHeight 0.9983
+	}
+
+	# OrbitFrame { MeanEquator { Center "SCO Cen" } }
+	EllipticalOrbit {
+		Period            145.806365104952173825 # Days
+		SemiMajorAxis     8326547.26749099770632 # Km
+		Eccentricity      0.00806851252823533159114
+		Inclination       0.659761295874714699433
+		AscendingNode     106.817632460416123481
+		LongOfPericenter  351.473557106905410585
+		MeanLongitude     206.641818809621882994
+	}
+
+	# BodyFrame { MeanEquator { Center "SCO Cen" } }
+	UniformRotation {
+# Moon is tidally locked with one face to planet.
+		Inclination	0.659761295874714699433
+		AscendingNode	0
+		MeridianAngle	206.641818809621882994
+	}
+
+	Albedo            0.150025258410642149868
+}
+
+"p10-5" "SCO Cen/p10" {
+	Class "moon"
+	Radius 30.6706520850152735518
+	Mass 3.2268035047787310267e-08
+
+	Texture "tasteroid.*"
+	Mesh "asteroid.cms"
+	Color   [ 0.52 0.46 0.43 ]
+	BlendTexture true
+
+#   HZD:			27.9081307533000047352
+#   HZC:			0.891315364259105003355
+#   HZA:			-1.72355281347801054127
+#   SPH:			0
+#   ESI:			0.0422297209094514507558
+#   Density:			1.59580811624291140553	grams/cc
+#   Escape Velocity:		0.0289668096619805756205	Km/sec
+#   Surface acceleration:	1.36788102787576154931	cm/sec2
+#   Surface gravity:		0.00139485046154982751502	Earth gees
+#   Surface temperature:	-206.773741573520054932	degrees Celcius
+#   Estimated temperature:	-202.137409990495180434	degrees Celcius
+#   Estimated terrestrial temperature:	-202.137409990495180434	degrees Celcius
+#   Boiling point of water:	-273.149999999999977263	degrees Celcius
+#   Surface pressure:		0	Earth atmospheres
+#   Molecular weight retained:	3258.56301007040110829 and above
+
+	# OrbitFrame { MeanEquator { Center "SCO Cen" } }
+	EllipticalOrbit {
+		Period            238.146595007854252973 # Days
+		SemiMajorAxis     11548089.9836409679565 # Km
+		Eccentricity      0.00034856050291497284477
+		Inclination       3.54697013262364766123
+		AscendingNode     165.515941477155285641
+		LongOfPericenter  101.362657352053866421
+		MeanLongitude     210.445131515360032912
+	}
+
+	# BodyFrame { MeanEquator { Center "SCO Cen" } }
+	UniformRotation {
+# Moon is tidally locked with one face to planet.
+		Inclination	3.54697013262364766123
+		AscendingNode	0
+		MeridianAngle	210.445131515360032912
+	}
+
+	Albedo            0.0700000000000000066613
+}
+
+"p10-6" "SCO Cen/p10" {
+	Class "moon"
+	Radius 6.09046464222769055093
+	Mass 3.8955974318934128407e-10
+
+	Texture "tasteroid.*"
+	Mesh "asteroid.cms"
+	Color   [ 0.37 0.37 0.37 ]
+	BlendTexture true
+
+#   HZD:			27.9081307533000047352
+#   HZC:			0.295424259795506445771
+#   HZA:			-1.72802287787789182489
+#   SPH:			0
+#   ESI:			0.0286096725746002311008
+#   Density:			2.46036743595608751816	grams/cc
+#   Escape Velocity:		0.00714229415674089092897	Km/sec
+#   Surface acceleration:	0.418788785569211003844	cm/sec2
+#   Surface gravity:		0.000427045714458261505596	Earth gees
+#   Surface temperature:	-206.773741573520054932	degrees Celcius
+#   Estimated temperature:	-202.137409990495180434	degrees Celcius
+#   Estimated terrestrial temperature:	-202.137409990495180434	degrees Celcius
+#   Boiling point of water:	-273.149999999999977263	degrees Celcius
+#   Surface pressure:		0	Earth atmospheres
+#   Molecular weight retained:	53949.4764151482588588 and above
+
+	# OrbitFrame { MeanEquator { Center "SCO Cen" } }
+	EllipticalOrbit {
+		Period            238.281636310804533593 # Days
+		SemiMajorAxis     11552455.1427009434465 # Km
+		Eccentricity      0.00311003041598481617617
+		Inclination       4.37495347320472171247
+		AscendingNode     36.3027419877717001315
+		LongOfPericenter  134.167071736495509618
+		MeanLongitude     265.679637987948785521
+	}
+
+	# BodyFrame { MeanEquator { Center "SCO Cen" } }
+	UniformRotation {
+# Moon is tidally locked with one face to planet.
+		Inclination	4.37495347320472171247
+		AscendingNode	0
+		MeridianAngle	265.679637987948785521
+	}
+
+	Albedo            0.0700000000000000066613
+}
+
+"p10-7" "SCO Cen/p10" {
+	Class "moon"
+	Radius 3.63209274871671029231
+	Mass 5.06599176003539476999e-11
+
+	Texture "tasteroid.*"
+	Mesh "asteroid.cms"
+	Color   [ 0.7 0.7 0.7 ]
+	BlendTexture true
+
+#   HZD:			27.9081307533000047352
+#   HZC:			0.974491734469427967817
+#   HZA:			-1.72880262889661254742
+#   SPH:			0
+#   ESI:			0.0211172479992721887727
+#   Density:			1.50858875813798292006	grams/cc
+#   Escape Velocity:		0.00333525992279365644047	Km/sec
+#   Surface acceleration:	0.153134288166565408316	cm/sec2
+#   Surface gravity:		0.000156153516406280854309	Earth gees
+#   Surface temperature:	-206.773741573520054932	degrees Celcius
+#   Estimated temperature:	-202.137409990495180434	degrees Celcius
+#   Estimated terrestrial temperature:	-202.137409990495180434	degrees Celcius
+#   Boiling point of water:	-273.149999999999977263	degrees Celcius
+#   Surface pressure:		0	Earth atmospheres
+#   Molecular weight retained:	245582.252976993374972 and above
+
+	# OrbitFrame { MeanEquator { Center "SCO Cen" } }
+	EllipticalOrbit {
+		Period            248.286332137746047335 # Days
+		SemiMajorAxis     11873600.9834822955145 # Km
+		Eccentricity      0.00941099445308139308993
+		Inclination       19.0097565598631259524
+		AscendingNode     30.8325471872615382019
+		LongOfPericenter  325.039890876524099561
+		MeanLongitude     289.790040482669156274
+	}
+
+	# BodyFrame { MeanEquator { Center "SCO Cen" } }
+	UniformRotation {
+# Moon is tidally locked with one face to planet.
+		Inclination	19.0097565598631259524
+		AscendingNode	0
+		MeridianAngle	289.790040482669156274
+	}
+
+	Albedo            0.0700000000000000066613
+}
+
+"p10-8" "SCO Cen/p10" {
+	Class "moon"
+	Radius 2.11874641389823542992
+	Mass 9.99999999999999939576e-12
+
+	Texture "tasteroid.*"
+	Mesh "asteroid.cms"
+	Color   [ 0.37 0.37 0.37 ]
+	BlendTexture true
+
+#   HZD:			27.9081307533000047352
+#   HZC:			0.982893081488879114004
+#   HZA:			-1.72908837219251898466
+#   SPH:			0
+#   ESI:			0.0177671676073247382026
+#   Density:			1.50016917277086625677	grams/cc
+#   Escape Velocity:		0.00194015496811023985657	Km/sec
+#   Surface acceleration:	0.0888308595023689918417	cm/sec2
+#   Surface gravity:		9.05822676473301230676e-05	Earth gees
+#   Surface temperature:	-206.773741573520054932	degrees Celcius
+#   Estimated temperature:	-202.137409990495180434	degrees Celcius
+#   Estimated terrestrial temperature:	-202.137409990495180434	degrees Celcius
+#   Boiling point of water:	-273.149999999999977263	degrees Celcius
+#   Surface pressure:		0	Earth atmospheres
+#   Molecular weight retained:	725682.415509145140504 and above
+
+	# OrbitFrame { MeanEquator { Center "SCO Cen" } }
+	EllipticalOrbit {
+		Period            335.408480631225807911 # Days
+		SemiMajorAxis     14509861.528895103942 # Km
+		Eccentricity      0.00510507257427325137071
+		Inclination       13.4565739665261766443
+		AscendingNode     88.5525042044708990546
+		LongOfPericenter  237.182401342868060506
+		MeanLongitude     174.576811163954814507
+	}
+
+	# BodyFrame { MeanEquator { Center "SCO Cen" } }
+	UniformRotation {
+# Moon is tidally locked with one face to planet.
+		Inclination	13.4565739665261766443
+		AscendingNode	0
+		MeridianAngle	174.576811163954814507
+	}
+
+	Albedo            0.0700000000000000066613
+}
+
+"p10-9" "SCO Cen/p10" {
+	Class "moon"
+	Radius 1319.52885176170141479
+	Mass 0.00213653990821223329061
+
+# Hydrosphere percentage: 0
+# Ice cover percentage:   0.0105139405508100042005
+
+	Texture "gc_froze_02.*"
+	SpecularColor [ 0.1 0.1 0.13 ]
+	SpecularPower 25.0
+	BumpMap "gc_froze_02-bump.*"
+	BumpHeight 3.5
+	Color [ 1.0 0.9 0.75 ]
+
+#   HZD:			27.9081307533000047352
+#   HZC:			1.2183757161910489052
+#   HZA:			-1.49673497533003971988
+#   SPH:			0
+#   ESI:			0.123251456357774718717
+#   Density:			1.3268795961321738795	grams/cc
+#   Escape Velocity:		1.13637578248501238732	Km/sec
+#   Surface acceleration:	48.932235066112591295	cm/sec2
+#   Surface gravity:		0.0498969934341621176537	Earth gees
+#   Surface temperature:	-208.245004285333885102	degrees Celcius
+#   Estimated temperature:	-202.137409990495180434	degrees Celcius
+#   Estimated terrestrial temperature:	-202.137409990495180434	degrees Celcius
+#   Boiling point of water:	-115.57030658001775765	degrees Celcius
+#   Surface pressure:		9.02382107490457048542e-09	Earth atmospheres
+#   Molecular weight retained:	2.12104394918800743001 and above
+
+	HazeColor [ 0.23 0.60 0.10 ]
+	HazeDensity 0.3148
+	Atmosphere {
+		Height 60
+		Lower [ 0.23 0.60 0.10 ]
+		Upper [ 0.27 0.20 0.08 ]
+		Sky [ 0.45 0.03 0.38 ]
+		Sunset [ 0.09 0.11 0.83 ]
+# Cloud cover percentage: 7.87989e-10%
+		Mie 0.0099
+		MieAsymmetry 0.246
+		Rayleigh [ 0.0449 0.0031 0.0376 ]
+		Absorption [ 0.0906 0.0889 0.0173 ]
+		MieScaleHeight 1.9848
+	}
+
+	# OrbitFrame { MeanEquator { Center "SCO Cen" } }
+	EllipticalOrbit {
+		Period            429.666054283946267645 # Days
+		SemiMajorAxis     17114680.5122937392098 # Km
+		Eccentricity      0.00339499727515270813688
+		Inclination       0.433943115007455370441
+		AscendingNode     356.252509093029661624
+		LongOfPericenter  52.3902196122287863896
+		MeanLongitude     226.48099472116725274
+	}
+
+	# BodyFrame { MeanEquator { Center "SCO Cen" } }
+	UniformRotation {
+		Period		128.399544242464240015 # Hours
+		Inclination	7.69879775703325893669
+		AscendingNode	0
+		MeridianAngle	226.48099472116725274
+	}
+
+	Albedo            0.150057826673778039035
+}
+
+"p10-10" "SCO Cen/p10" {
+	Class "moon"
+	Radius 838.996163063841111474
+	Mass 0.000623041496471734671938
+
+# Hydrosphere percentage: 0
+# Ice cover percentage:   0.0075838426287211076437
+
+	Texture "gc_froze_03.*"
+	SpecularColor [ 0.1 0.1 0.13 ]
+	SpecularPower 25.0
+	BumpMap "gc_froze_03-bump.*"
+	BumpHeight 3.5
+	Color [ 1.0 0.9 0.75 ]
+
+#   HZD:			27.9081307533000047352
+#   HZC:			1.00561655412630813241
+#   HZA:			-1.57186130396844967361
+#   SPH:			0
+#   ESI:			0.112478900266877351726
+#   Density:			1.50526937923609524246	grams/cc
+#   Escape Velocity:		0.769581128639699839052	Km/sec
+#   Surface acceleration:	35.2954601958822190462	cm/sec2
+#   Surface gravity:		0.0359913530062582230999	Earth gees
+#   Surface temperature:	-208.248326862123065456	degrees Celcius
+#   Estimated temperature:	-202.137409990495180434	degrees Celcius
+#   Estimated terrestrial temperature:	-202.137409990495180434	degrees Celcius
+#   Boiling point of water:	-126.82277883561647909	degrees Celcius
+#   Surface pressure:		7.67365734711236139326e-10	Earth atmospheres
+#   Molecular weight retained:	4.62471301524453691934 and above
+
+	HazeColor [ 0.26 0.72 0.41 ]
+	HazeDensity 0.7552
+	Atmosphere {
+		Height 60
+		Lower [ 0.26 0.72 0.41 ]
+		Upper [ 0.85 0.43 0.22 ]
+		Sky [ 0.12 0.91 0.78 ]
+		Sunset [ 0.32 0.95 0.44 ]
+# Cloud cover percentage: 5.68252e-10%
+		Mie 0.0085
+		MieAsymmetry 0.235
+		Rayleigh [ 0.0116 0.0907 0.0778 ]
+		Absorption [ 0.0685 0.0051 0.0565 ]
+		MieScaleHeight 1.3477
+	}
+
+	# OrbitFrame { MeanEquator { Center "SCO Cen" } }
+	EllipticalOrbit {
+		Period            474.720557337394551883 # Days
+		SemiMajorAxis     18291087.1099703777381 # Km
+		Eccentricity      0.0030176216098561984229
+		Inclination       0.289521821015033145141
+		AscendingNode     61.0611066692793307241
+		LongOfPericenter  36.0172419603994311589
+		MeanLongitude     225.232658938147434477
+	}
+
+	# BodyFrame { MeanEquator { Center "SCO Cen" } }
+	UniformRotation {
+		Period		458.491793960729233814 # Hours
+		Inclination	13.6701073911276219973
+		AscendingNode	0
+		MeridianAngle	225.232658938147434477
+	}
+
+	Albedo            0.150041711134997799587
+}
+
+"p10-11" "SCO Cen/p10" {
+	Class "moon"
+	Radius 3459.21303231528258171
+	Mass 0.0461486419044194703026
+
+# Hydrosphere percentage: 0
+# Ice cover percentage:   0.0330443030774160907651
+
+	Texture "gc_froze_01.*"
+	SpecularColor [ 0.1 0.1 0.13 ]
+	SpecularPower 25.0
+	BumpMap "gc_froze_01-bump.*"
+	BumpHeight 3.5
+	Color [ 1.0 0.9 0.75 ]
+
+#   HZD:			27.9081307533000047352
+#   HZC:			1.03464199413697644338
+#   HZA:			-1.06139434263102988305
+#   SPH:			0
+#   ESI:			0.166123818681711693008
+#   Density:			1.59075822614632568985	grams/cc
+#   Escape Velocity:		3.26187052673360211	Km/sec
+#   Surface acceleration:	153.78930458717705676	cm/sec2
+#   Surface gravity:		0.156821447270145322269	Earth gees
+#   Surface temperature:	-208.185507549615556377	degrees Celcius
+#   Estimated temperature:	-202.137409990495180434	degrees Celcius
+#   Estimated terrestrial temperature:	-202.137409990495180434	degrees Celcius
+#   Boiling point of water:	-78.1883126498144270106	degrees Celcius
+#   Surface pressure:		4.21004081681741343079e-06	Earth atmospheres
+#   Molecular weight retained:	0.301382166491855508963 and above
+
+	HazeColor [ 0.09 0.84 0.36 ]
+	HazeDensity 0.9030
+	Atmosphere {
+		Height 34.59
+		Lower [ 0.09 0.84 0.36 ]
+		Upper [ 0.52 0.17 0.35 ]
+		Sky [ 0.99 0.55 0.09 ]
+		Sunset [ 0.33 0.63 0.22 ]
+		CloudHeight 3.4592
+		CloudSpeed  69.7630
+		CloudMap    "gc_gener_04-clouds.*"
+		Mie 0.00143
+		MieAsymmetry -0.044
+		Rayleigh [ 0.00987 0.00550 0.00093 ]
+		Absorption [ 0.00670 0.00369 0.00781 ]
+		MieScaleHeight 8.5891
+	}
+
+	# OrbitFrame { MeanEquator { Center "SCO Cen" } }
+	EllipticalOrbit {
+		Period            606.519243145283617091 # Days
+		SemiMajorAxis     21537511.1959593856809 # Km
+		Eccentricity      0.00917957889809253593367
+		Inclination       0.95653505831423943557
+		AscendingNode     202.468293701516601116
+		LongOfPericenter  58.240446382314174617
+		MeanLongitude     132.755513308921602234
+	}
+
+	# BodyFrame { MeanEquator { Center "SCO Cen" } }
+	UniformRotation {
+		Period		42.9140313498213523194 # Hours
+		Inclination	12.3331839089786999717
+		AscendingNode	0
+		MeridianAngle	132.755513308921602234
+	}
+
+	Albedo            0.150181743669288261616
+}
+
+"p10-12" "SCO Cen/p10" {
+	Class "moon"
+	Radius 2.69633440324088187413
+	Mass 2.24216273652277675472e-11
+
+	Texture "tasteroid.*"
+	Mesh "asteroid.cms"
+	Color   [ 0.37 0.37 0.37 ]
+	BlendTexture true
+
+#   HZD:			27.9081307533000047352
+#   HZC:			0.857688787756317828253
+#   HZA:			-1.72895828909393503331
+#   SPH:			0
+#   ESI:			0.0196640372318258982602
+#   Density:			1.63201088018622905652	grams/cc
+#   Escape Velocity:		0.00257526899512302024898	Km/sec
+#   Surface acceleration:	0.122981971176693248167	cm/sec2
+#   Surface gravity:		0.000125406709912858369305	Earth gees
+#   Surface temperature:	-206.773741573520054932	degrees Celcius
+#   Estimated temperature:	-202.137409990495180434	degrees Celcius
+#   Estimated terrestrial temperature:	-202.137409990495180434	degrees Celcius
+#   Boiling point of water:	-273.149999999999977263	degrees Celcius
+#   Surface pressure:		0	Earth atmospheres
+#   Molecular weight retained:	412409.060327701352321 and above
+
+	# OrbitFrame { MeanEquator { Center "SCO Cen" } }
+	EllipticalOrbit {
+		Period            819.480124178892107012 # Days
+		SemiMajorAxis     26321230.68116646214 # Km
+		Eccentricity      0.00581650773334154300083
+		Inclination       22.1795684221534005094
+		AscendingNode     248.316660005746716641
+		LongOfPericenter  61.3165190170130315339
+		MeanLongitude     4.33764662795590545414
+	}
+
+	# BodyFrame { MeanEquator { Center "SCO Cen" } }
+	UniformRotation {
+# Moon is tidally locked with one face to planet.
+		Inclination	22.1795684221534005094
+		AscendingNode	0
+		MeridianAngle	4.33764662795590545414
+	}
+
+	Albedo            0.0700000000000000066613
+}
+
+"p10-13" "SCO Cen/p10" {
+	Class "moon"
+	Radius 9.28857586349016210205
+	Mass 1.16113869101055233584e-09
+
+	Texture "tasteroid.*"
+	Mesh "asteroid.cms"
+	Color   [ 0.37 0.37 0.37 ]
+	BlendTexture true
+
+#   HZD:			27.9081307533000047352
+#   HZC:			0.524545680171296398078
+#   HZA:			-1.72744066117054230047
+#   SPH:			0
+#   ESI:			0.0311671914869592344974
+#   Density:			2.06734937656193097991	grams/cc
+#   Escape Velocity:		0.0099848924775384068482	Km/sec
+#   Surface acceleration:	0.536670417797189253052	cm/sec2
+#   Surface gravity:		0.000547251526053432388166	Earth gees
+#   Surface temperature:	-206.773741573520054932	degrees Celcius
+#   Estimated temperature:	-202.137409990495180434	degrees Celcius
+#   Estimated terrestrial temperature:	-202.137409990495180434	degrees Celcius
+#   Boiling point of water:	-273.149999999999977263	degrees Celcius
+#   Surface pressure:		0	Earth atmospheres
+#   Molecular weight retained:	27532.0215957706892667 and above
+
+	# OrbitFrame { MeanEquator { Center "SCO Cen" } }
+	EllipticalOrbit {
+		Period            1048.11622138457566866 # Days
+		SemiMajorAxis     31013696.7919591172649 # Km
+		Eccentricity      0.00263636543072590862795
+		Inclination       2.32053453966841967426
+		AscendingNode     45.3674534360726612776
+		LongOfPericenter  323.52948650882089815
+		MeanLongitude     71.8262293337966452045
+	}
+
+	# BodyFrame { MeanEquator { Center "SCO Cen" } }
+	UniformRotation {
+# Moon is tidally locked with one face to planet.
+		Inclination	2.32053453966841967426
+		AscendingNode	0
+		MeridianAngle	71.8262293337966452045
+	}
+
+	Albedo            0.0700000000000000066613
+}
+
+"p10-14" "SCO Cen/p10" {
+	Class "moon"
+	Radius 5.1658050262884414143
+	Mass 1.69674310049367832032e-10
+
+	Texture "tasteroid.*"
+	Mesh "asteroid.cms"
+	Color   [ 0.52 0.46 0.43 ]
+	BlendTexture true
+
+#   HZD:			27.9081307533000047352
+#   HZC:			0.751525643512296614122
+#   HZA:			-1.72843745534997102859
+#   SPH:			0
+#   ESI:			0.0246938831010570375909
+#   Density:			1.75622129400110231739	grams/cc
+#   Escape Velocity:		0.00511817287836379420149	Km/sec
+#   Surface acceleration:	0.253548996521457616977	cm/sec2
+#   Surface gravity:		0.000258548022537214672079	Earth gees
+#   Surface temperature:	-206.773741573520054932	degrees Celcius
+#   Estimated temperature:	-202.137409990495180434	degrees Celcius
+#   Estimated terrestrial temperature:	-202.137409990495180434	degrees Celcius
+#   Boiling point of water:	-273.149999999999977263	degrees Celcius
+#   Surface pressure:		0	Earth atmospheres
+#   Molecular weight retained:	104526.239917316219298 and above
+
+	# OrbitFrame { MeanEquator { Center "SCO Cen" } }
+	EllipticalOrbit {
+		Period            1071.0701374122717987 # Days
+		SemiMajorAxis     31464863.2737745125669 # Km
+		Eccentricity      0.00300292500900240854493
+		Inclination       2.84604629741183605624
+		AscendingNode     161.178886779201629945
+		LongOfPericenter  123.508348112696943862
+		MeanLongitude     160.404269341567656648
+	}
+
+	# BodyFrame { MeanEquator { Center "SCO Cen" } }
+	UniformRotation {
+# Moon is tidally locked with one face to planet.
+		Inclination	2.84604629741183605624
+		AscendingNode	0
+		MeridianAngle	160.404269341567656648
+	}
+
+	Albedo            0.0700000000000000066613
+}
+
+"p10-15" "SCO Cen/p10" {
+	Class "moon"
+	Radius 5.29588875764943517498
+	Mass 1.74690392898118659578e-10
+
+	Texture "tasteroid.*"
+	Mesh "asteroid.cms"
+	Color   [ 0.7 0.7 0.7 ]
+	BlendTexture true
+
+#   HZD:			27.9081307533000047352
+#   HZC:			0.817067765566544932873
+#   HZA:			-1.72843521768985385729
+#   SPH:			0
+#   ESI:			0.0245618112061239124399
+#   Density:			1.6781455973847939101	grams/cc
+#   Escape Velocity:		0.00512909796658488560244	Km/sec
+#   Surface acceleration:	0.248378007495212006818	cm/sec2
+#   Surface gravity:		0.000253275081190021073479	Earth gees
+#   Surface temperature:	-206.773741573520054932	degrees Celcius
+#   Estimated temperature:	-202.137409990495180434	degrees Celcius
+#   Estimated terrestrial temperature:	-202.137409990495180434	degrees Celcius
+#   Boiling point of water:	-273.149999999999977263	degrees Celcius
+#   Surface pressure:		0	Earth atmospheres
+#   Molecular weight retained:	104009.899337164193852 and above
+
+	# OrbitFrame { MeanEquator { Center "SCO Cen" } }
+	EllipticalOrbit {
+		Period            1124.77328128261757434 # Days
+		SemiMajorAxis     32508023.808862418673 # Km
+		Eccentricity      0.00935626648802136392654
+		Inclination       32.9797934628593893379
+		AscendingNode     158.998025375883106788
+		LongOfPericenter  218.891740804022057354
+		MeanLongitude     129.372954205317867091
+	}
+
+	# BodyFrame { MeanEquator { Center "SCO Cen" } }
+	UniformRotation {
+# Moon is tidally locked with one face to planet.
+		Inclination	32.9797934628593893379
+		AscendingNode	0
+		MeridianAngle	129.372954205317867091
+	}
+
+	Albedo            0.0700000000000000066613
+}
+
+"p10-16" "SCO Cen/p10" {
+	Class "moon"
+	Radius 2.10713267225598864106
+	Mass 9.99999999999999939576e-12
+
+	Texture "tasteroid.*"
+	Mesh "asteroid.cms"
+	Color   [ 0.37 0.37 0.37 ]
+	BlendTexture true
+
+#   HZD:			27.9081307533000047352
+#   HZC:			0.95810386927423651926
+#   HZA:			-1.72908727859205007356
+#   SPH:			0
+#   ESI:			0.0178233901766666017432
+#   Density:			1.52511128585155546287	grams/cc
+#   Escape Velocity:		0.00194549433198851515796	Km/sec
+#   Surface acceleration:	0.0898127641803187294734	cm/sec2
+#   Surface gravity:		9.15835317670343418063e-05	Earth gees
+#   Surface temperature:	-206.773741573520054932	degrees Celcius
+#   Estimated temperature:	-202.137409990495180434	degrees Celcius
+#   Estimated terrestrial temperature:	-202.137409990495180434	degrees Celcius
+#   Boiling point of water:	-273.149999999999977263	degrees Celcius
+#   Surface pressure:		0	Earth atmospheres
+#   Molecular weight retained:	721884.954756223901313 and above
+
+	# OrbitFrame { MeanEquator { Center "SCO Cen" } }
+	EllipticalOrbit {
+		Period            1293.05074319920380999 # Days
+		SemiMajorAxis     35674477.4568823595473 # Km
+		Eccentricity      0.00774047515715494542506
+		Inclination       41.2629127172716819727
+		AscendingNode     331.8492348547322838
+		LongOfPericenter  56.4987843001721353753
+		MeanLongitude     272.574646190076435998
+	}
+
+	# BodyFrame { MeanEquator { Center "SCO Cen" } }
+	UniformRotation {
+# Moon is tidally locked with one face to planet.
+		Inclination	41.2629127172716819727
+		AscendingNode	0
+		MeridianAngle	272.574646190076435998
+	}
+
+	Albedo            0.0700000000000000066613
+}
+
+"p10-17" "SCO Cen/p10" {
+	Class "moon"
+	Radius 4.76942721934400672146
+	Mass 1.59605689477267527471e-10
+
+	Texture "tasteroid.*"
+	Mesh "asteroid.cms"
+	Color   [ 0.37 0.37 0.37 ]
+	BlendTexture true
+
+#   HZD:			27.9081307533000047352
+#   HZC:			0.503882004888671258043
+#   HZA:			-1.72842762882136976167
+#   SPH:			0
+#   ESI:			0.025335296090464654634
+#   Density:			2.09906974589735765462	grams/cc
+#   Escape Velocity:		0.00516614964259715197853	Km/sec
+#   Surface acceleration:	0.279793577952716251473	cm/sec2
+#   Surface gravity:		0.000285310047725488583613	Earth gees
+#   Surface temperature:	-206.773741573520054932	degrees Celcius
+#   Estimated temperature:	-202.137409990495180434	degrees Celcius
+#   Estimated terrestrial temperature:	-202.137409990495180434	degrees Celcius
+#   Boiling point of water:	-273.149999999999977263	degrees Celcius
+#   Surface pressure:		0	Earth atmospheres
+#   Molecular weight retained:	102870.360582393655037 and above
+
+	# OrbitFrame { MeanEquator { Center "SCO Cen" } }
+	EllipticalOrbit {
+		Period            1395.88759141526961782 # Days
+		SemiMajorAxis     37541723.4456449364006 # Km
+		Eccentricity      0.00606771548095518525322
+		Inclination       58.4584695999100831462
+		AscendingNode     269.026018785790549032
+		LongOfPericenter  349.604535358773793718
+		MeanLongitude     307.296132756069364372
+	}
+
+	# BodyFrame { MeanEquator { Center "SCO Cen" } }
+	UniformRotation {
+# Moon is tidally locked with one face to planet.
+		Inclination	58.4584695999100831462
+		AscendingNode	0
+		MeridianAngle	307.296132756069364372
+	}
+
+	Albedo            0.0700000000000000066613
+}
+
+"p10-18" "SCO Cen/p10" {
+	Class "moon"
+	Radius 17.3238540068196808838
+	Mass 7.98285973730927594522e-09
+
+	Texture "tasteroid.*"
+	Mesh "asteroid.cms"
+	Color   [ 0.37 0.37 0.37 ]
+	BlendTexture true
+
+#   HZD:			27.9081307533000047352
+#   HZC:			0.446904085304291636473
+#   HZA:			-1.72555928373495516483
+#   SPH:			0
+#   ESI:			0.0385983702005260670548
+#   Density:			2.19079696897642664868	grams/cc
+#   Escape Velocity:		0.0191704762501726439157	Km/sec
+#   Surface acceleration:	1.06069688509774184544	cm/sec2
+#   Surface gravity:		0.0010816098107893540453	Earth gees
+#   Surface temperature:	-206.773741573520054932	degrees Celcius
+#   Estimated temperature:	-202.137409990495180434	degrees Celcius
+#   Estimated terrestrial temperature:	-202.137409990495180434	degrees Celcius
+#   Boiling point of water:	-273.149999999999977263	degrees Celcius
+#   Surface pressure:		0	Earth atmospheres
+#   Molecular weight retained:	7475.48792038006663851 and above
+
+	# OrbitFrame { MeanEquator { Center "SCO Cen" } }
+	EllipticalOrbit {
+		Period            1524.85537184749363382 # Days
+		SemiMajorAxis     39819855.3162562563557 # Km
+		Eccentricity      0.00381745559806817014179
+		Inclination       15.3334911124188547947
+		AscendingNode     66.5103029583163107563
+		LongOfPericenter  203.046012019294319681
+		MeanLongitude     169.714752272569924726
+	}
+
+	# BodyFrame { MeanEquator { Center "SCO Cen" } }
+	UniformRotation {
+# Moon is tidally locked with one face to planet.
+		Inclination	15.3334911124188547947
+		AscendingNode	0
+		MeridianAngle	169.714752272569924726
+	}
+
+	Albedo            0.0700000000000000066613
+}
+
+"p10-19" "SCO Cen/p10" {
+	Class "moon"
+	Radius 888.17993493508464653
+	Mass 0.000746248027295756170324
+
+# Hydrosphere percentage: 0
+# Ice cover percentage:   0.00810538352901403020436
+
+	Texture "gc_froze_03.*"
+	SpecularColor [ 0.1 0.1 0.13 ]
+	SpecularPower 25.0
+	BumpMap "gc_froze_03-bump.*"
+	BumpHeight 3.5
+	Color [ 1.0 0.9 0.75 ]
+
+#   HZD:			27.9081307533000047352
+#   HZC:			0.993118645497730452099
+#   HZA:			-1.56182315116160573987
+#   SPH:			0
+#   ESI:			0.11466464932291022824
+#   Density:			1.51969873241984954515	grams/cc
+#   Escape Velocity:		0.818591120885616694994	Km/sec
+#   Surface acceleration:	37.7227291923536873913	cm/sec2
+#   Surface gravity:		0.038466478555218845163	Earth gees
+#   Surface temperature:	-208.248046075421855153	degrees Celcius
+#   Estimated temperature:	-202.137409990495180434	degrees Celcius
+#   Estimated terrestrial temperature:	-202.137409990495180434	degrees Celcius
+#   Boiling point of water:	-125.27661552554411209	degrees Celcius
+#   Surface pressure:		1.10086698878147121641e-09	Earth atmospheres
+#   Molecular weight retained:	4.08751677340973827279 and above
+
+	HazeColor [ 0.49 0.18 0.89 ]
+	HazeDensity 0.9654
+	Atmosphere {
+		Height 60
+		Lower [ 0.49 0.18 0.89 ]
+		Upper [ 0.12 0.90 0.38 ]
+		Sky [ 0.86 0.58 0.13 ]
+		Sunset [ 0.83 0.12 0.57 ]
+# Cloud cover percentage: 6.07343e-10%
+		Mie 0.0103
+		MieAsymmetry 0.075
+		Rayleigh [ 0.0857 0.0583 0.0127 ]
+		Absorption [ 0.0165 0.0883 0.0426 ]
+		MieScaleHeight 2.6487
+	}
+
+	# OrbitFrame { MeanEquator { Center "SCO Cen" } }
+	EllipticalOrbit {
+		Period            1722.57107711154637386 # Days
+		SemiMajorAxis     43191568.4892385172898 # Km
+		Eccentricity      0.00286976191814512109682
+		Inclination       0.59907628643078192918
+		AscendingNode     318.236146009637110882
+		LongOfPericenter  14.4474824957770679595
+		MeanLongitude     272.051244951808473549
+	}
+
+	# BodyFrame { MeanEquator { Center "SCO Cen" } }
+	UniformRotation {
+		Period		86.2559975093295485532 # Hours
+		Inclination	14.547752163292647011
+		AscendingNode	0
+		MeridianAngle	272.051244951808473549
+	}
+
+	Albedo            0.150044579609986547682
+}
+
+"p10-20" "SCO Cen/p10" {
+	Class "moon"
+	Radius 332.174163231388176798
+	Mass 4.32514968544619503304e-05
+
+	Texture "tasteroid.*"
+	BumpMap "tasteroid-bump.*"
+	BumpHeight 3.5
+	Color   [ 0.7 0.7 0.7 ]
+	BlendTexture true
+
+#   HZD:			27.9081307533000047352
+#   HZC:			0.821866434785395212604
+#   HZA:			-1.66348289624553597116
+#   SPH:			0
+#   ESI:			0.0903969231439235553627
+#   Density:			1.68376226192033105842	grams/cc
+#   Escape Velocity:		0.322250467963060835744	Km/sec
+#   Surface acceleration:	15.631162142805546238	cm/sec2
+#   Surface gravity:		0.0159393494647056301779	Earth gees
+#   Surface temperature:	-206.773741573520054932	degrees Celcius
+#   Estimated temperature:	-202.137409990495180434	degrees Celcius
+#   Estimated terrestrial temperature:	-202.137409990495180434	degrees Celcius
+#   Boiling point of water:	-273.149999999999977263	degrees Celcius
+#   Surface pressure:		0	Earth atmospheres
+#   Molecular weight retained:	26.3758517839781104798 and above
+
+	# OrbitFrame { MeanEquator { Center "SCO Cen" } }
+	EllipticalOrbit {
+		Period            1808.48422120596888674 # Days
+		SemiMajorAxis     44615977.0774656530375 # Km
+		Eccentricity      0.00361416850407336310751
+		Inclination       2.79104344043138101212
+		AscendingNode     240.169176030982833375
+		LongOfPericenter  158.232862892669096072
+		MeanLongitude     81.7307241641593743911
+	}
+
+	# BodyFrame { MeanEquator { Center "SCO Cen" } }
+	UniformRotation {
+		Period		138.543349556545949158 # Hours
+		Inclination	15.5287262709514107947
+		AscendingNode	0
+		MeridianAngle	81.7307241641593743911
+	}
+
+	Albedo            0.0700000000000000066613
+}
+
+"p10-21" "SCO Cen/p10" {
+	Class "moon"
+	Radius 15.9750097085045329555
+	Mass 6.46874081437029349419e-09
+
+	Texture "tasteroid.*"
+	Mesh "asteroid.cms"
+	Color   [ 0.37 0.37 0.37 ]
+	BlendTexture true
+
+#   HZD:			27.9081307533000047352
+#   HZC:			0.403449272809173268298
+#   HZA:			-1.72580501818382403296
+#   SPH:			0
+#   ESI:			0.0379648114167886599578
+#   Density:			2.2639849546218099596	grams/cc
+#   Escape Velocity:		0.0179707093542745506873	Km/sec
+#   Surface acceleration:	1.0107862235723260423	cm/sec2
+#   Surface gravity:		0.00103071510003143385337	Earth gees
+#   Surface temperature:	-206.773741573520054932	degrees Celcius
+#   Estimated temperature:	-202.137409990495180434	degrees Celcius
+#   Estimated terrestrial temperature:	-202.137409990495180434	degrees Celcius
+#   Boiling point of water:	-273.149999999999977263	degrees Celcius
+#   Surface pressure:		0	Earth atmospheres
+#   Molecular weight retained:	8511.16189826488241099 and above
+
+	# OrbitFrame { MeanEquator { Center "SCO Cen" } }
+	EllipticalOrbit {
+		Period            1903.35726842373124446 # Days
+		SemiMajorAxis     46163009.955444492778 # Km
+		Eccentricity      0.00805589515625308058997
+		Inclination       2.67679848558532932691
+		AscendingNode     242.565401719215047421
+		LongOfPericenter  200.864364225819876514
+		MeanLongitude     82.0652714008769352955
+	}
+
+	# BodyFrame { MeanEquator { Center "SCO Cen" } }
+	UniformRotation {
+# Moon is tidally locked with one face to planet.
+		Inclination	2.67679848558532932691
+		AscendingNode	0
+		MeridianAngle	82.0652714008769352955
+	}
+
+	Albedo            0.0700000000000000066613
+}
+
+"p10-22" "SCO Cen/p10" {
+	Class "moon"
+	Radius 93.4692863841787257712
+	Mass 9.9194730610252180475e-07
+
+	Texture "tasteroid.*"
+	Mesh "asteroid.cms"
+	Color   [ 0.52 0.46 0.43 ]
+	BlendTexture true
+
+#   HZD:			27.9081307533000047352
+#   HZC:			0.772641009793959461461
+#   HZA:			-1.71064254057012764721
+#   SPH:			0
+#   ESI:			0.0614829232805430814992
+#   Density:			1.73324118324996217393	grams/cc
+#   Escape Velocity:		0.0919995595396890650911	Km/sec
+#   Surface acceleration:	4.5276471464157108421	cm/sec2
+#   Surface gravity:		0.00461691520184335222517	Earth gees
+#   Surface temperature:	-206.773741573520054932	degrees Celcius
+#   Estimated temperature:	-202.137409990495180434	degrees Celcius
+#   Estimated terrestrial temperature:	-202.137409990495180434	degrees Celcius
+#   Boiling point of water:	-273.149999999999977263	degrees Celcius
+#   Surface pressure:		0	Earth atmospheres
+#   Molecular weight retained:	323.48680515610699765 and above
+
+	# OrbitFrame { MeanEquator { Center "SCO Cen" } }
+	EllipticalOrbit {
+		Period            1962.33195491928427912 # Days
+		SemiMajorAxis     47111712.6865622811893 # Km
+		Eccentricity      0.00465698005382762302731
+		Inclination       1.85369589289990190496
+		AscendingNode     211.645960012285951526
+		LongOfPericenter  77.5962334115040644131
+		MeanLongitude     272.371264171028167084
+	}
+
+	# BodyFrame { MeanEquator { Center "SCO Cen" } }
+	UniformRotation {
+		Period		654.703386552817944655 # Hours
+		Inclination	26.5625046334332355433
+		AscendingNode	0
+		MeridianAngle	272.371264171028167084
+	}
+
+	Albedo            0.0700000000000000066613
+}
+
+"p10-23" "SCO Cen/p10" {
+	Class "moon"
+	Radius 29.0257653283348194331
+	Mass 2.58040964275126417783e-08
+
+	Texture "tasteroid.*"
+	Mesh "asteroid.cms"
+	Color   [ 0.37 0.37 0.37 ]
+	BlendTexture true
+
+#   HZD:			27.9081307533000047352
+#   HZC:			0.978027765366993496511
+#   HZA:			-1.72403197240926827152
+#   SPH:			0
+#   ESI:			0.0407908492857615623039
+#   Density:			1.50561799003373040064	grams/cc
+#   Escape Velocity:		0.0266273777010034272942	Km/sec
+#   Surface acceleration:	1.22135839522507813658	cm/sec2
+#   Surface gravity:		0.00124543895746771647999	Earth gees
+#   Surface temperature:	-206.773741573520054932	degrees Celcius
+#   Estimated temperature:	-202.137409990495180434	degrees Celcius
+#   Estimated terrestrial temperature:	-202.137409990495180434	degrees Celcius
+#   Boiling point of water:	-273.149999999999977263	degrees Celcius
+#   Surface pressure:		0	Earth atmospheres
+#   Molecular weight retained:	3852.89411144576586565 and above
+
+	# OrbitFrame { MeanEquator { Center "SCO Cen" } }
+	EllipticalOrbit {
+		Period            2045.67645569948553075 # Days
+		SemiMajorAxis     48436401.7626565399078 # Km
+		Eccentricity      0.00685417426137913696842
+		Inclination       5.09012325185698480097
+		AscendingNode     102.978882073880584014
+		LongOfPericenter  240.747319981803800909
+		MeanLongitude     343.058530494132326222
+	}
+
+	# BodyFrame { MeanEquator { Center "SCO Cen" } }
+	UniformRotation {
+# Moon is tidally locked with one face to planet.
+		Inclination	5.09012325185698480097
+		AscendingNode	0
+		MeridianAngle	343.058530494132326222
+	}
+
+	Albedo            0.0700000000000000066613
+}
+
+"p10-24" "SCO Cen/p10" {
+	Class "moon"
+	Radius 66.4411530347954772668
+	Mass 3.15816257873088378005e-07
+
+	Texture "tasteroid.*"
+	Mesh "asteroid.cms"
+	Color   [ 0.52 0.46 0.43 ]
+	BlendTexture true
+
+#   HZD:			27.9081307533000047352
+#   HZC:			0.948639836562149348521
+#   HZA:			-1.71687491980292164962
+#   SPH:			0
+#   ESI:			0.0533048464304842669673
+#   Density:			1.53638542815013290431	grams/cc
+#   Escape Velocity:		0.0615707681325095822459	Km/sec
+#   Surface acceleration:	2.85287003255491218123	cm/sec2
+#   Surface gravity:		0.0029091178257151140166	Earth gees
+#   Surface temperature:	-206.773741573520054932	degrees Celcius
+#   Estimated temperature:	-202.137409990495180434	degrees Celcius
+#   Estimated terrestrial temperature:	-202.137409990495180434	degrees Celcius
+#   Boiling point of water:	-273.149999999999977263	degrees Celcius
+#   Surface pressure:		0	Earth atmospheres
+#   Molecular weight retained:	720.858917203754200775 and above
+
+	# OrbitFrame { MeanEquator { Center "SCO Cen" } }
+	EllipticalOrbit {
+		Period            2091.09721863285450594 # Days
+		SemiMajorAxis     49150739.6835317813893 # Km
+		Eccentricity      0.0085508613980146412644
+		Inclination       5.62725469793645609838
+		AscendingNode     80.6091881359970141852
+		LongOfPericenter  68.7790735945008106511
+		MeanLongitude     250.742240795279965185
+	}
+
+	# BodyFrame { MeanEquator { Center "SCO Cen" } }
+	UniformRotation {
+# Moon is tidally locked with one face to planet.
+		Inclination	5.62725469793645609838
+		AscendingNode	0
+		MeridianAngle	250.742240795279965185
+	}
+
+	Albedo            0.0700000000000000066613
+}
+
+"p10-25" "SCO Cen/p10" {
+	Class "moon"
+	Radius 41.0970983341634737221
+	Mass 1.13423113972188755913e-07
+
+	Texture "tasteroid.*"
+	Mesh "asteroid.cms"
+	Color   [ 0.37 0.37 0.37 ]
+	BlendTexture true
+
+#   HZD:			27.9081307533000047352
+#   HZC:			0.365574479203075450643
+#   HZA:			-1.71987648432786881421
+#   SPH:			0
+#   ESI:			0.0516136060554429225149
+#   Density:			2.33155286018679969314	grams/cc
+#   Escape Velocity:		0.0469160147208078310091	Km/sec
+#   Surface acceleration:	2.67794141983656967202	cm/sec2
+#   Surface gravity:		0.0027307402832124831327	Earth gees
+#   Surface temperature:	-206.773741573520054932	degrees Celcius
+#   Estimated temperature:	-202.137409990495180434	degrees Celcius
+#   Estimated terrestrial temperature:	-202.137409990495180434	degrees Celcius
+#   Boiling point of water:	-273.149999999999977263	degrees Celcius
+#   Surface pressure:		0	Earth atmospheres
+#   Molecular weight retained:	1249.3546901497542313 and above
+
+	# OrbitFrame { MeanEquator { Center "SCO Cen" } }
+	EllipticalOrbit {
+		Period            2185.04520740204116414 # Days
+		SemiMajorAxis     50612080.8181426611518 # Km
+		Eccentricity      0.00388023390149708561364
+		Inclination       11.8083739541352735689
+		AscendingNode     321.508467999058062226
+		LongOfPericenter  77.2355805697085245343
+		MeanLongitude     175.129865899276857225
+	}
+
+	# BodyFrame { MeanEquator { Center "SCO Cen" } }
+	UniformRotation {
+# Moon is tidally locked with one face to planet.
+		Inclination	11.8083739541352735689
+		AscendingNode	0
+		MeridianAngle	175.129865899276857225
+	}
+
+	Albedo            0.0700000000000000066613
+}
+
+"p10-26" "SCO Cen/p10" {
+	Class "moon"
+	Radius 196.001848508443852079
+	Mass 9.25582479365083965491e-06
+
+	Texture "tasteroid.*"
+	Mesh "asteroid.cms"
+	Color   [ 0.37 0.37 0.37 ]
+	BlendTexture true
+
+#   HZD:			27.9081307533000047352
+#   HZC:			0.758661176402075974922
+#   HZA:			-1.68973708579950207152
+#   SPH:			0
+#   ESI:			0.0777499867847269009749
+#   Density:			1.75392816305871201174	grams/cc
+#   Escape Velocity:		0.194067758332914947885	Km/sec
+#   Surface acceleration:	9.6076376602999664471	cm/sec2
+#   Surface gravity:		0.0097970638906252051446	Earth gees
+#   Surface temperature:	-206.773741573520054932	degrees Celcius
+#   Estimated temperature:	-202.137409990495180434	degrees Celcius
+#   Estimated terrestrial temperature:	-202.137409990495180434	degrees Celcius
+#   Boiling point of water:	-273.149999999999977263	degrees Celcius
+#   Surface pressure:		0	Earth atmospheres
+#   Molecular weight retained:	72.7255188456191345725 and above
+
+	# OrbitFrame { MeanEquator { Center "SCO Cen" } }
+	EllipticalOrbit {
+		Period            2217.27703620810456653 # Days
+		SemiMajorAxis     51108588.2521419724872 # Km
+		Eccentricity      0.00198178487456486791515
+		Inclination       5.18407463678665390763
+		AscendingNode     305.460467462176674724
+		LongOfPericenter  269.883055309710584269
+		MeanLongitude     120.962435044796408644
+	}
+
+	# BodyFrame { MeanEquator { Center "SCO Cen" } }
+	UniformRotation {
+		Period		180.999244046512961309 # Hours
+		Inclination	16.3058273402795113755
+		AscendingNode	0
+		MeridianAngle	120.962435044796408644
+	}
+
+	Albedo            0.0700000000000000066613
+}
+
+"p10-27" "SCO Cen/p10" {
+	Class "moon"
+	Radius 340.652803106194492166
+	Mass 4.56830359124789801309e-05
+
+	Texture "tasteroid.*"
+	BumpMap "tasteroid-bump.*"
+	BumpHeight 3.5
+	Color   [ 0.7 0.7 0.7 ]
+	BlendTexture true
+
+#   HZD:			27.9081307533000047352
+#   HZC:			0.852607229076389446681
+#   HZA:			-1.66250244644376177314
+#   SPH:			0
+#   ESI:			0.0905436783905282980994
+#   Density:			1.64890727880078644845	grams/cc
+#   Escape Velocity:		0.327037388236848937861	Km/sec
+#   Surface acceleration:	15.6983081203999344242	cm/sec2
+#   Surface gravity:		0.0160078193066948805212	Earth gees
+#   Surface temperature:	-206.773741573520054932	degrees Celcius
+#   Estimated temperature:	-202.137409990495180434	degrees Celcius
+#   Estimated terrestrial temperature:	-202.137409990495180434	degrees Celcius
+#   Boiling point of water:	-273.149999999999977263	degrees Celcius
+#   Surface pressure:		0	Earth atmospheres
+#   Molecular weight retained:	25.6093641428598274776 and above
+
+	# OrbitFrame { MeanEquator { Center "SCO Cen" } }
+	EllipticalOrbit {
+		Period            2327.97918797951452152 # Days
+		SemiMajorAxis     52795874.638803267786 # Km
+		Eccentricity      0.00719702701885114765776
+		Inclination       1.40092471389913891084
+		AscendingNode     323.550525085791258667
+		LongOfPericenter  199.903729055032007886
+		MeanLongitude     311.951439600415266845
+	}
+
+	# BodyFrame { MeanEquator { Center "SCO Cen" } }
+	UniformRotation {
+		Period		134.883890884660431544 # Hours
+		Inclination	4.66668218960341237228
+		AscendingNode	0
+		MeridianAngle	311.951439600415266845
+	}
+
+	Albedo            0.0700000000000000066613
+}
+
+"p10-28" "SCO Cen/p10" {
+	Class "moon"
+	Radius 419.490467431186305036
+	Mass 8.49490137918053250222e-05
+
+# Hydrosphere percentage: 0
+# Ice cover percentage:   0.00413624673736346703009
+
+	Texture "gc_froze_01.*"
+	SpecularColor [ 0.1 0.1 0.13 ]
+	SpecularPower 25.0
+	BumpMap "gc_froze_01-bump.*"
+	BumpHeight 3.5
+	Color [ 1.0 0.9 0.75 ]
+
+#   HZD:			27.9081307533000047352
+#   HZC:			0.861417543430913602615
+#   HZA:			-1.64717374282358288719
+#   SPH:			0
+#   ESI:			0.0939124654455365831217
+#   Density:			1.64198517126917451056	grams/cc
+#   Escape Velocity:		0.401877815556576717355	Km/sec
+#   Surface acceleration:	19.2502322669608085474	cm/sec2
+#   Surface gravity:		0.019629773946210794982	Earth gees
+#   Surface temperature:	-208.249756337245647719	degrees Celcius
+#   Estimated temperature:	-202.137409990495180434	degrees Celcius
+#   Estimated terrestrial temperature:	-202.137409990495180434	degrees Celcius
+#   Boiling point of water:	-141.968975213064091928	degrees Celcius
+#   Surface pressure:		1.4265438946705019511e-11	Earth atmospheres
+#   Molecular weight retained:	16.9592070026341571291 and above
+
+	HazeColor [ 0.84 0.45 0.86 ]
+	HazeDensity 0.2494
+	Atmosphere {
+		Height 60
+		Lower [ 0.84 0.45 0.86 ]
+		Upper [ 0.45 0.66 0.25 ]
+		Sky [ 0.20 0.80 0.42 ]
+		Sunset [ 0.07 0.55 0.43 ]
+# Cloud cover percentage: 3.09891e-10%
+		Mie 0.0123
+		MieAsymmetry 0.134
+		Rayleigh [ 0.0201 0.0804 0.0423 ]
+		Absorption [ 0.0927 0.0452 0.0567 ]
+		MieScaleHeight 0.6157
+	}
+
+	# OrbitFrame { MeanEquator { Center "SCO Cen" } }
+	EllipticalOrbit {
+		Period            2389.71943203334262695 # Days
+		SemiMajorAxis     53725263.2924611041308 # Km
+		Eccentricity      0.00396150563096697712691
+		Inclination       0.482846870159086843016
+		AscendingNode     173.88774999132740777
+		LongOfPericenter  245.453205409205148652
+		MeanLongitude     161.141898613954847042
+	}
+
+	# BodyFrame { MeanEquator { Center "SCO Cen" } }
+	UniformRotation {
+		Period		121.084821092371621096 # Hours
+		Inclination	25.5147006072674003528
+		AscendingNode	0
+		MeridianAngle	161.141898613954847042
+	}
+
+	Albedo            0.150022749357349890199
+}
+
+"p10-29" "SCO Cen/p10" {
+	Class "moon"
+	Radius 294.987755728694711954
+	Mass 3.60376267105781693231e-05
+
+	Texture "tasteroid.*"
+	BumpMap "tasteroid-bump.*"
+	BumpHeight 3.5
+	Color   [ 0.37 0.37 0.37 ]
+	BlendTexture true
+
+#   HZD:			27.9081307533000047352
+#   HZC:			0.575741678747674378842
+#   HZA:			-1.66555332716370357285
+#   SPH:			0
+#   ESI:			0.0916075131976911741263
+#   Density:			2.00318653057657981614	grams/cc
+#   Escape Velocity:		0.312141854834964400277	Km/sec
+#   Surface acceleration:	16.5146748716957528589	cm/sec2
+#   Surface gravity:		0.0168402817187273467197	Earth gees
+#   Surface temperature:	-206.773741573520054932	degrees Celcius
+#   Estimated temperature:	-202.137409990495180434	degrees Celcius
+#   Estimated terrestrial temperature:	-202.137409990495180434	degrees Celcius
+#   Boiling point of water:	-273.149999999999977263	degrees Celcius
+#   Surface pressure:		0	Earth atmospheres
+#   Molecular weight retained:	28.1975676855638949028 and above
+
+	# OrbitFrame { MeanEquator { Center "SCO Cen" } }
+	EllipticalOrbit {
+		Period            2466.01442894880739654 # Days
+		SemiMajorAxis     54862761.6485253287683 # Km
+		Eccentricity      0.00177993523505513338125
+		Inclination       4.56356607436577854002
+		AscendingNode     305.556462717036000781
+		LongOfPericenter  0.248338859643944939433
+		MeanLongitude     24.5625783431169476094
+	}
+
+	# BodyFrame { MeanEquator { Center "SCO Cen" } }
+	UniformRotation {
+		Period		131.562919043439362096 # Hours
+		Inclination	18.8522563204481543326
+		AscendingNode	0
+		MeridianAngle	24.5625783431169476094
+	}
+
+	Albedo            0.0700000000000000066613
+}
+
+"p10-30" "SCO Cen/p10" {
+	Class "moon"
+	Radius 4.37676725544641068892
+	Mass 1.53602780772628372376e-10
+
+	Texture "tasteroid.*"
+	Mesh "asteroid.cms"
+	Color   [ 0.52 0.46 0.43 ]
+	BlendTexture true
+
+#   HZD:			27.9081307533000047352
+#   HZC:			0.218712317821403116248
+#   HZA:			-1.72840215456722091632
+#   SPH:			0
+#   ESI:			0.026188247481032679995
+#   Density:			2.61406208758436698876	grams/cc
+#   Escape Velocity:		0.00529052441775042661083	Km/sec
+#   Surface acceleration:	0.319752536303860090727	cm/sec2
+#   Surface gravity:		0.000326056845409859740688	Earth gees
+#   Surface temperature:	-206.773741573520054932	degrees Celcius
+#   Estimated temperature:	-202.137409990495180434	degrees Celcius
+#   Estimated terrestrial temperature:	-202.137409990495180434	degrees Celcius
+#   Boiling point of water:	-273.149999999999977263	degrees Celcius
+#   Surface pressure:		0	Earth atmospheres
+#   Molecular weight retained:	98414.739881089189538 and above
+
+	# OrbitFrame { MeanEquator { Center "SCO Cen" } }
+	EllipticalOrbit {
+		Period            2590.51315894281506269 # Days
+		SemiMajorAxis     56694088.4331562342741 # Km
+		Eccentricity      0.00331063674451347295791
+		Inclination       5.75032979642048577406
+		AscendingNode     123.401913867984858279
+		LongOfPericenter  334.665060459945844701
+		MeanLongitude     339.915841342842132478
+	}
+
+	# BodyFrame { MeanEquator { Center "SCO Cen" } }
+	UniformRotation {
+# Moon is tidally locked with one face to planet.
+		Inclination	5.75032979642048577406
+		AscendingNode	0
+		MeridianAngle	339.915841342842132478
+	}
+
+	Albedo            0.0700000000000000066613
+}
+
+"p11" "SCO Cen" {
+	Class "planet"
+	Radius 4684.13883519417916901
+	Mass 0.333718630320217773266
+
+# Hydrosphere percentage: 0
+# Ice cover percentage:   100
+
+	Texture "gc_froze_04.*"
+	SpecularColor [ 0.1 0.1 0.13 ]
+	SpecularPower 25.0
+	BumpMap "gc_froze_04-bump.*"
+	BumpHeight 3.5
+	Color [ 1.0 0.9 0.75 ]
+
+#   HZD:			69.0644068334546875898
+#   HZC:			-0.233398548371554248948
+#   HZA:			0.183777450331431721673
+#   SPH:			0
+#   ESI:			0.138347719046288164513
+#   Density:			4.63306458389891709848	grams/cc
+#   Escape Velocity:		7.53791537044015450084	Km/sec
+#   Surface acceleration:	606.516695288798730612	cm/sec2
+#   Surface gravity:		0.618474907627781916473	Earth gees
+#   Surface temperature:	-230.695443677277031103	degrees Celcius
+#   Estimated temperature:	-226.909047961332700438	degrees Celcius
+#   Estimated terrestrial temperature:	-226.909047961332700438	degrees Celcius
+#   Boiling point of water:	23.8231857679982436393	degrees Celcius
+#   Surface pressure:		0.0308217573684101585885	Earth atmospheres
+#   Molecular weight retained:	0.0135286003360978194004 and above
+
+	HazeColor [ 0.27 0.50 0.74 ]
+	HazeDensity 0.9721
+	Atmosphere {
+		Height 46.84
+		Lower [ 0.27 0.50 0.74 ]
+		Upper [ 0.90 0.88 0.72 ]
+		Sky [ 0.54 0.59 0.06 ]
+		Sunset [ 0.56 0.76 0.68 ]
+		CloudHeight 4.6841
+		CloudSpeed  71.0339
+		CloudMap    "gc_deser_02-clouds.*"
+		Mie 0.00062
+		MieAsymmetry -0.117
+		Rayleigh [ 0.00540 0.00590 0.00058 ]
+		Absorption [ 0.00441 0.00240 0.00322 ]
+		MieScaleHeight 13.5303
+	}
+
+	OrbitFrame { MeanEquator { Center "SCO Cen" } }
+	EllipticalOrbit {
+		Period            184.551184692612452495 # Years
+		SemiMajorAxis     38.0879674967171952017 # AU
+		Eccentricity      0.172455955326592191845
+		Inclination       0.33601567294651491733
+		AscendingNode     154.048467797249773417
+		LongOfPericenter  305.894389201837773068
+		MeanLongitude     124.617975971017952999
+	}
+
+	BodyFrame { MeanEquator { Center "SCO Cen" } }
+	UniformRotation {
+		Period		21.4250861239801260044 # Hours
+		Inclination	2.47882392417063236885
+		AscendingNode	0
+		MeridianAngle	124.617975971017952999
+	}
+
+	Albedo            0.250346897615506698299
+}
+
+"p11-1" "SCO Cen/p11" {
+	Class "moon"
+	Radius 996.125661264636624859
+	Mass 0.00508075605389224468322
+
+	Texture "gc_rocky_04.*"
+	BumpMap "gc_rocky_04-bump.*"
+	BumpHeight 3.5
+	Color [ 0.885644487968485078161 0.873732455465202262812 0.861820422961919460636 ]
+	BlendTexture true
+
+#   HZD:			69.0644068334546875898
+#   HZC:			-0.843282008260936837647
+#   HZA:			-1.21756058607075570244
+#   SPH:			0
+#   ESI:			0.0970700616826962063552
+#   Density:			7.33437543726900359389	grams/cc
+#   Escape Velocity:		2.01689373998806209184	Km/sec
+#   Surface acceleration:	204.184096273489174497	cm/sec2
+#   Surface gravity:		0.208209833402323099194	Earth gees
+#   Surface temperature:	-230.884614285437729853	degrees Celcius
+#   Estimated temperature:	-226.909047961332700438	degrees Celcius
+#   Estimated terrestrial temperature:	-226.909047961332700438	degrees Celcius
+#   Boiling point of water:	-106.565268476173751699	degrees Celcius
+#   Surface pressure:		5.10299500664786054423e-08	Earth atmospheres
+#   Molecular weight retained:	0.188968469406451311814 and above
+
+	# OrbitFrame { MeanEquator { Center "SCO Cen" } }
+	EllipticalOrbit {
+		Period            5752.11357780095070558 # Days
+		SemiMajorAxis     9455311.41942444123197 # Km
+		Eccentricity      0.00941801297451276955895
+		Inclination       0.504832324760580690101
+		AscendingNode     32.1577270851273681433
+		LongOfPericenter  159.814958181146047164
+		MeanLongitude     173.702685615840687242
+	}
+
+	# BodyFrame { MeanEquator { Center "SCO Cen" } }
+	UniformRotation {
+		Period		36.9264577478633483944 # Hours
+		Inclination	20.7421374895677593786
+		AscendingNode	0
+		MeridianAngle	173.702685615840687242
+	}
+
+	Albedo            0.150241298746931501863
+}
+

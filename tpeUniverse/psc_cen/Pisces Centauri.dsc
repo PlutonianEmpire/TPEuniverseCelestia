@@ -1,0 +1,17 @@
+Nebula "PFB Shockwave" {
+	RA 1.3292735833333333333333333333333
+	Dec 10.896896722222222222222222222222
+	Distance 2
+	Radius 0.0376
+	Mesh "shell26_sprites.cmod"
+	Angle 142.1004
+}
+
+Nebula "Shockwave Ring" {
+	RA 1.3292735833333333333333333333333
+	Dec 10.896896722222222222222222222222
+	Distance 2
+	Radius 0.0581
+	Mesh "ring5_sprites.cmod"
+	Angle 142.1004
+}

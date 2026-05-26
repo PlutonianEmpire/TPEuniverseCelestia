@@ -1,0 +1,707 @@
+# Stargen - $Revision: 1.47+seb $; seed=1830626125
+#
+# CNC Cen, CNC Cen
+#
+# Stellar mass: 0.8880 solar masses
+# Stellar luminosity: 6.6069e-01
+# Age: 7.001 billion years	(6.4395 billion left on main sequence)
+# Habitable ecosphere radius: 0.8128 AU (0.661 - 1.173 AU)
+
+"p1" "CNC Cen" {
+	Class "planet"
+
+	Radius 2058.3423
+	Mass 0.0479
+
+	Texture "trock2.*"
+	BumpMap "trock2-bump.*"
+	BumpHeight	3.5
+	Color   [  0.52  0.47  0.42 ]
+	BlendTexture true
+
+#   Density:			7.8446	grams/cc
+#   Escape Velocity:		4.3101	Km/sec
+#   Surface acceleration:	451.2671	cm/sec2
+#   Surface gravity:		0.4602	Earth gees
+#   Surface temperature:	154.4666	degrees Celcius
+#   Estimated temperature:	184.3353	degrees Celcius
+#   Estimated terrestrial temperature:	184.3353	degrees Celcius
+#   Boiling point of water:	-273.1500	degrees Celcius
+#   Surface pressure:		0.0000	Earth atmospheres
+#   Molecular weight retained:	278.4554 and above
+
+	OrbitFrame { EclipticJ2000{} }
+	EllipticalOrbit {
+		Period            0.1923 	 # years
+		SemiMajorAxis     0.3202 	 # AU
+		Eccentricity      0.0916
+		Inclination       -0.431235279024693895279793723340766575802263
+		AscendingNode     0.000000000000000000000000000000000000000000
+		LongOfPericenter  254.902181017632680493090191475857864134013700
+	        MeanLongitude     4.618230836753840947740690214828873649821617
+	}
+
+	BodyFrame { EclipticJ2000{} }
+	UniformRotation {
+# Planet is tidally locked with one face to star.
+		 Inclination	-0.431235279024693895279793723340766575802263 	 # same as orbit incl
+		 AscendingNode	0.000000000000000000000000000000000000000000
+		 MeridianAngle	4.618230836753840947740690214828873649821617
+	}
+	Albedo            0.0700
+}
+
+"p2" "CNC Cen" {
+	Class "planet"
+
+	Radius 3347.6896
+	Mass 0.1936
+
+	Texture "trock1.*"
+	BumpMap "trock1-bump.*"
+	BumpHeight	3.5
+	Color   [  0.52  0.47  0.42 ]
+	BlendTexture true
+
+#   Density:			7.3630	grams/cc
+#   Escape Velocity:		6.7914	Km/sec
+#   Surface acceleration:	688.8792	cm/sec2
+#   Surface gravity:		0.7025	Earth gees
+#   Surface temperature:	99.9700	degrees Celcius
+#   Estimated temperature:	126.0322	degrees Celcius
+#   Estimated terrestrial temperature:	126.0322	degrees Celcius
+#   Boiling point of water:	-273.1500	degrees Celcius
+#   Surface pressure:		0.0000	Earth atmospheres
+#   Molecular weight retained:	64.9896 and above
+
+	OrbitFrame { EclipticJ2000{} }
+	EllipticalOrbit {
+		Period            0.2895 	 # years
+		SemiMajorAxis     0.4206 	 # AU
+		Eccentricity      0.0154
+		Inclination       0.890894316164896550645606321250369319386664
+		AscendingNode     0.000000000000000000000000000000000000000000
+		LongOfPericenter  317.511613460961549304517603786734980531036900
+	        MeanLongitude     90.479211216084291791172944385834853164851670
+	}
+
+	BodyFrame { EclipticJ2000{} }
+	UniformRotation {
+# Planet is tidally locked with one face to star.
+		 Inclination	0.890894316164896550645606321250369319386664 	 # same as orbit incl
+		 AscendingNode	0.000000000000000000000000000000000000000000
+		 MeridianAngle	90.479211216084291791172944385834853164851670
+	}
+	Albedo            0.0700
+}
+
+"p3" "CNC Cen" {
+	Class "planet"
+
+	Radius 2239.6850
+	Mass 0.0463
+
+	Texture "trock3.*"
+	BumpMap "trock3-bump.*"
+	BumpHeight	3.5
+	Color   [  0.52  0.48  0.43 ]
+	BlendTexture true
+
+#   Density:			5.8758	grams/cc
+#   Escape Velocity:		4.0589	Km/sec
+#   Surface acceleration:	367.7878	cm/sec2
+#   Surface gravity:		0.3750	Earth gees
+#   Surface temperature:	78.8019	degrees Celcius
+#   Estimated temperature:	103.3855	degrees Celcius
+#   Estimated terrestrial temperature:	103.3855	degrees Celcius
+#   Boiling point of water:	-273.1500	degrees Celcius
+#   Surface pressure:		0.0000	Earth atmospheres
+#   Molecular weight retained:	143.4903 and above
+
+	OrbitFrame { EclipticJ2000{} }
+	EllipticalOrbit {
+		Period            0.3449 	 # years
+		SemiMajorAxis     0.4727 	 # AU
+		Eccentricity      0.0202
+		Inclination       0.075481674653373015595602280730647137829692
+		AscendingNode     0.000000000000000000000000000000000000000000
+		LongOfPericenter  199.943591374877649990970951421331847086548800
+	        MeanLongitude     312.337314091779903540979645981678913813084400
+	}
+
+	BodyFrame { EclipticJ2000{} }
+	UniformRotation {
+# Planet is tidally locked with one face to star.
+		 Inclination	0.075481674653373015595602280730647137829692 	 # same as orbit incl
+		 AscendingNode	0.000000000000000000000000000000000000000000
+		 MeridianAngle	312.337314091779903540979645981678913813084400
+	}
+	Albedo            0.0700
+}
+
+"p4" "CNC Cen" {
+	Class "planet"
+
+	Radius 2104.3656
+	Mass 0.0322
+
+	Texture "trock2.*"
+	BumpMap "trock2-bump.*"
+	BumpHeight	3.5
+	Color   [  0.53  0.48  0.43 ]
+	BlendTexture true
+
+#   Density:			4.9377	grams/cc
+#   Escape Velocity:		3.4960	Km/sec
+#   Surface acceleration:	290.3953	cm/sec2
+#   Surface gravity:		0.2961	Earth gees
+#   Surface temperature:	17.2335	degrees Celcius
+#   Estimated temperature:	37.5166	degrees Celcius
+#   Estimated terrestrial temperature:	37.5166	degrees Celcius
+#   Boiling point of water:	-273.1500	degrees Celcius
+#   Surface pressure:		0.0000	Earth atmospheres
+#   Molecular weight retained:	89.4730 and above
+
+	OrbitFrame { EclipticJ2000{} }
+	EllipticalOrbit {
+		Period            0.6141 	 # years
+		SemiMajorAxis     0.6944 	 # AU
+		Eccentricity      0.0592
+		Inclination       -1.072562899758915503072714825449907039001118
+		AscendingNode     0.000000000000000000000000000000000000000000
+		LongOfPericenter  2.496768628478408152569431588396753340930445
+	        MeanLongitude     47.019322871705201860592637785885017365217210
+	}
+
+	BodyFrame { EclipticJ2000{} }
+	UniformRotation {
+# Planet is tidally locked with one face to star.
+		 Inclination	-1.072562899758915503072714825449907039001118 	 # same as orbit incl
+		 AscendingNode	0.000000000000000000000000000000000000000000
+		 MeridianAngle	47.019322871705201860592637785885017365217210
+	}
+	Albedo            0.0700
+}
+
+"p5" "CNC Cen" {
+	Class "planet"
+
+	Radius 3062.5299
+	Mass 0.1040
+
+	Texture "trock3.*"
+	BumpMap "trock3-bump.*"
+	BumpHeight	3.5
+	Color   [  0.53  0.48  0.43 ]
+	BlendTexture true
+
+#   Density:			5.1640	grams/cc
+#   Escape Velocity:		5.2031	Km/sec
+#   Surface acceleration:	441.9866	cm/sec2
+#   Surface gravity:		0.4507	Earth gees
+#   Surface temperature:	-11.6782	degrees Celcius
+#   Estimated temperature:	6.5854	degrees Celcius
+#   Estimated terrestrial temperature:	6.5854	degrees Celcius
+#   Boiling point of water:	-273.1500	degrees Celcius
+#   Surface pressure:		0.0000	Earth atmospheres
+#   Molecular weight retained:	26.5908 and above
+
+	OrbitFrame { EclipticJ2000{} }
+	EllipticalOrbit {
+		Period            0.8412 	 # years
+		SemiMajorAxis     0.8565 	 # AU
+		Eccentricity      0.0423
+		Inclination       -0.180383677087101491017299102759263718098737
+		AscendingNode     0.000000000000000000000000000000000000000000
+		LongOfPericenter  334.652960679797903037480111265722371172159900
+	        MeanLongitude     246.953013710190082768969332960296014789491900
+	}
+
+	BodyFrame { EclipticJ2000{} }
+	UniformRotation {
+# Planet is tidally locked with one face to star.
+		 Inclination	-0.180383677087101491017299102759263718098737 	 # same as orbit incl
+		 AscendingNode	0.000000000000000000000000000000000000000000
+		 MeridianAngle	246.953013710190082768969332960296014789491900
+	}
+	Albedo            0.0700
+}
+
+"p5-1" "CNC Cen/p5" {
+	Class "moon"
+
+	Radius 1213.9868
+	Mass   6.4751e-03
+
+	Texture "trock3.*"
+	BumpMap "trock3-bump.*"
+	BumpHeight	3.5
+	Color   [  0.53  0.48  0.43 ]
+	BlendTexture true
+
+#   Density:			5.1640	grams/cc
+#   Escape Velocity:		2.0625	Km/sec
+#   Surface acceleration:	175.2035	cm/sec2
+#   Surface gravity:		0.1787	Earth gees
+#   Surface temperature:	-11.6782	degrees Celcius
+#   Estimated temperature:	6.5854	degrees Celcius
+#   Estimated terrestrial temperature:	6.5854	degrees Celcius
+#   Boiling point of water:	-273.1500	degrees Celcius
+#   Surface pressure:		0.0000	Earth atmospheres
+#   Molecular weight retained:	168.9886 and above
+
+	OrbitFrame { EclipticJ2000{} }
+	EllipticalOrbit {
+		Period            46.8201 	 # days
+		SemiMajorAxis     263306.3258 	 # km
+		Eccentricity      0.0668
+		Inclination       -0.072871938963662131429532744369970131970149
+		AscendingNode     0.000000000000000000000000000000000000000000
+		LongOfPericenter  311.627505026584260633404355189668422099202900
+	        MeanLongitude     106.897881136693936370007929070879981736652600
+	}
+
+	BodyFrame { EclipticJ2000{} }
+	UniformRotation {
+# Moon is tidally locked with one face to planet.
+		 Inclination	-0.072871938963662131429532744369970131970149 	 # same as orbit incl
+		 AscendingNode	0.000000000000000000000000000000000000000000
+		 MeridianAngle	106.897881136693936370007929070879981736652600
+	}
+	Albedo            0.0700
+}
+
+"p6" "CNC Cen" {
+	Class "planet"
+
+	Radius 53351.1162
+	Mass 106.5509
+
+	Texture "exo-class1.*"
+	Color [  0.97  0.96  0.93 ]
+	BlendTexture true
+
+#   Density:			1.0012	grams/cc
+#   Escape Velocity:		43.6725	Km/sec
+#   Surface acceleration:	2140.3999	cm/sec2
+#   Surface gravity:		2.1826	Earth gees
+#   Surface temperature:	-273.1500	degrees Celcius
+#   Estimated temperature:	-141.1284	degrees Celcius
+#   Estimated terrestrial temperature:	-89.7608	degrees Celcius
+#   Boiling point of water:	  inf	degrees Celcius
+#   Surface pressure:		  inf	Earth atmospheres
+#   Molecular weight retained:	0.5122 and above
+
+        Oblateness 0.0015
+
+	HazeColor [ 0.4 0.45 0.5 ]
+	HazeDensity 0.3
+
+	OrbitFrame { EclipticJ2000{} }
+	EllipticalOrbit {
+		Period            2.9848 	 # years
+		SemiMajorAxis     1.9928 	 # AU
+		Eccentricity      0.3344
+		Inclination       -0.440886404423649652824495487335454413369007
+		AscendingNode     0.000000000000000000000000000000000000000000
+		LongOfPericenter  276.930703668357200752936364551715087145566900
+	        MeanLongitude     170.291808252358719821817345518866204656660600
+	}
+
+	BodyFrame { EclipticJ2000{} }
+	UniformRotation {
+		 Period		8.8344 	 # hours
+		 Inclination	3.235228796546299694916401512578829624544596
+		 AscendingNode	0.000000000000000000000000000000000000000000
+		 MeridianAngle	170.291808252358719821817345518866204656660600
+	}
+	Albedo            0.7404
+}
+
+"p6-1" "CNC Cen/p6" {
+	Class "moon"
+
+	Radius 3669.0984
+	Mass 0.1962
+
+	Texture "tmars4.*"
+	BumpMap "tmars4-bump.*"
+	BumpHeight	3.5
+	Color   [  1.00  0.76  0.71 ]
+	BlendTexture true
+
+#   Density:			5.6669	grams/cc
+#   Escape Velocity:		6.5301	Km/sec
+#   Surface acceleration:	581.0950	cm/sec2
+#   Surface gravity:		0.5926	Earth gees
+#   Surface temperature:	-123.4455	degrees Celcius
+#   Estimated temperature:	-89.7608	degrees Celcius
+#   Estimated terrestrial temperature:	-89.7608	degrees Celcius
+#   Boiling point of water:	29.8883	degrees Celcius
+#   Surface pressure:		0.0439	Earth atmospheres
+#   Molecular weight retained:	3.1357 and above
+
+	HazeColor [ 1 1 1 ]
+	HazeDensity 0.45
+
+	Atmosphere {
+		Height 30
+		Lower [ 0.8 0.6 0.6 ]
+		Upper [ 0.7 0.3 0.3 ]
+		Sky [ 0.83 0.75 0.65 ]
+		Sunset [ 0.7 0.7 0.8 ]
+	}
+
+	OrbitFrame { EclipticJ2000{} }
+	EllipticalOrbit {
+		Period            217.0940 	 # days
+		SemiMajorAxis     7239253.5862 	 # km
+		Eccentricity      0.1728
+		Inclination       0.164888915363646383968740036229938539236173
+		AscendingNode     0.000000000000000000000000000000000000000000
+		LongOfPericenter  20.578913735495374415576663729154915927210820
+	        MeanLongitude     286.130551344775851507762354231090284883976000
+	}
+
+	BodyFrame { EclipticJ2000{} }
+	UniformRotation {
+# Moon's rotation is in a resonant spin lock with the planet
+# spin resonance factor = 0.8272 / 1.1728 = 0.7000
+		 Period		3647.1788 	 # hours
+		 Inclination	7.884520966953632584856004328344170062337071
+		 AscendingNode	0.000000000000000000000000000000000000000000
+		 MeridianAngle	286.130551344775851507762354231090284883976000
+	}
+	Albedo            0.5410
+}
+
+"p6-2" "CNC Cen/p6" {
+	Class "moon"
+
+	Radius 2029.5870
+	Mass 0.0332
+
+	Texture "tvenus5.*"
+	BumpMap "tvenus5-bump.*"
+	BumpHeight	3.5
+
+#   Density:			5.6669	grams/cc
+#   Escape Velocity:		3.6122	Km/sec
+#   Surface acceleration:	321.4367	cm/sec2
+#   Surface gravity:		0.3278	Earth gees
+#   Surface temperature:	-116.0814	degrees Celcius
+#   Estimated temperature:	-89.7608	degrees Celcius
+#   Estimated terrestrial temperature:	-89.7608	degrees Celcius
+#   Boiling point of water:	-23.3589	degrees Celcius
+#   Surface pressure:		0.0013	Earth atmospheres
+#   Molecular weight retained:	10.1912 and above
+
+	HazeColor [ 0.5 0.35 0.2 ]
+	HazeDensity 0.35
+
+	Atmosphere {
+		Height 60
+		Lower [ 0.8 0.8 0.5 ]
+		Upper [ 0.6 0.6 0.6 ]
+		Sky [ 0.8 0.8 0.5 ]
+
+# Cloud cover percentage:  0.0
+	      	CloudHeight 50
+	       	CloudSpeed  90
+		CloudMap "t100-clouds4.*"
+	}
+
+	OrbitFrame { EclipticJ2000{} }
+	EllipticalOrbit {
+		Period            160.0171 	 # days
+		SemiMajorAxis     5904073.7494 	 # km
+		Eccentricity      0.0084
+		Inclination       0.717964039261093848684220503075792407798872
+		AscendingNode     0.000000000000000000000000000000000000000000
+		LongOfPericenter  356.604907268939962272646937435638392344117200
+	        MeanLongitude     257.201786999218998008842618219205178320407900
+	}
+
+	BodyFrame { EclipticJ2000{} }
+	UniformRotation {
+# Moon is tidally locked with one face to planet.
+		 Inclination	0.717964039261093848684220503075792407798872 	 # same as orbit incl
+		 AscendingNode	0.000000000000000000000000000000000000000000
+		 MeridianAngle	257.201786999218998008842618219205178320407900
+	}
+	Albedo            0.3663
+}
+
+"p7" "CNC Cen" {
+	Class "planet"
+
+	Radius 60456.0669
+	Mass 239.4360
+
+	Texture "exo-class1.*"
+	Color [  0.93  0.90  0.82 ]
+	BlendTexture true
+
+#   Density:			1.5461	grams/cc
+#   Escape Velocity:		56.0143	Km/sec
+#   Surface acceleration:	2577.6499	cm/sec2
+#   Surface gravity:		2.6285	Earth gees
+#   Surface temperature:	-273.1500	degrees Celcius
+#   Estimated temperature:	-170.3743	degrees Celcius
+#   Estimated terrestrial temperature:	-156.7320	degrees Celcius
+#   Boiling point of water:	  inf	degrees Celcius
+#   Surface pressure:		  inf	Earth atmospheres
+#   Molecular weight retained:	0.5215 and above
+
+        Oblateness 0.0792
+
+	HazeColor [ 0.4 0.45 0.5 ]
+	HazeDensity 0.3
+
+	OrbitFrame { EclipticJ2000{} }
+	EllipticalOrbit {
+		Period            11.6649 	 # years
+		SemiMajorAxis     4.9451 	 # AU
+		Eccentricity      0.0290
+		Inclination       1.858758231504907407248897155405131798033835
+		AscendingNode     0.000000000000000000000000000000000000000000
+		LongOfPericenter  194.171003826973495920427126293361652642488500
+	        MeanLongitude     282.774634288053323655232063060793734621256600
+	}
+
+	BodyFrame { EclipticJ2000{} }
+	UniformRotation {
+		 Period		8.0502 	 # hours
+		 Inclination	6.917843273470538755821890308794763768673874
+		 AscendingNode	0.000000000000000000000000000000000000000000
+		 MeridianAngle	282.774634288053323655232063060793734621256600
+	}
+	Albedo            0.5695
+}
+
+"p8" "CNC Cen" {
+	Class "planet"
+
+	Radius 1589.9309
+	Mass 0.0171
+
+	Texture "trock3.*"
+	BumpMap "trock3-bump.*"
+	BumpHeight	3.5
+	Color   [  0.58  0.53  0.49 ]
+	BlendTexture true
+
+#   Density:			6.0743	grams/cc
+#   Escape Velocity:		2.9296	Km/sec
+#   Surface acceleration:	269.9120	cm/sec2
+#   Surface gravity:		0.2752	Earth gees
+#   Surface temperature:	-179.4703	degrees Celcius
+#   Estimated temperature:	-166.8974	degrees Celcius
+#   Estimated terrestrial temperature:	-166.8974	degrees Celcius
+#   Boiling point of water:	-45.3321	degrees Celcius
+#   Surface pressure:		0.0002	Earth atmospheres
+#   Molecular weight retained:	1.7945 and above
+
+	OrbitFrame { EclipticJ2000{} }
+	EllipticalOrbit {
+		Period            15.3496 	 # years
+		SemiMajorAxis     5.9366 	 # AU
+		Eccentricity      0.0328
+		Inclination       -0.794913904881266100829403931093963819876080
+		AscendingNode     0.000000000000000000000000000000000000000000
+		LongOfPericenter  283.710450811176770752330966729459760244935800
+	        MeanLongitude     151.701765242825152929517784627932996954768900
+	}
+
+	BodyFrame { EclipticJ2000{} }
+	UniformRotation {
+		 Period		29.1729 	 # hours
+		 Inclination	16.276642535203578739111396345151661080308260
+		 AscendingNode	0.000000000000000000000000000000000000000000
+		 MeridianAngle	151.701765242825152929517784627932996954768900
+	}
+	Albedo            0.2773
+}
+
+"p9" "CNC Cen" {
+	Class "planet"
+
+	Radius 44759.9607
+	Mass 62.0620
+
+	Texture "tgasgiant.*"
+	Color [  0.65  0.73  0.74 ]
+	BlendTexture true
+
+#   Density:			0.9875	grams/cc
+#   Escape Velocity:		33.5227	Km/sec
+#   Surface acceleration:	1275.7031	cm/sec2
+#   Surface gravity:		1.3009	Earth gees
+#   Surface temperature:	-273.1500	degrees Celcius
+#   Estimated temperature:	-206.2346	degrees Celcius
+#   Estimated terrestrial temperature:	-196.8452	degrees Celcius
+#   Boiling point of water:	  inf	degrees Celcius
+#   Surface pressure:		  inf	Earth atmospheres
+#   Molecular weight retained:	0.5384 and above
+
+        Oblateness 0.0614
+
+	HazeColor [ 0.4 0.45 0.5 ]
+	HazeDensity 0.3
+
+	OrbitFrame { EclipticJ2000{} }
+	EllipticalOrbit {
+		Period            41.4396 	 # years
+		SemiMajorAxis     11.5110 	 # AU
+		Eccentricity      0.1222
+		Inclination       0.423491527030987100670492151444079809152754
+		AscendingNode     0.000000000000000000000000000000000000000000
+		LongOfPericenter  159.836025424225267696498598013477021595463200
+	        MeanLongitude     246.976945049584351979388152642513887258246500
+	}
+
+	BodyFrame { EclipticJ2000{} }
+	UniformRotation {
+		 Period		11.4431 	 # hours
+		 Inclination	37.082128910430467574194102198248401691671460
+		 AscendingNode	0.000000000000000000000000000000000000000000
+		 MeridianAngle	246.976945049584351979388152642513887258246500
+	}
+	Albedo            0.5809
+}
+
+"p10" "CNC Cen" {
+	Class "planet"
+
+	Radius 36670.6938
+	Mass 117.1557
+
+	Texture "tgasgiant.*"
+	Color [  0.39  0.51  0.86 ]
+	BlendTexture true
+
+#   Density:			3.3899	grams/cc
+#   Escape Velocity:		40.9309	Km/sec
+#   Surface acceleration:	1501.9611	cm/sec2
+#   Surface gravity:		1.5316	Earth gees
+#   Surface temperature:	-273.1500	degrees Celcius
+#   Estimated temperature:	-223.1487	degrees Celcius
+#   Estimated terrestrial temperature:	-216.8696	degrees Celcius
+#   Boiling point of water:	  inf	degrees Celcius
+#   Surface pressure:		  inf	Earth atmospheres
+#   Molecular weight retained:	0.4925 and above
+
+        Oblateness 0.0210
+
+	HazeColor [ 0.4 0.45 0.5 ]
+	HazeDensity 0.3
+
+	OrbitFrame { EclipticJ2000{} }
+	EllipticalOrbit {
+		Period            103.2664 	 # years
+		SemiMajorAxis     21.1594 	 # AU
+		Eccentricity      0.1332
+		Inclination       1.859208060877118814675085234355833563313354
+		AscendingNode     0.000000000000000000000000000000000000000000
+		LongOfPericenter  245.648849087603785609768003439512540353462100
+	        MeanLongitude     118.598966001811887138739365354922483675181900
+	}
+
+	BodyFrame { EclipticJ2000{} }
+	UniformRotation {
+		 Period		10.5461 	 # hours
+		 Inclination	32.078896985156133764977015587760433845687660
+		 AscendingNode	0.000000000000000000000000000000000000000000
+		 MeridianAngle	118.598966001811887138739365354922483675181900
+	}
+	Albedo            0.5629
+}
+
+"p11" "CNC Cen" {
+	Class "planet"
+
+	Radius 4726.6756
+	Mass 0.1368
+
+	Texture "trock3.*"
+	BumpMap "trock3-bump.*"
+	BumpHeight	3.5
+	Color   [  0.92  0.91  0.90 ]
+	BlendTexture true
+
+#   Density:			1.8488	grams/cc
+#   Escape Velocity:		4.8049	Km/sec
+#   Surface acceleration:	244.2230	cm/sec2
+#   Surface gravity:		0.2490	Earth gees
+#   Surface temperature:	-242.0662	degrees Celcius
+#   Estimated temperature:	-232.9764	degrees Celcius
+#   Estimated terrestrial temperature:	-232.9764	degrees Celcius
+#   Boiling point of water:	-60.1809	degrees Celcius
+#   Surface pressure:		0.0000	Earth atmospheres
+#   Molecular weight retained:	0.0190 and above
+
+	OrbitFrame { EclipticJ2000{} }
+	EllipticalOrbit {
+		Period            283.9832 	 # years
+		SemiMajorAxis     41.5275 	 # AU
+		Eccentricity      0.0246
+		Inclination       -0.460880164190665563651643985010331050489185
+		AscendingNode     0.000000000000000000000000000000000000000000
+		LongOfPericenter  105.068055850019704475228898843397473683580800
+	        MeanLongitude     67.158013520370243826240752582634740974754100
+	}
+
+	BodyFrame { EclipticJ2000{} }
+	UniformRotation {
+		 Period		30.6675 	 # hours
+		 Inclination	13.626375806074260848589629890881269602687100
+		 AscendingNode	0.000000000000000000000000000000000000000000
+		 MeridianAngle	67.158013520370243826240752582634740974754100
+	}
+	Albedo            0.5677
+}
+
+"p11-1" "CNC Cen/p11" {
+	Class "moon"
+
+	Radius 4012.0350
+	Mass 0.0837
+
+	Texture "trock4.*"
+	BumpMap "trock4-bump.*"
+	BumpHeight	3.5
+	Color   [  0.92  0.91  0.90 ]
+	BlendTexture true
+
+#   Density:			1.8488	grams/cc
+#   Escape Velocity:		4.0784	Km/sec
+#   Surface acceleration:	207.2981	cm/sec2
+#   Surface gravity:		0.2114	Earth gees
+#   Surface temperature:	-242.0906	degrees Celcius
+#   Estimated temperature:	-232.9764	degrees Celcius
+#   Estimated terrestrial temperature:	-232.9764	degrees Celcius
+#   Boiling point of water:	-68.6618	degrees Celcius
+#   Surface pressure:		0.0000	Earth atmospheres
+#   Molecular weight retained:	0.0263 and above
+
+	OrbitFrame { EclipticJ2000{} }
+	EllipticalOrbit {
+		Period            8131.8132 	 # days
+		SemiMajorAxis     10321455.6687 	 # km
+		Eccentricity      0.0241
+		Inclination       -0.383836246167946741847344302445144137436728
+		AscendingNode     0.000000000000000000000000000000000000000000
+		LongOfPericenter  212.354603490026017403868863198113103862851900
+	        MeanLongitude     27.719422181937574492863185504631928779417650
+	}
+
+	BodyFrame { EclipticJ2000{} }
+	UniformRotation {
+		 Period		33.2869 	 # hours
+		 Inclination	2.314109060415282784336707400107968624070054
+		 AscendingNode	0.000000000000000000000000000000000000000000
+		 MeridianAngle	27.719422181937574492863185504631928779417650
+	}
+	Albedo            0.5676
+}
+

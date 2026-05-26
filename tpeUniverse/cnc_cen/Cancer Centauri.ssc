@@ -1,0 +1,1194 @@
+# SSC Generator V1.3 © 2011 PlutonianEmpire
+# Statistics for CNC Cen System, Stellar Class: G6V
+# Stellar Habitable Zone: Venusian: 0.6665AU Terrain: 0.8128AU Martian: 0.9754AU
+# (Stellar Habitable Zone based on "App Mag" and "Distance" *ONLY*!
+# Changing the "Stellar Class" values will *NOT* change the Habitable Zone!)
+
+"Belle Ala" "CNC Cen" {
+	Texture "belleala.*"
+	BumpMap "belleala-bump.*"
+	BumpHeight 0.07
+	SpecularTexture "belleala-spec.*"
+	SpecularColor [ 1.00 1.00 0.75 ]
+	SpecularPower 30.93
+	Color [ 0.51953125 0.69921875 0.83984375 ]
+	# BlendTexture true
+	Radius 74065.584643
+	Mass 532.409921
+	# Density 0.34
+	Oblateness 0.056
+	HazeColor [ 0.51953125 0.69921875 0.83984375 ]
+	HazeDensity 0.21
+	Atmosphere {
+		Height 740.66
+		Lower [ 0.51953125 0.69921875 0.83984375 ]
+		Upper [ 0.21 0.43 0.69 ]
+		Sky [ 0.13 0.28 0.49 ]
+		CloudHeight 74.07
+		CloudSpeed  23.94
+		CloudMap    "belleala-clouds.*"
+		Mie 0.000074
+		MieAsymmetry -0.004
+		Rayleigh [ 0.000124 0.000306 0.000631 ]
+		Absorption [ 0.000967 0.000810 0.000371 ]
+		MieScaleHeight 116.9375
+	}
+	EllipticalOrbit {
+		Period            0.77709331508099475245265799680584
+		SemiMajorAxis     0.8128302405791754
+		Eccentricity      0.0207
+		Inclination       0.2981
+		AscendingNode     302.6331
+		ArgOfPericenter   161.0719
+		MeanAnomaly       92.4168
+	}
+	RotationPeriod 14.0132
+	Obliquity 24.95
+	EquatorAscendingNode 47.6798
+	RotationOffset 76.3320
+	Albedo 0.88
+}
+
+"Belle Ala I" "CNC Cen/Belle Ala" {
+	Texture "asteroid.*"
+	Mesh "asteroid.cms"
+	Class "minormoon"
+	Color [ 0.21 0.39 0.94 ]
+	BlendTexture true
+	Radius 16.88
+	EllipticalOrbit {
+		Period            0.15329522207705124
+		SemiMajorAxis     98063.0000
+		Eccentricity      0.0146
+		Inclination       1.0857
+		AscendingNode     351.0341
+		ArgOfPericenter   115.2287
+		MeanAnomaly       112.5158
+	}
+	# RotationPeriod 4.4601
+	Obliquity 1.0857
+	EquatorAscendingNode 351.0341
+	RotationOffset 48.2284
+	Albedo 0.20
+}
+
+"Belle Ala II" "CNC Cen/Belle Ala" {
+	Texture "asteroid.*"
+	Mesh "asteroid.cms"
+	Class "minormoon"
+	Color [ 0.46 0.48 0.51 ]
+	BlendTexture true
+	Radius 40.60
+	EllipticalOrbit {
+		Period            0.1706252563796255
+		SemiMajorAxis     105321.0000
+		Eccentricity      0.0122
+		Inclination       0.0488
+		AscendingNode     218.6587
+		ArgOfPericenter   239.8232
+		MeanAnomaly       339.2359
+	}
+	# RotationPeriod 4.9643
+	Obliquity 0.0488
+	EquatorAscendingNode 218.6587
+	RotationOffset 163.5287
+	Albedo 0.50
+}
+
+"Belle Ala III" "CNC Cen/Belle Ala" {
+	Texture "asteroid.*"
+	Mesh "asteroid.cms"
+	Class "minormoon"
+	Color [ 0.81 0.65 0.14 ]
+	BlendTexture true
+	Radius 74.1
+	EllipticalOrbit {
+		Period            0.19380040138344704
+		SemiMajorAxis     114654.0000
+		Eccentricity      0.0122
+		Inclination       0.0488
+		AscendingNode     227.1179
+		ArgOfPericenter   237.1984
+		MeanAnomaly       254.7808
+	}
+	# RotationPeriod 5.6386
+	Obliquity 0.0488
+	EquatorAscendingNode 227.1179
+	RotationOffset 104.5950
+	Albedo 0.79
+}
+
+"Belle Ala IV" "CNC Cen/Belle Ala" {
+	Texture "asteroid.*"
+	Mesh "asteroid.cms"
+	Class "minormoon"
+	Color [ 0.93 0.42 0.81 ]
+	BlendTexture true
+	Radius 12.96
+	EllipticalOrbit {
+		Period            0.22579257205160827
+		SemiMajorAxis     126948.0000
+		Eccentricity      0.0132
+		Inclination       0.6380
+		AscendingNode     327.5025
+		ArgOfPericenter   179.2296
+		MeanAnomaly       41.9226
+	}
+	# RotationPeriod 6.5694
+	Obliquity 0.6380
+	EquatorAscendingNode 327.5025
+	RotationOffset 29.5812
+	Albedo 0.02
+}
+
+"Belle Ala V" "CNC Cen/Belle Ala" {
+	Texture "asteroid.*"
+	Mesh "asteroid.cms"
+	Class "minormoon"
+	Color [ 0.89 0.92 0.58 ]
+	BlendTexture true
+	Radius 30.6
+	EllipticalOrbit {
+		Period            0.32968947130264376
+		SemiMajorAxis     163389.0000
+		Eccentricity      0.0005
+		Inclination       0.7578
+		AscendingNode     130.6248
+		ArgOfPericenter   280.9175
+		MeanAnomaly       241.0407
+	}
+	# RotationPeriod 9.5922
+	Obliquity 0.7578
+	EquatorAscendingNode 130.6248
+	RotationOffset 278.7970
+	Albedo 0.58
+}
+
+"Belle Ala VI" "CNC Cen/Belle Ala" {
+	Texture "asteroid.*"
+	Mesh "asteroid.cms"
+	Class "minormoon"
+	Color [ 0.19 0.60 0.03 ]
+	BlendTexture true
+	Radius 28.60
+	EllipticalOrbit {
+		Period            0.5328150464667951
+		SemiMajorAxis     225011.0000
+		Eccentricity      0.0134
+		Inclination       0.7689
+		AscendingNode     81.8287
+		ArgOfPericenter   45.6390
+		MeanAnomaly       123.9538
+	}
+	# RotationPeriod 15.5021
+	Obliquity 0.7689
+	EquatorAscendingNode 81.8287
+	RotationOffset 237.5394
+	Albedo 0.09
+}
+
+"Belle Ala VII" "CNC Cen/Belle Ala" {
+	Texture "asteroid.*"
+	Mesh "asteroid.cms"
+	Class "minormoon"
+	Color [ 0.79 0.91 0.75 ]
+	BlendTexture true
+	Radius 58.2
+	EllipticalOrbit {
+		Period            0.701671618627894
+		SemiMajorAxis     270339.0000
+		Eccentricity      0.0021
+		Inclination       0.1482
+		AscendingNode     80.7543
+		ArgOfPericenter   97.1488
+		MeanAnomaly       177.8037
+	}
+	# RotationPeriod 20.4149
+	Obliquity 0.1482
+	EquatorAscendingNode 80.7543
+	RotationOffset 5.5560
+	Albedo 0.06
+}
+
+"Belle Lunaire" "CNC Cen/Belle Ala" {
+	Texture "gc_earth_01.*"
+	BumpMap "gc_earth_01-bump.*"
+	BumpHeight 0.59
+	SpecularTexture "gc_earth_01-spec.*"
+	SpecularColor [ 1.00 1.00 0.75 ]
+	SpecularPower 41.87
+	Color [ 0.88 0.87 0.95 ]
+	BlendTexture true
+	Radius 5106
+	HazeColor [ 0.27 0.35 0.81 ]
+	HazeDensity 0.23
+	Atmosphere {
+		Height 51.06
+		Lower [ 0.27 0.35 0.81 ]
+		Upper [ 0.25 0.31 0.53 ]
+		Sky [ 0.16 0.48 0.601 ]
+		CloudHeight 5.11
+		CloudSpeed  70.09
+		CloudMap    "gc_earth_01-clouds.*"
+		Mie 0.00115
+		MieAsymmetry 0.259
+		Rayleigh [ 0.00058 0.00275 0.00607 ]
+		MieScaleHeight 17.3370
+	}
+	EllipticalOrbit {
+		Period            1.7937199841515556
+		SemiMajorAxis     505424.0000
+		Eccentricity      0.0136
+		Inclination       0.5904
+		AscendingNode     285.3119
+		ArgOfPericenter   268.1922
+		MeanAnomaly       27.7596
+	}
+	# RotationPeriod 42.72
+	Obliquity 0.5904
+	EquatorAscendingNode 285.3119
+	RotationOffset 335.9500
+	Albedo 0.35
+}
+
+"Belle Selene" "CNC Cen/Belle Ala" {
+	Texture "gc_earth_02.*"
+	BumpMap "gc_earth_02-bump.*"
+	BumpHeight 0.34
+	SpecularTexture "gc_earth_02-spec.*"
+	SpecularColor [ 1.00 1.00 0.75 ]
+	SpecularPower 24.43
+	Color [ 0.60 0.68 0.96 ]
+	Radius 6612
+	HazeColor [ 0.25 0.30 0.98 ]
+	HazeDensity 0.94
+	Atmosphere {
+		Height 66.12
+		Lower [ 0.44 0.66 0.96 ]
+		Upper [ 0.14 0.37 0.85 ]
+		Sky [ 0.47 0.63 0.93 ]
+		CloudHeight 6.61
+		CloudSpeed  65.20
+		CloudMap    "belleselene-clouds.*"
+		Mie 0.00092
+		MieAsymmetry 0.210
+		Rayleigh [ 0.00073 0.00233 0.00627 ]
+		MieScaleHeight 14.4954
+	}
+	EllipticalOrbit {
+		Period            5.156148791686267
+		SemiMajorAxis     1021809.0000
+		Eccentricity      0.0144
+		Inclination       0.0903
+		AscendingNode     123.7818
+		ArgOfPericenter   174.7685
+		MeanAnomaly       114.0854
+	}
+	# RotationPeriod 150.0162
+	Obliquity 0.0903
+	EquatorAscendingNode 123.7818
+	RotationOffset 141.6297
+	Albedo 0.34
+}
+
+"Belle Ala X" "CNC Cen/Belle Ala" {
+	Texture "gc_moons_04.*"
+	BumpMap "gc_moons_04-bump.*"
+	BumpHeight 0.83
+	Color [ 0.17 0.27 0.23 ]
+	BlendTexture true
+	Radius 1537
+	EllipticalOrbit {
+		Period            15.795565166333594
+		SemiMajorAxis     2155309.0000
+		Eccentricity      0.0183
+		Inclination       1.0922
+		AscendingNode     48.5040
+		ArgOfPericenter   102.1863
+		MeanAnomaly       281.6270
+	}
+	# RotationPeriod 459.5660
+	Obliquity 1.0922
+	EquatorAscendingNode 48.5040
+	RotationOffset 280.3907
+	Albedo 0.20
+}
+
+"Belle Ala XI" "CNC Cen/Belle Ala" {
+	Texture "gc_moons_01.*"
+	BumpMap "gc_moons_01-bump.*"
+	BumpHeight 1.40
+	Color [ 0.18 0.00 0.86 ]
+	BlendTexture true
+	Radius 1422
+	EllipticalOrbit {
+		Period            23.143920576363023
+		SemiMajorAxis     2780422.0000
+		Eccentricity      0.0464
+		Inclination       5.0990
+		AscendingNode     238.4133
+		ArgOfPericenter   73.8978
+		MeanAnomaly       201.2834
+	}
+	# RotationPeriod 673.3637
+	Obliquity 5.0990
+	EquatorAscendingNode 238.4133
+	RotationOffset 227.4143
+	Albedo 0.33
+}
+
+"Belle Ala XII" "CNC Cen/Belle Ala" {
+	Texture "asteroid.*"
+	Mesh "asteroid.cms"
+	Class "minormoon"
+	Color [ 0.77 0.09 0.68 ]
+	BlendTexture true
+	Radius 1.773
+	EllipticalOrbit {
+		Period            33.986635446020344
+		SemiMajorAxis     3592181.0000
+		Eccentricity      0.1685
+		Inclination       28.8863
+		AscendingNode     52.3624
+		ArgOfPericenter   26.8754
+		MeanAnomaly       334.5528
+	}
+	# RotationPeriod 988.8284
+	Obliquity 28.8863
+	EquatorAscendingNode 52.3624
+	RotationOffset 268.9914
+	Albedo 0.64
+}
+
+"Belle Ala XIII" "CNC Cen/Belle Ala" {
+	Texture "asteroid.*"
+	Mesh "asteroid.cms"
+	Class "minormoon"
+	Color [ 0.30 0.05 0.97 ]
+	BlendTexture true
+	Radius 2.220
+	EllipticalOrbit {
+		Period            50.028781853639885
+		SemiMajorAxis     4648356.0000
+		Eccentricity      0.2326
+		Inclination       15.7671
+		AscendingNode     200.8166
+		ArgOfPericenter   15.6971
+		MeanAnomaly       193.0002
+	}
+	# RotationPeriod 1455.5687
+	Obliquity 15.7671
+	EquatorAscendingNode 200.8166
+	RotationOffset 5.0943
+	Albedo 0.43
+}
+
+"Belle Ala XIV" "CNC Cen/Belle Ala" {
+	Texture "asteroid.*"
+	Mesh "asteroid.cms"
+	Class "minormoon"
+	Color [ 0.28 0.91 0.62 ]
+	BlendTexture true
+	Radius 1.593
+	EllipticalOrbit {
+		Period            73.73456317319803
+		SemiMajorAxis     6020051.0000
+		Eccentricity      0.0095
+		Inclination       7.4037
+		AscendingNode     58.7681
+		ArgOfPericenter   6.6726
+		MeanAnomaly       171.2247
+	}
+	# RotationPeriod 2145.2795
+	Obliquity 7.4037
+	EquatorAscendingNode 58.7681
+	RotationOffset 280.1099
+	Albedo 0.68
+}
+
+"Belle Ala XV" "CNC Cen/Belle Ala" {
+	Texture "asteroid.*"
+	Mesh "asteroid.cms"
+	Class "minormoon"
+	Color [ 0.67 0.84 0.65 ]
+	BlendTexture true
+	Radius 0.788
+	EllipticalOrbit {
+		Period            108.8510955606031
+		SemiMajorAxis     7805031.0000
+		Eccentricity      0.4141
+		Inclination       4.8624
+		AscendingNode     23.0003
+		ArgOfPericenter   55.6202
+		MeanAnomaly       331.1824
+	}
+	# RotationPeriod 3166.9818
+	Obliquity 4.8624
+	EquatorAscendingNode 23.0003
+	RotationOffset 319.1703
+	Albedo 0.43
+}
+
+"Belle Ala XVI" "CNC Cen/Belle Ala" {
+	Texture "asteroid.*"
+	Mesh "asteroid.cms"
+	Class "minormoon"
+	Color [ 0.79 0.95 0.92 ]
+	BlendTexture true
+	Radius 1.365
+	EllipticalOrbit {
+		Period            160.82304611833405
+		SemiMajorAxis     10124765.0000
+		Eccentricity      0.1620
+		Inclination       13.0440
+		AscendingNode     292.1390
+		ArgOfPericenter   157.3044
+		MeanAnomaly       194.8913
+	}
+	# RotationPeriod 4679.0862
+	Obliquity 13.0440
+	EquatorAscendingNode 292.1390
+	RotationOffset 130.5779
+	Albedo 0.34
+}
+
+"Belle Ala XVII" "CNC Cen/Belle Ala" {
+	Texture "asteroid.*"
+	Mesh "asteroid.cms"
+	Class "minormoon"
+	Color [ 0.93 0.02 0.20 ]
+	BlendTexture true
+	Radius 1.159
+	EllipticalOrbit {
+		Period            237.75298394445105
+		SemiMajorAxis     13139235.0000
+		Eccentricity      0.0705
+		Inclination       2.9369
+		AscendingNode     52.9153
+		ArgOfPericenter   215.3425
+		MeanAnomaly       265.8679
+	}
+	# RotationPeriod 6917.3339
+	Obliquity 2.9369
+	EquatorAscendingNode 52.9153
+	RotationOffset 95.9092
+	Albedo 0.28
+}
+
+######################
+
+"Lunaria" "CNC Cen" {
+	Texture "gc_earth_04.*"
+	BumpMap "gc_earth_04-bump.*"
+	BumpHeight 0.95
+	SpecularTexture "gc_earth_04-spec.*"
+	SpecularColor [ 1.00 1.00 0.75 ]
+	SpecularPower 35.61
+	Color [ 0.74 0.75 0.32 ]
+	BlendTexture true
+	Radius 5427.7393
+	HazeColor [ 0.52 0.04 0.74 ]
+	HazeDensity 0.72
+	Atmosphere {
+		Height 54.28
+		Lower [ 0.17 0.81 0.16 ]
+		Upper [ 0.48 0.59 0.65 ]
+		Sky [ 0.74 0.56 0.90 ]
+		CloudHeight 5.43
+		CloudSpeed  95.43
+		CloudMap    "gc_earth_04-clouds.*"
+		Mie 0.00104
+		MieAsymmetry 0.047
+		Rayleigh [ 0.00130 0.00740 0.00184 ]
+		MieScaleHeight 8.8327
+	}
+	EllipticalOrbit {
+		Period            2.1040383299110198494182067077344
+		SemiMajorAxis     1.578643721680101
+		Eccentricity      0.0150
+		Inclination       0.4948
+		AscendingNode     317.2104
+		ArgOfPericenter   107.2590
+		MeanAnomaly       25.9642
+	}
+	Rings {
+		Inner   6872.22
+		Outer   17647.09
+		Texture "gc_rings_06.*"
+		Color   [ 0.61 0.90 0.39 ]
+	}
+	RotationPeriod 235.5282
+	Obliquity 1.47
+	EquatorAscendingNode 95.8143
+	RotationOffset 118.3114
+	Albedo 0.11
+}
+
+"Crabaria" "CNC Cen" {
+	Texture "gc_gasgt_04.*"
+	BumpMap "gc_gasgt_04-bump.*"
+	BumpHeight 0.42
+	SpecularTexture "gc_gasgt_04-spec.*"
+	SpecularColor [ 1.00 1.00 0.75 ]
+	SpecularPower 41.16
+	Color [ 0.96 0.72 0.02 ]
+	BlendTexture true
+	Radius 128124.4661
+	Mass 2756.087363
+	# Density 0.34
+	Oblateness 0.067
+	HazeColor [ 0.27 0.32 0.96 ]
+	HazeDensity 0.69
+	Atmosphere {
+		Height 1280.00
+		Lower [ 0.36 0.17 0.06 ]
+		Upper [ 0.71 0.67 0.01 ]
+		Sky [ 0.05 0.89 0.00 ]
+		Sunset [ 0.40 0.27 0.08 ]
+		CloudHeight 128.00
+		CloudSpeed  53.25
+		CloudMap    "gc_gasgt_04-clouds.*"
+		Mie 0.000139
+		MieAsymmetry -0.215
+		Rayleigh [ 0.000052 0.000895 0.000002 ]
+		Absorption [ 0.000603 0.000735 0.000917 ]
+		MieScaleHeight 209.6717
+	}
+	EllipticalOrbit {
+		Period            15.71731690622861054072553045859
+		SemiMajorAxis     6.031357161325919
+		Eccentricity      0.0290
+		Inclination       -0.9200
+		AscendingNode     303.4896
+		ArgOfPericenter   345.2489
+		MeanAnomaly       175.5251
+	}
+	Rings {
+		Inner   219243.76
+		Outer   445958.35
+		Texture "gc_rings_02.*"
+		Color   [ 0.94 0.60 0.00 ]
+	}
+	RotationPeriod 11.9000
+	Obliquity 3.89
+	EquatorAscendingNode 274.5772
+	RotationOffset 215.0035
+	Albedo 0.69
+}
+
+"Crabaria I" "CNC Cen/Crabaria" {
+	Texture "asteroid.*"
+	Mesh "asteroid.cms"
+	Class "minormoon"
+	Color [ 0.26 0.40 0.65 ]
+	BlendTexture true
+	Radius 25.26
+	EllipticalOrbit {
+		Period            0.15307151056245283
+		SemiMajorAxis     169472.0000
+		Eccentricity      0.0024
+		Inclination       0.7577
+		AscendingNode     317.7626
+		ArgOfPericenter   175.0867
+		MeanAnomaly       212.2906
+	}
+	# RotationPeriod 3.5600
+	Obliquity 0.7577
+	EquatorAscendingNode 317.7626
+	RotationOffset 120.6483
+	Albedo 0.21
+}
+
+"Crabaria II" "CNC Cen/Crabaria" {
+	Texture "asteroid.*"
+	Mesh "asteroid.cms"
+	Class "minormoon"
+	Color [ 0.24 0.07 0.69 ]
+	BlendTexture true
+	Radius 64.00
+	EllipticalOrbit {
+		Period            0.1703773209117306
+		SemiMajorAxis     182016.0000
+		Eccentricity      0.0024
+		Inclination       0.7577
+		AscendingNode     31.8739
+		ArgOfPericenter   260.0972
+		MeanAnomaly       353.1885
+	}
+	# RotationPeriod 3.9625
+	Obliquity 0.7577
+	EquatorAscendingNode 31.8739
+	RotationOffset 224.4169
+	Albedo 0.46
+}
+
+"Crabaria III" "CNC Cen/Crabaria" {
+	Texture "asteroid.*"
+	Mesh "asteroid.cms"
+	Class "minormoon"
+	Color [ 0.76 0.59 0.86 ]
+	BlendTexture true
+	Radius 27.45
+	EllipticalOrbit {
+		Period            0.19351686726059925
+		SemiMajorAxis     198144.0000
+		Eccentricity      0.0026
+		Inclination       0.7824
+		AscendingNode     255.1377
+		ArgOfPericenter   49.9222
+		MeanAnomaly       142.2462
+	}
+	# RotationPeriod 4.5006
+	Obliquity 0.7824
+	EquatorAscendingNode 255.1377
+	RotationOffset 348.6106
+	Albedo 0.18
+}
+
+"Crabaria IV" "CNC Cen/Crabaria" {
+	Texture "asteroid.*"
+	Mesh "asteroid.cms"
+	Class "minormoon"
+	Color [ 0.79 0.27 0.49 ]
+	BlendTexture true
+	Radius 51.20
+	EllipticalOrbit {
+		Period            0.22546473152433266
+		SemiMajorAxis     219392.0000
+		Eccentricity      0.0026
+		Inclination       0.7824
+		AscendingNode     123.3476
+		ArgOfPericenter   277.2796
+		MeanAnomaly       201.1817
+	}
+	# RotationPeriod 5.2437
+	Obliquity 0.7824
+	EquatorAscendingNode 123.3476
+	RotationOffset 161.6997
+	Albedo 0.01
+}
+
+"Crabaria V" "CNC Cen/Crabaria" {
+	Texture "asteroid.*"
+	Mesh "asteroid.cms"
+	Class "minormoon"
+	Color [ 0.52 0.26 0.01 ]
+	BlendTexture true
+	Radius 21.29
+	EllipticalOrbit {
+		Period            0.26898182425868816
+		SemiMajorAxis     246784.0000
+		Eccentricity      0.0155
+		Inclination       0.7486
+		AscendingNode     86.8060
+		ArgOfPericenter   274.0731
+		MeanAnomaly       263.2467
+	}
+	# RotationPeriod 6.2557
+	Obliquity 0.7486
+	EquatorAscendingNode 86.8060
+	RotationOffset 193.8041
+	Albedo 0.33
+}
+
+"Crabaria VI" "CNC Cen/Crabaria" {
+	Texture "asteroid.*"
+	Mesh "asteroid.cms"
+	Class "minormoon"
+	Color [ 0.86 0.47 0.57 ]
+	BlendTexture true
+	Radius 29.97
+	EllipticalOrbit {
+		Period            0.329208206290911
+		SemiMajorAxis     282368.0000
+		Eccentricity      0.0206
+		Inclination       0.0519
+		AscendingNode     80.7414
+		ArgOfPericenter   257.1067
+		MeanAnomaly       22.9473
+	}
+	# RotationPeriod 7.6564
+	Obliquity 0.0519
+	EquatorAscendingNode 80.7414
+	RotationOffset 205.1114
+	Albedo 0.00
+}
+
+"Crabaria VII" "CNC Cen/Crabaria" {
+	Texture "asteroid.*"
+	Mesh "asteroid.cms"
+	Class "minormoon"
+	Color [ 0.75 0.37 0.42 ]
+	BlendTexture true
+	Radius 9.08
+	EllipticalOrbit {
+		Period            0.41348039208930293
+		SemiMajorAxis     328704.0000
+		Eccentricity      0.0154
+		Inclination       0.8489
+		AscendingNode     237.5678
+		ArgOfPericenter   284.9056
+		MeanAnomaly       259.6692
+	}
+	# RotationPeriod 9.6164
+	Obliquity 0.8489
+	EquatorAscendingNode 237.5678
+	RotationOffset 174.7564
+	Albedo 0.46
+}
+
+"Crabaria VIII" "CNC Cen/Crabaria" {
+	Texture "asteroid.*"
+	Mesh "asteroid.cms"
+	Class "minormoon"
+	Color [ 0.38 0.94 0.09 ]
+	BlendTexture true
+	Radius 8.37
+	EllipticalOrbit {
+		Period            0.5320397057820726
+		SemiMajorAxis     388864.0000
+		Eccentricity      0.0157
+		Inclination       0.7114
+		AscendingNode     86.9178
+		ArgOfPericenter   32.7585
+		MeanAnomaly       115.6142
+	}
+	# RotationPeriod 12.3737
+	Obliquity 0.7114
+	EquatorAscendingNode 86.9178
+	RotationOffset 14.7388
+	Albedo 0.56
+}
+
+"Crabaria IX" "CNC Cen/Crabaria" {
+	Texture "asteroid.*"
+	Mesh "asteroid.cms"
+	Class "minormoon"
+	Color [ 0.66 0.87 0.94 ]
+	BlendTexture true
+	Radius 14.15
+	EllipticalOrbit {
+		Period            0.7006509045399484
+		SemiMajorAxis     467200.0000
+		Eccentricity      0.0149
+		Inclination       0.3161
+		AscendingNode     276.6418
+		ArgOfPericenter   229.4351
+		MeanAnomaly       293.1194
+	}
+	# RotationPeriod 16.2951
+	Obliquity 0.3161
+	EquatorAscendingNode 276.6418
+	RotationOffset 111.8794
+	Albedo 0.21
+}
+
+"Crabaria X" "CNC Cen/Crabaria" {
+	Texture "asteroid.*"
+	Mesh "asteroid.cms"
+	Class "minormoon"
+	Color [ 0.90 0.72 0.18 ]
+	BlendTexture true
+	Radius 16.47
+	EllipticalOrbit {
+		Period            0.9419255509939216
+		SemiMajorAxis     569088.0000
+		Eccentricity      0.0178
+		Inclination       0.3842
+		AscendingNode     259.1329
+		ArgOfPericenter   293.2732
+		MeanAnomaly       145.7084
+	}
+	# RotationPeriod 21.9065
+	Obliquity 0.3842
+	EquatorAscendingNode 259.1329
+	RotationOffset 296.8192
+	Albedo 0.90
+}
+
+"Crabaria XI" "CNC Cen/Crabaria" {
+	Texture "asteroid.*"
+	Mesh "asteroid.cms"
+	Class "minormoon"
+	Color [ 0.25 0.09 0.27 ]
+	BlendTexture true
+	Radius 6.55
+	EllipticalOrbit {
+		Period            1.2889415628670102
+		SemiMajorAxis     701440.0000
+		Eccentricity      0.0123
+		Inclination       0.1903
+		AscendingNode     93.4904
+		ArgOfPericenter   314.8338
+		MeanAnomaly       208.1037
+	}
+	# RotationPeriod 29.9771
+	Obliquity 0.1903
+	EquatorAscendingNode 93.4904
+	RotationOffset 265.2190
+	Albedo 0.33
+}
+
+"Crabaria XII" "CNC Cen/Crabaria" {
+	Texture "gc_vulca_04.*"
+	NightTexture "gc_vulca_04-night.*"
+	BumpMap "gc_vulca_04-bump.*"
+	BumpHeight 0.32
+	SpecularTexture "gc_vulca_04-spec.*"
+	SpecularColor [ 1.00 1.00 0.75 ]
+	SpecularPower 38.52
+	Color [ 0.81 0.18 0.30 ]
+	BlendTexture true
+	Radius 4337
+	HazeColor [ 0.81 0.81 0.23 ]
+	HazeDensity 0.66
+	Atmosphere {
+		Height 43.37
+		Lower [ 0.38 0.57 0.71 ]
+		Upper [ 0.76 0.59 0.66 ]
+		Sky [ 0.64 0.76 0.87 ]
+		CloudHeight 4.34
+		CloudSpeed  79.32
+		CloudMap    "gc_deser_03-clouds.*"
+		Mie 0.00099
+		MieAsymmetry 0.209
+		Rayleigh [ 0.00636 0.00757 0.00872 ]
+		MieScaleHeight 11.1511
+	}
+	EllipticalOrbit {
+		Period            1.7911044692976203
+		SemiMajorAxis     873472.0000
+		Eccentricity      0.0115
+		Inclination       0.1071
+		AscendingNode     318.9164
+		ArgOfPericenter   162.7585
+		MeanAnomaly       105.7939
+	}
+	# RotationPeriod 41.6560
+	Obliquity 0.1071
+	EquatorAscendingNode 318.9164
+	RotationOffset 171.9440
+	Albedo 0.44
+}
+
+"Crabaria XIII" "CNC Cen/Crabaria" {
+	Texture "gc_moons_03.*"
+	BumpMap "gc_moons_03-bump.*"
+	BumpHeight 1.96
+	Color [ 0.98 0.54 0.92 ]
+	BlendTexture true
+	Radius 785
+	EllipticalOrbit {
+		Period            2.520772331085738
+		SemiMajorAxis     1096960.0000
+		Eccentricity      0.0127
+		Inclination       0.0856
+		AscendingNode     247.6737
+		ArgOfPericenter   288.0517
+		MeanAnomaly       76.8985
+	}
+	# RotationPeriod 58.6260
+	Obliquity 0.0856
+	EquatorAscendingNode 247.6737
+	RotationOffset 207.3169
+	Albedo 0.19
+}
+
+"Crabaria XIV" "CNC Cen/Crabaria" {
+	Texture "gc_rocky_04.*"
+	BumpMap "gc_rocky_04-bump.*"
+	BumpHeight 0.74
+	Color [ 0.18 0.82 0.02 ]
+	BlendTexture true
+	Radius 1315
+	EllipticalOrbit {
+		Period            3.5869596785798112
+		SemiMajorAxis     1387776.0000
+		Eccentricity      0.0101
+		Inclination       0.4041
+		AscendingNode     190.2089
+		ArgOfPericenter   140.5769
+		MeanAnomaly       229.2197
+	}
+	# RotationPeriod 83.4224
+	Obliquity 0.4041
+	EquatorAscendingNode 190.2089
+	RotationOffset 174.8132
+	Albedo 0.16
+}
+
+"Crabaria XV" "CNC Cen/Crabaria" {
+	Texture "gc_moons_01.*"
+	BumpMap "gc_moons_01-bump.*"
+	BumpHeight 1.51
+	Color [ 0.72 0.55 0.37 ]
+	BlendTexture true
+	Radius 2130
+	EllipticalOrbit {
+		Period            5.148635761247907
+		SemiMajorAxis     1765888.0000
+		Eccentricity      0.0130
+		Inclination       0.0201
+		AscendingNode     31.5490
+		ArgOfPericenter   247.8861
+		MeanAnomaly       354.8774
+	}
+	# RotationPeriod 119.7426
+	Obliquity 0.0201
+	EquatorAscendingNode 31.5490
+	RotationOffset 169.2514
+	Albedo 0.30
+}
+
+"Crabaria XVI" "CNC Cen/Crabaria" {
+	Texture "gc_rocky_02.*"
+	BumpMap "gc_rocky_02-bump.*"
+	BumpHeight 0.22
+	Mesh "roughsphere.cms"
+	Color [ 0.04 0.85 0.65 ]
+	BlendTexture true
+	Radius 311
+	EllipticalOrbit {
+		Period            7.440269127486623
+		SemiMajorAxis     2257152.0000
+		Eccentricity      0.0106
+		Inclination       0.8571
+		AscendingNode     44.4273
+		ArgOfPericenter   68.1531
+		MeanAnomaly       22.8949
+	}
+	# RotationPeriod 173.0394
+	Obliquity 0.8571
+	EquatorAscendingNode 44.4273
+	RotationOffset 280.1519
+	Albedo 0.46
+}
+
+"Crabaria XVII" "CNC Cen/Crabaria" {
+	Texture "gc_froze_04.*"
+	BumpMap "gc_froze_04-bump.*"
+	BumpHeight 1.02
+	SpecularTexture "gc_froze_04-spec.*"
+	SpecularColor [ 1.00 1.00 0.75 ]
+	SpecularPower 99.28
+	Color [ 0.78 0.16 0.43 ]
+	BlendTexture true
+	Radius 3734
+	HazeColor [ 0.67 0.21 0.22 ]
+	HazeDensity 0.79
+	Atmosphere {
+		Height 37.34
+		Lower [ 0.98 0.83 0.64 ]
+		Upper [ 0.63 0.71 0.93 ]
+		Sky [ 0.92 0.96 0.22 ]
+		CloudHeight 3.73
+		CloudSpeed  94.19
+		CloudMap    "gc_earth_04-clouds.*"
+		Mie 0.00141
+		MieAsymmetry 0.230
+		Rayleigh [ 0.00916 0.00957 0.00216 ]
+		MieScaleHeight 9.1824
+	}
+	EllipticalOrbit {
+		Period            10.809392609906148
+		SemiMajorAxis     2895360.0000
+		Eccentricity      0.0297
+		Inclination       1.9555
+		AscendingNode     254.7372
+		ArgOfPericenter   82.3958
+		MeanAnomaly       203.0252
+	}
+	# RotationPeriod 251.3956
+	Obliquity 1.9555
+	EquatorAscendingNode 254.7372
+	RotationOffset 268.8548
+	Albedo 0.33
+}
+
+"Crabaria XVIII" "CNC Cen/Crabaria" {
+	Texture "gc_froze_02.*"
+	BumpMap "gc_froze_02-bump.*"
+	BumpHeight 0.11
+	Mesh "roughsphere.cms"
+	Color [ 0.24 0.39 0.98 ]
+	BlendTexture true
+	Radius 241
+	EllipticalOrbit {
+		Period            15.772548583257041
+		SemiMajorAxis     3724800.0000
+		Eccentricity      0.0132
+		Inclination       1.0841
+		AscendingNode     263.7224
+		ArgOfPericenter   305.5575
+		MeanAnomaly       1.4755
+	}
+	# RotationPeriod 366.8244
+	Obliquity 1.0841
+	EquatorAscendingNode 263.7224
+	RotationOffset 113.9592
+	Albedo 0.25
+}
+
+"Crabaria XIX" "CNC Cen/Crabaria" {
+	Texture "gc_froze_01.*"
+	BumpMap "gc_froze_01-bump.*"
+	BumpHeight 0.20
+	SpecularTexture "gc_froze_01-spec.*"
+	SpecularColor [ 1.00 1.00 0.75 ]
+	SpecularPower 45.84
+	Color [ 0.12 0.71 0.72 ]
+	BlendTexture true
+	Radius 457
+	EllipticalOrbit {
+		Period            23.110204725326305
+		SemiMajorAxis     4805120.0000
+		Eccentricity      0.0134
+		Inclination       1.1029
+		AscendingNode     337.8109
+		ArgOfPericenter   94.8023
+		MeanAnomaly       65.4502
+	}
+	# RotationPeriod 537.4773
+	Obliquity 1.1029
+	EquatorAscendingNode 337.8109
+	RotationOffset 94.8446
+	Albedo 0.70
+}
+
+"Crabaria XX" "CNC Cen/Crabaria" {
+	Texture "asteroid.*"
+	Mesh "asteroid.cms"
+	Class "minormoon"
+	Color [ 0.13 0.60 0.33 ]
+	BlendTexture true
+	Radius 0.259
+	EllipticalOrbit {
+		Period            33.937121105667735
+		SemiMajorAxis     6208000.0000
+		Eccentricity      0.2158
+		Inclination       11.7840
+		AscendingNode     334.6339
+		ArgOfPericenter   108.4161
+		MeanAnomaly       62.1597
+	}
+	# RotationPeriod 789.2805
+	Obliquity 11.7840
+	EquatorAscendingNode 334.6339
+	RotationOffset 142.5695
+	Albedo 0.03
+}
+
+"Crabaria XXI" "CNC Cen/Crabaria" {
+	Texture "asteroid.*"
+	Mesh "asteroid.cms"
+	Class "minormoon"
+	Color [ 0.13 0.22 0.57 ]
+	BlendTexture true
+	Radius 3.476
+	EllipticalOrbit {
+		Period            49.95590058961743
+		SemiMajorAxis     8033280.0000
+		Eccentricity      0.0986
+		Inclination       6.2099
+		AscendingNode     249.0421
+		ArgOfPericenter   65.3382
+		MeanAnomaly       147.5938
+	}
+	# RotationPeriod 1161.8315
+	Obliquity 6.2099
+	EquatorAscendingNode 249.0421
+	RotationOffset 144.7063
+	Albedo 0.87
+}
+
+"Crabaria XXII" "CNC Cen/Crabaria" {
+	Texture "asteroid.*"
+	Mesh "asteroid.cms"
+	Class "minormoon"
+	Color [ 0.09 0.43 0.18 ]
+	BlendTexture true
+	Radius 4.487
+	EllipticalOrbit {
+		Period            73.62714031105956
+		SemiMajorAxis     10403840.0000
+		Eccentricity      0.2923
+		Inclination       18.6478
+		AscendingNode     226.8869
+		ArgOfPericenter   207.2021
+		MeanAnomaly       323.1319
+	}
+	# RotationPeriod 1712.3569
+	Obliquity 18.6478
+	EquatorAscendingNode 226.8869
+	RotationOffset 161.2987
+	Albedo 0.96
+}
+
+"Crabaria XXIII" "CNC Cen/Crabaria" {
+	Texture "asteroid.*"
+	Mesh "asteroid.cms"
+	Class "minormoon"
+	Color [ 0.62 0.84 0.86 ]
+	BlendTexture true
+	Radius 0.773
+	EllipticalOrbit {
+		Period            108.69252596749686
+		SemiMajorAxis     13488640.0000
+		Eccentricity      0.3420
+		Inclination       13.4422
+		AscendingNode     178.9927
+		ArgOfPericenter   297.1811
+		MeanAnomaly       157.4817
+	}
+	# RotationPeriod 2527.8776
+	Obliquity 13.4422
+	EquatorAscendingNode 178.9927
+	RotationOffset 276.6891
+	Albedo 0.66
+}
+
+"Crabaria XXIV" "CNC Cen/Crabaria" {
+	Texture "asteroid.*"
+	Mesh "asteroid.cms"
+	Class "minormoon"
+	Color [ 0.45 0.60 0.88 ]
+	BlendTexture true
+	Radius 4.716
+	EllipticalOrbit {
+		Period            160.5887664750887
+		SemiMajorAxis     17497600.0000
+		Eccentricity      0.1483
+		Inclination       9.3094
+		AscendingNode     121.5849
+		ArgOfPericenter   284.9487
+		MeanAnomaly       147.1219
+	}
+	# RotationPeriod 3734.8359
+	Obliquity 9.3094
+	EquatorAscendingNode 121.5849
+	RotationOffset 105.7918
+	Albedo 0.25
+}
+
+"Crabaria XXV" "CNC Cen/Crabaria" {
+	Texture "asteroid.*"
+	Mesh "asteroid.cms"
+	Class "minormoon"
+	Color [ 0.49 0.87 0.60 ]
+	BlendTexture true
+	Radius 0.937
+	EllipticalOrbit {
+		Period            237.406613790344
+		SemiMajorAxis     22707200.0000
+		Eccentricity      0.0928
+		Inclination       10.5244
+		AscendingNode     341.2866
+		ArgOfPericenter   319.8718
+		MeanAnomaly       30.9476
+	}
+	# RotationPeriod 5521.3995
+	Obliquity 10.5244
+	EquatorAscendingNode 341.2866
+	RotationOffset 45.8888
+	Albedo 0.65
+}

@@ -1,0 +1,3574 @@
+# Stargen - $Revision: 2.0 $; seed=1321829380
+#
+# Binaria, Binaria
+#
+# Stellar mass: 1.10730480959140042962 solar masses
+# Stellar luminosity: 1.29467399999999999995
+# Stellar temperature: 6050.89020990127937694 Kelvin
+# Age: 4.23044585607081377468  billion years	(4.32232348656988519435 billion left on main sequence)
+# Habitable ecosphere: 1.02870044727429548316 AU to 2.43332921433075191229 AU
+
+"p10" "Binaria" {
+	Class "planet"
+	Radius 57122.5673245223081231
+	Mass 16.0660958482239659868
+
+	Texture "exo-class1.*"
+	Color [ 0.922206393335492949912 0.887631457040156440579 0.792550382227981135798 ]
+	BlendTexture true
+
+#   HZD:			11.7332017701597936844
+#   HZC:			8.74333315091373958032
+#   HZA:			0.920950644718728754425
+#   SPH:			0
+#   ESI:			0.184400585294419824969
+#   Density:			0.172417012948618281814	grams/cc
+#   Escape Velocity:		21.3563643660518673647	Km/sec
+#   Surface acceleration:	811.740318001607264575	cm/sec2
+#   Surface gravity:		0.827744762994098183084	Earth gees
+#   Surface temperature:	-143.340186301586204443	degrees Celcius
+#   Estimated temperature:	-178.38346073180000681	degrees Celcius
+#   Estimated terrestrial temperature:	-166.687019740206614826	degrees Celcius
+#   Boiling point of water:	inf	degrees Celcius
+#   Surface pressure:		10	Earth atmospheres
+#   Molecular weight retained:	0.504749413977726089995 and above
+#           Helium: 99.1593245535104989216% 10047.3185603844513034 mb (ipp: 9985.1838271820737738)
+#           Carbon: 0.528252016990137110018% 53.5251356215256426721 mb (ipp: 53.1941249143925235614)
+#           Nitrogen: 0.165560691842714846752% 16.7754371009630818476 mb (ipp: 16.6716942662597575227)
+#           Silicon: 0.0544763696493626831775% 5.51981815472167387272 mb (ipp: 5.4856824371858950995)
+
+	Oblateness 0.019193673483418170346
+	HazeColor [ 0.5 0.8 1.0 ]
+	HazeDensity 0.2
+	OrbitFrame { MeanEquator { Center "Binaria" } }
+	EllipticalOrbit {
+		Period            22.4550582243109581818 # Years
+		SemiMajorAxis     9.9714111988246152329 # AU
+		Eccentricity      0.133780417888650471347
+		Inclination       0.0652388036855132586882
+		AscendingNode     285.585731996961744494
+		LongOfPericenter  228.247286858152266073
+		MeanLongitude     329.744806517728048623
+	}
+
+	BodyFrame { MeanEquator { Center "Binaria" } }
+	UniformRotation {
+		Period		18.5197620688175205138 # Hours
+		Inclination	1.1190855045603175311
+		AscendingNode	0
+		MeridianAngle	329.744806517728048623
+	}
+
+	Albedo            0.561253768962021920075
+}
+
+"p10-1" "Binaria/p10" {
+	Class "moon"
+	Radius 9.14427325095748380884
+	Mass 8.27970349423580197589e-10
+
+	Texture "tasteroid.*"
+	Mesh "asteroid.cms"
+	Color   [ 0.52 0.46 0.43 ]
+	BlendTexture true
+
+#   HZD:			11.7332017701597936844
+#   HZC:			0.938805168810450171054
+#   HZA:			-1.72806425385251471538
+#   SPH:			0
+#   ESI:			0.0442582962548743782719
+#   Density:			1.54505654106424111793	grams/cc
+#   Escape Velocity:		0.00849784303766992388533	Km/sec
+#   Surface acceleration:	0.394855524933672798925	cm/sec2
+#   Surface gravity:		0.000402640580558776762262	Earth gees
+#   Surface temperature:	-173.637867156634706417	degrees Celcius
+#   Estimated temperature:	-166.687019740206614826	degrees Celcius
+#   Estimated terrestrial temperature:	-166.687019740206614826	degrees Celcius
+#   Boiling point of water:	-273.149999999999977263	degrees Celcius
+#   Surface pressure:		0	Earth atmospheres
+#   Molecular weight retained:	202442.052404974523569 and above
+
+	# OrbitFrame { MeanEquator { Center "Binaria" } }
+	EllipticalOrbit {
+		Period            3.49861672898744253176 # Days
+		SemiMajorAxis     245684.463679721746345 # Km
+		Eccentricity      0.00284580708613889627773
+		Inclination       0.0114455565811136142511
+		AscendingNode     157.646945229567096214
+		LongOfPericenter  82.7152214398212830768
+		MeanLongitude     203.983142321921485624
+	}
+
+	# BodyFrame { MeanEquator { Center "Binaria" } }
+	UniformRotation {
+# Moon is tidally locked with one face to planet.
+		Inclination	0.0114455565811136142511
+		AscendingNode	0
+		MeridianAngle	203.983142321921485624
+	}
+
+	Albedo            0.0700000000000000066613
+}
+
+"p10-2" "Binaria/p10" {
+	Class "moon"
+	Radius 35.992846543752113897
+	Mass 7.50325020109939941394e-08
+
+	Texture "tasteroid.*"
+	Mesh "asteroid.cms"
+	Color   [ 0.37 0.37 0.37 ]
+	BlendTexture true
+
+#   HZD:			11.7332017701597936844
+#   HZC:			0.385481459956463466091
+#   HZA:			-1.7226650343056859482
+#   SPH:			0
+#   ESI:			0.0765206543437513134003
+#   Density:			2.29603245401931886334	grams/cc
+#   Escape Velocity:		0.0407748645760177677541	Km/sec
+#   Surface acceleration:	2.30961113227260482028	cm/sec2
+#   Surface gravity:		0.00235514791725268558164	Earth gees
+#   Surface temperature:	-173.637867156634706417	degrees Celcius
+#   Estimated temperature:	-166.687019740206614826	degrees Celcius
+#   Estimated terrestrial temperature:	-166.687019740206614826	degrees Celcius
+#   Boiling point of water:	-273.149999999999977263	degrees Celcius
+#   Surface pressure:		0	Earth atmospheres
+#   Molecular weight retained:	8842.6171407232891486 and above
+
+	# OrbitFrame { MeanEquator { Center "Binaria" } }
+	EllipticalOrbit {
+		Period            3.68940858102846232268 # Days
+		SemiMajorAxis     254537.213040163593121 # Km
+		Eccentricity      0.00405705413970027785779
+		Inclination       0.101884337248244383473
+		AscendingNode     73.6729642719370146631
+		LongOfPericenter  244.166439605954307887
+		MeanLongitude     152.648410849575144624
+	}
+
+	# BodyFrame { MeanEquator { Center "Binaria" } }
+	UniformRotation {
+# Moon is tidally locked with one face to planet.
+		Inclination	0.101884337248244383473
+		AscendingNode	0
+		MeridianAngle	152.648410849575144624
+	}
+
+	Albedo            0.0700000000000000066613
+}
+
+"p10-3" "Binaria/p10" {
+	Class "moon"
+	Radius 2.06984153005323878814
+	Mass 9.99999999999999939576e-12
+
+	Texture "tasteroid.*"
+	Mesh "asteroid.cms"
+	Color   [ 0.37 0.37 0.37 ]
+	BlendTexture true
+
+#   HZD:			11.7332017701597936844
+#   HZC:			0.878506951565333263994
+#   HZA:			-1.72915739585594932612
+#   SPH:			0
+#   ESI:			0.0279550579113159936698
+#   Density:			1.60903647307152007303	grams/cc
+#   Escape Velocity:		0.00196294152397701587933	Km/sec
+#   Surface acceleration:	0.0930781262866559227215	cm/sec2
+#   Surface gravity:		9.49132744481101356454e-05	Earth gees
+#   Surface temperature:	-173.637867156634706417	degrees Celcius
+#   Estimated temperature:	-166.687019740206614826	degrees Celcius
+#   Estimated terrestrial temperature:	-166.687019740206614826	degrees Celcius
+#   Boiling point of water:	-273.149999999999977263	degrees Celcius
+#   Surface pressure:		0	Earth atmospheres
+#   Molecular weight retained:	3796248.90845127899433 and above
+
+	# OrbitFrame { MeanEquator { Center "Binaria" } }
+	EllipticalOrbit {
+		Period            18.8404095952319852389 # Days
+		SemiMajorAxis     754814.686660909197826 # Km
+		Eccentricity      0.00726405360608550437307
+		Inclination       3.97376775113287355546
+		AscendingNode     281.780695804292660112
+		LongOfPericenter  84.0868332256036033964
+		MeanLongitude     289.699677531467600505
+	}
+
+	# BodyFrame { MeanEquator { Center "Binaria" } }
+	UniformRotation {
+# Moon is tidally locked with one face to planet.
+		Inclination	3.97376775113287355546
+		AscendingNode	0
+		MeridianAngle	289.699677531467600505
+	}
+
+	Albedo            0.0700000000000000066613
+}
+
+"p10-4" "Binaria/p10" {
+	Class "moon"
+	Radius 170.098391255674317904
+	Mass 5.46984400482727141138e-06
+
+	Texture "tasteroid.*"
+	Mesh "asteroid.cms"
+	Color   [ 0.52 0.46 0.43 ]
+	BlendTexture true
+
+#   HZD:			11.7332017701597936844
+#   HZC:			0.904532603551645807529
+#   HZA:			-1.70269710273650327936
+#   SPH:			0
+#   ESI:			0.112165590877840748632
+#   Density:			1.58581127196684886925	grams/cc
+#   Escape Velocity:		0.16014496089175570585	Km/sec
+#   Surface acceleration:	7.53869813514959539189	cm/sec2
+#   Surface gravity:		0.00768733271315851557027	Earth gees
+#   Surface temperature:	-173.637867156634706417	degrees Celcius
+#   Estimated temperature:	-166.687019740206614826	degrees Celcius
+#   Estimated terrestrial temperature:	-166.687019740206614826	degrees Celcius
+#   Boiling point of water:	-273.149999999999977263	degrees Celcius
+#   Surface pressure:		0	Earth atmospheres
+#   Molecular weight retained:	570.275163350914547244 and above
+
+	# OrbitFrame { MeanEquator { Center "Binaria" } }
+	EllipticalOrbit {
+		Period            29.232261687260299372 # Days
+		SemiMajorAxis     1011630.17753229127766 # Km
+		Eccentricity      0.00316935243232611220997
+		Inclination       0.245968479016652816278
+		AscendingNode     73.9588455082657027576
+		LongOfPericenter  135.667410779589512754
+		MeanLongitude     128.724734023550867121
+	}
+
+	# BodyFrame { MeanEquator { Center "Binaria" } }
+	UniformRotation {
+# Moon is tidally locked with one face to planet.
+		Inclination	0.245968479016652816278
+		AscendingNode	0
+		MeridianAngle	128.724734023550867121
+	}
+
+	Albedo            0.0700000000000000066613
+}
+
+"p10-5" "Binaria/p10" {
+	Class "moon"
+	Radius 13.4453956312257157813
+	Mass 2.62726393331667842192e-09
+
+	Texture "tasteroid.*"
+	Mesh "asteroid.cms"
+	Color   [ 0.52 0.46 0.43 ]
+	BlendTexture true
+
+#   HZD:			11.7332017701597936844
+#   HZC:			0.941594595727115869657
+#   HZA:			-1.7273975209738100993
+#   SPH:			0
+#   ESI:			0.049986265210294244662
+#   Density:			1.54226898338835519565	grams/cc
+#   Escape Velocity:		0.0124836323354793482269	Km/sec
+#   Surface acceleration:	0.579533249008674597425	cm/sec2
+#   Surface gravity:		0.000590959449973920369241	Earth gees
+#   Surface temperature:	-173.637867156634706417	degrees Celcius
+#   Estimated temperature:	-166.687019740206614826	degrees Celcius
+#   Estimated terrestrial temperature:	-166.687019740206614826	degrees Celcius
+#   Boiling point of water:	-273.149999999999977263	degrees Celcius
+#   Surface pressure:		0	Earth atmospheres
+#   Molecular weight retained:	93804.7941497166121536 and above
+
+	# OrbitFrame { MeanEquator { Center "Binaria" } }
+	EllipticalOrbit {
+		Period            79.1718672985763979311 # Days
+		SemiMajorAxis     1965595.00733348746382 # Km
+		Eccentricity      0.00590978247854382858707
+		Inclination       0.068267656849643345615
+		AscendingNode     97.9792464794494428124
+		LongOfPericenter  208.857673485231433747
+		MeanLongitude     296.176773093723120667
+	}
+
+	# BodyFrame { MeanEquator { Center "Binaria" } }
+	UniformRotation {
+# Moon is tidally locked with one face to planet.
+		Inclination	0.068267656849643345615
+		AscendingNode	0
+		MeridianAngle	296.176773093723120667
+	}
+
+	Albedo            0.0700000000000000066613
+}
+
+"p10-6" "Binaria/p10" {
+	Class "moon"
+	Radius 173.215225838581736065
+	Mass 7.61999737043271128404e-06
+
+	Texture "tasteroid.*"
+	Mesh "asteroid.cms"
+	Color   [ 0.37 0.37 0.37 ]
+	BlendTexture true
+
+#   HZD:			11.7332017701597936844
+#   HZC:			0.512913163976627466199
+#   HZA:			-1.69815305153378245159
+#   SPH:			0
+#   ESI:			0.122142283221001033857
+#   Density:			2.0920584135431350059	grams/cc
+#   Escape Velocity:		0.187309708920518738003	Km/sec
+#   Surface acceleration:	10.1275528424345608192	cm/sec2
+#   Surface gravity:		0.0103272298312212235523	Earth gees
+#   Surface temperature:	-173.637867156634706417	degrees Celcius
+#   Estimated temperature:	-166.687019740206614826	degrees Celcius
+#   Estimated terrestrial temperature:	-166.687019740206614826	degrees Celcius
+#   Boiling point of water:	-273.149999999999977263	degrees Celcius
+#   Surface pressure:		0	Earth atmospheres
+#   Molecular weight retained:	418.513514972485715981 and above
+
+	# OrbitFrame { MeanEquator { Center "Binaria" } }
+	EllipticalOrbit {
+		Period            88.5102461153491324314 # Days
+		SemiMajorAxis     2117268.23795669118317 # Km
+		Eccentricity      0.00687685988698008479301
+		Inclination       0.718711007508703970687
+		AscendingNode     12.4195321520881411395
+		LongOfPericenter  264.763477027771750943
+		MeanLongitude     353.231745116986215638
+	}
+
+	# BodyFrame { MeanEquator { Center "Binaria" } }
+	UniformRotation {
+# Moon is tidally locked with one face to planet.
+		Inclination	0.718711007508703970687
+		AscendingNode	0
+		MeridianAngle	353.231745116986215638
+	}
+
+	Albedo            0.0700000000000000066613
+}
+
+"p10-7" "Binaria/p10" {
+	Class "moon"
+	Radius 160.327299955883237834
+	Mass 8.17856754467103356136e-06
+
+	Texture "tasteroid.*"
+	Mesh "asteroid.cms"
+	Color   [ 0.37 0.37 0.37 ]
+	BlendTexture true
+
+#   HZD:			11.7332017701597936844
+#   HZC:			0.123934419008774477664
+#   HZA:			-1.69574549927709409939
+#   SPH:			0
+#   ESI:			0.129455316373977139042
+#   Density:			2.83160054185148573713	grams/cc
+#   Escape Velocity:		0.201702273506907908592	Km/sec
+#   Surface acceleration:	12.6877353853805060254	cm/sec2
+#   Surface gravity:		0.0129378894784462650308	Earth gees
+#   Surface temperature:	-173.637867156634706417	degrees Celcius
+#   Estimated temperature:	-166.687019740206614826	degrees Celcius
+#   Estimated terrestrial temperature:	-166.687019740206614826	degrees Celcius
+#   Boiling point of water:	-273.149999999999977263	degrees Celcius
+#   Surface pressure:		0	Earth atmospheres
+#   Molecular weight retained:	362.473348370017623254 and above
+
+	# OrbitFrame { MeanEquator { Center "Binaria" } }
+	EllipticalOrbit {
+		Period            187.304200445834681865 # Days
+		SemiMajorAxis     3489891.03013126152109 # Km
+		Eccentricity      0.00349932019761731864608
+		Inclination       0.981455844311024870889
+		AscendingNode     257.216881465733461759
+		LongOfPericenter  224.656044181741794644
+		MeanLongitude     221.15001293884125208
+	}
+
+	# BodyFrame { MeanEquator { Center "Binaria" } }
+	UniformRotation {
+# Moon is tidally locked with one face to planet.
+		Inclination	0.981455844311024870889
+		AscendingNode	0
+		MeridianAngle	221.15001293884125208
+	}
+
+	Albedo            0.0700000000000000066613
+}
+
+"p10-8" "Binaria/p10" {
+	Class "moon"
+	Radius 43.5241103389022745869
+	Mass 1.18209212226289089453e-07
+
+	Texture "tasteroid.*"
+	Mesh "asteroid.cms"
+	Color   [ 0.37 0.37 0.37 ]
+	BlendTexture true
+
+#   HZD:			11.7332017701597936844
+#   HZC:			0.539637916617359887693
+#   HZA:			-1.72170047325746119419
+#   SPH:			0
+#   ESI:			0.0786774186078950061787
+#   Density:			2.04568515451638961418	grams/cc
+#   Escape Velocity:		0.0465410975396111505241	Km/sec
+#   Surface acceleration:	2.48836075375852223035	cm/sec2
+#   Surface gravity:		0.00253742180434554340434	Earth gees
+#   Surface temperature:	-173.637867156634706417	degrees Celcius
+#   Estimated temperature:	-166.687019740206614826	degrees Celcius
+#   Estimated terrestrial temperature:	-166.687019740206614826	degrees Celcius
+#   Boiling point of water:	-273.149999999999977263	degrees Celcius
+#   Surface pressure:		0	Earth atmospheres
+#   Molecular weight retained:	6776.12366992891518747 and above
+
+	# OrbitFrame { MeanEquator { Center "Binaria" } }
+	EllipticalOrbit {
+		Period            200.950021637624703569 # Days
+		SemiMajorAxis     3657397.42016804522609 # Km
+		Eccentricity      0.0038659716322393956617
+		Inclination       0.136201463066809007359
+		AscendingNode     247.454693916931140196
+		LongOfPericenter  21.7886850525572360743
+		MeanLongitude     285.582905283934858298
+	}
+
+	# BodyFrame { MeanEquator { Center "Binaria" } }
+	UniformRotation {
+# Moon is tidally locked with one face to planet.
+		Inclination	0.136201463066809007359
+		AscendingNode	0
+		MeridianAngle	285.582905283934858298
+	}
+
+	Albedo            0.0700000000000000066613
+}
+
+"p10-9" "Binaria/p10" {
+	Class "moon"
+	Radius 562.902631555223267601
+	Mass 0.000182306662425044001786
+
+# Hydrosphere percentage: 0
+# Ice cover percentage:   0
+
+	Texture "tice3.*"
+	SpecularColor [ 0.1 0.1 0.13 ]
+	SpecularPower 25.0
+	BumpMap "tice3-bump.*"
+	BumpHeight 3.5
+	Color [ 1.0 0.9 0.75 ]
+
+#   HZD:			11.7332017701597936844
+#   HZC:			1.04339916775878343495
+#   HZA:			-1.64447025903464599426
+#   SPH:			0
+#   ESI:			0.157820853277994709295
+#   Density:			1.45841083317341979066	grams/cc
+#   Escape Velocity:		0.508230285441804932644	Km/sec
+#   Surface acceleration:	22.9434016258385822373	cm/sec2
+#   Surface gravity:		0.0233957586187317617016	Earth gees
+#   Surface temperature:	-173.637867156634706417	degrees Celcius
+#   Estimated temperature:	-166.687019740206614826	degrees Celcius
+#   Estimated terrestrial temperature:	-166.687019740206614826	degrees Celcius
+#   Boiling point of water:	-273.149999999999977263	degrees Celcius
+#   Surface pressure:		0	Earth atmospheres
+#   Molecular weight retained:	56.591992720140203238 and above
+
+	HazeColor [ 0.2 0.5 1 ]
+	HazeDensity 1
+
+	Atmosphere {
+		Height 60
+		Lower [ 0.8 0.4 0.1 ]
+		Upper [ 0.0 0.0 0.9 ]
+		Sky [ 0.8 0.4 0.1 ]
+		Sunset [ 0.8 0.5 0.2 ]
+# Cloud cover percentage: 0%
+	}
+
+	# OrbitFrame { MeanEquator { Center "Binaria" } }
+	EllipticalOrbit {
+		Period            267.024410268822284503 # Days
+		SemiMajorAxis     4420612.02467975454283 # Km
+		Eccentricity      0.00200987647846801046674
+		Inclination       0.498571741913459667172
+		AscendingNode     227.544742891352969646
+		LongOfPericenter  12.556723622864449221
+		MeanLongitude     330.000841976143811818
+	}
+
+	# BodyFrame { MeanEquator { Center "Binaria" } }
+	UniformRotation {
+# Moon is tidally locked with one face to planet.
+		Inclination	0.498571741913459667172
+		AscendingNode	0
+		MeridianAngle	330.000841976143811818
+	}
+
+	Albedo            0.0700000000000000066613
+}
+
+"p10-10" "Binaria/p10" {
+	Class "moon"
+	Radius 818.659826400155081927
+	Mass 0.000623703766197546960357
+
+# Hydrosphere percentage: 0
+# Ice cover percentage:   0
+
+	Texture "tice2.*"
+	SpecularColor [ 0.1 0.1 0.13 ]
+	SpecularPower 25.0
+	BumpMap "tice2-bump.*"
+	BumpHeight 3.5
+	Color [ 1.0 0.9 0.75 ]
+
+#   HZD:			11.7332017701597936844
+#   HZC:			0.893733306208482752842
+#   HZA:			-1.59909376898397244903
+#   SPH:			0
+#   ESI:			0.181771235273618969182
+#   Density:			1.62197855416075710641	grams/cc
+#   Escape Velocity:		0.779495036578005789582	Km/sec
+#   Surface acceleration:	37.1101947631634438637	cm/sec2
+#   Surface gravity:		0.0378418672667663730632	Earth gees
+#   Surface temperature:	-173.637867156634706417	degrees Celcius
+#   Estimated temperature:	-166.687019740206614826	degrees Celcius
+#   Estimated terrestrial temperature:	-166.687019740206614826	degrees Celcius
+#   Boiling point of water:	-273.149999999999977263	degrees Celcius
+#   Surface pressure:		0	Earth atmospheres
+#   Molecular weight retained:	24.0921520983821687012 and above
+
+	HazeColor [ 0.2 0.5 1 ]
+	HazeDensity 1
+
+	Atmosphere {
+		Height 60
+		Lower [ 0.8 0.4 0.1 ]
+		Upper [ 0.0 0.0 0.9 ]
+		Sky [ 0.8 0.4 0.1 ]
+		Sunset [ 0.8 0.5 0.2 ]
+# Cloud cover percentage: 0%
+	}
+
+	# OrbitFrame { MeanEquator { Center "Binaria" } }
+	EllipticalOrbit {
+		Period            311.721888340859083655 # Days
+		SemiMajorAxis     4901141.79266891232373 # Km
+		Eccentricity      0.000287747495010377610044
+		Inclination       0.319505503970605773002
+		AscendingNode     311.585350759134325549
+		LongOfPericenter  61.3860770787047581205
+		MeanLongitude     105.639942374844077212
+	}
+
+	# BodyFrame { MeanEquator { Center "Binaria" } }
+	UniformRotation {
+# Moon is tidally locked with one face to planet.
+		Inclination	0.319505503970605773002
+		AscendingNode	0
+		MeridianAngle	105.639942374844077212
+	}
+
+	Albedo            0.0700000000000000066613
+}
+
+"p10-11" "Binaria/p10" {
+	Class "moon"
+	Radius 5.03087100657093720842
+	Mass 1.38117659378535559612e-10
+
+	Texture "tasteroid.*"
+	Mesh "asteroid.cms"
+	Color   [ 0.37 0.37 0.37 ]
+	BlendTexture true
+
+#   HZD:			11.7332017701597936844
+#   HZC:			0.936135787248891692604
+#   HZA:			-1.72870301373653978947
+#   SPH:			0
+#   ESI:			0.036634508978251769349
+#   Density:			1.54773585000847567462	grams/cc
+#   Escape Velocity:		0.00467927882562200911406	Km/sec
+#   Surface acceleration:	0.21761291731904944957	cm/sec2
+#   Surface gravity:		0.000221903419943660126176	Earth gees
+#   Surface temperature:	-173.637867156634706417	degrees Celcius
+#   Estimated temperature:	-166.687019740206614826	degrees Celcius
+#   Estimated terrestrial temperature:	-166.687019740206614826	degrees Celcius
+#   Boiling point of water:	-273.149999999999977263	degrees Celcius
+#   Surface pressure:		0	Earth atmospheres
+#   Molecular weight retained:	667684.0500734638224 and above
+
+	# OrbitFrame { MeanEquator { Center "Binaria" } }
+	EllipticalOrbit {
+		Period            333.912260065548015836 # Days
+		SemiMajorAxis     5130996.18422455714153 # Km
+		Eccentricity      0.00462842317513582454162
+		Inclination       3.84859417331704122727
+		AscendingNode     321.269644443536943029
+		LongOfPericenter  350.887768860388439551
+		MeanLongitude     66.8017098804943775178
+	}
+
+	# BodyFrame { MeanEquator { Center "Binaria" } }
+	UniformRotation {
+# Moon is tidally locked with one face to planet.
+		Inclination	3.84859417331704122727
+		AscendingNode	0
+		MeridianAngle	66.8017098804943775178
+	}
+
+	Albedo            0.0700000000000000066613
+}
+
+"p10-12" "Binaria/p10" {
+	Class "moon"
+	Radius 25.9144709766157785216
+	Mass 3.13709481584476980817e-08
+
+	Texture "tasteroid.*"
+	Mesh "asteroid.cms"
+	Color   [ 0.7 0.7 0.7 ]
+	BlendTexture true
+
+#   HZD:			11.7332017701597936844
+#   HZC:			0.239521273610550738015
+#   HZA:			-1.72428811302519675939
+#   SPH:			0
+#   ESI:			0.0711393613645693587209
+#   Density:			2.57204036992005409079	grams/cc
+#   Escape Velocity:		0.0310719535656931952715	Km/sec
+#   Surface acceleration:	1.8627937634918222148	cm/sec2
+#   Surface gravity:		0.00189952100206678354368	Earth gees
+#   Surface temperature:	-173.637867156634706417	degrees Celcius
+#   Estimated temperature:	-166.687019740206614826	degrees Celcius
+#   Estimated terrestrial temperature:	-166.687019740206614826	degrees Celcius
+#   Boiling point of water:	-273.149999999999977263	degrees Celcius
+#   Surface pressure:		0	Earth atmospheres
+#   Molecular weight retained:	15251.9985707492441538 and above
+
+	# OrbitFrame { MeanEquator { Center "Binaria" } }
+	EllipticalOrbit {
+		Period            351.565825060253292461 # Days
+		SemiMajorAxis     5310285.64748454550136 # Km
+		Eccentricity      0.00540402021510713755003
+		Inclination       0.417101385104998719259
+		AscendingNode     97.4290482967295908834
+		LongOfPericenter  279.610889125434164487
+		MeanLongitude     313.378246889160129635
+	}
+
+	# BodyFrame { MeanEquator { Center "Binaria" } }
+	UniformRotation {
+# Moon is tidally locked with one face to planet.
+		Inclination	0.417101385104998719259
+		AscendingNode	0
+		MeridianAngle	313.378246889160129635
+	}
+
+	Albedo            0.0700000000000000066613
+}
+
+"p10-13" "Binaria/p10" {
+	Class "moon"
+	Radius 33.3895635835511299001
+	Mass 4.27751917132657218933e-08
+
+	Texture "tasteroid.*"
+	Mesh "asteroid.cms"
+	Color   [ 0.37 0.37 0.37 ]
+	BlendTexture true
+
+#   HZD:			11.7332017701597936844
+#   HZC:			0.851585860831906084432
+#   HZA:			-1.72413882724955077241
+#   SPH:			0
+#   ESI:			0.0678880957847182529418
+#   Density:			1.6395962446399232797	grams/cc
+#   Escape Velocity:		0.0319643974002330664908	Km/sec
+#   Surface acceleration:	1.53000307806263580136	cm/sec2
+#   Surface gravity:		0.0015601689446066045572	Earth gees
+#   Surface temperature:	-173.637867156634706417	degrees Celcius
+#   Estimated temperature:	-166.687019740206614826	degrees Celcius
+#   Estimated terrestrial temperature:	-166.687019740206614826	degrees Celcius
+#   Boiling point of water:	-273.149999999999977263	degrees Celcius
+#   Surface pressure:		0	Earth atmospheres
+#   Molecular weight retained:	14320.3652488090652843 and above
+
+	# OrbitFrame { MeanEquator { Center "Binaria" } }
+	EllipticalOrbit {
+		Period            371.41963735334878996 # Days
+		SemiMajorAxis     5508373.19724553868946 # Km
+		Eccentricity      0.000636331634892305202477
+		Inclination       0.187733159328900164829
+		AscendingNode     80.0500350632006465804
+		LongOfPericenter  86.6467172497169660639
+		MeanLongitude     352.984828498673079755
+	}
+
+	# BodyFrame { MeanEquator { Center "Binaria" } }
+	UniformRotation {
+# Moon is tidally locked with one face to planet.
+		Inclination	0.187733159328900164829
+		AscendingNode	0
+		MeridianAngle	352.984828498673079755
+	}
+
+	Albedo            0.0700000000000000066613
+}
+
+"p10-14" "Binaria/p10" {
+	Class "moon"
+	Radius 2.75395833105880425925
+	Mass 2.25999198816192332395e-11
+
+	Texture "tasteroid.*"
+	Mesh "asteroid.cms"
+	Color   [ 0.52 0.46 0.43 ]
+	BlendTexture true
+
+#   HZD:			11.7332017701597936844
+#   HZC:			0.939820940513642256184
+#   HZA:			-1.72905780655852738979
+#   SPH:			0
+#   ESI:			0.0302356995539543203085
+#   Density:			1.54387446154841623215	grams/cc
+#   Escape Velocity:		0.00255829532835505243226	Km/sec
+#   Surface acceleration:	0.1188266887205770005	cm/sec2
+#   Surface gravity:		0.00012116950102285388477	Earth gees
+#   Surface temperature:	-173.637867156634706417	degrees Celcius
+#   Estimated temperature:	-166.687019740206614826	degrees Celcius
+#   Estimated terrestrial temperature:	-166.687019740206614826	degrees Celcius
+#   Boiling point of water:	-273.149999999999977263	degrees Celcius
+#   Surface pressure:		0	Earth atmospheres
+#   Molecular weight retained:	2233633.96711350908004 and above
+
+	# OrbitFrame { MeanEquator { Center "Binaria" } }
+	EllipticalOrbit {
+		Period            378.522060182037500681 # Days
+		SemiMajorAxis     5578373.36262833741148 # Km
+		Eccentricity      0.00801922419947535943174
+		Inclination       13.9221098397227170829
+		AscendingNode     238.749825283302844176
+		LongOfPericenter  115.587429830612349248
+		MeanLongitude     328.783670779682542562
+	}
+
+	# BodyFrame { MeanEquator { Center "Binaria" } }
+	UniformRotation {
+# Moon is tidally locked with one face to planet.
+		Inclination	13.9221098397227170829
+		AscendingNode	0
+		MeridianAngle	328.783670779682542562
+	}
+
+	Albedo            0.0700000000000000066613
+}
+
+"p10-15" "Binaria/p10" {
+	Class "moon"
+	Radius 8.80419391038491996968
+	Mass 1.31815149231286121425e-09
+
+	Texture "tasteroid.*"
+	Mesh "asteroid.cms"
+	Color   [ 0.37 0.37 0.37 ]
+	BlendTexture true
+
+#   HZD:			11.7332017701597936844
+#   HZC:			0.153153433966281523471
+#   HZA:			-1.7276578565414057577
+#   SPH:			0
+#   ESI:			0.0514739377077021200106
+#   Density:			2.75596505328821146392	grams/cc
+#   Escape Velocity:		0.0109273228263728891911	Km/sec
+#   Surface acceleration:	0.678122184535969244653	cm/sec2
+#   Surface gravity:		0.000691492185951338397719	Earth gees
+#   Surface temperature:	-173.637867156634706417	degrees Celcius
+#   Estimated temperature:	-166.687019740206614826	degrees Celcius
+#   Estimated terrestrial temperature:	-166.687019740206614826	degrees Celcius
+#   Boiling point of water:	-273.149999999999977263	degrees Celcius
+#   Surface pressure:		0	Earth atmospheres
+#   Molecular weight retained:	123441.382977565263865 and above
+
+	# OrbitFrame { MeanEquator { Center "Binaria" } }
+	EllipticalOrbit {
+		Period            438.647302861445795213 # Days
+		SemiMajorAxis     6154466.66688804077239 # Km
+		Eccentricity      0.00300820978032807349909
+		Inclination       16.8878322399114200632
+		AscendingNode     128.623431682876977922
+		LongOfPericenter  102.339443779708558588
+		MeanLongitude     237.524683902750110218
+	}
+
+	# BodyFrame { MeanEquator { Center "Binaria" } }
+	UniformRotation {
+# Moon is tidally locked with one face to planet.
+		Inclination	16.8878322399114200632
+		AscendingNode	0
+		MeridianAngle	237.524683902750110218
+	}
+
+	Albedo            0.0700000000000000066613
+}
+
+"p10-16" "Binaria/p10" {
+	Class "moon"
+	Radius 902.060859316196610169
+	Mass 0.000769293692880371684442
+
+# Hydrosphere percentage: 0
+# Ice cover percentage:   0
+
+	Texture "tice4.*"
+	SpecularColor [ 0.1 0.1 0.13 ]
+	SpecularPower 25.0
+	BumpMap "tice4-bump.*"
+	BumpHeight 3.5
+	Color [ 1.0 0.9 0.75 ]
+
+#   HZD:			11.7332017701597936844
+#   HZC:			1.01790189891107345894
+#   HZA:			-1.59152942825160849177
+#   SPH:			0
+#   ESI:			0.182580974236592416697
+#   Density:			1.49541534546803420299	grams/cc
+#   Escape Velocity:		0.824715347888613171316	Km/sec
+#   Surface acceleration:	37.700084091810898191	cm/sec2
+#   Surface gravity:		0.0384433869790508477295	Earth gees
+#   Surface temperature:	-173.637867156634706417	degrees Celcius
+#   Estimated temperature:	-166.687019740206614826	degrees Celcius
+#   Estimated terrestrial temperature:	-166.687019740206614826	degrees Celcius
+#   Boiling point of water:	-273.149999999999977263	degrees Celcius
+#   Surface pressure:		0	Earth atmospheres
+#   Molecular weight retained:	21.5225710898471977676 and above
+
+	HazeColor [ 0.2 0.5 1 ]
+	HazeDensity 1
+
+	Atmosphere {
+		Height 60
+		Lower [ 0.8 0.4 0.1 ]
+		Upper [ 0.0 0.0 0.9 ]
+		Sky [ 0.8 0.4 0.1 ]
+		Sunset [ 0.8 0.5 0.2 ]
+# Cloud cover percentage: 0%
+	}
+
+	# OrbitFrame { MeanEquator { Center "Binaria" } }
+	EllipticalOrbit {
+		Period            496.159376646521446286 # Days
+		SemiMajorAxis     6681405.78468279668095 # Km
+		Eccentricity      0.00622578134584509843196
+		Inclination       0.431574285977480463468
+		AscendingNode     326.74914483295248116
+		LongOfPericenter  275.472640095033049629
+		MeanLongitude     80.3740194255365149253
+	}
+
+	# BodyFrame { MeanEquator { Center "Binaria" } }
+	UniformRotation {
+# Moon is tidally locked with one face to planet.
+		Inclination	0.431574285977480463468
+		AscendingNode	0
+		MeridianAngle	80.3740194255365149253
+	}
+
+	Albedo            0.0700000000000000066613
+}
+
+"p10-17" "Binaria/p10" {
+	Class "moon"
+	Radius 156.2959348512406028
+	Mass 4.80969333265384828286e-06
+
+	Texture "tasteroid.*"
+	Mesh "asteroid.cms"
+	Color   [ 0.37 0.37 0.37 ]
+	BlendTexture true
+
+#   HZD:			11.7332017701597936844
+#   HZC:			0.722532577872300393559
+#   HZA:			-1.70327989897481458679
+#   SPH:			0
+#   ESI:			0.113303951250924332444
+#   Density:			1.79742806049789899533	grams/cc
+#   Escape Velocity:		0.156660952402511963652	Km/sec
+#   Surface acceleration:	7.85134112125863492309	cm/sec2
+#   Surface gravity:		0.00800613983496773639779	Earth gees
+#   Surface temperature:	-173.637867156634706417	degrees Celcius
+#   Estimated temperature:	-166.687019740206614826	degrees Celcius
+#   Estimated terrestrial temperature:	-166.687019740206614826	degrees Celcius
+#   Boiling point of water:	-273.149999999999977263	degrees Celcius
+#   Surface pressure:		0	Earth atmospheres
+#   Molecular weight retained:	596.996409338893599894 and above
+
+	# OrbitFrame { MeanEquator { Center "Binaria" } }
+	EllipticalOrbit {
+		Period            611.91957624146059519 # Days
+		SemiMajorAxis     7683805.97227363089496 # Km
+		Eccentricity      0.00506853717149632861729
+		Inclination       2.57706175098512447596
+		AscendingNode     338.218520701964628278
+		LongOfPericenter  243.341145684635800167
+		MeanLongitude     162.372781598182759064
+	}
+
+	# BodyFrame { MeanEquator { Center "Binaria" } }
+	UniformRotation {
+# Moon is tidally locked with one face to planet.
+		Inclination	2.57706175098512447596
+		AscendingNode	0
+		MeridianAngle	162.372781598182759064
+	}
+
+	Albedo            0.0700000000000000066613
+}
+
+"p10-18" "Binaria/p10" {
+	Class "moon"
+	Radius 217.95951609780385165
+	Mass 1.17563515833233313547e-05
+
+	Texture "tasteroid.*"
+	Mesh "asteroid.cms"
+	Color   [ 0.37 0.37 0.37 ]
+	BlendTexture true
+
+#   HZD:			11.7332017701597936844
+#   HZC:			0.874529089492772783443
+#   HZA:			-1.69479115770260677857
+#   SPH:			0
+#   ESI:			0.121902528002794832054
+#   Density:			1.62002694763389970339	grams/cc
+#   Escape Velocity:		0.207407413534555121437	Km/sec
+#   Surface acceleration:	9.86830856464894775118	cm/sec2
+#   Surface gravity:		0.0100628742380414801358	Earth gees
+#   Surface temperature:	-173.637867156634706417	degrees Celcius
+#   Estimated temperature:	-166.687019740206614826	degrees Celcius
+#   Estimated terrestrial temperature:	-166.687019740206614826	degrees Celcius
+#   Boiling point of water:	-273.149999999999977263	degrees Celcius
+#   Surface pressure:		0	Earth atmospheres
+#   Molecular weight retained:	340.109701853818434614 and above
+
+	# OrbitFrame { MeanEquator { Center "Binaria" } }
+	EllipticalOrbit {
+		Period            642.609101855448918483 # Days
+		SemiMajorAxis     7938616.13653666896744 # Km
+		Eccentricity      0.00809108314946809947086
+		Inclination       0.456376130502046700407
+		AscendingNode     258.791872420716971365
+		LongOfPericenter  75.5651447156281884376
+		MeanLongitude     109.606997906047384204
+	}
+
+	# BodyFrame { MeanEquator { Center "Binaria" } }
+	UniformRotation {
+# Moon is tidally locked with one face to planet.
+		Inclination	0.456376130502046700407
+		AscendingNode	0
+		MeridianAngle	109.606997906047384204
+	}
+
+	Albedo            0.0700000000000000066613
+}
+
+"p10-19" "Binaria/p10" {
+	Class "moon"
+	Radius 6.34989760830613580002
+	Mass 3.31226733547782653784e-10
+
+	Texture "tasteroid.*"
+	Mesh "asteroid.cms"
+	Color   [ 0.7 0.7 0.7 ]
+	BlendTexture true
+
+#   HZD:			11.7332017701597936844
+#   HZC:			0.680921837804098855327
+#   HZA:			-1.72840682303731741091
+#   SPH:			0
+#   ESI:			0.0415267929758839864713
+#   Density:			1.84587544624332705817	grams/cc
+#   Escape Velocity:		0.0064499335462425430532	Km/sec
+#   Surface acceleration:	0.327577272242365617852	cm/sec2
+#   Surface gravity:		0.000334035855508624892299	Earth gees
+#   Surface temperature:	-173.637867156634706417	degrees Celcius
+#   Estimated temperature:	-166.687019740206614826	degrees Celcius
+#   Estimated terrestrial temperature:	-166.687019740206614826	degrees Celcius
+#   Boiling point of water:	-273.149999999999977263	degrees Celcius
+#   Surface pressure:		0	Earth atmospheres
+#   Molecular weight retained:	352296.533538297298861 and above
+
+	# OrbitFrame { MeanEquator { Center "Binaria" } }
+	EllipticalOrbit {
+		Period            723.996198052661962874 # Days
+		SemiMajorAxis     8595496.58301066098556 # Km
+		Eccentricity      0.00780457321452189868458
+		Inclination       26.2739328362960717581
+		AscendingNode     84.6198201759810653411
+		LongOfPericenter  229.26161113626398666
+		MeanLongitude     100.817225287117634563
+	}
+
+	# BodyFrame { MeanEquator { Center "Binaria" } }
+	UniformRotation {
+# Moon is tidally locked with one face to planet.
+		Inclination	26.2739328362960717581
+		AscendingNode	0
+		MeridianAngle	100.817225287117634563
+	}
+
+	Albedo            0.0700000000000000066613
+}
+
+"p10-20" "Binaria/p10" {
+	Class "moon"
+	Radius 862.240907111460293477
+	Mass 0.000796503135277978277356
+
+# Hydrosphere percentage: 0
+# Ice cover percentage:   0
+
+	Texture "tice2.*"
+	SpecularColor [ 0.1 0.1 0.13 ]
+	SpecularPower 25.0
+	BumpMap "tice2-bump.*"
+	BumpHeight 3.5
+	Color [ 1.0 0.9 0.75 ]
+
+#   HZD:			11.7332017701597936844
+#   HZC:			0.766545941051151151664
+#   HZA:			-1.58590610553648654634
+#   SPH:			0
+#   ESI:			0.189272892873043375664
+#   Density:			1.77287778640958571452	grams/cc
+#   Escape Velocity:		0.858332078384352724343	Km/sec
+#   Surface acceleration:	42.7220484847842175077	cm/sec2
+#   Surface gravity:		0.0435643654915636013255	Earth gees
+#   Surface temperature:	-173.637867156634706417	degrees Celcius
+#   Estimated temperature:	-166.687019740206614826	degrees Celcius
+#   Estimated terrestrial temperature:	-166.687019740206614826	degrees Celcius
+#   Boiling point of water:	-273.149999999999977263	degrees Celcius
+#   Surface pressure:		0	Earth atmospheres
+#   Molecular weight retained:	19.9269754805370002994 and above
+
+	HazeColor [ 0.2 0.5 1 ]
+	HazeDensity 1
+
+	Atmosphere {
+		Height 60
+		Lower [ 0.8 0.4 0.1 ]
+		Upper [ 0.0 0.0 0.9 ]
+		Sky [ 0.8 0.4 0.1 ]
+		Sunset [ 0.8 0.5 0.2 ]
+# Cloud cover percentage: 0%
+	}
+
+	# OrbitFrame { MeanEquator { Center "Binaria" } }
+	EllipticalOrbit {
+		Period            957.265544909441037758 # Days
+		SemiMajorAxis     10354812.598089714902 # Km
+		Eccentricity      0.00155843315718622562784
+		Inclination       0.717687609361645221379
+		AscendingNode     6.4629366837734993005
+		LongOfPericenter  6.53535934469446509352
+		MeanLongitude     334.171633410347454912
+	}
+
+	# BodyFrame { MeanEquator { Center "Binaria" } }
+	UniformRotation {
+		Period		114.347677593230313171 # Hours
+		Inclination	22.8897946773706847719
+		AscendingNode	0
+		MeridianAngle	334.171633410347454912
+	}
+
+	Albedo            0.0700000000000000066613
+}
+
+"p11" "Binaria" {
+	Class "planet"
+	Radius 73571.4482461086188394
+	Mass 153.408847936054711286
+
+	Texture "tgasgiant.*"
+	Color [ 0.886775807672399849456 0.857332258730399895778 0.758592473192266663576 ]
+	BlendTexture true
+
+#   HZD:			15.3871840879252607531
+#   HZC:			7.39956514433815016251
+#   HZA:			5.78400051754099748342
+#   SPH:			0
+#   ESI:			0.202759047866051308931
+#   Density:			0.696073511293697219562	grams/cc
+#   Escape Velocity:		47.0376125120003341015	Km/sec
+#   Surface acceleration:	2000.54744490889108133	cm/sec2
+#   Surface gravity:		2.03999066440516502131	Earth gees
+#   Surface temperature:	-157.873393980133425174	degrees Celcius
+#   Estimated temperature:	-188.795333241589329359	degrees Celcius
+#   Estimated terrestrial temperature:	-178.205728730507915833	degrees Celcius
+#   Boiling point of water:	inf	degrees Celcius
+#   Surface pressure:		10	Earth atmospheres
+#   Molecular weight retained:	0.539449968556617374179 and above
+#           Helium: 99.2951941707719050317% 10061.0855493534632776 mb (ipp: 9998.86567819298791093)
+#           Carbon: 0.443782128054237419619% 44.9662241250956065432 mb (ipp: 44.6881435285325152827)
+#           Nitrogen: 0.138862046939032832821% 14.070196906097501786 mb (ipp: 13.9831838462834777597)
+
+	Oblateness 0.0818950787845556915279
+	HazeColor [ 0.4 0.45 0.5 ]
+	HazeDensity 0.3
+	OrbitFrame { MeanEquator { Center "Binaria" } }
+	EllipticalOrbit {
+		Period            31.6561556574875475525 # Years
+		SemiMajorAxis     12.5376555377491157315 # AU
+		Eccentricity      0.0147306556258587351138
+		Inclination       0.079586700671130830829
+		AscendingNode     54.0512606939539595914
+		LongOfPericenter  148.632702896666109044
+		MeanLongitude     64.9170838784971665006
+	}
+
+	BodyFrame { MeanEquator { Center "Binaria" } }
+	UniformRotation {
+		Period		11.7969442976100400301 # Hours
+		Inclination	0.867962122047601910353
+		AscendingNode	0
+		MeridianAngle	64.9170838784971665006
+	}
+
+	Albedo            0.568612622124886581175
+}
+
+"p11-1" "Binaria/p11" {
+	Class "moon"
+	Radius 3832.37579149118320121
+	Mass 0.194194102085351118106
+
+# Ice cover percentage:   27.7142541718448179137
+
+	Texture "tmars5.*"
+	BumpMap "tmars5-bump.*"
+	BumpHeight 3.5
+	Color [ 0.640361493162391524317 0.6028991487001406068 0.565436804237889730808 ]
+	BlendTexture true
+
+#   HZD:			15.3871840879252607531
+#   HZC:			-0.338198631640035866799
+#   HZA:			-0.60342363902851938514
+#   SPH:			0
+#   ESI:			0.299607241989261477449
+#   Density:			4.92276324758875000751	grams/cc
+#   Escape Velocity:		6.35711231171877579537	Km/sec
+#   Surface acceleration:	527.25618705677250736	cm/sec2
+#   Surface gravity:		0.537651682334714226506	Earth gees
+#   Surface temperature:	-188.108164255526796926	degrees Celcius
+#   Estimated temperature:	-178.205728730507915833	degrees Celcius
+#   Estimated terrestrial temperature:	-178.205728730507915833	degrees Celcius
+#   Boiling point of water:	14.933779072078131378	degrees Celcius
+#   Surface pressure:		0.0182369234647836536318	Earth atmospheres
+#   Molecular weight retained:	0.253550732858113442167 and above
+#           Hydrogen: 99.9545062449752051634% 18.4701561086448810944 mb (ipp: 0)
+
+	HazeColor [ 1 1 1 ]
+	HazeDensity 0.45
+
+	Atmosphere {
+		Height 30
+		Lower [ 0.8 0.6 0.6 ]
+		Upper [ 0.7 0.3 0.3 ]
+		Sky [ 0.83 0.75 0.65 ]
+		Sunset [ 0.7 0.7 0.8 ]
+# Cloud cover percentage: 9.75506e-06%
+	}
+
+	# OrbitFrame { MeanEquator { Center "Binaria" } }
+	EllipticalOrbit {
+		Period            58.5323858143315867882 # Days
+		SemiMajorAxis     3410940.05526929444704 # Km
+		Eccentricity      0.00102180203004824094278
+		Inclination       0.00931864109069434351311
+		AscendingNode     123.987775204697519171
+		LongOfPericenter  210.572698214358043953
+		MeanLongitude     150.488415523659631381
+	}
+
+	# BodyFrame { MeanEquator { Center "Binaria" } }
+	UniformRotation {
+# Moon is tidally locked with one face to planet.
+		Inclination	0.00931864109069434351311
+		AscendingNode	0
+		MeridianAngle	150.488415523659631381
+	}
+
+	Albedo            0.302428407212458184107
+}
+
+"p12" "Binaria" {
+	Class "planet"
+	Radius 76898.2369283308737451
+	Mass 340.134903573084999118
+
+	Texture "tgasgiant.*"
+	Color [ 0.768158064929815130616 0.792631671779899136426 0.751403519086655463665 ]
+	BlendTexture true
+
+#   HZD:			25.8124383466717551745
+#   HZC:			7.50602488934305105139
+#   HZA:			10.4117447894301448363
+#   SPH:			0
+#   ESI:			0.199022537803649697788
+#   Density:			1.26460260513324867376	grams/cc
+#   Escape Velocity:		61.1777386521372450387	Km/sec
+#   Surface acceleration:	2581.90740322066571433	cm/sec2
+#   Surface gravity:		2.63281283947185410941	Earth gees
+#   Surface temperature:	-169.575902481002308397	degrees Celcius
+#   Estimated temperature:	-197.709636332547208315	degrees Celcius
+#   Estimated terrestrial temperature:	-197.711473380441538197	degrees Celcius
+#   Boiling point of water:	inf	degrees Celcius
+#   Surface pressure:		10	Earth atmospheres
+#   Molecular weight retained:	0.480054450654450081407 and above
+#           Helium: 99.3258499899806781425% 10064.1917502347922131 mb (ipp: 10001.9526696741296803)
+#           Carbon: 0.425100350900289885268% 43.0732930549718726274 mb (ipp: 42.8069187426582307733)
+#           Nitrogen: 0.132834443298907685865% 13.4594499672618212703 mb (ipp: 13.3762138950958600044)
+
+	Oblateness 0.0581769096417822363746
+	HazeColor [ 0.4 0.45 0.5 ]
+	HazeDensity 0.3
+	OrbitFrame { MeanEquator { Center "Binaria" } }
+	EllipticalOrbit {
+		Period            63.099065915167849735 # Years
+		SemiMajorAxis     19.8594615556056957578 # AU
+		Eccentricity      0.00483532671412789660792
+		Inclination       0.0417540190424385530194
+		AscendingNode     261.948938044695620458
+		LongOfPericenter  17.016946867581897819
+		MeanLongitude     333.457178256221664275
+	}
+
+	BodyFrame { MeanEquator { Center "Binaria" } }
+	UniformRotation {
+		Period		10.3842138894592356428 # Hours
+		Inclination	27.8327326322567857771
+		AscendingNode	0
+		MeridianAngle	333.457178256221664275
+	}
+
+	Albedo            0.294641977206663485483
+}
+
+"p12-1" "Binaria/p12" {
+	Class "moon"
+	Radius 10.511009890348657742
+	Mass 2.17251996170969832478e-09
+
+	Texture "tasteroid.*"
+	Mesh "asteroid.cms"
+	Color   [ 0.52 0.46 0.43 ]
+	BlendTexture true
+
+#   HZD:			25.8124383466717551745
+#   HZC:			0.192695854600147257893
+#   HZA:			-1.72693436784435361145
+#   SPH:			0
+#   ESI:			0.0372239832682979142956
+#   Density:			2.66936289664077810828	grams/cc
+#   Escape Velocity:		0.0128391293969048848132	Km/sec
+#   Surface acceleration:	0.784145602516406834608	cm/sec2
+#   Surface gravity:		0.000799605984221326205879	Earth gees
+#   Surface temperature:	-202.636769352554477239	degrees Celcius
+#   Estimated temperature:	-197.711473380441538197	degrees Celcius
+#   Estimated terrestrial temperature:	-197.711473380441538197	degrees Celcius
+#   Boiling point of water:	-273.149999999999977263	degrees Celcius
+#   Surface pressure:		0	Earth atmospheres
+#   Molecular weight retained:	22531.9824695270904833 and above
+
+	# OrbitFrame { MeanEquator { Center "Binaria" } }
+	EllipticalOrbit {
+		Period            8.84721541722393310832 # Days
+		SemiMajorAxis     1261531.59455009666863 # Km
+		Eccentricity      0.0032158695828243483449
+		Inclination       0.757027266998129023446
+		AscendingNode     185.815466263245542652
+		LongOfPericenter  83.239578550327372998
+		MeanLongitude     333.126525586995540923
+	}
+
+	# BodyFrame { MeanEquator { Center "Binaria" } }
+	UniformRotation {
+# Moon is tidally locked with one face to planet.
+		Inclination	0.757027266998129023446
+		AscendingNode	0
+		MeridianAngle	333.126525586995540923
+	}
+
+	Albedo            0.0700000000000000066613
+}
+
+"p12-2" "Binaria/p12" {
+	Class "moon"
+	Radius 8.38995162095745002778
+	Mass 9.31105865737799122222e-10
+
+	Texture "tasteroid.*"
+	Mesh "asteroid.cms"
+	Color   [ 0.37 0.37 0.37 ]
+	BlendTexture true
+
+#   HZD:			25.8124383466717551745
+#   HZC:			0.411699036686388742268
+#   HZA:			-1.72761620665383652687
+#   SPH:			0
+#   ESI:			0.0330769467633504028338
+#   Density:			2.2495615025673359323	grams/cc
+#   Escape Velocity:		0.00940796544199425610923	Km/sec
+#   Surface acceleration:	0.527475114020130413258	cm/sec2
+#   Surface gravity:		0.000537874925708708307963	Earth gees
+#   Surface temperature:	-202.636769352554477239	degrees Celcius
+#   Estimated temperature:	-197.711473380441538197	degrees Celcius
+#   Estimated terrestrial temperature:	-197.711473380441538197	degrees Celcius
+#   Boiling point of water:	-273.149999999999977263	degrees Celcius
+#   Surface pressure:		0	Earth atmospheres
+#   Molecular weight retained:	41862.5978735633520103 and above
+
+	# OrbitFrame { MeanEquator { Center "Binaria" } }
+	EllipticalOrbit {
+		Period            11.4928350584464326299 # Days
+		SemiMajorAxis     1501914.39486358491558 # Km
+		Eccentricity      0.000925368112942840975842
+		Inclination       0.929247527970020177114
+		AscendingNode     262.490081927967295938
+		LongOfPericenter  39.5332533677729095201
+		MeanLongitude     176.02314225212817185
+	}
+
+	# BodyFrame { MeanEquator { Center "Binaria" } }
+	UniformRotation {
+# Moon is tidally locked with one face to planet.
+		Inclination	0.929247527970020177114
+		AscendingNode	0
+		MeridianAngle	176.02314225212817185
+	}
+
+	Albedo            0.0700000000000000066613
+}
+
+"p12-3" "Binaria/p12" {
+	Class "moon"
+	Radius 1877.29764023643074744
+	Mass 0.0183674726840773951175
+
+	Texture "trock2.*"
+	BumpMap "trock2-bump.*"
+	BumpHeight 3.5
+	Color [ 0.710650830933814689971 0.680510292489420358982 0.650369754045026061441 ]
+	BlendTexture true
+
+#   HZD:			25.8124383466717551745
+#   HZC:			-0.199340632294219655851
+#   HZA:			-1.1743818360934713495
+#   SPH:			0
+#   ESI:			0.190184575898190366442
+#   Density:			3.96120371950300903963	grams/cc
+#   Escape Velocity:		2.79340589058790584914	Km/sec
+#   Surface acceleration:	207.828431206797628467	cm/sec2
+#   Surface gravity:		0.211926020819339566695	Earth gees
+#   Surface temperature:	-205.152023731790279032	degrees Celcius
+#   Estimated temperature:	-197.711473380441538197	degrees Celcius
+#   Estimated terrestrial temperature:	-197.711473380441538197	degrees Celcius
+#   Boiling point of water:	-46.1399349268890254239	degrees Celcius
+#   Surface pressure:		0.000163146705895753905661	Earth atmospheres
+#   Molecular weight retained:	0.523376571675446295481 and above
+#           Helium: 100% 0.165308399748872644904 mb (ipp: 0)
+
+	# OrbitFrame { MeanEquator { Center "Binaria" } }
+	EllipticalOrbit {
+		Period            207.535328546075060585 # Days
+		SemiMajorAxis     10337834.4295797732329 # Km
+		Eccentricity      0.00624221609730376693202
+		Inclination       0.118889504961969417802
+		AscendingNode     349.144726446431468453
+		LongOfPericenter  9.07401770775859137404
+		MeanLongitude     8.09446609024632074414
+	}
+
+	# BodyFrame { MeanEquator { Center "Binaria" } }
+	UniformRotation {
+# Moon is tidally locked with one face to planet.
+		Inclination	0.118889504961969417802
+		AscendingNode	0
+		MeridianAngle	8.09446609024632074414
+	}
+
+	Albedo            0.210082662141839651552
+}
+
+"p12-4" "Binaria/p12" {
+	Class "moon"
+	Radius 27.5852191841921996797
+	Mass 4.92995210961887200945e-08
+
+	Texture "tasteroid.*"
+	Mesh "asteroid.cms"
+	Color   [ 0.52 0.46 0.43 ]
+	BlendTexture true
+
+#   HZD:			25.8124383466717551745
+#   HZC:			-0.0794456810240418455699
+#   HZA:			-1.72198336784288711385
+#   SPH:			0
+#   ESI:			0.0536171875879609579937
+#   Density:			3.3511244890276322677	grams/cc
+#   Escape Velocity:		0.0377536583288635052968	Km/sec
+#   Surface acceleration:	2.58351892673986754056	cm/sec2
+#   Surface gravity:		0.00263445613613197945922	Earth gees
+#   Surface temperature:	-202.636769352554477239	degrees Celcius
+#   Estimated temperature:	-197.711473380441538197	degrees Celcius
+#   Estimated terrestrial temperature:	-197.711473380441538197	degrees Celcius
+#   Boiling point of water:	-273.149999999999977263	degrees Celcius
+#   Surface pressure:		0	Earth atmospheres
+#   Molecular weight retained:	2614.30640943791466002 and above
+
+	# OrbitFrame { MeanEquator { Center "Binaria" } }
+	EllipticalOrbit {
+		Period            237.796820694981741046 # Days
+		SemiMajorAxis     11319600.3283487019971 # Km
+		Eccentricity      0.00491390326289176171754
+		Inclination       3.19722810882426784242
+		AscendingNode     102.616532064330080551
+		LongOfPericenter  82.2689883607760948925
+		MeanLongitude     321.757025291098759184
+	}
+
+	# BodyFrame { MeanEquator { Center "Binaria" } }
+	UniformRotation {
+# Moon is tidally locked with one face to planet.
+		Inclination	3.19722810882426784242
+		AscendingNode	0
+		MeridianAngle	321.757025291098759184
+	}
+
+	Albedo            0.0700000000000000066613
+}
+
+"p12-5" "Binaria/p12" {
+	Class "moon"
+	Radius 241.203421733549986522
+	Mass 1.86331543436236989671e-05
+
+	Texture "tasteroid.*"
+	Mesh "asteroid.cms"
+	Color   [ 0.37 0.37 0.37 ]
+	BlendTexture true
+
+#   HZD:			25.8124383466717551745
+#   HZC:			0.651067540270312511896
+#   HZA:			-1.68016069261594988451
+#   SPH:			0
+#   ESI:			0.0907355451227748796545
+#   Density:			1.89458095046697811987	grams/cc
+#   Escape Velocity:		0.24821462614239534767	Km/sec
+#   Surface acceleration:	12.7714814715747109423	cm/sec2
+#   Surface gravity:		0.0130232867203119428309	Earth gees
+#   Surface temperature:	-202.636769352554477239	degrees Celcius
+#   Estimated temperature:	-197.711473380441538197	degrees Celcius
+#   Estimated terrestrial temperature:	-197.711473380441538197	degrees Celcius
+#   Boiling point of water:	-273.149999999999977263	degrees Celcius
+#   Surface pressure:		0	Earth atmospheres
+#   Molecular weight retained:	60.0724921216869215158 and above
+
+	# OrbitFrame { MeanEquator { Center "Binaria" } }
+	EllipticalOrbit {
+		Period            249.371373349437729053 # Days
+		SemiMajorAxis     11683997.8875652433553 # Km
+		Eccentricity      0.00176613853395271050412
+		Inclination       0.0157625721563344946443
+		AscendingNode     22.3912733152468098868
+		LongOfPericenter  318.137741460529035659
+		MeanLongitude     102.183837435293866987
+	}
+
+	# BodyFrame { MeanEquator { Center "Binaria" } }
+	UniformRotation {
+# Moon is tidally locked with one face to planet.
+		Inclination	0.0157625721563344946443
+		AscendingNode	0
+		MeridianAngle	102.183837435293866987
+	}
+
+	Albedo            0.0700000000000000066613
+}
+
+"p12-6" "Binaria/p12" {
+	Class "moon"
+	Radius 15.9014484468851696047
+	Mass 4.55816302652036176605e-09
+
+	Texture "tasteroid.*"
+	Mesh "asteroid.cms"
+	Color   [ 0.37 0.37 0.37 ]
+	BlendTexture true
+
+#   HZD:			25.8124383466717551745
+#   HZC:			0.871030470715866254753
+#   HZA:			-1.72648110976143073325
+#   SPH:			0
+#   ESI:			0.0368628779230622600974
+#   Density:			1.61754724974994580113	grams/cc
+#   Escape Velocity:		0.0151200244922959617689	Km/sec
+#   Surface acceleration:	0.718850051337341147185	cm/sec2
+#   Surface gravity:		0.000733023052048702843348	Earth gees
+#   Surface temperature:	-202.636769352554477239	degrees Celcius
+#   Estimated temperature:	-197.711473380441538197	degrees Celcius
+#   Estimated terrestrial temperature:	-197.711473380441538197	degrees Celcius
+#   Boiling point of water:	-273.149999999999977263	degrees Celcius
+#   Surface pressure:		0	Earth atmospheres
+#   Molecular weight retained:	16131.5946457069024742 and above
+
+	# OrbitFrame { MeanEquator { Center "Binaria" } }
+	EllipticalOrbit {
+		Period            421.019457989367974993 # Days
+		SemiMajorAxis     16566413.9506569906052 # Km
+		Eccentricity      0.00813425657718174948386
+		Inclination       0.00351471782590420119901
+		AscendingNode     173.449421046976661798
+		LongOfPericenter  41.7107400492349360381
+		MeanLongitude     202.09863467239711185
+	}
+
+	# BodyFrame { MeanEquator { Center "Binaria" } }
+	UniformRotation {
+# Moon is tidally locked with one face to planet.
+		Inclination	0.00351471782590420119901
+		AscendingNode	0
+		MeridianAngle	202.09863467239711185
+	}
+
+	Albedo            0.0700000000000000066613
+}
+
+"p12-7" "Binaria/p12" {
+	Class "moon"
+	Radius 1542.84367801591704417
+	Mass 0.0130542779940741436671
+
+	Texture "trock3.*"
+	BumpMap "trock3-bump.*"
+	BumpHeight 3.5
+	Color [ 0.710650830933814689971 0.680510292489420358982 0.650369754045026061441 ]
+	BlendTexture true
+
+#   HZD:			25.8124383466717551745
+#   HZC:			-0.472430739513912355959
+#   HZA:			-1.21326956021818376744
+#   SPH:			0
+#   ESI:			0.190532067334859756512
+#   Density:			5.07182499086242843294	grams/cc
+#   Escape Velocity:		2.59771424697728346535	Km/sec
+#   Surface acceleration:	218.690960241246702772	cm/sec2
+#   Surface gravity:		0.223002717789710768595	Earth gees
+#   Surface temperature:	-205.292478151371276945	degrees Celcius
+#   Estimated temperature:	-197.711473380441538197	degrees Celcius
+#   Estimated terrestrial temperature:	-197.711473380441538197	degrees Celcius
+#   Boiling point of water:	-52.9007928737610667869	degrees Celcius
+#   Surface pressure:		8.24110064085094333951e-05	Earth atmospheres
+#   Molecular weight retained:	0.6052009692259882635 and above
+#           Hydrogen: 99.7948026627241586844% 0.0833316064088719636667 mb (ipp: 0)
+#           Nitrogen: 0.122827612203501839609% 0.000102564682360025938874 mb (ipp: 0)
+#           Helium: 0.082368224279665961033% 6.8779898984004343164e-05 mb (ipp: 0)
+
+	# OrbitFrame { MeanEquator { Center "Binaria" } }
+	EllipticalOrbit {
+		Period            748.95084424004902135 # Days
+		SemiMajorAxis     24322123.8822426973566 # Km
+		Eccentricity      0.00538765017659759634065
+		Inclination       1.11330736667965061104
+		AscendingNode     99.6159181835203981839
+		LongOfPericenter  109.174749026622040671
+		MeanLongitude     123.638566678221601382
+	}
+
+	# BodyFrame { MeanEquator { Center "Binaria" } }
+	UniformRotation {
+		Period		40.0149504864664786949 # Hours
+		Inclination	6.71101872216928691016
+		AscendingNode	0
+		MeridianAngle	123.638566678221601382
+	}
+
+	Albedo            0.21322299119458276049
+}
+
+"p12-8" "Binaria/p12" {
+	Class "moon"
+	Radius 45.4418075026040766372
+	Mass 1.4437469049800907756e-07
+
+	Texture "tasteroid.*"
+	Mesh "asteroid.cms"
+	Color   [ 0.7 0.7 0.7 ]
+	BlendTexture true
+
+#   HZD:			25.8124383466717551745
+#   HZC:			0.444821691233618341296
+#   HZA:			-1.7194826683826975051
+#   SPH:			0
+#   ESI:			0.0560907171050907374589
+#   Density:			2.19533828684633571188	grams/cc
+#   Escape Velocity:		0.0503377320579228464665	Km/sec
+#   Surface acceleration:	2.78805730668836968	cm/sec2
+#   Surface gravity:		0.00284302723834170668222	Earth gees
+#   Surface temperature:	-202.636769352554477239	degrees Celcius
+#   Estimated temperature:	-197.711473380441538197	degrees Celcius
+#   Estimated terrestrial temperature:	-197.711473380441538197	degrees Celcius
+#   Boiling point of water:	-273.149999999999977263	degrees Celcius
+#   Surface pressure:		0	Earth atmospheres
+#   Molecular weight retained:	1461.82016351971620272 and above
+
+	# OrbitFrame { MeanEquator { Center "Binaria" } }
+	EllipticalOrbit {
+		Period            787.733537087831823642 # Days
+		SemiMajorAxis     25154360.8981922185649 # Km
+		Eccentricity      0.000983644519459290692271
+		Inclination       1.76138080747254527228
+		AscendingNode     337.19324580263031918
+		LongOfPericenter  198.987910076504531345
+		MeanLongitude     324.409588856813306396
+	}
+
+	# BodyFrame { MeanEquator { Center "Binaria" } }
+	UniformRotation {
+# Moon is tidally locked with one face to planet.
+		Inclination	1.76138080747254527228
+		AscendingNode	0
+		MeridianAngle	324.409588856813306396
+	}
+
+	Albedo            0.0700000000000000066613
+}
+
+"p12-9" "Binaria/p12" {
+	Class "moon"
+	Radius 171.236225708699122253
+	Mass 9.27634857661403221554e-06
+
+	Texture "tasteroid.*"
+	Mesh "asteroid.cms"
+	Color   [ 0.52 0.46 0.43 ]
+	BlendTexture true
+
+#   HZD:			25.8124383466717551745
+#   HZC:			0.212580158970110336253
+#   HZA:			-1.68818034887041074131
+#   SPH:			0
+#   ESI:			0.0893941056272783208638
+#   Density:			2.63613287737828734568	grams/cc
+#   Escape Velocity:		0.207857939065654298119	Km/sec
+#   Surface acceleration:	12.6155907296508357522	cm/sec2
+#   Surface gravity:		0.0128643224033190092642	Earth gees
+#   Surface temperature:	-202.636769352554477239	degrees Celcius
+#   Estimated temperature:	-197.711473380441538197	degrees Celcius
+#   Estimated terrestrial temperature:	-197.711473380441538197	degrees Celcius
+#   Boiling point of water:	-273.149999999999977263	degrees Celcius
+#   Surface pressure:		0	Earth atmospheres
+#   Molecular weight retained:	85.9714643156056263634 and above
+
+	# OrbitFrame { MeanEquator { Center "Binaria" } }
+	EllipticalOrbit {
+		Period            849.179491707540378298 # Days
+		SemiMajorAxis     26446004.3981853873538 # Km
+		Eccentricity      0.00139574231179232819663
+		Inclination       3.60780664361083924113
+		AscendingNode     115.529840456102900426
+		LongOfPericenter  217.598034282027759712
+		MeanLongitude     321.747017466345344439
+	}
+
+	# BodyFrame { MeanEquator { Center "Binaria" } }
+	UniformRotation {
+# Moon is tidally locked with one face to planet.
+		Inclination	3.60780664361083924113
+		AscendingNode	0
+		MeridianAngle	321.747017466345344439
+	}
+
+	Albedo            0.0700000000000000066613
+}
+
+"p12-10" "Binaria/p12" {
+	Class "moon"
+	Radius 18.8615707382664615829
+	Mass 9.75051220673378373218e-09
+
+	Texture "tasteroid.*"
+	Mesh "asteroid.cms"
+	Color   [ 0.37 0.37 0.37 ]
+	BlendTexture true
+
+#   HZD:			25.8124383466717551745
+#   HZC:			0.520832445827700669884
+#   HZA:			-1.72545077592667456094
+#   SPH:			0
+#   ESI:			0.0417967853159132969583
+#   Density:			2.07334244438833677974	grams/cc
+#   Escape Velocity:		0.0203048926256033607282	Km/sec
+#   Surface acceleration:	1.09293300716686379024	cm/sec2
+#   Surface gravity:		0.00111448150710677329238	Earth gees
+#   Surface temperature:	-202.636769352554477239	degrees Celcius
+#   Estimated temperature:	-197.711473380441538197	degrees Celcius
+#   Estimated terrestrial temperature:	-197.711473380441538197	degrees Celcius
+#   Boiling point of water:	-273.149999999999977263	degrees Celcius
+#   Surface pressure:		0	Earth atmospheres
+#   Molecular weight retained:	8976.65155334812640753 and above
+
+	# OrbitFrame { MeanEquator { Center "Binaria" } }
+	EllipticalOrbit {
+		Period            944.14788427907762014 # Days
+		SemiMajorAxis     28382702.6045387088143 # Km
+		Eccentricity      0.00355582108421056589258
+		Inclination       6.98949712103938364336
+		AscendingNode     157.513584959094219362
+		LongOfPericenter  31.5615721007630099081
+		MeanLongitude     96.041175786424975741
+	}
+
+	# BodyFrame { MeanEquator { Center "Binaria" } }
+	UniformRotation {
+# Moon is tidally locked with one face to planet.
+		Inclination	6.98949712103938364336
+		AscendingNode	0
+		MeridianAngle	96.041175786424975741
+	}
+
+	Albedo            0.0700000000000000066613
+}
+
+"p12-11" "Binaria/p12" {
+	Class "moon"
+	Radius 2.10404934659440381807
+	Mass 9.99999999999999939576e-12
+
+	Texture "tasteroid.*"
+	Mesh "asteroid.cms"
+	Color   [ 0.37 0.37 0.37 ]
+	BlendTexture true
+
+#   HZD:			25.8124383466717551745
+#   HZC:			0.95152259542586350527
+#   HZA:			-1.72909886119536709305
+#   SPH:			0
+#   ESI:			0.0190957295824483234841
+#   Density:			1.53182592280492808434	grams/cc
+#   Escape Velocity:		0.00194691929775641940558	Km/sec
+#   Surface acceleration:	0.090076184717616331075	cm/sec2
+#   Surface gravity:		9.18521459597480632166e-05	Earth gees
+#   Surface temperature:	-202.636769352554477239	degrees Celcius
+#   Estimated temperature:	-197.711473380441538197	degrees Celcius
+#   Estimated terrestrial temperature:	-197.711473380441538197	degrees Celcius
+#   Boiling point of water:	-273.149999999999977263	degrees Celcius
+#   Surface pressure:		0	Earth atmospheres
+#   Molecular weight retained:	972181.240586204869373 and above
+
+	# OrbitFrame { MeanEquator { Center "Binaria" } }
+	EllipticalOrbit {
+		Period            1384.31207501861404652 # Days
+		SemiMajorAxis     36631081.0142849758449 # Km
+		Eccentricity      0.00928139918915992584303
+		Inclination       8.26280902270911830204
+		AscendingNode     165.618192481630571417
+		LongOfPericenter  29.3143835241507662113
+		MeanLongitude     91.1199834063276571244
+	}
+
+	# BodyFrame { MeanEquator { Center "Binaria" } }
+	UniformRotation {
+# Moon is tidally locked with one face to planet.
+		Inclination	8.26280902270911830204
+		AscendingNode	0
+		MeridianAngle	91.1199834063276571244
+	}
+
+	Albedo            0.0700000000000000066613
+}
+
+"p12-12" "Binaria/p12" {
+	Class "moon"
+	Radius 90.9121826855272445814
+	Mass 8.90480422878757556521e-07
+
+	Texture "tasteroid.*"
+	Mesh "asteroid.cms"
+	Color   [ 0.37 0.37 0.37 ]
+	BlendTexture true
+
+#   HZD:			25.8124383466717551745
+#   HZC:			0.808193276710142701207
+#   HZA:			-1.71192199956682314279
+#   SPH:			0
+#   ESI:			0.0647787217063244700539
+#   Density:			1.69096765329156482785	grams/cc
+#   Escape Velocity:		0.0883846926521994257503	Km/sec
+#   Surface acceleration:	4.29637352468238694269	cm/sec2
+#   Surface gravity:		0.0043810817401277572891	Earth gees
+#   Surface temperature:	-202.636769352554477239	degrees Celcius
+#   Estimated temperature:	-197.711473380441538197	degrees Celcius
+#   Estimated terrestrial temperature:	-197.711473380441538197	degrees Celcius
+#   Boiling point of water:	-273.149999999999977263	degrees Celcius
+#   Surface pressure:		0	Earth atmospheres
+#   Molecular weight retained:	472.418075021973388805 and above
+
+	# OrbitFrame { MeanEquator { Center "Binaria" } }
+	EllipticalOrbit {
+		Period            1426.9499001707902085 # Days
+		SemiMajorAxis     37379447.7831446711098 # Km
+		Eccentricity      0.00807349860578472677879
+		Inclination       1.76691889262328973042
+		AscendingNode     244.165992012324739258
+		LongOfPericenter  283.211566974973104421
+		MeanLongitude     113.008898083590389273
+	}
+
+	# BodyFrame { MeanEquator { Center "Binaria" } }
+	UniformRotation {
+# Moon is tidally locked with one face to planet.
+		Inclination	1.76691889262328973042
+		AscendingNode	0
+		MeridianAngle	113.008898083590389273
+	}
+
+	Albedo            0.0700000000000000066613
+}
+
+"p12-13" "Binaria/p12" {
+	Class "moon"
+	Radius 288.097872205249365907
+	Mass 2.78706508084133529529e-05
+
+	Texture "tasteroid.*"
+	BumpMap "tasteroid-bump.*"
+	BumpHeight 3.5
+	Color   [ 0.37 0.37 0.37 ]
+	BlendTexture true
+
+#   HZD:			25.8124383466717551745
+#   HZC:			0.838421033851974857587
+#   HZA:			-1.6742882164556627155
+#   SPH:			0
+#   ESI:			0.0923067672489817503271
+#   Density:			1.66304551787642846978	grams/cc
+#   Escape Velocity:		0.277766227264264583917	Km/sec
+#   Surface acceleration:	13.3902545718311061784	cm/sec2
+#   Surface gravity:		0.013654259682798006124	Earth gees
+#   Surface temperature:	-202.636769352554477239	degrees Celcius
+#   Estimated temperature:	-197.711473380441538197	degrees Celcius
+#   Estimated terrestrial temperature:	-197.711473380441538197	degrees Celcius
+#   Boiling point of water:	-273.149999999999977263	degrees Celcius
+#   Surface pressure:		0	Earth atmospheres
+#   Molecular weight retained:	47.8323521273159514566 and above
+
+	# OrbitFrame { MeanEquator { Center "Binaria" } }
+	EllipticalOrbit {
+		Period            1546.75099245272640014 # Days
+		SemiMajorAxis     39443369.7934165422557 # Km
+		Eccentricity      0.00721036168616747577165
+		Inclination       0.451846821992847123768
+		AscendingNode     24.5781728739748582587
+		LongOfPericenter  143.685073658677317968
+		MeanLongitude     313.430379644702365449
+	}
+
+	# BodyFrame { MeanEquator { Center "Binaria" } }
+	UniformRotation {
+		Period		465.459417312670429068 # Hours
+		Inclination	10.3382096332430332176
+		AscendingNode	0
+		MeridianAngle	313.430379644702365449
+	}
+
+	Albedo            0.0700000000000000066613
+}
+
+"p12-14" "Binaria/p12" {
+	Class "moon"
+	Radius 415.72174116890965842
+	Mass 9.15703786704983937697e-05
+
+# Hydrosphere percentage: 0
+# Ice cover percentage:   0
+
+	Texture "tice3.*"
+	SpecularColor [ 0.1 0.1 0.13 ]
+	SpecularPower 25.0
+	BumpMap "tice3-bump.*"
+	BumpHeight 3.5
+	Color [ 1.0 0.9 0.75 ]
+
+#   HZD:			25.8124383466717551745
+#   HZC:			0.714348142678649637759
+#   HZA:			-1.64619586096215541086
+#   SPH:			0
+#   ESI:			0.105921850950298568706
+#   Density:			1.81854467966717083557	grams/cc
+#   Escape Velocity:		0.419133184142176141681	Km/sec
+#   Surface acceleration:	21.1286310832830290622	cm/sec2
+#   Surface gravity:		0.0215452076736531127811	Earth gees
+#   Surface temperature:	-202.636769352554477239	degrees Celcius
+#   Estimated temperature:	-197.711473380441538197	degrees Celcius
+#   Estimated terrestrial temperature:	-197.711473380441538197	degrees Celcius
+#   Boiling point of water:	-273.149999999999977263	degrees Celcius
+#   Surface pressure:		0	Earth atmospheres
+#   Molecular weight retained:	21.0681447474564695153 and above
+
+	HazeColor [ 0.2 0.5 1 ]
+	HazeDensity 1
+
+	Atmosphere {
+		Height 60
+		Lower [ 0.8 0.4 0.1 ]
+		Upper [ 0.0 0.0 0.9 ]
+		Sky [ 0.8 0.4 0.1 ]
+		Sunset [ 0.8 0.5 0.2 ]
+# Cloud cover percentage: 0%
+	}
+
+	# OrbitFrame { MeanEquator { Center "Binaria" } }
+	EllipticalOrbit {
+		Period            1665.41364042090104802 # Days
+		SemiMajorAxis     41435747.7987141702215 # Km
+		Eccentricity      0.00651064209477540216714
+		Inclination       1.38982178383738932666
+		AscendingNode     89.2637713855429419246
+		LongOfPericenter  344.119359582718163548
+		MeanLongitude     80.6559507738128075305
+	}
+
+	# BodyFrame { MeanEquator { Center "Binaria" } }
+	UniformRotation {
+		Period		142.835314640097498506 # Hours
+		Inclination	15.6441512501243809533
+		AscendingNode	0
+		MeridianAngle	80.6559507738128075305
+	}
+
+	Albedo            0.0700000000000000066613
+}
+
+"p12-15" "Binaria/p12" {
+	Class "moon"
+	Radius 563.370119945014492913
+	Mass 0.000262070120941902014541
+
+# Hydrosphere percentage: 0
+# Ice cover percentage:   1.73074556356362540752
+
+	Texture "tice4.*"
+	SpecularColor [ 0.1 0.1 0.13 ]
+	SpecularPower 25.0
+	BumpMap "tice4-bump.*"
+	BumpHeight 3.5
+	Color [ 1.0 0.9 0.75 ]
+
+#   HZD:			25.8124383466717551745
+#   HZC:			0.526332702783163190047
+#   HZA:			-1.60844600497221417888
+#   SPH:			0
+#   ESI:			0.117315329189215190708
+#   Density:			2.09128518091101736208	grams/cc
+#   Escape Velocity:		0.609098823196928331651	Km/sec
+#   Surface acceleration:	32.9269660641651599822	cm/sec2
+#   Surface gravity:		0.0335761611398032571811	Earth gees
+#   Surface temperature:	-204.389860633147680824	degrees Celcius
+#   Estimated temperature:	-197.711473380441538197	degrees Celcius
+#   Estimated terrestrial temperature:	-197.711473380441538197	degrees Celcius
+#   Boiling point of water:	-108.892001750452524389	degrees Celcius
+#   Surface pressure:		3.32134907351340778951e-08	Earth atmospheres
+#   Molecular weight retained:	10.0332969601347513893 and above
+#           Neon: 100% 3.36535694873746044265e-05 mb (ipp: 0)
+
+	HazeColor [ 0.2 0.5 1 ]
+	HazeDensity 1
+
+	Atmosphere {
+		Height 60
+		Lower [ 0.8 0.4 0.1 ]
+		Upper [ 0.0 0.0 0.9 ]
+		Sky [ 0.8 0.4 0.1 ]
+		Sunset [ 0.8 0.5 0.2 ]
+# Cloud cover percentage: 1.69774e-07%
+	}
+
+	# OrbitFrame { MeanEquator { Center "Binaria" } }
+	EllipticalOrbit {
+		Period            1700.35229909497861223 # Days
+		SemiMajorAxis     42013266.6686318857683 # Km
+		Eccentricity      0.00558204999453483626425
+		Inclination       0.900512102733970134279
+		AscendingNode     84.8485319711493942776
+		LongOfPericenter  167.932867951659889866
+		MeanLongitude     229.951471104264013059
+	}
+
+	# BodyFrame { MeanEquator { Center "Binaria" } }
+	UniformRotation {
+		Period		99.8210143983308373292 # Hours
+		Inclination	2.93202998468429223522
+		AscendingNode	0
+		MeridianAngle	229.951471104264013059
+	}
+
+	Albedo            0.15951910076088480242
+}
+
+"p12-16" "Binaria/p12" {
+	Class "moon"
+	Radius 1.99162628325350582535
+	Mass 9.99999999999999939576e-12
+
+	Texture "tasteroid.*"
+	Mesh "asteroid.cms"
+	Color   [ 0.52 0.46 0.43 ]
+	BlendTexture true
+
+#   HZD:			25.8124383466717551745
+#   HZC:			0.711558657805620532364
+#   HZA:			-1.72908809151470085018
+#   SPH:			0
+#   ESI:			0.0196936734825045078244
+#   Density:			1.80614923433993757929	grams/cc
+#   Escape Velocity:		0.00200111471695811326219	Km/sec
+#   Surface acceleration:	0.100532417755722062934	cm/sec2
+#   Surface gravity:		0.000102514536315379937764	Earth gees
+#   Surface temperature:	-202.636769352554477239	degrees Celcius
+#   Estimated temperature:	-197.711473380441538197	degrees Celcius
+#   Estimated terrestrial temperature:	-197.711473380441538197	degrees Celcius
+#   Boiling point of water:	-273.149999999999977263	degrees Celcius
+#   Surface pressure:		0	Earth atmospheres
+#   Molecular weight retained:	922398.724438226985228 and above
+
+	# OrbitFrame { MeanEquator { Center "Binaria" } }
+	EllipticalOrbit {
+		Period            1791.96785797950800745 # Days
+		SemiMajorAxis     43509144.1812958498449 # Km
+		Eccentricity      0.0020930943135605633291
+		Inclination       18.3236141700104094854
+		AscendingNode     1.98444826620838058471
+		LongOfPericenter  163.846294863077949211
+		MeanLongitude     40.0101176090585615545
+	}
+
+	# BodyFrame { MeanEquator { Center "Binaria" } }
+	UniformRotation {
+# Moon is tidally locked with one face to planet.
+		Inclination	18.3236141700104094854
+		AscendingNode	0
+		MeridianAngle	40.0101176090585615545
+	}
+
+	Albedo            0.0700000000000000066613
+}
+
+"p12-17" "Binaria/p12" {
+	Class "moon"
+	Radius 193.431648513321018321
+	Mass 7.67277948107150523671e-06
+
+	Texture "tasteroid.*"
+	Mesh "asteroid.cms"
+	Color   [ 0.37 0.37 0.37 ]
+	BlendTexture true
+
+#   HZD:			25.8124383466717551745
+#   HZC:			0.975683173402425557824
+#   HZA:			-1.69414068976226978589
+#   SPH:			0
+#   ESI:			0.0793781923595140409585
+#   Density:			1.51268080351503559624	grams/cc
+#   Escape Velocity:		0.177864183147542313112	Km/sec
+#   Surface acceleration:	8.17747971696674751628	cm/sec2
+#   Surface gravity:		0.00833870864868915258476	Earth gees
+#   Surface temperature:	-202.636769352554477239	degrees Celcius
+#   Estimated temperature:	-197.711473380441538197	degrees Celcius
+#   Estimated terrestrial temperature:	-197.711473380441538197	degrees Celcius
+#   Boiling point of water:	-273.149999999999977263	degrees Celcius
+#   Surface pressure:		0	Earth atmospheres
+#   Molecular weight retained:	116.486977722959021198 and above
+
+	# OrbitFrame { MeanEquator { Center "Binaria" } }
+	EllipticalOrbit {
+		Period            1801.69949196427509974 # Days
+		SemiMajorAxis     43666525.5871182174778 # Km
+		Eccentricity      0.00702565106424766191217
+		Inclination       3.50163202663969739766
+		AscendingNode     110.256343609772782588
+		LongOfPericenter  301.217990471617314246
+		MeanLongitude     87.3985878785134236713
+	}
+
+	# BodyFrame { MeanEquator { Center "Binaria" } }
+	UniformRotation {
+# Moon is tidally locked with one face to planet.
+		Inclination	3.50163202663969739766
+		AscendingNode	0
+		MeridianAngle	87.3985878785134236713
+	}
+
+	Albedo            0.0700000000000000066613
+}
+
+"p12-18" "Binaria/p12" {
+	Class "moon"
+	Radius 65.8891762278143109377
+	Mass 4.04115021303554298951e-07
+
+	Texture "tasteroid.*"
+	Mesh "asteroid.cms"
+	Color   [ 0.7 0.7 0.7 ]
+	BlendTexture true
+
+#   HZD:			25.8124383466717551745
+#   HZC:			0.560296002671785789396
+#   HZA:			-1.71558745396169028022
+#   SPH:			0
+#   ESI:			0.0615706875592230611474
+#   Density:			2.01576517778004708358	grams/cc
+#   Escape Velocity:		0.0699393140332048657019	Km/sec
+#   Surface acceleration:	3.71192047577182855449	cm/sec2
+#   Surface gravity:		0.00378510549042927879775	Earth gees
+#   Surface temperature:	-202.636769352554477239	degrees Celcius
+#   Estimated temperature:	-197.711473380441538197	degrees Celcius
+#   Estimated terrestrial temperature:	-197.711473380441538197	degrees Celcius
+#   Boiling point of water:	-273.149999999999977263	degrees Celcius
+#   Surface pressure:		0	Earth atmospheres
+#   Molecular weight retained:	756.365350656254175343 and above
+
+	# OrbitFrame { MeanEquator { Center "Binaria" } }
+	EllipticalOrbit {
+		Period            1877.50850117401414952 # Days
+		SemiMajorAxis     44882978.7528970406238 # Km
+		Eccentricity      0.00565713853373059015095
+		Inclination       7.22217166544961497237
+		AscendingNode     46.8946398826756700312
+		LongOfPericenter  261.688371832337403594
+		MeanLongitude     40.1909006760413295943
+	}
+
+	# BodyFrame { MeanEquator { Center "Binaria" } }
+	UniformRotation {
+# Moon is tidally locked with one face to planet.
+		Inclination	7.22217166544961497237
+		AscendingNode	0
+		MeridianAngle	40.1909006760413295943
+	}
+
+	Albedo            0.0700000000000000066613
+}
+
+"p12-19" "Binaria/p12" {
+	Class "moon"
+	Radius 638.668315404269106295
+	Mass 0.000423769863638123068802
+
+# Hydrosphere percentage: 0
+# Ice cover percentage:   2.17762283762657212751
+
+	Texture "tice2.*"
+	SpecularColor [ 0.1 0.1 0.13 ]
+	SpecularPower 25.0
+	BumpMap "tice2-bump.*"
+	BumpHeight 3.5
+	Color [ 1.0 0.9 0.75 ]
+
+#   HZD:			25.8124383466717551745
+#   HZC:			0.39067867409567320772
+#   HZA:			-1.58492729433053946891
+#   SPH:			0
+#   ESI:			0.125177817973142027771
+#   Density:			2.32103202842258221432	grams/cc
+#   Escape Velocity:		0.7274501858611993186	Km/sec
+#   Surface acceleration:	41.4286852929698478538	cm/sec2
+#   Surface gravity:		0.0422455020756016064523	Earth gees
+#   Surface temperature:	-204.433707785514056032	degrees Celcius
+#   Estimated temperature:	-197.711473380441538197	degrees Celcius
+#   Estimated terrestrial temperature:	-197.711473380441538197	degrees Celcius
+#   Boiling point of water:	-103.591638551447035907	degrees Celcius
+#   Surface pressure:		8.68439645470655440786e-08	Earth atmospheres
+#   Molecular weight retained:	7.07436214479244076083 and above
+#           Neon: 100% 8.79946470773141625361e-05 mb (ipp: 0)
+
+	HazeColor [ 0.2 0.5 1 ]
+	HazeDensity 1
+
+	Atmosphere {
+		Height 60
+		Lower [ 0.8 0.4 0.1 ]
+		Upper [ 0.0 0.0 0.9 ]
+		Sky [ 0.8 0.4 0.1 ]
+		Sunset [ 0.8 0.5 0.2 ]
+# Cloud cover percentage: 2.13416e-07%
+	}
+
+	# OrbitFrame { MeanEquator { Center "Binaria" } }
+	EllipticalOrbit {
+		Period            1904.07166103491686937 # Days
+		SemiMajorAxis     45305344.4943812643942 # Km
+		Eccentricity      0.000836605686152635944824
+		Inclination       0.401192454906094152613
+		AscendingNode     36.9838220798335140932
+		LongOfPericenter  227.871513733580482078
+		MeanLongitude     16.5799962433893216043
+	}
+
+	# BodyFrame { MeanEquator { Center "Binaria" } }
+	UniformRotation {
+		Period		84.9302618276732121036 # Hours
+		Inclination	11.0518647538596146134
+		AscendingNode	0
+		MeridianAngle	16.5799962433893216043
+	}
+
+	Albedo            0.161976925809691570972
+}
+
+"p12-20" "Binaria/p12" {
+	Class "moon"
+	Radius 1808.18373422995325983
+	Mass 0.0179002343013871862874
+
+	Texture "trock1.*"
+	BumpMap "trock1-bump.*"
+	BumpHeight 3.5
+	Color [ 0.710650830933814689971 0.680510292489420358982 0.650369754045026061441 ]
+	BlendTexture true
+
+#   HZD:			25.8124383466717551745
+#   HZC:			-0.295662001037872807017
+#   HZA:			-1.17111297618339814408
+#   SPH:			0
+#   ESI:			0.191855559424883447575
+#   Density:			4.32024343961379485605	grams/cc
+#   Escape Velocity:		2.80985551789146375482	Km/sec
+#   Surface acceleration:	218.320956050062379303	cm/sec2
+#   Surface gravity:		0.22262541851709032891	Earth gees
+#   Surface temperature:	-205.223609308511087818	degrees Celcius
+#   Estimated temperature:	-197.711473380441538197	degrees Celcius
+#   Estimated terrestrial temperature:	-197.711473380441538197	degrees Celcius
+#   Boiling point of water:	-46.6645653229573669496	degrees Celcius
+#   Surface pressure:		0.00015495191050730138512	Earth atmospheres
+#   Molecular weight retained:	0.517266543028352689419 and above
+#           Hydrogen: 99.8333505515357174168% 0.156743375316096591934 mb (ipp: 0)
+#           Nitrogen: 0.0985887964242261157286% 0.00015478936281826517316 mb (ipp: 0)
+#           Helium: 0.0680594522731168272484% 0.000106856758913907977608 mb (ipp: 0)
+
+	# OrbitFrame { MeanEquator { Center "Binaria" } }
+	EllipticalOrbit {
+		Period            2052.26677223153470075 # Days
+		SemiMajorAxis     47627438.4622657470027 # Km
+		Eccentricity      0.00989702478512051758752
+		Inclination       1.22246808495423277133
+		AscendingNode     43.2118852637763532186
+		LongOfPericenter  67.1431916333470454605
+		MeanLongitude     349.073432157315980712
+	}
+
+	# BodyFrame { MeanEquator { Center "Binaria" } }
+	UniformRotation {
+		Period		35.7605900497811420129 # Hours
+		Inclination	19.2246703443820678523
+		AscendingNode	0
+		MeridianAngle	349.073432157315980712
+	}
+
+	Albedo            0.213116023944415487585
+}
+
+"p12-21" "Binaria/p12" {
+	Class "moon"
+	Radius 336.243068413230568436
+	Mass 5.85153532381186680865e-05
+
+	Texture "tasteroid.*"
+	BumpMap "tasteroid-bump.*"
+	BumpHeight 3.5
+	Color   [ 0.37 0.37 0.37 ]
+	BlendTexture true
+
+#   HZD:			25.8124383466717551745
+#   HZC:			0.452972322995697291702
+#   HZA:			-1.65545291312801864361
+#   SPH:			0
+#   ESI:			0.104718677052157405735
+#   Density:			2.1962763687270069285	grams/cc
+#   Escape Velocity:		0.372549646686564128663	Km/sec
+#   Surface acceleration:	20.6388253446033706866	cm/sec2
+#   Surface gravity:		0.0210457448207118347771	Earth gees
+#   Surface temperature:	-202.636769352554477239	degrees Celcius
+#   Estimated temperature:	-197.711473380441538197	degrees Celcius
+#   Estimated terrestrial temperature:	-197.711473380441538197	degrees Celcius
+#   Boiling point of water:	-273.149999999999977263	degrees Celcius
+#   Surface pressure:		0	Earth atmospheres
+#   Molecular weight retained:	26.742885086917758234 and above
+
+	# OrbitFrame { MeanEquator { Center "Binaria" } }
+	EllipticalOrbit {
+		Period            2549.01308167367627533 # Days
+		SemiMajorAxis     55031134.3442303374541 # Km
+		Eccentricity      0.00306497674112439941526
+		Inclination       1.03328404695332823099
+		AscendingNode     6.21116929045467138773
+		LongOfPericenter  187.819502366622678169
+		MeanLongitude     249.857268561542624874
+	}
+
+	# BodyFrame { MeanEquator { Center "Binaria" } }
+	UniformRotation {
+		Period		122.94861268611164723 # Hours
+		Inclination	15.8238629301567904784
+		AscendingNode	0
+		MeridianAngle	249.857268561542624874
+	}
+
+	Albedo            0.0700000000000000066613
+}
+
+"p12-22" "Binaria/p12" {
+	Class "moon"
+	Radius 925.599300786583713108
+	Mass 0.000797054663117902100787
+
+# Hydrosphere percentage: 0
+# Ice cover percentage:   1.95004847517608193637
+
+	Texture "tice3.*"
+	SpecularColor [ 0.1 0.1 0.13 ]
+	SpecularPower 25.0
+	BumpMap "tice3-bump.*"
+	BumpHeight 3.5
+	Color [ 1.0 0.9 0.75 ]
+
+#   HZD:			25.8124383466717551745
+#   HZC:			1.08239665567471294216
+#   HZA:			-1.56480277784583086162
+#   SPH:			0
+#   ESI:			0.121772781361891422026
+#   Density:			1.43415546306543505823	grams/cc
+#   Escape Velocity:		0.828721211522972105916	Km/sec
+#   Surface acceleration:	37.0991446214615231761	cm/sec2
+#   Surface gravity:		0.0378305992581172210192	Earth gees
+#   Surface temperature:	-204.398087854951914316	degrees Celcius
+#   Estimated temperature:	-197.711473380441538197	degrees Celcius
+#   Estimated terrestrial temperature:	-197.711473380441538197	degrees Celcius
+#   Boiling point of water:	-96.0807492992262055509	degrees Celcius
+#   Surface pressure:		3.07224409346650412936e-07	Earth atmospheres
+#   Molecular weight retained:	5.38906568398061484133 and above
+#           Neon: 100% 0.000311295132770493530915 mb (ipp: 0)
+
+	HazeColor [ 0.2 0.5 1 ]
+	HazeDensity 1
+
+	Atmosphere {
+		Height 60
+		Lower [ 0.8 0.4 0.1 ]
+		Upper [ 0.0 0.0 0.9 ]
+		Sky [ 0.8 0.4 0.1 ]
+		Sunset [ 0.8 0.5 0.2 ]
+# Cloud cover percentage: 1.91373e-07%
+	}
+
+	# OrbitFrame { MeanEquator { Center "Binaria" } }
+	EllipticalOrbit {
+		Period            2603.85280171240839264 # Days
+		SemiMajorAxis     55817668.1534706063394 # Km
+		Eccentricity      0.00466606081215015660064
+		Inclination       0.47492575713507372012
+		AscendingNode     211.00162283098400702
+		LongOfPericenter  45.2331678034892155811
+		MeanLongitude     347.565180597624359932
+	}
+
+	# BodyFrame { MeanEquator { Center "Binaria" } }
+	UniformRotation {
+		Period		87.0642352621272244406 # Hours
+		Inclination	4.29960223526034573905
+		AscendingNode	0
+		MeridianAngle	347.565180597624359932
+	}
+
+	Albedo            0.160725266795273042544
+}
+
+"p12-23" "Binaria/p12" {
+	Class "moon"
+	Radius 6.57140340494785424189
+	Mass 3.05131400626261154587e-10
+
+	Texture "tasteroid.*"
+	Mesh "asteroid.cms"
+	Color   [ 0.37 0.37 0.37 ]
+	BlendTexture true
+
+#   HZD:			25.8124383466717551745
+#   HZC:			0.949263636729616814994
+#   HZA:			-1.72827646158263142754
+#   SPH:			0
+#   ESI:			0.0274222413746932873609
+#   Density:			1.53422726167258430285	grams/cc
+#   Escape Velocity:		0.00608541635674757453736	Km/sec
+#   Surface acceleration:	0.281768520002043490664	cm/sec2
+#   Surface gravity:		0.000287323928152879424803	Earth gees
+#   Surface temperature:	-202.636769352554477239	degrees Celcius
+#   Estimated temperature:	-197.711473380441538197	degrees Celcius
+#   Estimated terrestrial temperature:	-197.711473380441538197	degrees Celcius
+#   Boiling point of water:	-273.149999999999977263	degrees Celcius
+#   Surface pressure:		0	Earth atmospheres
+#   Molecular weight retained:	99511.2672596402006064 and above
+
+	# OrbitFrame { MeanEquator { Center "Binaria" } }
+	EllipticalOrbit {
+		Period            3010.93931620016077644 # Days
+		SemiMajorAxis     61493384.8273721284604 # Km
+		Eccentricity      0.00744884881072158419708
+		Inclination       28.6859214808535381517
+		AscendingNode     220.376699390065250619
+		LongOfPericenter  76.0647121798548438501
+		MeanLongitude     85.5420124184070212875
+	}
+
+	# BodyFrame { MeanEquator { Center "Binaria" } }
+	UniformRotation {
+# Moon is tidally locked with one face to planet.
+		Inclination	28.6859214808535381517
+		AscendingNode	0
+		MeridianAngle	85.5420124184070212875
+	}
+
+	Albedo            0.0700000000000000066613
+}
+
+"p12-24" "Binaria/p12" {
+	Class "moon"
+	Radius 2.10009400509033063165
+	Mass 1.7759929408572730737e-11
+
+	Texture "tasteroid.*"
+	Mesh "asteroid.cms"
+	Color   [ 0.7 0.7 0.7 ]
+	BlendTexture true
+
+#   HZD:			25.8124383466717551745
+#   HZC:			0.162031010781696051381
+#   HZA:			-1.72896967136242956352
+#   SPH:			0
+#   ESI:			0.0224785532251819825535
+#   Density:			2.73591252670670504713	grams/cc
+#   Escape Velocity:		0.00259703115990216609558	Km/sec
+#   Surface acceleration:	0.160577831972161842904	cm/sec2
+#   Surface gravity:		0.000163743818706858966993	Earth gees
+#   Surface temperature:	-202.636769352554477239	degrees Celcius
+#   Estimated temperature:	-197.711473380441538197	degrees Celcius
+#   Estimated terrestrial temperature:	-197.711473380441538197	degrees Celcius
+#   Boiling point of water:	-273.149999999999977263	degrees Celcius
+#   Surface pressure:		0	Earth atmospheres
+#   Molecular weight retained:	550893.092848220961741 and above
+
+	# OrbitFrame { MeanEquator { Center "Binaria" } }
+	EllipticalOrbit {
+		Period            3057.08198950689583961 # Days
+		SemiMajorAxis     62120048.784269995409 # Km
+		Eccentricity      0.00899461533827456447334
+		Inclination       42.1868304365459695811
+		AscendingNode     35.7215191962763290827
+		LongOfPericenter  147.048496542055391029
+		MeanLongitude     108.211430305713522386
+	}
+
+	# BodyFrame { MeanEquator { Center "Binaria" } }
+	UniformRotation {
+# Moon is tidally locked with one face to planet.
+		Inclination	42.1868304365459695811
+		AscendingNode	0
+		MeridianAngle	108.211430305713522386
+	}
+
+	Albedo            0.0700000000000000066613
+}
+
+"p12-25" "Binaria/p12" {
+	Class "moon"
+	Radius 56.7094710594187833147
+	Mass 3.11223329197349261501e-07
+
+	Texture "tasteroid.*"
+	Mesh "asteroid.cms"
+	Color   [ 0.37 0.37 0.37 ]
+	BlendTexture true
+
+#   HZD:			25.8124383466717551745
+#   HZC:			0.309920313558459967998
+#   HZA:			-1.71633881939320991181
+#   SPH:			0
+#   ESI:			0.0618917359077703701533
+#   Density:			2.43490786619444686241	grams/cc
+#   Escape Velocity:		0.0661582767121536527996	Km/sec
+#   Surface acceleration:	3.85907106498654007111	cm/sec2
+#   Surface gravity:		0.00393515733200077520267	Earth gees
+#   Surface temperature:	-202.636769352554477239	degrees Celcius
+#   Estimated temperature:	-197.711473380441538197	degrees Celcius
+#   Estimated terrestrial temperature:	-197.711473380441538197	degrees Celcius
+#   Boiling point of water:	-273.149999999999977263	degrees Celcius
+#   Surface pressure:		0	Earth atmospheres
+#   Molecular weight retained:	847.568513030067097691 and above
+
+	# OrbitFrame { MeanEquator { Center "Binaria" } }
+	EllipticalOrbit {
+		Period            3220.31324175613149774 # Days
+		SemiMajorAxis     64312068.1449189276027 # Km
+		Eccentricity      0.00717905024400868013751
+		Inclination       2.23796537661125462346
+		AscendingNode     228.579441899703555696
+		LongOfPericenter  138.357904468829699077
+		MeanLongitude     56.514486957581009232
+	}
+
+	# BodyFrame { MeanEquator { Center "Binaria" } }
+	UniformRotation {
+# Moon is tidally locked with one face to planet.
+		Inclination	2.23796537661125462346
+		AscendingNode	0
+		MeridianAngle	56.514486957581009232
+	}
+
+	Albedo            0.0700000000000000066613
+}
+
+"p13" "Binaria" {
+	Class "planet"
+	Radius 57011.9931258719223024
+	Mass 20.3705866456395821469
+
+	Texture "tgasgiant.*"
+	Color [ 0.567765695600365073606 0.678930867447949336433 0.747573617009297779505 ]
+	BlendTexture true
+
+#   HZD:			41.9055570431805777393
+#   HZC:			8.36159385070871286148
+#   HZA:			2.19370247032367501525
+#   SPH:			0
+#   ESI:			0.120906851487184024967
+#   Density:			0.204184864674808756889	grams/cc
+#   Escape Velocity:		22.1523612662695014892	Km/sec
+#   Surface acceleration:	741.130606490939320918	cm/sec2
+#   Surface gravity:		0.755742895372975836228	Earth gees
+#   Surface temperature:	-190.223186145100549682	degrees Celcius
+#   Estimated temperature:	-212.560754827026387667	degrees Celcius
+#   Estimated terrestrial temperature:	-212.926632638269813916	degrees Celcius
+#   Boiling point of water:	inf	degrees Celcius
+#   Surface pressure:		10	Earth atmospheres
+#   Molecular weight retained:	0.549044029693605394797 and above
+#           Helium: 99.2501219644826416025% 10056.5186080512036604 mb (ipp: 9994.32697981720279401)
+#           Carbon: 0.472201733288481470199% 47.8458406254553849681 mb (ipp: 47.5499518742190161319)
+#           Nitrogen: 0.147747748923727019159% 14.970540659696640216 mb (ipp: 14.8779596845643057278)
+
+	Oblateness 0.091894055120544612508
+	HazeColor [ 0.5 0.8 1.0 ]
+	HazeDensity 0.2
+	OrbitFrame { MeanEquator { Center "Binaria" } }
+	EllipticalOrbit {
+		Period            124.054781871877993063 # Years
+		SemiMajorAxis     31.1618902919908930885 # AU
+		Eccentricity      0.10437447405287803015
+		Inclination       0.32024491042064626823
+		AscendingNode     100.378438187939318917
+		LongOfPericenter  272.421604708033429781
+		MeanLongitude     329.326108996442569882
+	}
+
+	BodyFrame { MeanEquator { Center "Binaria" } }
+	UniformRotation {
+		Period		19.3819104198041728699 # Hours
+		Inclination	3.07168030781702748274
+		AscendingNode	0
+		MeridianAngle	329.326108996442569882
+	}
+
+	Albedo            0.286329825405259115191
+}
+
+"p13-1" "Binaria/p13" {
+	Class "moon"
+	Radius 323.968357983464408295
+	Mass 3.70020525690098144649e-05
+
+	Texture "tasteroid.*"
+	BumpMap "tasteroid-bump.*"
+	BumpHeight 3.5
+	Color   [ 0.52 0.46 0.43 ]
+	BlendTexture true
+
+#   HZD:			41.9055570431805777393
+#   HZC:			0.940757331222157320834
+#   HZA:			-1.6623595849064510332
+#   SPH:			0
+#   ESI:			0.0706056720327987571908
+#   Density:			1.55272737564531257643	grams/cc
+#   Escape Velocity:		0.301812707264689709848	Km/sec
+#   Surface acceleration:	14.0586122103768285585	cm/sec2
+#   Surface gravity:		0.014335794802890721174	Earth gees
+#   Surface temperature:	-218.110321865327504487	degrees Celcius
+#   Estimated temperature:	-212.926632638269813916	degrees Celcius
+#   Estimated terrestrial temperature:	-212.926632638269813916	degrees Celcius
+#   Boiling point of water:	-148.03363192991290806	degrees Celcius
+#   Surface pressure:		2.20703835688352026436e-12	Earth atmospheres
+#   Molecular weight retained:	16.5022322571023876189 and above
+#           Neon: 100% 2.23628161511222690785e-09 mb (ipp: 0)
+
+	# OrbitFrame { MeanEquator { Center "Binaria" } }
+	EllipticalOrbit {
+		Period            22.9395224976862016266 # Days
+		SemiMajorAxis     931538.955561650543871 # Km
+		Eccentricity      0.00405376564900100502659
+		Inclination       0.0538998994472121973754
+		AscendingNode     173.534408851309869842
+		LongOfPericenter  71.7205298467169189078
+		MeanLongitude     279.531789608081704751
+	}
+
+	# BodyFrame { MeanEquator { Center "Binaria" } }
+	UniformRotation {
+# Moon is tidally locked with one face to planet.
+		Inclination	0.0538998994472121973754
+		AscendingNode	0
+		MeridianAngle	279.531789608081704751
+	}
+
+	Albedo            0.150013547694671539004
+}
+
+"p13-2" "Binaria/p13" {
+	Class "moon"
+	Radius 49.4437190274280241667
+	Mass 1.81370048607178299761e-07
+
+	Texture "tasteroid.*"
+	Mesh "asteroid.cms"
+	Color   [ 0.52 0.46 0.43 ]
+	BlendTexture true
+
+#   HZD:			41.9055570431805777393
+#   HZC:			0.478365529184223960379
+#   HZA:			-1.71745597810969993161
+#   SPH:			0
+#   ESI:			0.0442112221590698059579
+#   Density:			2.14096396786046727656	grams/cc
+#   Escape Velocity:		0.054088274902196737038	Km/sec
+#   Surface acceleration:	2.95845613906259085604	cm/sec2
+#   Surface gravity:		0.00301678569038620830331	Earth gees
+#   Surface temperature:	-216.858548092950834701	degrees Celcius
+#   Estimated temperature:	-212.926632638269813916	degrees Celcius
+#   Estimated terrestrial temperature:	-212.926632638269813916	degrees Celcius
+#   Boiling point of water:	-273.149999999999977263	degrees Celcius
+#   Surface pressure:		0	Earth atmospheres
+#   Molecular weight retained:	514.097401331456955342 and above
+
+	# OrbitFrame { MeanEquator { Center "Binaria" } }
+	EllipticalOrbit {
+		Period            251.074300570614588821 # Days
+		SemiMajorAxis     4592114.25245599586015 # Km
+		Eccentricity      0.00962693242804470139456
+		Inclination       0.00718382096737327498922
+		AscendingNode     45.4420793640623238707
+		LongOfPericenter  149.489743108623541479
+		MeanLongitude     185.65711853357829085
+	}
+
+	# BodyFrame { MeanEquator { Center "Binaria" } }
+	UniformRotation {
+# Moon is tidally locked with one face to planet.
+		Inclination	0.00718382096737327498922
+		AscendingNode	0
+		MeridianAngle	185.65711853357829085
+	}
+
+	Albedo            0.0700000000000000066613
+}
+
+"p13-3" "Binaria/p13" {
+	Class "moon"
+	Radius 882.773399765903027614
+	Mass 0.00110248853855229558882
+
+# Hydrosphere percentage: 0
+# Ice cover percentage:   0.0098845678797118609182
+
+	Texture "tice5.*"
+	SpecularColor [ 0.1 0.1 0.13 ]
+	SpecularPower 25.0
+	BumpMap "tice5-bump.*"
+	BumpHeight 3.5
+	Color [ 1.0 0.9 0.75 ]
+
+#   HZD:			41.9055570431805777393
+#   HZC:			0.419155333793811936302
+#   HZA:			-1.50751658065368342513
+#   SPH:			0
+#   ESI:			0.106133378966248194371
+#   Density:			2.28667027702326993203	grams/cc
+#   Escape Velocity:		0.99801790516788096828	Km/sec
+#   Surface acceleration:	56.4153688420957626568	cm/sec2
+#   Surface gravity:		0.0575276662694149018767	Earth gees
+#   Surface temperature:	-218.108465075643198294	degrees Celcius
+#   Estimated temperature:	-212.926632638269813916	degrees Celcius
+#   Estimated terrestrial temperature:	-212.926632638269813916	degrees Celcius
+#   Boiling point of water:	-122.737750933921684934	degrees Celcius
+#   Surface pressure:		1.9593247110429210054e-09	Earth atmospheres
+#   Molecular weight retained:	1.52652700254093270742 and above
+#           Helium: 100% 1.98528576346423970878e-06 mb (ipp: 0)
+
+	HazeColor [ 0.2 0.5 1 ]
+	HazeDensity 1
+
+	Atmosphere {
+		Height 60
+		Lower [ 0.8 0.4 0.1 ]
+		Upper [ 0.0 0.0 0.9 ]
+		Sky [ 0.8 0.4 0.1 ]
+		Sunset [ 0.8 0.5 0.2 ]
+# Cloud cover percentage: 3.79761e-10%
+	}
+
+	# OrbitFrame { MeanEquator { Center "Binaria" } }
+	EllipticalOrbit {
+		Period            406.665949213662536177 # Days
+		SemiMajorAxis     6333506.44832766895433 # Km
+		Eccentricity      0.00140400776239298648443
+		Inclination       0.13287683651575075672
+		AscendingNode     59.5044528038727365479
+		LongOfPericenter  152.030427545323235702
+		MeanLongitude     286.94196701373065217
+	}
+
+	# BodyFrame { MeanEquator { Center "Binaria" } }
+	UniformRotation {
+# Moon is tidally locked with one face to planet.
+		Inclination	0.13287683651575075672
+		AscendingNode	0
+		MeridianAngle	286.94196701373065217
+	}
+
+	Albedo            0.15005436512369918294
+}
+
+"p13-4" "Binaria/p13" {
+	Class "moon"
+	Radius 3.56444729308524461335
+	Mass 4.81605815647257315429e-11
+
+	Texture "tasteroid.*"
+	Mesh "asteroid.cms"
+	Color   [ 0.37 0.37 0.37 ]
+	BlendTexture true
+
+#   HZD:			41.9055570431805777393
+#   HZC:			0.965763162841427289971
+#   HZA:			-1.72875565575841455557
+#   SPH:			0
+#   ESI:			0.0173975884835281741282
+#   Density:			1.51737285020061368377	grams/cc
+#   Escape Velocity:		0.00328265826081707539959	Km/sec
+#   Surface acceleration:	0.151157309552800831539	cm/sec2
+#   Surface gravity:		0.000154137559261114485722	Earth gees
+#   Surface temperature:	-216.858548092950834701	degrees Celcius
+#   Estimated temperature:	-212.926632638269813916	degrees Celcius
+#   Estimated terrestrial temperature:	-212.926632638269813916	degrees Celcius
+#   Boiling point of water:	-273.149999999999977263	degrees Celcius
+#   Surface pressure:		0	Earth atmospheres
+#   Molecular weight retained:	138873.893739355142344 and above
+
+	# OrbitFrame { MeanEquator { Center "Binaria" } }
+	EllipticalOrbit {
+		Period            775.096404135455277928 # Days
+		SemiMajorAxis     9736024.48112890559423 # Km
+		Eccentricity      0.00694192723694347196592
+		Inclination       17.1591769468835752249
+		AscendingNode     7.16569137161862634681
+		LongOfPericenter  281.946169492763546061
+		MeanLongitude     337.729200449646078275
+	}
+
+	# BodyFrame { MeanEquator { Center "Binaria" } }
+	UniformRotation {
+# Moon is tidally locked with one face to planet.
+		Inclination	17.1591769468835752249
+		AscendingNode	0
+		MeridianAngle	337.729200449646078275
+	}
+
+	Albedo            0.0700000000000000066613
+}
+
+"p13-5" "Binaria/p13" {
+	Class "moon"
+	Radius 85.7364695155272710583
+	Mass 9.32584511837096836395e-07
+
+	Texture "tasteroid.*"
+	Mesh "asteroid.cms"
+	Color   [ 0.52 0.46 0.43 ]
+	BlendTexture true
+
+#   HZD:			41.9055570431805777393
+#   HZC:			0.497994672592625424278
+#   HZA:			-1.70877043693057925871
+#   SPH:			0
+#   ESI:			0.05237516565221182652
+#   Density:			2.11139062421976216499	grams/cc
+#   Escape Velocity:		0.093140209761552481609	Km/sec
+#   Surface acceleration:	5.05916485915885287333	cm/sec2
+#   Surface gravity:		0.00515891243101247934922	Earth gees
+#   Surface temperature:	-216.858548092950834701	degrees Celcius
+#   Estimated temperature:	-212.926632638269813916	degrees Celcius
+#   Estimated terrestrial temperature:	-212.926632638269813916	degrees Celcius
+#   Boiling point of water:	-273.149999999999977263	degrees Celcius
+#   Surface pressure:		0	Earth atmospheres
+#   Molecular weight retained:	173.340195644748712722 and above
+
+	# OrbitFrame { MeanEquator { Center "Binaria" } }
+	EllipticalOrbit {
+		Period            1853.18927046581209983 # Days
+		SemiMajorAxis     17408353.6400042861151 # Km
+		Eccentricity      0.00366368459242567641486
+		Inclination       2.09089253338130579333
+		AscendingNode     271.106447219432539875
+		LongOfPericenter  310.186112220485746965
+		MeanLongitude     18.027006768634080313
+	}
+
+	# BodyFrame { MeanEquator { Center "Binaria" } }
+	UniformRotation {
+# Moon is tidally locked with one face to planet.
+		Inclination	2.09089253338130579333
+		AscendingNode	0
+		MeridianAngle	18.027006768634080313
+	}
+
+	Albedo            0.0700000000000000066613
+}
+
+"p13-6" "Binaria/p13" {
+	Class "moon"
+	Radius 15.9939733526412902207
+	Mass 7.2584597618334493823e-09
+
+	Texture "tasteroid.*"
+	Mesh "asteroid.cms"
+	Color   [ 0.52 0.46 0.43 ]
+	BlendTexture true
+
+#   HZD:			41.9055570431805777393
+#   HZC:			0.259439126817324807465
+#   HZA:			-1.72525444720641137357
+#   SPH:			0
+#   ESI:			0.0323977468616646725613
+#   Density:			2.53135204008883891286	grams/cc
+#   Escape Velocity:		0.0190247940105770000227	Km/sec
+#   Surface acceleration:	1.13149740581853049213	cm/sec2
+#   Surface gravity:		0.00115380624965562198513	Earth gees
+#   Surface temperature:	-216.858548092950834701	degrees Celcius
+#   Estimated temperature:	-212.926632638269813916	degrees Celcius
+#   Estimated terrestrial temperature:	-212.926632638269813916	degrees Celcius
+#   Boiling point of water:	-273.149999999999977263	degrees Celcius
+#   Surface pressure:		0	Earth atmospheres
+#   Molecular weight retained:	4164.80648791741786097 and above
+
+	# OrbitFrame { MeanEquator { Center "Binaria" } }
+	EllipticalOrbit {
+		Period            2055.09405882285062073 # Days
+		SemiMajorAxis     18650864.9928624064651 # Km
+		Eccentricity      0.00226328184467893184439
+		Inclination       2.26992149984499798311
+		AscendingNode     65.7883518681807219347
+		LongOfPericenter  107.523278401942587644
+		MeanLongitude     251.789881797409561368
+	}
+
+	# BodyFrame { MeanEquator { Center "Binaria" } }
+	UniformRotation {
+# Moon is tidally locked with one face to planet.
+		Inclination	2.26992149984499798311
+		AscendingNode	0
+		MeridianAngle	251.789881797409561368
+	}
+
+	Albedo            0.0700000000000000066613
+}
+
+"p13-7" "Binaria/p13" {
+	Class "moon"
+	Radius 6.51449136139416023605
+	Mass 6.7840267595797819284e-10
+
+	Texture "tasteroid.*"
+	Mesh "asteroid.cms"
+	Color   [ 0.37 0.37 0.37 ]
+	BlendTexture true
+
+#   HZD:			41.9055570431805777393
+#   HZC:			-0.130052041824331129935
+#   HZA:			-1.72745884511357352255
+#   SPH:			0
+#   ESI:			0.0265223602484537635718
+#   Density:			3.50125057405497572076	grams/cc
+#   Escape Velocity:		0.00911337897042497690457	Km/sec
+#   Surface acceleration:	0.637453268806008302666	cm/sec2
+#   Surface gravity:		0.000650021433217264128211	Earth gees
+#   Surface temperature:	-216.858548092950834701	degrees Celcius
+#   Estimated temperature:	-212.926632638269813916	degrees Celcius
+#   Estimated terrestrial temperature:	-212.926632638269813916	degrees Celcius
+#   Boiling point of water:	-273.149999999999977263	degrees Celcius
+#   Surface pressure:		0	Earth atmospheres
+#   Molecular weight retained:	18233.2143159204221305 and above
+
+	# OrbitFrame { MeanEquator { Center "Binaria" } }
+	EllipticalOrbit {
+		Period            2464.30357715937078078 # Days
+		SemiMajorAxis     21051060.5694938905744 # Km
+		Eccentricity      0.00512849726021685520641
+		Inclination       6.38978136475556472403
+		AscendingNode     239.36591863602675434
+		LongOfPericenter  29.5949026893800602716
+		MeanLongitude     252.057071557295076347
+	}
+
+	# BodyFrame { MeanEquator { Center "Binaria" } }
+	UniformRotation {
+# Moon is tidally locked with one face to planet.
+		Inclination	6.38978136475556472403
+		AscendingNode	0
+		MeridianAngle	252.057071557295076347
+	}
+
+	Albedo            0.0700000000000000066613
+}
+
+"p13-8" "Binaria/p13" {
+	Class "moon"
+	Radius 5.47479430360239234694
+	Mass 2.41282492836901203291e-10
+
+	Texture "tasteroid.*"
+	Mesh "asteroid.cms"
+	Color   [ 0.52 0.46 0.43 ]
+	BlendTexture true
+
+#   HZD:			41.9055570431805777393
+#   HZC:			0.50460077857527884629
+#   HZA:			-1.72816716344384553789
+#   SPH:			0
+#   ESI:			0.0218958546188987661527
+#   Density:			2.09797142804835061599	grams/cc
+#   Escape Velocity:		0.00592863771792068576284	Km/sec
+#   Surface acceleration:	0.321005166963296371122	cm/sec2
+#   Surface gravity:		0.000327334173202160149527	Earth gees
+#   Surface temperature:	-216.858548092950834701	degrees Celcius
+#   Estimated temperature:	-212.926632638269813916	degrees Celcius
+#   Estimated terrestrial temperature:	-212.926632638269813916	degrees Celcius
+#   Boiling point of water:	-273.149999999999977263	degrees Celcius
+#   Surface pressure:		0	Earth atmospheres
+#   Molecular weight retained:	42772.5544731677208219 and above
+
+	# OrbitFrame { MeanEquator { Center "Binaria" } }
+	EllipticalOrbit {
+		Period            2698.40060842902225957 # Days
+		SemiMajorAxis     22363964.4516990898373 # Km
+		Eccentricity      0.00859672899292629648769
+		Inclination       10.6500713316780393171
+		AscendingNode     213.91725024856498942
+		LongOfPericenter  64.7697908732899422166
+		MeanLongitude     279.684253576995922985
+	}
+
+	# BodyFrame { MeanEquator { Center "Binaria" } }
+	UniformRotation {
+# Moon is tidally locked with one face to planet.
+		Inclination	10.6500713316780393171
+		AscendingNode	0
+		MeridianAngle	279.684253576995922985
+	}
+
+	Albedo            0.0700000000000000066613
+}
+
+"p13-9" "Binaria/p13" {
+	Class "moon"
+	Radius 366.271940737670833016
+	Mass 5.33220739304145646727e-05
+
+# Hydrosphere percentage: 0
+# Ice cover percentage:   0.00277703795135811719141
+
+	Texture "tice2.*"
+	SpecularColor [ 0.1 0.1 0.13 ]
+	SpecularPower 25.0
+	BumpMap "tice2-bump.*"
+	BumpHeight 3.5
+	Color [ 1.0 0.9 0.75 ]
+
+#   HZD:			41.9055570431805777393
+#   HZC:			0.946365550094837911378
+#   HZA:			-1.65370098311723819258
+#   SPH:			0
+#   ESI:			0.0732410054791341875823
+#   Density:			1.54836470171919441134	grams/cc
+#   Escape Velocity:		0.340743517224843956977	Km/sec
+#   Surface acceleration:	15.8497186949292411737	cm/sec2
+#   Surface gravity:		0.0161622151243587175652	Earth gees
+#   Surface temperature:	-218.110299407968573016	degrees Celcius
+#   Estimated temperature:	-212.926632638269813916	degrees Celcius
+#   Estimated terrestrial temperature:	-212.926632638269813916	degrees Celcius
+#   Boiling point of water:	-145.726889183367244673	degrees Celcius
+#   Surface pressure:		4.58323699445125320837e-12	Earth atmospheres
+#   Molecular weight retained:	12.9468028053371002634 and above
+#           Neon: 100% 4.64396488462773231346e-09 mb (ipp: 0)
+
+	HazeColor [ 0.2 0.5 1 ]
+	HazeDensity 1
+
+	Atmosphere {
+		Height 60
+		Lower [ 0.8 0.4 0.1 ]
+		Upper [ 0.0 0.0 0.9 ]
+		Sky [ 0.8 0.4 0.1 ]
+		Sunset [ 0.8 0.5 0.2 ]
+# Cloud cover percentage: 1.06677e-10%
+	}
+
+	# OrbitFrame { MeanEquator { Center "Binaria" } }
+	EllipticalOrbit {
+		Period            3189.40008106997984649 # Days
+		SemiMajorAxis     25000626.3152494763999 # Km
+		Eccentricity      0.00131606192854981030683
+		Inclination       0.535074791364830737255
+		AscendingNode     317.316450400890992217
+		LongOfPericenter  295.460349868731736139
+		MeanLongitude     349.270368828098461411
+	}
+
+	# BodyFrame { MeanEquator { Center "Binaria" } }
+	UniformRotation {
+		Period		135.477143668990492528 # Hours
+		Inclination	16.4020550842278817517
+		AscendingNode	0
+		MeridianAngle	349.270368828098461411
+	}
+
+	Albedo            0.150015273708833806937
+}
+
+"p13-10" "Binaria/p13" {
+	Class "moon"
+	Radius 2.00030014622121240803
+	Mass 9.99999999999999939576e-12
+
+	Texture "tasteroid.*"
+	Mesh "asteroid.cms"
+	Color   [ 0.37 0.37 0.37 ]
+	BlendTexture true
+
+#   HZD:			41.9055570431805777393
+#   HZC:			0.730072779821650739301
+#   HZA:			-1.72904164988753140269
+#   SPH:			0
+#   ESI:			0.0151844669210811168788
+#   Density:			1.78275506160341032	grams/cc
+#   Escape Velocity:		0.00199677130569242004546	Km/sec
+#   Surface acceleration:	0.0996624345293548920819	cm/sec2
+#   Surface gravity:		0.000101627400314434486579	Earth gees
+#   Surface temperature:	-216.858548092950834701	degrees Celcius
+#   Estimated temperature:	-212.926632638269813916	degrees Celcius
+#   Estimated terrestrial temperature:	-212.926632638269813916	degrees Celcius
+#   Boiling point of water:	-273.149999999999977263	degrees Celcius
+#   Surface pressure:		0	Earth atmospheres
+#   Molecular weight retained:	376194.80660989446028 and above
+
+	# OrbitFrame { MeanEquator { Center "Binaria" } }
+	EllipticalOrbit {
+		Period            3658.96651125430360607 # Days
+		SemiMajorAxis     27397869.8911845677503 # Km
+		Eccentricity      0.00437545343505938240827
+		Inclination       31.9877952951555507722
+		AscendingNode     145.101540025836573927
+		LongOfPericenter  30.1285853377210839366
+		MeanLongitude     160.8712711003009561
+	}
+
+	# BodyFrame { MeanEquator { Center "Binaria" } }
+	UniformRotation {
+# Moon is tidally locked with one face to planet.
+		Inclination	31.9877952951555507722
+		AscendingNode	0
+		MeridianAngle	160.8712711003009561
+	}
+
+	Albedo            0.0700000000000000066613
+}
+
+"p13-11" "Binaria/p13" {
+	Class "moon"
+	Radius 21.9043222050467587571
+	Mass 1.42530816166237576326e-08
+
+	Texture "tasteroid.*"
+	Mesh "asteroid.cms"
+	Color   [ 0.37 0.37 0.37 ]
+	BlendTexture true
+
+#   HZD:			41.9055570431805777393
+#   HZC:			0.615392305580064813376
+#   HZA:			-1.7244191156979339582
+#   SPH:			0
+#   ESI:			0.0332143829851128852145
+#   Density:			1.93506916601914218958	grams/cc
+#   Escape Velocity:		0.0227806119823398133835	Km/sec
+#   Surface acceleration:	1.18459790134559992314	cm/sec2
+#   Surface gravity:		0.00120795368586173664512	Earth gees
+#   Surface temperature:	-216.858548092950834701	degrees Celcius
+#   Estimated temperature:	-212.926632638269813916	degrees Celcius
+#   Estimated terrestrial temperature:	-212.926632638269813916	degrees Celcius
+#   Boiling point of water:	-273.149999999999977263	degrees Celcius
+#   Surface pressure:		0	Earth atmospheres
+#   Molecular weight retained:	2893.66333392717887696 and above
+
+	# OrbitFrame { MeanEquator { Center "Binaria" } }
+	EllipticalOrbit {
+		Period            4794.27641408804787915 # Days
+		SemiMajorAxis     32806499.2018304744615 # Km
+		Eccentricity      0.000462392168334867893245
+		Inclination       10.0655928213873482402
+		AscendingNode     246.495289712443617039
+		LongOfPericenter  327.971273086951707082
+		MeanLongitude     301.785078859787936706
+	}
+
+	# BodyFrame { MeanEquator { Center "Binaria" } }
+	UniformRotation {
+# Moon is tidally locked with one face to planet.
+		Inclination	10.0655928213873482402
+		AscendingNode	0
+		MeridianAngle	301.785078859787936706
+	}
+
+	Albedo            0.0700000000000000066613
+}
+
+"p13-12" "Binaria/p13" {
+	Class "moon"
+	Radius 2.76899655938400732495
+	Mass 2.62797850201498715603e-11
+
+	Texture "tasteroid.*"
+	Mesh "asteroid.cms"
+	Color   [ 0.37 0.37 0.37 ]
+	BlendTexture true
+
+#   HZD:			41.9055570431805777393
+#   HZC:			0.743411404302540310997
+#   HZA:			-1.72887385254300746237
+#   SPH:			0
+#   ESI:			0.016789961936575335465
+#   Density:			1.76616688692622489311	grams/cc
+#   Escape Velocity:		0.00275122181519828830443	Km/sec
+#   Surface acceleration:	0.136678058532994676231	cm/sec2
+#   Surface gravity:		0.000139372832244440947017	Earth gees
+#   Surface temperature:	-216.858548092950834701	degrees Celcius
+#   Estimated temperature:	-212.926632638269813916	degrees Celcius
+#   Estimated terrestrial temperature:	-212.926632638269813916	degrees Celcius
+#   Boiling point of water:	-273.149999999999977263	degrees Celcius
+#   Surface pressure:		0	Earth atmospheres
+#   Molecular weight retained:	198134.691322089475904 and above
+
+	# OrbitFrame { MeanEquator { Center "Binaria" } }
+	EllipticalOrbit {
+		Period            4887.3623541648991524 # Days
+		SemiMajorAxis     33229785.3068120048338 # Km
+		Eccentricity      0.00687398775335121343877
+		Inclination       4.35801124837736025743
+		AscendingNode     72.8109049763581273051
+		LongOfPericenter  86.3022706500730806267
+		MeanLongitude     50.2646236169452888948
+	}
+
+	# BodyFrame { MeanEquator { Center "Binaria" } }
+	UniformRotation {
+# Moon is tidally locked with one face to planet.
+		Inclination	4.35801124837736025743
+		AscendingNode	0
+		MeridianAngle	50.2646236169452888948
+	}
+
+	Albedo            0.0700000000000000066613
+}
+
+"p13-13" "Binaria/p13" {
+	Class "moon"
+	Radius 1182.05363037958017169
+	Mass 0.00186163811479040003822
+
+# Hydrosphere percentage: 0
+# Ice cover percentage:   0.00930899894703506337427
+
+	Texture "tice2.*"
+	SpecularColor [ 0.1 0.1 0.13 ]
+	SpecularPower 25.0
+	BumpMap "tice2-bump.*"
+	BumpHeight 3.5
+	Color [ 1.0 0.9 0.75 ]
+
+#   HZD:			41.9055570431805777393
+#   HZC:			0.920169900242556466474
+#   HZA:			-1.48022191346549363033
+#   SPH:			0
+#   ESI:			0.104512506124191134128
+#   Density:			1.60827716918606684654	grams/cc
+#   Escape Velocity:		1.12074020226588350741	Km/sec
+#   Surface acceleration:	53.1303558778305550919	cm/sec2
+#   Surface gravity:		0.0541778852899109859762	Earth gees
+#   Surface temperature:	-218.107025877736859301	degrees Celcius
+#   Estimated temperature:	-212.926632638269813916	degrees Celcius
+#   Estimated terrestrial temperature:	-212.926632638269813916	degrees Celcius
+#   Boiling point of water:	-117.893045158157441565	degrees Celcius
+#   Surface pressure:		5.58661538965178353711e-09	Earth atmospheres
+#   Molecular weight retained:	1.21051800932024572911 and above
+#           Helium: 99.9978330775271180009% 5.66051538192679515797e-06 mb (ipp: 0)
+
+	HazeColor [ 0.2 0.5 1 ]
+	HazeDensity 1
+
+	Atmosphere {
+		Height 60
+		Lower [ 0.8 0.4 0.1 ]
+		Upper [ 0.0 0.0 0.9 ]
+		Sky [ 0.8 0.4 0.1 ]
+		Sunset [ 0.8 0.5 0.2 ]
+# Cloud cover percentage: 3.57682e-10%
+	}
+
+	# OrbitFrame { MeanEquator { Center "Binaria" } }
+	EllipticalOrbit {
+		Period            5719.69530769832558859 # Days
+		SemiMajorAxis     36903962.5814000008868 # Km
+		Eccentricity      0.00309278320199473916548
+		Inclination       0.246029401920535190185
+		AscendingNode     0.614208597975880186037
+		LongOfPericenter  259.048816980351143041
+		MeanLongitude     232.279607575516965051
+	}
+
+	# BodyFrame { MeanEquator { Center "Binaria" } }
+	UniformRotation {
+		Period		72.3969706271320988453 # Hours
+		Inclination	6.28457409740770066514
+		AscendingNode	0
+		MeridianAngle	232.279607575516965051
+	}
+
+	Albedo            0.150051199494548485498
+}
+
+"p13-14" "Binaria/p13" {
+	Class "moon"
+	Radius 7.72033446615853867967
+	Mass 7.52859847730415190525e-10
+
+	Texture "tasteroid.*"
+	Mesh "asteroid.cms"
+	Color   [ 0.52 0.46 0.43 ]
+	BlendTexture true
+
+#   HZD:			41.9055570431805777393
+#   HZC:			0.363206169417944996935
+#   HZA:			-1.72752433791515516552
+#   SPH:			0
+#   ESI:			0.0251550791282514263153
+#   Density:			2.33444134884399847859	grams/cc
+#   Escape Velocity:		0.00881891020119372411163	Km/sec
+#   Surface acceleration:	0.503690464950910865528	cm/sec2
+#   Surface gravity:		0.000513621333432834743982	Earth gees
+#   Surface temperature:	-216.858548092950834701	degrees Celcius
+#   Estimated temperature:	-212.926632638269813916	degrees Celcius
+#   Estimated terrestrial temperature:	-212.926632638269813916	degrees Celcius
+#   Boiling point of water:	-273.149999999999977263	degrees Celcius
+#   Surface pressure:		0	Earth atmospheres
+#   Molecular weight retained:	19359.9359019708226874 and above
+
+	# OrbitFrame { MeanEquator { Center "Binaria" } }
+	EllipticalOrbit {
+		Period            6512.45444676934560313 # Days
+		SemiMajorAxis     40238425.1403849673188 # Km
+		Eccentricity      0.000252094813739925075786
+		Inclination       12.2800093052290275573
+		AscendingNode     123.848574256453930524
+		LongOfPericenter  343.522776115463476687
+		MeanLongitude     315.054889207265753859
+	}
+
+	# BodyFrame { MeanEquator { Center "Binaria" } }
+	UniformRotation {
+# Moon is tidally locked with one face to planet.
+		Inclination	12.2800093052290275573
+		AscendingNode	0
+		MeridianAngle	315.054889207265753859
+	}
+
+	Albedo            0.0700000000000000066613
+}
+
+"p14" "Binaria" {
+	Class "planet"
+	Radius 4686.97811509707407263
+	Mass 0.112560351395075293419
+
+# Hydrosphere percentage: 0
+# Ice cover percentage:   0.0357998881969152629681
+
+	Texture "tice3.*"
+	SpecularColor [ 0.1 0.1 0.13 ]
+	SpecularPower 25.0
+	BumpMap "tice3-bump.*"
+	BumpHeight 3.5
+	Color [ 1.0 0.9 0.75 ]
+
+#   HZD:			84.1692180007055028371
+#   HZC:			1.12195341757502137605
+#   HZA:			-0.5788828553350328664
+#   SPH:			0
+#   ESI:			0.0978220426342252363016
+#   Density:			1.55985360679884960404	grams/cc
+#   Escape Velocity:		4.37645198112835926395	Km/sec
+#   Surface acceleration:	204.324956003401858845	cm/sec2
+#   Surface gravity:		0.208353470352670755482	Earth gees
+#   Surface temperature:	-233.685734370229946544	degrees Celcius
+#   Estimated temperature:	-230.051009326718683981	degrees Celcius
+#   Estimated terrestrial temperature:	-230.051009326718683981	degrees Celcius
+#   Boiling point of water:	-65.5315966994618895741	degrees Celcius
+#   Surface pressure:		2.04234510968818142792e-05	Earth atmospheres
+#   Molecular weight retained:	0.0302881241212728220719 and above
+#           Hydrogen: 99.9682110370360898499% 0.0206874833962665651516 mb (ipp: 0)
+
+	HazeColor [ 0.2 0.5 1 ]
+	HazeDensity 1
+
+	Atmosphere {
+		Height 60
+		Lower [ 0.8 0.4 0.1 ]
+		Upper [ 0.0 0.0 0.9 ]
+		Sky [ 0.8 0.4 0.1 ]
+		Sunset [ 0.8 0.5 0.2 ]
+# Cloud cover percentage: 4.79043e-10%
+	}
+
+	OrbitFrame { MeanEquator { Center "Binaria" } }
+	EllipticalOrbit {
+		Period            338.465213109593786867 # Years
+		SemiMajorAxis     60.8442672830210582353 # AU
+		Eccentricity      0.0792763297428994428984
+		Inclination       0.155539966288791263691
+		AscendingNode     288.802948505060257611
+		LongOfPericenter  327.440277173854539738
+		MeanLongitude     220.48963011265249462
+	}
+
+	BodyFrame { MeanEquator { Center "Binaria" } }
+	UniformRotation {
+		Period		36.9133320464804202607 # Hours
+		Inclination	26.7018214947404576489
+		AscendingNode	0
+		MeridianAngle	220.48963011265249462
+	}
+
+	Albedo            0.150196899385538119244
+}
+
+"p14-1" "Binaria/p14" {
+	Class "moon"
+	Radius 2130.82162214870173722
+	Mass 0.0328307497885589408993
+
+	Texture "trock4.*"
+	BumpMap "trock4-bump.*"
+	BumpHeight 3.5
+	Color [ 1 1 1 ]
+	BlendTexture true
+
+#   HZD:			84.1692180007055028371
+#   HZC:			-0.40051455444174512282
+#   HZA:			-0.80787812783185565204
+#   SPH:			0
+#   ESI:			0.107664042761018232095
+#   Density:			4.84190979584279502417	grams/cc
+#   Escape Velocity:		3.50544182023193718343	Km/sec
+#   Surface acceleration:	288.342351778835498249	cm/sec2
+#   Surface gravity:		0.294027370997063736287	Earth gees
+#   Surface temperature:	-233.735079287417009355	degrees Celcius
+#   Estimated temperature:	-230.051009326718683981	degrees Celcius
+#   Estimated terrestrial temperature:	-230.051009326718683981	degrees Celcius
+#   Boiling point of water:	-84.6290513805240185163	degrees Celcius
+#   Surface pressure:		1.73748015086096257899e-06	Earth atmospheres
+#   Molecular weight retained:	0.0472096939197319425652 and above
+#           Hydrogen: 99.9673222819818008966% 0.00175992647105809756052 mb (ipp: 0)
+
+	# OrbitFrame { MeanEquator { Center "Binaria" } }
+	EllipticalOrbit {
+		Period            15523.2357244865896044 # Days
+		SemiMajorAxis     13824330.4790161807241 # Km
+		Eccentricity      0.000634919330773371904707
+		Inclination       0.836357697646873874699
+		AscendingNode     206.723770018072691743
+		LongOfPericenter  226.353082352482286449
+		MeanLongitude     36.1678930912948646999
+	}
+
+	# BodyFrame { MeanEquator { Center "Binaria" } }
+	UniformRotation {
+		Period		31.0734738609552593736 # Hours
+		Inclination	12.7331476791311637656
+		AscendingNode	0
+		MeridianAngle	36.1678930912948646999
+	}
+
+	Albedo            0.150277863424027810597
+}
+
+"p14-2" "Binaria/p14" {
+	Class "moon"
+	Radius 889.413248258358063392
+	Mass 0.00172243245215825286166
+
+# Hydrosphere percentage: 0
+# Ice cover percentage:   0.0152130780170614463634
+
+	Texture "tice4.*"
+	SpecularColor [ 0.1 0.1 0.13 ]
+	SpecularPower 25.0
+	BumpMap "tice4-bump.*"
+	BumpHeight 3.5
+	Color [ 1.0 0.9 0.75 ]
+
+#   HZD:			84.1692180007055028371
+#   HZC:			-0.098674833913117467728
+#   HZA:			-1.4027486080279537988
+#   SPH:			0
+#   ESI:			0.0793622484785953095926
+#   Density:			3.49308050603219487351	grams/cc
+#   Escape Velocity:		1.24278273989950689422	Km/sec
+#   Surface acceleration:	86.8274079353197461156	cm/sec2
+#   Surface gravity:		0.0885393156024939702531	Earth gees
+#   Surface temperature:	-233.758920740408344605	degrees Celcius
+#   Estimated temperature:	-230.051009326718683981	degrees Celcius
+#   Estimated terrestrial temperature:	-230.051009326718683981	degrees Celcius
+#   Boiling point of water:	-118.63138510263672315	degrees Celcius
+#   Surface pressure:		4.78236421624483084621e-09	Earth atmospheres
+#   Molecular weight retained:	0.281700455433116935027 and above
+#           Hydrogen: 99.9539144005295028955% 4.84349735814101845779e-06 mb (ipp: 0)
+
+	HazeColor [ 0.2 0.5 1 ]
+	HazeDensity 1
+
+	Atmosphere {
+		Height 60
+		Lower [ 0.8 0.4 0.1 ]
+		Upper [ 0.0 0.0 0.9 ]
+		Sky [ 0.8 0.4 0.1 ]
+		Sunset [ 0.8 0.5 0.2 ]
+# Cloud cover percentage: 2.02551e-10%
+	}
+
+	# OrbitFrame { MeanEquator { Center "Binaria" } }
+	EllipticalOrbit {
+		Period            2605.64468594043567728 # Days
+		SemiMajorAxis     3882222.26948751909777 # Km
+		Eccentricity      0.0021377434638038946126
+		Inclination       1.04540815670772504304
+		AscendingNode     93.5021962288311665051
+		LongOfPericenter  97.200712178461585275
+		MeanLongitude     232.698500730422558613
+	}
+
+	# BodyFrame { MeanEquator { Center "Binaria" } }
+	UniformRotation {
+		Period		56.8206055708362026031 # Hours
+		Inclination	9.36691667452776192439
+		AscendingNode	0
+		MeridianAngle	232.698500730422558613
+	}
+
+	Albedo            0.150083671929286255732
+}
+
+"p14-3" "Binaria/p14" {
+	Class "moon"
+	Radius 1152.11071888281796027
+	Mass 0.00171872438100162228036
+
+# Hydrosphere percentage: 0
+# Ice cover percentage:   0.00904690197766716640785
+
+	Texture "tice5.*"
+	SpecularColor [ 0.1 0.1 0.13 ]
+	SpecularPower 25.0
+	BumpMap "tice5-bump.*"
+	BumpHeight 3.5
+	Color [ 1.0 0.9 0.75 ]
+
+#   HZD:			84.1692180007055028371
+#   HZC:			0.923273547568193555829
+#   HZA:			-1.44271476159028236459
+#   SPH:			0
+#   ESI:			0.0694002490479471740046
+#   Density:			1.60361741666181523537	grams/cc
+#   Escape Velocity:		1.09076682505035688086	Km/sec
+#   Surface acceleration:	51.6344586996004018126	cm/sec2
+#   Surface gravity:		0.0526524946843217650554	Earth gees
+#   Surface temperature:	-233.758532489989362804	degrees Celcius
+#   Estimated temperature:	-230.051009326718683981	degrees Celcius
+#   Estimated terrestrial temperature:	-230.051009326718683981	degrees Celcius
+#   Boiling point of water:	-118.651758981653230957	degrees Celcius
+#   Surface pressure:		4.7617953300531621586e-09	Earth atmospheres
+#   Molecular weight retained:	0.365690883562230487211 and above
+#           Hydrogen: 99.9477481630431754192% 4.82236802498098947101e-06 mb (ipp: 0)
+#           Helium: 0.0522510229326767182005% 2.52105391961455677288e-09 mb (ipp: 0)
+
+	HazeColor [ 0.2 0.5 1 ]
+	HazeDensity 1
+
+	Atmosphere {
+		Height 60
+		Lower [ 0.8 0.4 0.1 ]
+		Upper [ 0.0 0.0 0.9 ]
+		Sky [ 0.8 0.4 0.1 ]
+		Sunset [ 0.8 0.5 0.2 ]
+# Cloud cover percentage: 1.20454e-10%
+	}
+
+	# OrbitFrame { MeanEquator { Center "Binaria" } }
+	EllipticalOrbit {
+		Period            1082.866021355889109 # Days
+		SemiMajorAxis     2161965.31014193414967 # Km
+		Eccentricity      0.00757398130724857637924
+		Inclination       0.388330856424382145315
+		AscendingNode     305.245013658537070106
+		LongOfPericenter  56.26494311553656269
+		MeanLongitude     325.027700739459926627
+	}
+
+	# BodyFrame { MeanEquator { Center "Binaria" } }
+	UniformRotation {
+		Period		80.5826222647130289978 # Hours
+		Inclination	7.81447520252127022502
+		AscendingNode	0
+		MeridianAngle	325.027700739459926627
+	}
+
+	Albedo            0.150049757960991595121
+}

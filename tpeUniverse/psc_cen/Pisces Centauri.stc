@@ -1,0 +1,64 @@
+"Pisces Centauri:PSC.C.:Pisces Cen:PSC Cen" {
+	RA  19.93910375
+	Dec 10.896896722222222222222222222222
+	Distance 2.00
+	SpectralType "F7V"
+	# AppMag -2.00
+	AbsMag 4.15857458048216784
+	# Radius 801875.8536132358128
+	# OrbitBarycenter "Sol"
+	# EllipticalOrbit {
+	#	Period            9283753.2025410302532511978097194
+	#	SemiMajorAxis     63241.077084266280268653583182317
+	#	Eccentricity      0.999900
+	#	Inclination       -3.619400
+	#	AscendingNode     60.83333333
+	#	LongOfPericenter  202.42090
+	#	MeanLongitude     22.600
+	# }
+	# Obliquity 3.080012
+	# EquatorAscendingNode 258.151017
+}
+
+#"Pisces:Pisces Centauri A:PSC.C. A:Pisces Cen A:PSC Cen A" {
+	OrbitBarycenter "PSC Cen"
+	SpectralType "F8V"
+	AbsMag 4.221725
+	# Radius 801875.8536132358128
+	EllipticalOrbit {
+		Period            0.03601884551170369883641341546886
+		SemiMajorAxis     0.05217522546181408510382212924195
+		Eccentricity      0.0148
+		Inclination       1.4014
+		AscendingNode     218.1094
+		ArgOfPericenter   182.1377
+		MeanAnomaly       242.8934
+	}
+	UniformRotation {
+		Period            14.4
+		Inclination       1.4014
+		AscendingNode     218.1094
+		MeridianAngle     319.8233
+	}
+}
+
+#"Taurus:Pisces Centauri B:PSC.C. B:Pisces Cen B:PSC Cen B" {
+	OrbitBarycenter "PSC Cen"
+	SpectralType "K1V"
+	AbsMag 6.221726
+	EllipticalOrbit {
+		Period            0.03601884551170369883641341546886
+		SemiMajorAxis     0.08372477453818591489617787075805
+		Eccentricity      0.0148
+		Inclination       1.4014
+		AscendingNode     218.1094
+		ArgOfPericenter   2.1377
+		MeanAnomaly       242.8934
+	}
+	UniformRotation {
+		Period            129.38173670048006657210401891253
+		Inclination       1.4014
+		AscendingNode     218.1094
+		MeridianAngle     242.4974
+	}
+}

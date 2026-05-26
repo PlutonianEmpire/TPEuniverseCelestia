@@ -1,0 +1,11 @@
+Location "Nuke Factories" "PSC Cen/Nucleoid" {
+	LongLat [ -105.0000 39.4500 0 ]
+	Importance 800.000
+	Type "City"
+}
+
+Location "Venus City" "Altair/Aphrodesia" {
+	LongLat [ -111.0000 32.0000 0 ]
+	Importance 1700.000
+	Type "City"
+}

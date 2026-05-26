@@ -1,0 +1,428 @@
+# Generated with Asteroid Maker Version 1.6 on 2013-04-27 19:32:35.
+# Reference plane: Inc = 0.0000, Asc Node = 0.0000
+# Asteroids generated: 17
+
+##############################################
+# Nucleina MM 1 - Mass: 2.0541E+17 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Main Belt. Inc: 00.310917
+"Nucleina MM 1" "PSC Cen/Nucleina" {
+    Class                "minormoon"
+    Texture              "rhea.*"
+    Color                [ 0.900 0.700 0.400 ]
+    Albedo               0.700
+    Mesh                 "proteus.cmod"
+    Radius               29.01
+    EllipticalOrbit {
+        Period           000.217274668103
+        SemiMajorAxis    165735.631028443000
+        Eccentricity     0.002354095298
+        Inclination      000.3109
+        AscendingNode    319.4824
+        MeanLongitude    271.9666
+        LongOfPericenter 350.6177
+    }
+    Obliquity            000.3109
+    EquatorAscendingNode 319.4824
+    RotationOffset       333.6768
+    # RotationPeriod       0065.543142086644
+}
+
+##############################################
+# Nucleina MM 2 - Mass: 1.9007E+17 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Main Belt. Inc: 00.057138
+"Nucleina MM 2" "PSC Cen/Nucleina" {
+    Class                "minormoon"
+    Texture              "golevka.*"   
+    Color                [ 1.000 0.856 0.747 ]
+    Albedo               0.150
+    Mesh                 "phoebe.cmod"
+    Radius               25.02
+    EllipticalOrbit {
+        Period           000.290030590554
+        SemiMajorAxis    200927.336527671000
+        Eccentricity     0.007203963309
+        Inclination      000.0571
+        AscendingNode    218.6829
+        MeanLongitude    315.8020
+        LongOfPericenter 006.8774
+    }
+    Obliquity            000.0571
+    EquatorAscendingNode 218.6829
+    RotationOffset       092.1313
+    # RotationPeriod       0008.522933456904
+}
+
+##############################################
+# Nucleina MM 3 - Mass: 2.4778E+17 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Main Belt. Inc: 01.714069
+"Nucleina MM 3" "PSC Cen/Nucleina" {
+    Class                "minormoon"
+    Texture              "pallas.*"    
+    Color                [ 1.000 0.952 0.903 ]
+    Albedo               0.159
+    Mesh                 "vesta.cmod"
+    Radius               28.34
+    EllipticalOrbit {
+        Period           000.472587838790
+        SemiMajorAxis    278226.302246248000
+        Eccentricity     0.002947871251
+        Inclination      001.7141
+        AscendingNode    210.4321
+        MeanLongitude    247.1814
+        LongOfPericenter 353.0457
+    }
+    Obliquity            001.7141
+    EquatorAscendingNode 210.4321
+    RotationOffset       096.7236
+    # RotationPeriod       0030.808061170797
+}
+
+##############################################
+# Nucleina MM 4 - Mass: 1.9297E+17 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Main Belt. Inc: 01.479829
+"Nucleina MM 4" "PSC Cen/Nucleina" {
+    Class                "minormoon"
+    Texture              "pallas.*"    
+    Color                [ 1.000 0.952 0.903 ]
+    Albedo               0.159
+    Mesh                 "janus.cmod"
+    Radius               26.34
+    EllipticalOrbit {
+        Period           000.665214680362
+        SemiMajorAxis    349449.459175004000
+        Eccentricity     0.005669477048
+        Inclination      001.4798
+        AscendingNode    126.6394
+        MeanLongitude    279.9536
+        LongOfPericenter 229.6472
+    }
+    Obliquity            001.4798
+    EquatorAscendingNode 126.6394
+    RotationOffset       076.9922
+    # RotationPeriod       0005.696023744558
+}
+
+##############################################
+# Nucleina MM 5 - Mass: 1.2179E+18 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Main Belt. Inc: 00.269921
+"Nucleina MM 5" "PSC Cen/Nucleina" {
+    Class                "minormoon"
+    Texture              "vesta.*"     
+    Color                [ 1.000 0.923 0.851 ]
+    Albedo               0.423
+    Mesh                 "castalia.cmod"
+    Radius               47.48
+    EllipticalOrbit {
+        Period           000.300992486086
+        SemiMajorAxis    205958.755420984000
+        Eccentricity     0.009108056218
+        Inclination      000.2699
+        AscendingNode    333.7646
+        MeanLongitude    236.6125
+        LongOfPericenter 263.0786
+    }
+    Obliquity            000.2699
+    EquatorAscendingNode 333.7646
+    RotationOffset       338.0164
+    # RotationPeriod       0043.339872854890
+}
+
+##############################################
+# Nucleina MM 6 - Mass: 1.1944E+18 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Main Belt. Inc: 00.657957
+"Nucleina MM 6" "PSC Cen/Nucleina" {
+    Class                "minormoon"
+    Texture              "juno.*"      
+    Color                [ 1.000 0.912 0.833 ]
+    Albedo               0.238
+    Mesh                 "proteus.cmod"
+    Radius               48.13
+    EllipticalOrbit {
+        Period           000.352690905701
+        SemiMajorAxis    228914.163078691000
+        Eccentricity     0.022598637001
+        Inclination      000.6580
+        AscendingNode    356.7700
+        MeanLongitude    251.5759
+        LongOfPericenter 117.9602
+    }
+    Obliquity            000.6580
+    EquatorAscendingNode 356.7700
+    RotationOffset       063.4021
+    # RotationPeriod       0037.263182118084
+}
+
+##############################################
+# Nucleina MM 7 - Mass: 1.9308E+15 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Main Belt. Inc: 01.410279
+"Nucleina MM 7" "PSC Cen/Nucleina" {
+    Class                "minormoon"
+    Texture              "juno.*"      
+    Color                [ 1.000 0.912 0.833 ]
+    Albedo               0.238
+    Mesh                 "eros.cmod"
+    Radius               6.20
+    EllipticalOrbit {
+        Period           000.393747124994
+        SemiMajorAxis    246351.240337282000
+        Eccentricity     0.008611429917
+        Inclination      001.4103
+        AscendingNode    155.6873
+        MeanLongitude    336.5112
+        LongOfPericenter 129.8364
+    }
+    Obliquity            001.4103
+    EquatorAscendingNode 155.6873
+    RotationOffset       205.0708
+    # RotationPeriod       0003.418681399081
+}
+
+##############################################
+# Nucleina MM 8 - Mass: 5.5670E+18 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Main Belt. Inc: 01.501568
+"Nucleina MM 8" "PSC Cen/Nucleina" {
+    Class                "minormoon"
+    Texture              "prometheus.*"
+    Color                [ 0.400 0.400 0.400 ]
+    Albedo               0.600
+    Mesh                 "proteus.cmod"
+    Radius               72.71
+    EllipticalOrbit {
+        Period           000.515925786676
+        SemiMajorAxis    294985.937409806000
+        Eccentricity     0.011679089753
+        Inclination      001.5016
+        AscendingNode    072.4219
+        MeanLongitude    121.5198
+        LongOfPericenter 345.0916
+    }
+    Obliquity            001.5016
+    EquatorAscendingNode 072.4219
+    RotationOffset       111.9397
+    # RotationPeriod       0009.071475152375
+}
+
+##############################################
+# Nucleina MM 9 - Mass: 9.0631E+14 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Main Belt. Inc: 00.600038
+"Nucleina MM 9" "PSC Cen/Nucleina" {
+    Class                "minormoon"
+    Texture              "ky26.*"
+    Color                [ 0.300 0.300 0.300 ]
+    Albedo               0.150
+    Mesh                 "hyperion.cmod"
+    Radius               5.13
+    EllipticalOrbit {
+        Period           000.184140099007
+        SemiMajorAxis    148425.574162671000
+        Eccentricity     0.020651268893
+        Inclination      000.6000
+        AscendingNode    156.7859
+        MeanLongitude    060.9741
+        LongOfPericenter 084.5837
+    }
+    Obliquity            000.6000
+    EquatorAscendingNode 156.7859
+    RotationOffset       281.3489
+    # RotationPeriod       0054.247506905717
+}
+
+##############################################
+# Nucleina MM 10 - Mass: 2.7626E+15 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Main Belt. Inc: 00.477543
+"Nucleina MM 10" "PSC Cen/Nucleina" {
+    Class                "minormoon"
+    Texture              "iapetus.*"
+    Color                [ 0.900 0.700 0.400 ]
+    Albedo               0.200
+    Mesh                 "roughsphere.cms"
+    Radius               6.92
+    EllipticalOrbit {
+        Period           000.236774479292
+        SemiMajorAxis    175509.144586981000
+        Eccentricity     0.011061548653
+        Inclination      000.4775
+        AscendingNode    120.4211
+        MeanLongitude    303.3765
+        LongOfPericenter 026.2354
+    }
+    Obliquity            000.4775
+    EquatorAscendingNode 120.4211
+    RotationOffset       104.4031
+    # RotationPeriod       0005.420212929486
+}
+
+##############################################
+# Nucleina MM 11 - Mass: 2.7870E+17 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Main Belt. Inc: 01.041045
+"Nucleina MM 11" "PSC Cen/Nucleina" {
+    Class                "minormoon"
+    Texture              "phobos.*"
+    Color                [ 0.900 0.700 0.400 ]
+    Albedo               0.070
+    Mesh                 "pandora.cmod"
+    Radius               32.24
+    EllipticalOrbit {
+        Period           000.553050223191
+        SemiMajorAxis    308972.293996827000
+        Eccentricity     0.010605188606
+        Inclination      001.0410
+        AscendingNode    267.2974
+        MeanLongitude    255.7837
+        LongOfPericenter 210.1135
+    }
+    Obliquity            001.0410
+    EquatorAscendingNode 267.2974
+    RotationOffset       248.3240
+    # RotationPeriod       0010.539856753336
+}
+
+##############################################
+# Nucleina MM 12 - Mass: 4.0968E+13 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Main Belt. Inc: 00.504874
+"Nucleina MM 12" "PSC Cen/Nucleina" {
+    Class                "minormoon"
+    Texture              "juno.*"      
+    Color                [ 1.000 0.912 0.833 ]
+    Albedo               0.238
+    Mesh                 "bacchus.cmod"
+    Radius               2.01
+    EllipticalOrbit {
+        Period           000.427594059321
+        SemiMajorAxis    260274.086727893000
+        Eccentricity     0.023161049341
+        Inclination      000.5049
+        AscendingNode    329.6887
+        MeanLongitude    084.8145
+        LongOfPericenter 141.9983
+    }
+    Obliquity            000.5049
+    EquatorAscendingNode 329.6887
+    RotationOffset       043.7805
+    # RotationPeriod       0008.735781250135
+}
+
+##############################################
+# Nucleina MM 13 - Mass: 5.8329E+15 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Main Belt. Inc: 00.320093
+"Nucleina MM 13" "PSC Cen/Nucleina" {
+    Class                "minormoon"
+    Texture              "kleopatra.*" 
+    Color                [ 1.000 0.932 0.888 ]
+    Albedo               0.160
+    Mesh                 "larissa.cmod"
+    Radius               9.48
+    EllipticalOrbit {
+        Period           000.299323359941
+        SemiMajorAxis    205196.633064072000
+        Eccentricity     0.008923604961
+        Inclination      000.3201
+        AscendingNode    158.2361
+        MeanLongitude    229.3396
+        LongOfPericenter 330.9851
+    }
+    Obliquity            000.3201
+    EquatorAscendingNode 229.3396
+    RotationOffset       226.9006
+    # RotationPeriod       0034.396155565357
+}
+
+##############################################
+# Nucleina MM 14 - Mass: 5.6132E+16 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Main Belt. Inc: 00.300624
+"Nucleina MM 14" "PSC Cen/Nucleina" {
+    Class                "minormoon"
+    Texture              "pallas.*"    
+    Color                [ 1.000 0.952 0.903 ]
+    Albedo               0.159
+    Mesh                 "amalthea.cmod"
+    Radius               19.00
+    EllipticalOrbit {
+        Period           000.598109199061
+        SemiMajorAxis    325534.341882667000
+        Eccentricity     0.021739231727
+        Inclination      000.3006
+        AscendingNode    274.8669
+        MeanLongitude    323.5693
+        LongOfPericenter 097.8882
+    }
+    Obliquity            000.3006
+    EquatorAscendingNode 274.8669
+    RotationOffset       326.6235
+    # RotationPeriod       0008.346136168143
+}
+
+##############################################
+# Nucleina MM 15 - Mass: 1.4810E+13 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Main Belt. Inc: 00.343313
+"Nucleina MM 15" "PSC Cen/Nucleina" {
+    Class                "minormoon"
+    Texture              "juno.*"      
+    Color                [ 1.000 0.912 0.833 ]
+    Albedo               0.238
+    Mesh                 "gaspra.cmod"
+    Radius               1.37
+    EllipticalOrbit {
+        Period           000.177704094678
+        SemiMajorAxis    144946.626737141000
+        Eccentricity     0.016280046537
+        Inclination      000.3433
+        AscendingNode    117.4658
+        MeanLongitude    114.1699
+        LongOfPericenter 010.5139
+    }
+    Obliquity            000.3433
+    EquatorAscendingNode 117.4658
+    RotationOffset       046.7688
+    # RotationPeriod       0016.114312655525
+}
+
+##############################################
+# Nucleina MM 16 - Mass: 8.8643E+16 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Main Belt. Inc: 00.765211
+"Nucleina MM 16" "PSC Cen/Nucleina" {
+    Class                "minormoon"
+    Texture              "eros.*"
+    Color                [ 1.000 0.880 0.764 ]
+    Albedo               0.160
+    Mesh                 "phobos.cmod"
+    Radius               21.23
+    EllipticalOrbit {
+        Period           000.513373094545
+        SemiMajorAxis    294012.114398198000
+        Eccentricity     0.020895345899
+        Inclination      000.7652
+        AscendingNode    264.8364
+        MeanLongitude    173.4741
+        LongOfPericenter 308.5950
+    }
+    Obliquity            000.7652
+    EquatorAscendingNode 264.8364
+    RotationOffset       279.9426
+    # RotationPeriod       0017.411889235189
+}
+
+##############################################
+# Nucleina MM 17 - Mass: 8.6531E+13 kg.  Class: Normal.  Moons: 0.
+# Orbit family: Main Belt. Inc: 00.611719
+"Nucleina MM 17" "PSC Cen/Nucleina" {
+    Class                "minormoon"
+    Texture              "toutatis.*"  
+    Color                [ 1.000 0.904 0.803 ]
+    Albedo               0.160
+    Mesh                 "epimetheus.cmod"
+    Radius               2.35
+    EllipticalOrbit {
+        Period           000.187234729740
+        SemiMajorAxis    150083.895957802000
+        Eccentricity     0.031125314106
+        Inclination      000.6117
+        AscendingNode    350.8264
+        MeanLongitude    227.1423
+        LongOfPericenter 068.2690
+    }
+    Obliquity            000.6117
+    EquatorAscendingNode 350.8264
+    RotationOffset       103.0298
+    # RotationPeriod       0006.189594133301
+}

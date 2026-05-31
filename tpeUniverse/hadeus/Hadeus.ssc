@@ -48,8 +48,8 @@
 		MieScaleHeight 175.3006
 	}
 	EllipticalOrbit {
-		Period<d>         62.02129616542107
-		SemiMajorAxis     0.3661321128509258
+		Period<d>         61.9796294987544033
+		SemiMajorAxis     0.36596811312508093
 		Eccentricity      0.0044
 		Inclination       0.1464
 		AscendingNode     139.0123
@@ -1448,7 +1448,7 @@
 	NormalMap "nyxx_normal.*"
 	# BumpMap "nyxx_bump.*"
 	# BumpHeight 1.04
-	SpecularTexture "nyxx_spec.*"
+	# SpecularTexture "nyxx_spec.*"
 	SpecularColor [ 1.00 1.00 0.75 ]
 	SpecularPower 87.04
 	Color [ 0.89 0.16 0.83 ]

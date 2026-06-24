@@ -24,14 +24,15 @@
 	# SpecularPower 68.16
 	Color [ 0.48 0.84 0.52 ]
 	# BlendTexture true
-	Radius 75683.6401
 	Mass 534.655293
+	Radius 86022.7468
 	# Density 0.32
-	Oblateness 0.052
+	BondAlbedo      0.47
+	GeomAlbedo      0.564
 	HazeColor [ 0.20 0.52 0.56 ]
 	HazeDensity 0.98
 	Atmosphere {
-		Height 756.84
+		Height 860.23
 		Lower [ 0.20 0.52 0.56 ]
 		Upper [ 0.04 0.99 0.69 ]
 		Sky [ 0.79 0.46 0.61 ]
@@ -45,11 +46,11 @@
 		MieAsymmetry -0.182
 		Rayleigh [ 0.000786 0.000463 0.000606 ]
 		Absorption [ 0.000045 0.000674 0.000137 ]
-		MieScaleHeight 175.3006
+		MieScaleHeight 100
 	}
 	EllipticalOrbit {
-		Period<d>         61.9796294987544033
-		SemiMajorAxis     0.36596811312508093
+		Period<d>         55.089828305415652  # 5:2 Resonance with Lilith
+		SemiMajorAxis     0.3383178214567444
 		Eccentricity      0.0044
 		Inclination       0.1464
 		AscendingNode     139.0123
@@ -60,8 +61,6 @@
 	Obliquity 0.15
 	EquatorAscendingNode 316.9731
 	RotationOffset 199.3845
-	BondAlbedo   0.86
-	GeomAlbedo   0.7167
 }
 
 "Lilith" "Hadeus" {
@@ -84,14 +83,16 @@
 	# SpecularPower 61.21
 	Color [ 0.57 0.31 0.63 ]
 	# BlendTexture true
-	Radius 86022.7468
 	Mass 535.564165
+	Radius 75683.6401
 	# Density 0.2183
-	Oblateness 0.03935517  # Calculated by SpaceEngine
+	Oblateness 0.03197  # Calculated by SpaceEngine
+	BondAlbedo   0.86
+	GeomAlbedo   0.7167
 	HazeColor [ 0.04 0.87 0.55 ]
 	HazeDensity 0.98
 	Atmosphere {
-		Height 860.23
+		Height 756.84
 		Lower [ 0.04 0.87 0.55 ]
 		Upper [ 0.28 0.99 0.61 ]
 		Sky [ 0.48 0.36 0.71 ]
@@ -104,11 +105,11 @@
 		MieAsymmetry 0.096
 		Rayleigh [ 0.000478 0.000363 0.000711 ]
 		Absorption [ 0.000034 0.000219 0.000162 ]
-		MieScaleHeight 277.8755
+		MieScaleHeight 100
 	}
 	EllipticalOrbit {
-		Period<d>         137.45155145183134
-		SemiMajorAxis     0.6223628971657454
+		Period<d>         137.72307076353913  # 17:7 Resonance with BH
+		SemiMajorAxis     0.6231822305137137
 		Eccentricity      0.0131
 		Inclination       0.8985
 		AscendingNode     203.3260
@@ -119,8 +120,6 @@
 	Obliquity 16.41
 	EquatorAscendingNode 75.6881
 	RotationOffset 108.9874
-	BondAlbedo      0.47
-	GeomAlbedo      0.564
 }
 
 "Egestes" "Hadeus/Lilith" {
@@ -460,8 +459,8 @@
 		MieScaleHeight 31.9069
 	}
 	EllipticalOrbit {
-		Period<d>         960.9183917233786
-		SemiMajorAxis     2.275455081959292
+		Period<d>         667.9357722800472  # 2:1 Resonance Chain from BH to Styx
+		SemiMajorAxis     1.7855296454851015
 		Eccentricity      0.0357
 		Inclination       2.1247
 		AscendingNode     269.9456
@@ -565,8 +564,8 @@
 		MieScaleHeight 17.1854
 	}
 	EllipticalOrbit {
-		Period<d>         2954.2643995084227
-		SemiMajorAxis     4.811090248899973
+		Period<d>         1337.8715445600944  # 2:1 Resonance Chain from BH to Styx
+		SemiMajorAxis     2.837179898387114
 		Eccentricity      0.0324
 		Inclination       3.0376
 		AscendingNode     129.7425
@@ -622,8 +621,8 @@
 		MieScaleHeight 8.1369
 	}
 	EllipticalOrbit {
-		Period<d>         5663.652688942574
-		SemiMajorAxis     7.424633238080652
+		Period<d>         2678.7430891201888  # 2:1 Resonance Chain from BH to Styx
+		SemiMajorAxis     4.507108075451477
 		Eccentricity      0.0342
 		Inclination       3.3752
 		AscendingNode     205.3398
@@ -712,8 +711,8 @@
 		MieScaleHeight 14.0683
 	}
 	EllipticalOrbit {
-		Period<d>         11436.496000518946
-		SemiMajorAxis     11.861490116292314
+		Period<d>         5359.4861782403776  # 2:1 Resonance Chain from BH to Styx
+		SemiMajorAxis     7.156368572910862
 		Eccentricity      0.0484
 		Inclination       1.7445
 		AscendingNode     92.3887
@@ -800,7 +799,7 @@
 		MieScaleHeight 120.8183
 	}
 	EllipticalOrbit {
-		Period<d>         22569.346888205087
+		Period<d>         22569.346888205087  # No resonances.
 		SemiMajorAxis     18.66193149125514
 		Eccentricity      0.0289
 		Inclination       3.1892
@@ -1161,8 +1160,8 @@
 	Mass 0.027576
 	# Density	0.69258
 	EllipticalOrbit {
-		Period<d>         43320.90157022191
-		SemiMajorAxis     28.823203892791636
+		Period<d>         57848.52633093894  # 3:2 resonance with Pomegranate
+		SemiMajorAxis     34.95200788262536
 		Eccentricity      0.0018
 		Inclination       2.1724
 		AscendingNode     3.3947
@@ -1327,8 +1326,8 @@
 		MieScaleHeight 56.0838
 	}
 	EllipticalOrbit {
-		Period<d>        170904.52678056466
-		SemiMajorAxis     71.96361538307517
+		Period<d>         163297.05266187788  # No resonances.
+		SemiMajorAxis     69.8119057760353
 		Eccentricity      0.0450
 		Inclination       1.7288
 		AscendingNode     310.2934
@@ -1512,7 +1511,7 @@
 		MieScaleHeight 10.2159
 	}
 	EllipticalOrbit {
-		Period<d>         316676.3165934522
+		Period<d>         316676.3165934522  # No Resonances.
 		SemiMajorAxis     108.56445409413793
 		Eccentricity      0.0221
 		Inclination       1.7390

@@ -3,13 +3,13 @@
 # Orbit family: Main Belt. Inc: 05.018472
 "Haydees" "Hadeus" {
     Class                "asteroid"
-    Texture              "asteroid.*"     
+    Texture              "mathilde.*"
     Color                [ 0.720 0.670 0.620 ]
     Albedo               0.423
     Mesh                 "vesta.cmod"
     Radius               156.48
     EllipticalOrbit {
-        Period           1.0011514167199789
+        Period<d>        365.6705549569723
         SemiMajorAxis    1.194915671299
         Eccentricity     0.152204932202
         Inclination      054.7530
@@ -26,7 +26,7 @@
 # Moon I: Mass 4.7768E+19 kg
 "Haydees I" "Hadeus/Haydees" {
     Class                "moon"
-    Texture              "asteroid.*"     
+    Texture              "janus.*"
     Color                [ 0.720 0.670 0.620 ]
     Albedo               0.423
     Mesh                 "roughsphere.cms"
@@ -49,13 +49,13 @@
 # Orbit family: Main Belt. Inc: 21.770519
 "Hadesia" "Hadeus" {
     Class                "asteroid"
-    Texture              "asteroid.*"    
+    Texture              "bennu.*"
     Color                [ 0.400 0.400 0.400 ]
     Albedo               0.159
-    Mesh                 "vesta.cmod"
+    Mesh                 "ky26.cmod"
     Radius               26.96
     EllipticalOrbit {
-        Period           2.341217534651394
+        Period<d>        855.1297045314217
         SemiMajorAxis    2.105225352833
         Eccentricity     0.327172217262
         Inclination      047.0394

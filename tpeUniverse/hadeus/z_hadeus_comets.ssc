@@ -8,13 +8,13 @@
 # Orbit family: Main Belt. Inc: 49.909545
 "Comet 97" "Hadeus" {
     Class                "comet"
-    Texture              "asteroid.*"     
+    Texture              "epimetheus.*"
     Color                [ 0.720 0.670 0.620 ]
     Albedo               0.423
     Mesh                 "proteus.cmod"
     Radius               5.01
     EllipticalOrbit {
-        Period           0.8787313636412858
+        Period<d>        320.9566305699796
         SemiMajorAxis    1.095405282855
         Eccentricity     0.533304612150
         Inclination      074.3476
@@ -33,13 +33,13 @@
 # Orbit family: Main Belt. Inc: 51.636961
 "Comet 175" "Hadeus" {
     Class                "comet"
-    Texture              "asteroid.*"  
+    Texture              "ida.*"
     Color                [ 0.520 0.470 0.420 ]
     Albedo               0.160
     Mesh                 "golevka.cmod"
     Radius               1.38
     EllipticalOrbit {
-        Period           5.811153886781828
+        Period<d>        2122.523957147063
         SemiMajorAxis    3.859333686603
         Eccentricity     0.852101473043
         Inclination      083.7587
@@ -58,13 +58,13 @@
 # Orbit family: Main Belt. Inc: 128.396218
 "Comet 78" "Hadeus" {
     Class                "comet"
-    Texture              "asteroid.*"
+    Texture              "thebe.*"
     Color                [ 0.520 0.470 0.420 ]
     Albedo               0.326
     Mesh                 "ida.cmod"
     Radius               4.59
     EllipticalOrbit {
-        Period           7.097437414286136
+        Period<d>        2592.3390155680113
         SemiMajorAxis    4.409660223207
         Eccentricity     0.8872631605748
         Inclination      115.3356
@@ -83,13 +83,13 @@
 # Orbit family: Main Belt. Inc: 14.351042
 "Comet 165" "Hadeus" {
     Class                "comet"
-    Texture              "asteroid.*"
+    Texture              "gaspra.*"
     Color                [ 0.300 0.300 0.300 ]
     Albedo               0.150
     Mesh                 "roughsphere.cms"
     Radius               1.58
     EllipticalOrbit {
-        Period           3.4450285314177305
+        Period<d>        1258.2966711003262
         SemiMajorAxis    2.723532914085
         Eccentricity     0.772832323564
         Inclination      053.6205
@@ -108,13 +108,13 @@
 # Orbit family: Main Belt. Inc: 101.582248
 "Comet 18" "Hadeus" {
     Class                "comet"
-    Texture              "asteroid.*"
+    Texture              "lutetia.*"
     Color                [ 0.520 0.470 0.420 ]
     Albedo               0.326
     Mesh                 "castalia.cmod"
     Radius               6.89
     EllipticalOrbit {
-        Period           97.49817335708639
+        Period<d>        35611.2078186758
         SemiMajorAxis    25.293080848062
         Eccentricity     0.9824004233776
         Inclination      045.4009
@@ -133,13 +133,13 @@
 # Orbit family: Main Belt. Inc: 20.849699
 "Comet 42" "Hadeus" {
     Class                "comet"
-    Texture              "asteroid.*"      
+    Texture              "bennu.*"
     Color                [ 0.500 0.460 0.420 ]
     Albedo               0.238
     Mesh                 "epimetheus.cmod"
     Radius               2.15
     EllipticalOrbit {
-        Period           5.231739871562118
+        Period<d>        1910.8929880880632
         SemiMajorAxis    3.598334291207
         Eccentricity     0.8665255221298
         Inclination      069.7443
@@ -158,13 +158,13 @@
 # Orbit family: Main Belt. Inc: 16.681140
 "Comet 33" "Hadeus" {
     Class                "comet"
-    Texture              "asteroid.*"      
+    Texture              "prometheus.*"
     Color                [ 0.500 0.460 0.420 ]
     Albedo               0.238
-    Mesh                 "roughsphere.cms"
+    Mesh                 "pallas.cmod"
     Radius               5.99
     EllipticalOrbit {
-        Period           8.528920876981333
+        Period<d>        3115.1883503174317
         SemiMajorAxis    4.984253659468
         Eccentricity     0.8435131073543
         Inclination      045.4002
@@ -183,13 +183,13 @@
 # Orbit family: Main Belt. Inc: 64.061687
 "Comet 100" "Hadeus" {
     Class                "comet"
-    Texture              "asteroid.*"   
+    Texture              "hyperion.*"
     Color                [ 0.300 0.300 0.300 ]
     Albedo               0.150
-    Mesh                 "larissa.cmod"
+    Mesh                 "interamnia.cmod"
     Radius               2.06
     EllipticalOrbit {
-        Period           428.2766106673131
+        Period<d>        156428.0320462361
         SemiMajorAxis    67.840178838914
         Eccentricity     0.9846163114917
         Inclination      045.7252
@@ -208,13 +208,13 @@
 # Orbit family: Main Belt. Inc: 28.524862
 "Comet 90" "Hadeus" {
     Class                "comet"
-    Texture              "asteroid.*"  
+    Texture              "janus.*"
     Color                [ 0.520 0.470 0.420 ]
     Albedo               0.160
-    Mesh                 "proteus.cmod"
+    Mesh                 "gaspra.cmod"
     Radius               3.33
     EllipticalOrbit {
-        Period           16.072790627363492
+        Period<d>        5870.586776644515
         SemiMajorAxis    7.604399728818
         Eccentricity     0.912630400278
         Inclination      045.1041
@@ -233,13 +233,13 @@
 # Orbit family: Main Belt. Inc: 45.044443
 "Comet 24" "Hadeus" {
     Class                "comet"
-    Texture              "asteroid.*"  
+    Texture              "itokawa.*"
     Color                [ 0.520 0.470 0.420 ]
     Albedo               0.160
-    Mesh                 "roughsphere.cms"
+    Mesh                 "geographos.cmod"
     Radius               6.79
     EllipticalOrbit {
-        Period           3010.575665623703
+        Period<d>        1099612.7618690575
         SemiMajorAxis    248.945211729855
         Eccentricity     0.99617246844651
         Inclination      042.8600
@@ -258,13 +258,13 @@
 # Orbit family: Main Belt. Inc: 53.219760
 "Comet 50" "Hadeus" {
     Class                "comet"
-    Texture              "asteroid.*"  
+    Texture              "amalthea.*"
     Color                [ 0.520 0.470 0.420 ]
     Albedo               0.160
-    Mesh                 "larissa.cmod"
+    Mesh                 "mathilde.cmod"
     Radius               7.27
     EllipticalOrbit {
-        Period           29.614211077614648
+        Period<d>        10816.590596098751
         SemiMajorAxis    11.428893640570
         Eccentricity     0.9013024823315
         Inclination      078.6692
@@ -283,13 +283,13 @@
 # Orbit family: Main Belt. Inc: 22.727410
 "Comet 109" "Hadeus" {
     Class                "comet"
-    Texture              "asteroid.*"    
+    Texture              "enceladus.*"
     Color                [ 0.400 0.400 0.400 ]
     Albedo               0.159
     Mesh                 "vesta.cmod"
     Radius               1.69
     EllipticalOrbit {
-        Period           3.397816217965284
+        Period<d>        1241.05237361182
         SemiMajorAxis    2.698592667872
         Eccentricity     0.653880819654
         Inclination      050.7118
@@ -308,13 +308,13 @@
 # Orbit family: Main Belt. Inc: 33.948377
 "Comet 96" "Hadeus" {
     Class                "comet"
-    Texture              "asteroid.*"      
+    Texture              "vesta.*"
     Color                [ 0.500 0.460 0.420 ]
     Albedo               0.238
-    Mesh                 "larissa.cmod"
+    Mesh                 "eugenia.cmod"
     Radius               2.37
     EllipticalOrbit {
-        Period           99.68343006401341
+        Period<d>        36409.3728308809
         SemiMajorAxis    25.669617364859
         Eccentricity     0.9540623783235
         Inclination      063.9498
@@ -333,13 +333,13 @@
 # Orbit family: Main Belt. Inc: 07.498045
 "Comet 53" "Hadeus" {
     Class                "comet"
-    Texture              "asteroid.*" 
+    Texture              "mathilde.*"
     Color                [ 0.300 0.300 0.300 ]
     Albedo               0.160
-    Mesh                 "castalia.cmod"
+    Mesh                 "bennu.cmod"
     Radius               6.69
     EllipticalOrbit {
-        Period           10.757652941083775
+        Period<d>        3929.232736730849
         SemiMajorAxis    5.818563328919
         Eccentricity     0.8156546038746
         Inclination      063.7098
@@ -358,13 +358,13 @@
 # Orbit family: Main Belt. Inc: 18.791597
 "Comet 168" "Hadeus" {
     Class                "comet"
-    Texture              "asteroid.*"       
+    Texture              "metis.*"
     Color                [ 0.500 0.460 0.420 ]
     Albedo               0.240
     Mesh                 "ida.cmod"
     Radius               4.15
     EllipticalOrbit {
-        Period           3.706577562679426
+        Period<d>        1383.221688113924
         SemiMajorAxis    2.900938061678
         Eccentricity     3.787054587580901
         Inclination      062.2304

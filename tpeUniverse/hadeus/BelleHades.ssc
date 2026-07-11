@@ -1,11 +1,11 @@
 ReferencePoint "BH-Tartarus" "Hadeus" {
 	OrbitFrame {
-		MeanEquator {
+		EclipticJ2000 {
 			Center "Hadeus"
 		}
 	}
 	BodyFrame {
-		MeanEquator {
+		EclipticJ2000 {
 			Center "Hadeus"
 		}
 	}
@@ -17,26 +17,26 @@ ReferencePoint "BH-Tartarus" "Hadeus" {
 		Period<d>         334.4678861400236
 		SemiMajorAxis     1.1259355888306835
 		Eccentricity      0.0119
-		Inclination       1.4662
-		AscendingNode     313.9975
+		Inclination       57.738706  # 1.4662
+		AscendingNode     121.488743  # 313.9975
 		ArgOfPericenter   324.2635
 		MeanAnomaly       177.8046
 		# MeanAnomaly       181.9914640068  # Filming; don't delete!
 	}
 	Visible true
 	Clickable true
-	Obliquity 1.4662
-	EquatorAscendingNode 313.9975
+	Obliquity 57.738706  # 1.4662
+	EquatorAscendingNode 121.488743  # 313.9975
 }
 
 "Belle Hades" "Hadeus" {
 	OrbitFrame {
-		MeanEquator {
+		EclipticJ2000 {
 			Center "Hadeus/BH-Tartarus"
 		}
 	}
 	BodyFrame {
-		MeanEquator {
+		EclipticJ2000 {
 			Center "Hadeus/BH-Tartarus"
 			# Freeze "2000 01 01 00:00:00"
 		}
@@ -62,56 +62,60 @@ ReferencePoint "BH-Tartarus" "Hadeus" {
 	HazeDensity 0.630
 	Atmosphere {
 		# Height 65
-		 Height 77.815756574296321554148274801814
+		# Height 77.815756574296321554148274801814
+		Height 128
 		Lower [ 0.40 0.60 1.00 ]
 		Upper [ 0.20 0.50 0.80 ]
 		Sky [ 0.30 0.50 1.00 ]
 		Sunset [ 0.70703125 0.4921875 0.859375 ]
-		 CloudHeight 6
-		# CloudHeight 8
+		CloudHeight 3
 		CloudSpeed 76.26
 		CloudMap "bh_canon-clouds.*"
 		CloudNormalMap "bh_canon-clouds-normal.*"
 		CloudShadowDepth 1.0
-		Mie 0.00112
-		MieAsymmetry -0.26
-		Rayleigh [ 0.00103 0.0025 0.0061 ]
-		# Absorption [ 0.00181640625 0.0031484375 0.000871875 ]
 		# MieScaleHeight 13.5
-		# Mie 0.0002
-		# MieAsymmetry -0.7
+		# Rayleigh [ 0.00103 0.0025 0.0061 ]
 		# Rayleigh [ 0.00135 0.002025 0.004175 ]
-		Absorption [ 0.0029296875 0.005078125 0.00140625 ]
+		Rayleigh	[ 0.00154 0.00366 0.00914 ]
 		MieScaleHeight 10.919565999006196462674047381841
+		# Mie 0.00112
+		# Mie 0.0002
+        Mie	0.00045
+		# MieAsymmetry -0.26
+		# MieAsymmetry -0.7
+        MieHGAnisotropy	0.61
+		# Absorption [ 0.0029296875 0.005078125 0.00140625 ]
+		# Absorption [ 0.00181640625 0.0031484375 0.000871875 ]
+		Absorption [ 0.003662109375 0.00634765625 0.00017578125 ]
 	}
 	OrbitColor [ 0.35 0.35 0.35 ]
 	EllipticalOrbit {
 		Period            25.62640506586013
 		SemiMajorAxis     13689.01269251065722420419272897
 		Eccentricity      0.0139
-		Inclination       1.7352
-		AscendingNode     211.0696
+		Inclination       55.232466  # 1.7352
+		AscendingNode     121.645985  # 211.0696
 		ArgOfPericenter   69.2457
 		MeanAnomaly       190.2397
 	}
-	PrecessingRotation {
+	UniformRotation {
 		Period 26.4483
-		PrecessionPeriod 23587
-		Inclination 33.271583756799423074949322180861
-		AscendingNode 131.592867
+		# PrecessionPeriod 23587
+		Inclination 40.244654  # 33.271583756799423074949322180861
+		AscendingNode 162.161728  # 131.592867
 		MeridianAngle 328.2107
 	}
 }
 
 "Lethe" "Hadeus/Belle Hades" {
 	OrbitFrame {
-		MeanEquator {
+		EclipticJ2000 {
 			Center "Hadeus/Belle Hades"
 			Object "Hadeus/BH-Tartarus"
 		}
 	}
 	BodyFrame {
-		MeanEquator {
+		EclipticJ2000 {
 			Center "Hadeus/BH-Tartarus"
 		}
 	}
@@ -129,16 +133,16 @@ ReferencePoint "BH-Tartarus" "Hadeus" {
 		# SemiMajorAxis     97426.718009092992496169510614057
 		SemiMajorAxis     98304.3782
 		Eccentricity      0.0153
-		Inclination       2.1748
+		Inclination       58.217457  # 2.1748
 		# AscendingNode     181.6341  # Filming
-		AscendingNode     313.2269
+		AscendingNode     120.871927  # 313.2269
 		ArgOfPericenter   83.7125
 		MeanAnomaly       128.7635
 	}
 	LunarLambert 1.0
-	Obliquity	2.1748
+	Obliquity	58.217457  # 2.1748
 	# EquatorAscendingNode 181.6341
-	EquatorAscendingNode 313.2269
+	EquatorAscendingNode 120.871927  # 313.2269
 	RotationOffset	325.5861
 	BondAlbedo      0.119
 	GeomAlbedo      0.1428
@@ -146,12 +150,12 @@ ReferencePoint "BH-Tartarus" "Hadeus" {
 
 "Tartarus" "Hadeus/Belle Hades" {
 	OrbitFrame {
-		MeanEquator {
+		EclipticJ2000 {
 			Center "Hadeus/BH-Tartarus"
 		}
 	}
 	BodyFrame {
-		MeanEquator {
+		EclipticJ2000 {
 			Center "Hadeus/BH-Tartarus"
 		}
 	}
@@ -170,14 +174,14 @@ ReferencePoint "BH-Tartarus" "Hadeus" {
 		SemiMajorAxis     302483.30990748934277579580727103
 		# SemiMajorAxis     316172.3226
 		Eccentricity      0.0139
-		Inclination       1.7352
-		AscendingNode     211.0696
+		Inclination       55.232466  # 1.7352
+		AscendingNode     121.645985  # 211.0696
 		ArgOfPericenter   249.2457
 		MeanAnomaly       190.2397
 	}
 	LunarLambert 1.0
-	Obliquity 1.7352
-	EquatorAscendingNode 211.0696
+	Obliquity 55.232466  # 1.7352
+	EquatorAscendingNode 121.645985  # 211.0696
 	RotationOffset 338.7635
 	BondAlbedo      0.147
 	GeomAlbedo      0.1764

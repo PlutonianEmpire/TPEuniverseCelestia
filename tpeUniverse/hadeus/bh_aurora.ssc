@@ -6,7 +6,7 @@
 	Color [ 1.00 1.00 1.00 ]
 
 	Atmosphere {
-		CloudMap "bh_aurora.*"
+		CloudMap "bh_aurora_dimmer.*"
 		CloudSpeed 290
 		CloudHeight 431
 	}

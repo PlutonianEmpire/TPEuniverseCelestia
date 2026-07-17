@@ -1,0 +1,136 @@
+"(Hades)" "Hades" {
+	BodyFrame {
+		BodyFixed {
+			Center "Hades"
+		}
+	}
+	FixedPosition [ 0 0 0 ]
+	FixedRotation {}
+	Mesh "th_placeholder.3ds"
+	Emissive true
+	Color [ 1.00 0.7623 0.5299 ]
+	Radius 462151.71591722918442
+	# EquatorAscendingNode 306.0650
+	# RotationOffset 228.3962
+	Albedo 0
+}
+
+SurfaceObject "Prominence 1 (Hades)" "Hades/(Hades)" {
+	FixedPosition {
+		Planetographic [ -65.64811 21.74470 49450.1968 ]
+	}
+	# FixedRotation {}
+	Mesh "th_placeholder.3ds"
+	Emissive true
+	Color [ 1 1 0.75 ]
+	BlendTexture true
+	Radius 93143.9178
+	Oblateness 0.4
+	Atmosphere {
+		Height 0
+		CloudHeight 10
+		CloudSpeed 0
+		CloudMap "th_sunflare1.*"
+	}
+	RotationPeriod 0.18608456047253946979862838819763  # 3145362.12 km/h
+	Obliquity 118.0408
+	EquatorAscendingNode 28.7336
+	RotationOffset 131.4469
+	Albedo 0
+}
+
+SurfaceObject "Prominence 2 (Hades)" "Hades/(Hades)" {
+	FixedPosition {
+		Planetographic [ 40.56306 31.18330 26957.6847 ]
+	}
+	# FixedRotation {}
+	Mesh "th_placeholder.3ds"
+	Emissive true
+	Color [ 1 1 0.75 ]
+	BlendTexture true
+	Radius 61566.9669
+	Oblateness 0.3
+	Atmosphere {
+		Height 0
+		CloudHeight 10
+		CloudSpeed 0
+		CloudMap "th_sunflare2.*"
+	}
+	RotationPeriod 0.16824850635519393031187147402697  # 2299571.64 km/h
+	Obliquity 99.7476
+	EquatorAscendingNode 228.6806
+	RotationOffset 95.0464
+	Albedo 0
+}
+
+SurfaceObject "Prominence 3 (Hades)" "Hades/(Hades)" {
+	FixedPosition {
+		Planetographic [ 106.03163 2.42041 119344.5605 ]
+	}
+	# FixedRotation {}
+	Mesh "th_placeholder.3ds"
+	Emissive true
+	Color [ 1 1 0.75 ]
+	BlendTexture true
+	Radius 145966.5723
+	Oblateness 0.6
+	Atmosphere {
+		Height 0
+		CloudHeight 10
+		CloudSpeed 0
+		CloudMap "th_sunflare3.*"
+	}
+	RotationPeriod 0.30975278274162116891954580457162  # 2961064.1304 km/h
+	Obliquity 71.6335
+	EquatorAscendingNode 156.1654
+	RotationOffset 144.5760
+	Albedo 0
+}
+
+SurfaceObject "Prominence 4 (Hades)" "Hades/(Hades)" {
+	FixedPosition {
+		Planetographic [ 67.82320 -30.12490 27682.7612 ]
+	}
+	# FixedRotation {}
+	Mesh "th_placeholder.3ds"
+	Emissive true
+	Color [ 1 1 0.75 ]
+	BlendTexture true
+	Radius 124698.5259
+	Oblateness 0.8
+	Atmosphere {
+		Height 0
+		CloudHeight 10
+		CloudSpeed 0
+		CloudMap "th_sunflare4.*"
+	}
+	RotationPeriod 0.21903600704751814640677911894447  # 3577342.32 km/h
+	Obliquity 87.0815
+	EquatorAscendingNode 297.2469
+	RotationOffset 141.1713
+	Albedo 0
+}
+
+SurfaceObject "Prominence 5 (Hades)" "Hades/(Hades)" {
+	FixedPosition {
+		Planetographic [ -6.35744 -22.76683 26885.1143 ]
+	}
+	# FixedRotation {}
+	Mesh "th_placeholder.3ds"
+	Emissive true
+	Color [ 1 1 0.75 ]
+	BlendTexture true
+	Radius 107417.0745
+	Oblateness 0.9
+	Atmosphere {
+		Height 0
+		CloudHeight 10
+		CloudSpeed 0
+		CloudMap "th_sunflare5.*"
+	}
+	RotationPeriod 0.25022352233385789466898772182702  # 2697525.036 km/h
+	Obliquity 114.5614
+	EquatorAscendingNode 118.6067
+	RotationOffset 221.6813
+	Albedo 0
+}

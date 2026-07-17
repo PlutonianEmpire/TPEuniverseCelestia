@@ -1,0 +1,136 @@
+"(Persephone)" "Persephone" {
+	BodyFrame {
+		BodyFixed {
+			Center "Persephone"
+		}
+	}
+	FixedPosition [ 0 0 0 ]
+	FixedRotation {}
+	Mesh "th_placeholder.3ds"
+	Emissive true
+	Color [ 1 1 1 ]
+	Radius 721039.1655019952592
+	# EquatorAscendingNode 33.8354
+	# RotationOffset 197.1010
+	Albedo 0
+}
+
+SurfaceObject "Prominence 1 (Persephone)" "Persephone/(Persephone)" {
+	FixedPosition {
+		Planetographic [ -65.64811 21.74470 65955.5456 ]
+	}
+	# FixedRotation {}
+	Mesh "th_placeholder.3ds"
+	Emissive true
+	Color [ 1 1 0.75 ]
+	BlendTexture true
+	Radius 124233.235
+	Oblateness 0.4
+	Atmosphere {
+		Height 0
+		CloudHeight 10
+		CloudSpeed 0
+		CloudMap "persephone_flare1a.*"
+	}
+	RotationPeriod 0.27105669050988213536647586152083  # 2880000 km/h
+	Obliquity 118.0408
+	EquatorAscendingNode 28.7336
+	RotationOffset 131.4469
+	Albedo 0
+}
+
+SurfaceObject "Prominence 2 (Persephone)" "Persephone/(Persephone)" {
+	FixedPosition {
+		Planetographic [ 40.56306 31.18330 35955.5456 ]
+	}
+	# FixedRotation {}
+	Mesh "th_placeholder.3ds"
+	Emissive true
+	Color [ 1 1 0.75 ]
+	BlendTexture true
+	Radius 82116.6175
+	Oblateness 0.3
+	Atmosphere {
+		Height 0
+		CloudHeight 10
+		CloudSpeed 0
+		CloudMap "persephone_flare2a.*"
+	}
+	RotationPeriod 0.14582068716353969512015601876056  # 3538707.48 km/h
+	Obliquity 99.7476
+	EquatorAscendingNode 228.6806
+	RotationOffset 95.0464
+	Albedo 0
+}
+
+SurfaceObject "Prominence 3 (Persephone)" "Persephone/(Persephone)" {
+	FixedPosition {
+		Planetographic [ 106.03163 2.42041 159179.0552 ]
+	}
+	# FixedRotation {}
+	Mesh "th_placeholder.3ds"
+	Emissive true
+	Color [ 1 1 0.75 ]
+	BlendTexture true
+	Radius 194686.8879
+	Oblateness 0.6
+	Atmosphere {
+		Height 0
+		CloudHeight 10
+		CloudSpeed 0
+		CloudMap "persephone_flare3a.*"
+	}
+	RotationPeriod 0.45186050949687255810677211767262  # 2707288.2 km/h
+	Obliquity 71.6335
+	EquatorAscendingNode 156.1654
+	RotationOffset 144.5760
+	Albedo 0
+}
+
+SurfaceObject "Prominence 4 (Persephone)" "Persephone/(Persephone)" {
+	FixedPosition {
+		Planetographic [ 67.82320 -30.12490 36922.6361 ]
+	}
+	# FixedRotation {}
+	Mesh "th_placeholder.3ds"
+	Emissive true
+	Color [ 1 1 0.75 ]
+	BlendTexture true
+	Radius 166320.0523
+	Oblateness 0.8
+	Atmosphere {
+		Height 0
+		CloudHeight 10
+		CloudSpeed 0
+		CloudMap "persephone_flare4a.*"
+	}
+	RotationPeriod 0.31747074066950700165433716538987  # 3291901.92 km/h
+	Obliquity 87.0815
+	EquatorAscendingNode 297.2469
+	RotationOffset 141.1713
+	Albedo 0
+}
+
+SurfaceObject "Prominence 5 (Persephone)" "Persephone/(Persephone)" {
+	FixedPosition {
+		Planetographic [ -6.35744 -22.76683 35858.7529 ]
+	}
+	# FixedRotation {}
+	Mesh "th_placeholder.3ds"
+	Emissive true
+	Color [ 1 1 0.75 ]
+	BlendTexture true
+	Radius 143270.4462
+	Oblateness 0.9
+	Atmosphere {
+		Height 0
+		CloudHeight 10
+		CloudSpeed 0
+		CloudMap "persephone_flare5a.*"
+	}
+	RotationPeriod 0.28753061065140942434041660078527  # 3130997.4 km/h
+	Obliquity 114.5614
+	EquatorAscendingNode 118.6067
+	RotationOffset 221.6813
+	Albedo 0
+}
